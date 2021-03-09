@@ -1,0 +1,190 @@
+
+; 10-Aug-87  network routing map for the TXS lab
+; locations: South Bay Center, Nicholson Lane and Tymnet Training
+;
+; nodes 552A (B), 554A (B), 2346, 2770, 6657, 6760 and 10115
+;
+; hosts 14, 17, 62, 95, HH, 897, 930, 934, 4117, 4284, 4525
+;       KS1 KS0 KS0 KS1 KS0 Vax  F3#5 F3#9  DZV    DZ  uVax
+;
+; gateways to tymnet, trainnet and bubbnet
+
+.macro	ROUTE
+
+	NODE	552A			; new node!!!
+	 NPATH   522B,522B		; Non-existent, future for Mosser
+	  NPATH  554A,2346
+	  NPATH  554B,2346		; Non-existent, future for Mosser
+	  NPATH  2346,2346		; DRV11 #3
+	  NPATH  2770,2346
+	  NPATH  6657,2346
+	  NPATH  6760,2346
+	  NPATH  10115,2346
+	 HPATH  TYMNET,2346
+	  HPATH  14,2346		; KS on 6760
+	  HPATH  17,2346		; KS on 6657
+	  HPATH  62,*			; DRV11 #1 ==> Abel dual DR11 on KS
+	  HPATH  95,*			; DRV11 #2 ==> DR11-C on KS
+;	  HPATH  HH,*			; DRV11 #3 ==> Abel dual DR11 on KS
+	  HPATH  897,*			; DPV11 #1 ==> DUP-11 on VAX 11/750
+	  HPATH  930,2346		; F3 on 10115
+	  HPATH  934,2346		; F3 on 10115
+	  HPATH  4117,2346		; DZV11 on 554A, go through TYMNET
+	  HPATH  4284,2346		; DZ-11 on 2770, go through TYMNET
+	  HPATH  4525,2346		; DPV11 on 554A, X.25 to uVax DPV11
+	  HPATH  BNET,2346		; route through 2346
+	  HPATH  TRAIN,2346		; route through 10115
+
+
+	NODE	554A			; new node!!!
+	 NPATH   552A,2770
+	  NPATH  522B,2770		; Non-existent, future for Mosser
+	  NPATH  554B,554B		; Non-existent, future for Mosser
+	  NPATH  2346,2770
+	  NPATH  2770,2770
+	  NPATH  6657,2770
+	  NPATH  6760,2770
+	  NPATH  10115,2770
+	 HPATH  TYMNET,2770		; default host
+	  HPATH  14,2770		; KS on 6760
+	  HPATH  17,2770		; KS on 6657
+	  HPATH  62,2770		; KS on 552A
+	  HPATH  95,2770		; KS on 552A
+;	  HPATH  HH,2770		; KS on 522A (BUBBNET)
+	  HPATH  897,2770		; VAX-11/750 on 522A
+	  HPATH  930,2770		; F3 on 10115 (TRAINNET)
+	  HPATH  934,2770		; F3 on 10115 (TRAINNET)
+;	  HPATH  4117,*			; DZV11 on this node
+;	  HPATH  4284,2770		; DZ-11 on 2770, has 2 Modems
+	  HPATH  4525,*			; DPV11 #1, X.25 to uVax DPV11
+	  HPATH  BNET,2770		; route through 2346
+	  HPATH  TRAIN,2770		; route through 10115
+
+
+	NODE	2346
+	 NPATH  552A,552A		; DRV11 #3 ==> DRV11
+	  NPATH  522B,522A		; Non-existent, future for Mosser
+	  NPATH  554A,2770
+	  NPATH  554B,2770		; Non-existent, future for Mosser
+	  NPATH	 2770,2770		; DUV11 #1 ==> DUP-11
+	  NPATH	 6657,6657,6760		; DRV11 #1 ==> DRV11
+	  NPATH	 6760,6760,6657		; DRV11 #2 ==> DRV11
+	  NPATH	 10115,6760,6657
+	 HPATH	TYMNET,6657,6760,2770	; default host
+	  HPATH  14,6760,6657,2770	; KS based on 6760
+	  HPATH  17,6657,6760,2770	; KS based on 6657
+	  HPATH	 62,552A		; KS based on 552A
+	  HPATH	 95,552A		; KS based on 552A
+;	  HPATH  HH,552A		; KS based on 552A (BUBBNET)
+	  HPATH  897,552A		; Vax-11/750 on 552A
+	  HPATH	 930,6760,6657		; F3 based on 10115 (TRAINNET)
+	  HPATH	 934,6760,6657		; F3 based on 10115 (TRAINNET)
+	  HPATH  4117,6657,6760		; DZV11 on 554A, go through TYMNET
+	  HPATH  4284,6657,6760		; DZ-11 on 2770, go through TYMNET
+	  HPATH  4525,2770,6657,6760	; DPV11 on 554A, X.25 to uVax DPV11
+	  HPATH	 BNET,*			; DUV11 #2 (installed, not connected)
+	  HPATH  TRAIN,6760,6657	; route through 10115
+
+
+        NODE	2770			;old node 554
+	 NPATH   552A,2346
+	  NPATH  522B,2346		; Non-existant, future for Mosser
+	  NPATH  554A,554A		; DR11-C  (future)
+	  NPATH  554B,554A		; Non-existent, future for Mosser
+	  NPATH	 2346,2346		; DUP-11 #2 ==> DUV11
+	  NPATH	 6657,2346
+	  NPATH	 6760,2346
+	  NPATH	 10115,2346
+	 HPATH  TYMNET,*,2346		; DUP-11 #1
+	  HPATH  14,2346,TYMNET		; KS on 6760
+	  HPATH	 17,2346,TYMNET		; KS on 6657
+	  HPATH  62,2346,TYMNET		; KS on 552A
+	  HPATH	 95,2346,TYMNET		; KS on 552A
+;	  HPATH  HH,2346		; KS on 522A (BUBBNET)
+	  HPATH  897,2346,TYMNET	; Vax-11/780 on 552A
+	  HPATH	 930,2346,TYMNET	; F3 on 10115 (TRAINNET)
+	  HPATH  934,2346,TYMNET	; F3 on 10115 (TRAINNET)
+;	  HPATH  4117,554A		; DZV11 on 554A - TYMNET translation
+;	  HPATH  4284,*			; DZ-11 on 2770 - TYMNET translation
+	  HPATH  4525,554A		; DPV11 on 554A, X.25 to uVax DPV11
+	  HPATH  BNET,2346		; route through 2346
+	  HPATH  TRAIN,2346		; route through 10115
+
+
+	NODE	6657			;old node 552
+	 NPATH   552A,2346,6760
+	  NPATH  552B,2346,6760		; Non-existent, future for Mosser
+	  NPATH  554A,2346,6760
+	  NPATH  554B,2346,6760		; Non-existent, future for Mosser
+	  NPATH  2346,2346,6760		; DRV11 #3 ==> DRV11
+	  NPATH	 2770,2346,6760
+	  NPATH  6760,6760,2346		; DRV11 #2 ==> DRV11
+	  NPATH  10115,6760,2346
+	 HPATH  TYMNET,*,6760,2346	; DUV11 (2 connections) default host
+	  HPATH  14,6760,2346,TYMNET	; KS on 6760
+	  HPATH  17,*			; DRV11 #1
+	  HPATH  62,2346,6760,TYMNET	; KS on 552A
+	  HPATH  95,2346,6760,TYMNET	; KS on 552A
+;	  HPATH  HH,2346,6760		; KS on 552A (BUBBNET)
+	  HPATH  897,2346,6760,TYMNET	; Vax-11/750 on 552A
+	  HPATH  930,6760,2346,TYMNET	; F3 on 10115 (TRAINNET)
+	  HPATH  934,6760,2346,TYMNET	; F3 on 10115 (TRAINNET)
+	  HPATH  4117,TYMNET,6760,2346	; DZV11 on 554A, go through TYMNET
+	  HPATH  4284,TYMNET,6760,2346	; DZ-11 on 2770, go through TYMNET
+	  HPATH  4525,2346,6760,TYMNET	; DPV11 on 554A, X.25 to uVax DPV11
+	  HPATH  BNET,2346,6760		; route through 2346
+	  HPATH  TRAIN,6760,2346	; route through 10115
+
+
+	NODE	6760
+	 NPATH   552A,2346,6657
+	  NPATH  552B,2346,6657		; Non-existent, future for Mosser
+	  NPATH  554A,2346,6657
+	  NPATH  554B,2346,6657		; Non-existent, future for Mosser
+	  NPATH	 2346,2346,6657		; DRV11 #2 ==> DRV11
+	  NPATH	 2770,2346,6657
+	  NPATH  6657,6657,2346		; DRV11 #3 ==> DRV11
+	  NPATH	 10115,10115
+	 HPATH  TYMNET,*,6657,2346	; DUV11 (2 connections) default host
+	  HPATH  14,*			; DRV11 #1 ==> DR11-C on KS
+	  HPATH  17,6657,2346,TYMNET	; KS on 6657
+	  HPATH  62,2346,6657,TYMNET	; KS on 552A
+	  HPATH  95,2346,6657,TYMNET	; KS on 552A
+;	  HPATH  HH,2346,6657,TYMNET	; KS on 552A (BUBBNET)
+	  HPATH  897,2346,6657,TYMNET	; Vax-11/750 on 552A
+	  HPATH	 930,10115,TYMNET,6657	; F3 on 10115 (TRAINNET)
+	  HPATH	 934,10115,TYMNET,6657	; F3 on 10115 (TRAINNET)
+	  HPATH  4117,TYMNET,6657,2346	; DZV11 on 554A, go through TYMNET
+	  HPATH  4284,TYMNET,6657,2346	; DZ-11 on 2770, go through TYMNET
+	  HPATH  4525,2346,6760,TYMNET	; DPV11 on 554A, X.25 to uVax DPV11
+	  HPATH  BNET,2346,6657		; route through 2346
+	  HPATH  TRAIN,10115,TYMNET	; route through 10115 (else TYMNET)
+
+
+	NODE	10115
+	 NPATH   552A,6760
+	  NPATH  522B,6760		; Non-existent, future for Mosser
+	  NPATH  554A,6760
+	  NPATH  554B,6760		; Non-existent, future for Mosser
+	  NPATH	 2346,6760
+	  NPATH	 2770,6760
+	  NPATH  6657,6760
+	  NPATH	 6760,6760		; DRV11 #3 ==> DRV11
+	 HPATH  TRAIN,*			; DUV11 #1 default host
+	  HPATH  14,6760		; KS on 6760
+	  HPATH  17,6760		; KS on 6657
+	  HPATH  62,6760		; KS on 552A
+	  HPATH  95,6760		; KS on 552A
+;	  HPATH  HH,6760		; KS on 552A (BUBBNET)
+	  HPATH  897,6760		; Vax-11/750 on 552A
+	  HPATH  930,*			; DRV11 #1 ==> F3 host
+	  HPATH  934,*			; DRV11 #2 ==> F3 host
+	  HPATH  4117,6760		; DZV11 on 554A, go through TYMNET
+	  HPATH  4284,6760		; DZ-11 on 2770, has 2 HAYES Modems
+	  HPATH  4525,6760		; DUV11 on 554A, X.25 to uVax DPV11
+	  HPATH  BNET,6760		; route through 2346
+	  HPATH  TYMNET,6760,TRAIN	; "TRAIN" may actually be TYMNET
+
+
+.ENDM
+
