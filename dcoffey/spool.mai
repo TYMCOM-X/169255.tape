@@ -1,0 +1,205 @@
+Return-path: <JMS@X930.Tymnet> 
+From: Joe Smith <JMS@X930.Tymnet> (Liberty Street in Fremont 116-2512) 
+Date: Sun, 30 Mar 86 11:25:18 PST 
+To: Monitor Group <jms@X930.Tymnet>, Carl A Baltrunas <carl@X930.Tymnet>, Osman
+	Guven <osman@X930.Tymnet> 
+Cc: Craig Fletcher <fletcherc@X930.Tymnet>, Dennis Coffey
+	<dencoff@X930.Tymnet>, Bruce Ring <ring@X930.Tymnet> 
+Subject: Hotline call 10:15am Sunday. 
+
+30-Mar-85 10:18/JMS
+Contact:  Fremont Ops, Elisha Padilla, (415)498-2588, System 28.
+
+Symptom:  SPOOL not running, SPLFIX gets a fatal error on file SPOOL.GBK
+        Renaming files, wait...
+        LOOKUP failed for (SPOOL)SPOOL.GBK.
+        Fatal error.
+        Enabling SPOOL . . . Enabled.
+         Can not continue !
+        Please call the TYMCOM-X Support Line : (408) 446-6709
+
+Diagnosis: SPLFIX had created SPOOL.GNW, SPOOL.FNW, and SPOOL.MNW.  The files
+        SPOOL.MBK and SPOOL.FBK were dated 28-Feb-86 but SPOOL.GBK did not
+        exist (maybe DSKCLN deleted it).  SPLFIX thought it needed to find
+        this BAK file just so it could delete it.
+
+Cure:   "COPY SPOOL.GDF,SPOOL.GBK", "RUN (UTIL)SPLFIX".  Done.
+
+Note:   Carl and I both agree that this is not really a hotline problem.
+        Maybe we need another policy for this kind of support on weekends.
+        Anyway, SPLFIX needs to be changed so that it does not use the old
+        phone number.
+
+
+Received: from D25.Tymnet by X62.Tymnet; Tue, 3 Mar 87 3:18:19 PST
+Return-path: <OPER@D25.Tymnet> 
+From: OPER@D25.Tymnet 
+Date: Tue, 3 Mar 87 5:13:31 CST 
+To: DENCOFF 
+Subject: "WHEN RUNNING SPOOL ON SYSTEM D25"... 
+
+WHEN RUNNING SPOOL ON SYSTEM D25 ON 3/3/87 AT 0030 (CST) WE
+RECEIVED THE ERROR (CANNOT FIND THE FD).  DURING THE SPLFIX REPAIR
+WE RECEIVED (DAMAGE: REQUEST #866, DATED 17-FEB-87 IS MISSING 1 FDF
+RECORDS), (DAMAGE: REQUEST #868, DATED 17-FEB-87 IS MISSING 1 FDF
+RECORDS) AND (FATAL ERROR).
+THANK YOU FOR YOUR ASSISTANCE.
+DALLAS OPERATIONS, A.W. SMITH
+From: Dennis Coffey (Tymcom-X Systems) <DenCoff@X62> 
+Date: Tue, 3 Mar 87 8:53:25 PST 
+To: OPER@D25.Tymnet 
+Subject: Re: "WHEN RUNNING SPOOL ON SYSTEM D25"... 
+In-reply-to: your message of Tue, 3 Mar 87 5:13:31 CST
+
+TO A.W. SMITH, AND ALL OPERATORS:
+
+  THANKS FOR SENDING ME MAIL WITH 'SENDMA'.  IT GETS TO ME MUCH MORE 
+RELIABLY THAN BY USING 'SEND'.
+                           -DENNIS-
+
+From: Dennis Coffey (Tymcom-X Systems) <DenCoff@X930> 
+Date: Wed, 24 Jun 87 12:36:11 PDT 
+To: NTD.D/HOPKINS@EMSTXS.Ontyme.Tymnet 
+Subject: Re: printing rspool requests remotely 
+In-reply-to: I50296@Ontyme.Tymnet of 22 JUN 87 16:43:47
+
+Dave,
+
+  I neglected to ask you for one piece of information necessary to make the
+SPOOL system on B39 complete.  What nodes (i.e., TYMSATs/CONSATs) do you want
+associated with each of these pritner sites?  
+
+  SPOOL is designed to allow a default association of logged-in node number
+with a remote printer site.  When this list is available to SPOOL, any user
+logged in from a terminal connected to one of the nodes in the list can have
+his job printed at the remote location by just specifying REMOTE.  No node
+number need be specified when the user's choice matches the default for his
+CONSAT.
+
+  BUBBNET is small enough to make this practical, since we're talking about
+only one or two remote sites.  Hell, you might want every BUBBNET CONSAT
+associated with the active printer site.
+
+                                                                Regards,
+                                                                Dennis
+Received: from F29.Tymnet by X930.Tymnet; Wed, 1 Jul 87 14:24:17 PDT
+Received: from EMSTXS.Ontyme.Tymnet by F29.Tymnet; Wed, 1 Jul 87 14:23:10 PDT
+Return-path: <IPC.J/KRIVANEC@EMSTXS.Ontyme.Tymnet> 
+From: IPC.J/KRIVANEC@EMSTXS.Ontyme.Tymnet 
+Date: 01 JUL 87 13:56:32 
+To: TXS.D/COFFEY@EMSTXS.Ontyme.Tymnet 
+Message-id: A76950@Ontyme.Tymnet 
+Subject: new spool location number for ipc resource dept. 
+
+Dennis,
+
+Please validate a new printer location for our group IPC Resources.
+Our address is:
+
+Resource Planning and Management (RPM)
+4340 Solar Way
+Fremont CA 94537
+
+Attn: Ed Roop
+Phone: (415)498-2500
+
+At present, we want node number 2466 assigned to us. We will use this
+node number for spooling purposes.
+
+If more information is needed, let me know. I can be reached at
+(415)498-2556.
+
+Thanks Dennis,  Bye now, Jan
+From: Dennis Coffey (Tymcom-X Systems) <DenCoff@X930> 
+Date: Tue, 21 Jul 87 12:41:19 PDT 
+To: Jan Krivanec <IPC.J/KRIVANEC@Ontyme> 
+Keywords: 14 
+Subject: SPOOL printer location data. 
+
+Jan,
+
+  I beleive the following message was not delivered.  Here's another try.
+
+----------------------------------------------------------------
+From: Dennis Coffey (Tymcom-X Systems) <DenCoff@X930> 
+Date: Fri, 17 Jul 87 17:11:36 PDT 
+To: IPC.J/KRIVANEC@Ontyme.Tymnet 
+Subject: Re: "Dennis, Remove the following PRINTER"... 
+In-reply-to: A82501@Ontyme.Tymnet of 17 JUL 87 14:32:44
+
+Jan,
+
+  Thanks for your timely reply to my query about the printers.  There is still
+one moderately urgent printer location issue unresolved, so I need your
+help.  We have an ultimate default printer location, for those nodes that do
+not have a default printer site.  Tbis is (the non-existant) Building A.
+Since there are very many nodes in the network that do not--and cannot--have a
+default printer site, we must clean up the message--and the code--that refer
+to the default-default printer site.
+
+  If you want to discuss ideas and the scope of the problem, please call.
+
+    Dennis
+----------------------------------------------------------------
+Received: from F29.Tymnet by X930.Tymnet; Fri, 17 Jul 87 14:58:34 PDT
+Received: from EMSTXS.Ontyme.Tymnet by F29.Tymnet; Fri, 17 Jul 87 14:50:09 PDT
+Return-path: <IPC.J/KRIVANEC@EMSTXS.Ontyme.Tymnet> 
+From: IPC.J/KRIVANEC@EMSTXS.Ontyme.Tymnet 
+Date: 17 JUL 87 14:32:44 
+To: TXS.D/COFFEY@EMSTXS.Ontyme.Tymnet 
+Message-id: A82501@Ontyme.Tymnet 
+Subject: "Dennis, Remove the following PRINTER"... 
+
+Dennis,   
+     
+Remove the following PRINTER LOCATION NUMBER from the Spool Database: 
+     
+ 1   
+ 2   
+ 3   
+ 6   
+78   
+     
+I will work with our affiliates to update their PRINTER LOCATION address.  
+I do not know how soon I will get a report from them, so as I receive them 
+I will forward the changes to you. 
+     
+Okay, Okay!    
+Jan
+Received: from F29.Tymnet by X930.Tymnet; Mon, 17 Aug 87 18:04:27 PDT
+Received: from EMSTXS.Ontyme.Tymnet by F29.Tymnet; Mon, 17 Aug 87 18:00:01 PDT
+Return-path: <NTD.D/HOPKINS@EMSTXS.Ontyme.Tymnet> 
+From: NTD.D/HOPKINS@EMSTXS.Ontyme.Tymnet 
+Date: 17 AUG 87 12:58:41 
+To: TXS.D/COFFEY@EMSTXS.Ontyme.Tymnet 
+Message-id: I72599@Ontyme.Tymnet 
+Subject: Bubbnet spool center 
+
+Dennis,
+
+  Regarding the location of the new SPOOL site, the new location will be:
+
+                  2580 North 1st. Street
+                  Fifth Floor Building B
+                  Backbone Lab
+                  Dave Hopkins, Operator
+                  922-6138
+
+I hope that this is the info you needed. We have the fullcase printer
+installed and running off of node 4166 and anticipate to have a
+second printer installed soon. We are ready whenever you are.
+ 
+                              Thanks 
+                              Dave
+From: Dennis Coffey (Tymcom-X Systems) <DenCoff@X930> 
+Date: Tue, 18 Aug 87 8:53:59 PDT 
+To: NTD.D/HOPKINS@Ontyme.Tymnet 
+Subject: Re: Bubbnet spool center 
+In-reply-to: I72599@Ontyme.Tymnet of 17 AUG 87 12:58:41
+
+Dave,
+
+  Thanks for the info.  Just what I need!
+
+-Dennis-
+
