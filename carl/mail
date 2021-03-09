@@ -1,0 +1,276 @@
+From: JMS@X930.Tymnet 
+Date: Tue, 18 Aug 87 15:26:27 PDT 
+To: CARL 
+
+CPY won't do anything if a particular TMP file exists.
+I said "CPY SWITCH.INI" and it said "[Telecopy in frame 3]", but nothing
+got transfered.  Job 3 just sat there, detached, in "TI", doing nothing.
+
+I finally realized that it was reading 003TEL.TMP instead of 003TEL.COM.
+The TMP file was left over from an aborted RDIST run.  If both input command
+files exist, TELECO looks at .TMP before .COM.  Therefore CPY should delete
+the .TMP file before it creates the .COM file.  /Joe
+Received: from B39.Tymnet by X930.Tymnet; Tue, 18 Aug 87 15:56:49 PDT
+Return-path: <BARTLETW@C39.Tymnet> 
+From: Wayne D. Bartlett <BARTLETW@C39.Tymnet> 
+Date: Tue, 18 Aug 87 15:34:48 PDT 
+To: CARL@X930 
+
+Hope this time - I get thru - see resend below:
+----------------------------------------------------------------
+From: Postmaster@B39.Tymnet 
+Date: Mon, 17 Aug 87 14:34:12 PDT 
+To: Wayne D. Bartlett <BARTLETW@C39.Tymnet> 
+Subject: Returned MAIL 
+
+The following message was not delivered because:
+
+  The remote host returned an error code in response to the command:
+    .
+
+  The error code and message was:
+    451 Requested action aborted: black ball received
+
+  As a result of the error, TUMS was unable to deliver this message to
+  the following recipients (any other recipients are not affected):
+    <CARL@X930>
+
+----------
+RCPT To: <CARL@X930> 
+From: Wayne D. Bartlett <BARTLETW@C39.Tymnet> 
+Date: Mon, 17 Aug 87 14:17:42 PDT 
+To: WRS@C39.Tymnet, CARL@X930 
+
+Thought you would be interested in the following - also Brandt c. plans to 
+join us on 9/3.- 
+----------------------------------------------------------------
+Received: from F29.Tymnet by B39.Tymnet; Mon, 17 Aug 87 12:40:00 PDT
+Received: from EMSTYM.Ontyme.Tymnet by F29.Tymnet; Mon, 17 Aug 87 12:28:15 PDT
+Return-path: <QSATS.D/ELLENBERG@EMSTYM.Ontyme.Tymnet> 
+From: QSATS.D/ELLENBERG@EMSTYM.Ontyme.Tymnet 
+Date: 17 AUG 87 09:24:37 
+To: TYM.W/BARTLETT@EMSTYM.Ontyme.Tymnet 
+Message-id: M12608@Ontyme.Tymnet 
+Subject: NAD TECHALERT Update 
+NADTECHALERTUPDATE-LicenseChange: 
+
+                            M E M O R A N D U M
+
+                                                        [] TYMNET - NETWORK
+                                                           SYSTEMS SUPPORT
+DATE>      17 AUG 87  09:22
+
+TO>        ALLTECH
+           ALLSALES
+
+COPIES>    
+
+FROM>      Douglas Ellenberg
+
+
+SUBJECT>   NAD TECHALERT UPDATE - License Change
+
+
+-----------------------------------------------------------------------
+
+
+                     ******************************
+                     ******************************
+                     **   NAD TECHALERT UPDATE   **
+                     ******************************
+                     ******************************
+
+
+                            PREVIOUS NOTICE
+                            ---------------
+      For system security reasons, the license assigned to the NAD
+      program have been changed.  These changes were performed by the
+      TYMCOM operations group in conjunction with Network Security.
+
+
+                                 UPDATE
+                                 ------
+To date there have been no reported problems with NAD and the present
+license assigned to it.  The measures undertaken on July 30th were
+successful in allowing full access for NAD to the source files.
+
+NAD is operating with 100% functionality and there was no interruption
+to service.
+----------------------------------------------------------------
+----------------------------------------------------------------
+Reply-to: SUBMIT 
+From: X930 Job Processor 
+Sender: PERPOPER@X930.Tymnet 
+Date: Wed, 19 Aug 87 0:03:30 UT 
+To: CARL 
+Subject: Req #11364 DSK:(CARL)PCOMAI.CTL Done-End 
+
+; Processed:  Req #11364 DSK:(CARL)PCOMAI.CTL
+; Scheduled:  18-Aug-87 16:56:20
+; Actual run: 18-Aug-87 16:56:39
+;
+; Options:  Mail:Always Unique:Job
+; Limits:  Time 60  TRUs 0
+; Flags: 
+; Status:  Done-End  at  18-Aug-87 17:03:26
+
+From: Joe Smith <JMS@X930> 
+Date: Tue, 18 Aug 87 19:20:51 PDT 
+To: CARL@X930.TYMNET.COM, JOESMITH@X930.TYMNET.COM 
+Subject: Testing 
+
+This was sent to CARL@X930.TYMNET.COM
+From: Carl A Baltrunas <Carl@X930.Tymnet> 
+Date: Tue, 18 Aug 87 20:34:55 PDT 
+To: Joe Smith <JMS@X930.Tymnet> 
+Subject: FINDIT/FILDAT revision 
+
+After seeing what I had in CK.SAI for checksums, I took a quick look
+at FINDIT... well, it uses FILDAT in (SAILIB) so I looked at that.
+
+There is a new version of FILDAT which scrunches the ROT-XOR-ADD loop
+to 4 instructions instead of 12 or 13 in the old version.  This of course
+only speeds up the computation, and since it only holds one page per pass
+the I/O may be the remaining limiting factor.
+
+I didn't increment the FINDIT version, since it is essentially the same...
+FILDAT has changed, not FINDIT.   It is on SPL,XEXEC and VMAP.
+/Carl
+Received: from X95.Tymnet by X930.Tymnet; Wed, 19 Aug 87 20:53:46 PDT
+Return-path: <Carl@X930.Tymnet> 
+From: Carl A Baltrunas <Carl@X930.Tymnet> 
+Date: Wed, 19 Aug 87 20:52:53 PDT 
+To: jms 
+Subject: (NEW11)CG####.MAC on :95 
+
+I am changing the sources on system 95... please do NOT overwrite them
+using RDIST... thanks.
+
+/Carl
+Received: from B39.Tymnet by X930.Tymnet; Thu, 20 Aug 87 1:37:33 PDT
+Return-path: <CARL@B39.Tymnet> 
+From: CARL@B39.Tymnet 
+Date: Thu, 20 Aug 87 1:17:39 PDT 
+To: dernst 
+Subject: uNet changes 
+
+Hi...
+   I realize that you are extremely tied up, but we are trying to reconfigure
+before we move... and we only have 2 days left.  Monday they pull the plug on
+our machines.
+
+   I have edited copies of CG####.MAC and MC####.CMD and RUFSC.MAC in my
+directory (CARL) on system B39.  I have also compiled these producing the
+CG####.OBJ and RU####.OBJ files in my directory on B39.
+
+   (I actually did all the work in (NEW11:95) but copied the results to B39).
+
+   I would appreciate it if you could make the final changes to LK####.CMD
+to include the modules required and link the resultant code...
+
+   I'm pretty sure the CG####.MAC files are correct.  Please check these:
+	CG2770.MAC -- did I do the LNKH macros correctly for :4117,:4284 ?
+	CG6657.MAC -- did I do everythng necessary for 2 TYMNET links    ?
+	CG6760.MAC -- same question as for 6657
+	CG2346.MAC -- did I add the DZV-11s linex macros correctly?
+   all therest should be OK.  I made sure each link has one P and one S
+   and that the number of ports match...
+
+    My only other question has to do with the LINK macros for type I network
+links... the <node,nn.> at the end, eg <6657,12.> ... what is the "12."?
+
+
+zIf all the stuff is OK, please copy (CARL:39)MC####.CMD+(CARL)CG####.*+
+(carl)ru####.obj to (NEW11) and link them...  I don't want to overwrite
+what you have in NEW11 without your OK.
+
+/Carl
+Received: from D37.Tymnet by X930.Tymnet; Thu, 20 Aug 87 10:55:29 PDT
+Return-path: <PERPOPER@D37.Tymnet> 
+Reply-to: SUBMIT 
+From: D37 Job Processor 
+Sender: PERPOPER@D37.Tymnet 
+Date: Thu, 20 Aug 87 17:55:07 UT 
+To: CARL 
+Subject: Req #13198 DSK:(CARL)LOGOUT.CTL Abort-Zap (0) -Normal- 
+
+; Processed:  Req #13198 DSK:(CARL)LOGOUT.LOG=DSK:(CARL)LOGOUT.CTL
+; Scheduled:  18-Aug-87 16:50:44
+; Actual run: 18-Aug-87 16:51:01
+;
+; Options:  Log: Mail:Always Unique:Job
+; Limits:  Time 60  TRUs 0
+; Flags: 
+; Status:  Abort-Zap (0)   -Normal-
+;
+; Output recorded in file DSK:(CARL)LOGOUT.LOG.
+
+Received: from D37.Tymnet by X930.Tymnet; Thu, 20 Aug 87 11:10:34 PDT
+Return-path: <JMS@X930> 
+From: Joe Smith <JMS@X930> 
+Date: Thu, 20 Aug 87 13:09:46 CDT 
+To: carl 
+Cc: submit 
+Subject: XEXEC was stuck on D37 
+
+!at 4
+from frame 97
+
+.
+Incompatible string widths to CAT, will use MAXIMUM 7
+Called from 143520  Last SAIL call at 5011
+^
+.halt
+
+.ccont
+
+elapsed:00:00:31 tru:1599.88 blks in:212 out:4  mws:110 XEXEC TI
+
+17:55:07 S -R- stream #1 Abort-Time <0>
+elapsed:00:00:07 tru:6.96 blks in:0 out:2  mws:110 XEXEC SW
+17:55:08 S -S- stream #1 Req #13168 DSK:(CIDNCODE)BACKUP.DAY
+17:55:14 S 20-Aug-87
+detach
+From: Joe Smith <JMS@X930> 
+Date: Thu, 20 Aug 87 11:19:51 PDT 
+To: Monitor Group <JMS>, Carl, Osman 
+Cc: FletcherC, DenCoff 
+Subject: Status of tape drives. 
+
+Condition as of Wednesday morning:
+Kennedy on AA would consistantly lose vacuum near end of reel.
+Kennedy on BB hub release not working - no tapes could be mounted.
+TU45 on DD would go off end or reel on save - EOT sensor has not been adjusted.
+
+Condition as of Wednesday night:
+Found how to adjust hub on Kennedy, can now mount tapes on BB.
+Adjusted hub on AA slightly - now it does not lose vacuum.
+DD's TU45 still waiting for someone who knows how to adjust it.
+CC's TU45 moved into other room and connected to DD, ALL FILE save in progress.
+			/Joe
+From: TXSTEXT@X930.Tymnet 
+Date: Thu, 20 Aug 87 14:11:02 PDT 
+To: carl 
+
+I'm sorry if you felt that I was giving you a hard time this morning. If I did,
+it's because I'm worried about the amount of stuff I'm still going to be
+responsible for getting done around here (like paying bills, arranging for any
+and all repairs needed, cleaning, cg, cleaning, laundry, cleaning, making th    
+the myriad of phone calls that it seems to be necessary to make to get two lives
+to run more or less smoothly. This have NOT worked out anywhere near equitably in the pay  
+in the past, and I don't in all honesty expect them to magically improve when I
+am working full time again. (In other words, I got to do it all before, so why shouwhy   
+shouldn't I get to do it all again...and don't you dare say I didn't, because I seem 
+seem to recall an ongoing, pointless conversation that we often had, which was
+effectively that you didn't have time to do any of these things, including
+making any of the phone calls, because of your busy work schedule. Do you think
+it was any ewasier for me to find time, with a mere 23 people reporting directly
+to me, in addition to having ATTIL Attilina literally breathing down my neck all the  
+time? Why should I even bother to go out and look for full-time employment, when I can h    
+when I can have unending, uncompensated, full-time employment right here?
+Just think about it, will you?
+
+Meanwhile, back at the ranch: if you think of it, please buy a loaf of bread on
+your way home tonight. ILYVMADYFI. \Wad
+  @
+v
