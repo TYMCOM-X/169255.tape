@@ -1,0 +1,1309 @@
+begin "SETOP SYSTEMS"
+
+require "(CARL)DEFOPR.INF"   source!file;
+
+require "(SAILIB)SAIL.DEF"   source!file;
+require "(SAILIB)UUOSYM.DEF" source!file;
+require "(CARL)VMFILE.REQ"   source!file;
+require "(CARL)BRKINI.REQ"   source!file;
+require "(CARL)DAYTIM.REQ"   source!file;
+require "(CARL)KLLT.REQ"     source!file;
+
+require 1024*64 string!space;	! 65536 words ;
+
+
+Define System.File = {"(SYS)DRWSPR.SYS"};
+Define System.Id   = {CvSix("SETOPR")};
+Define RootHead    = {"     1     1"};
+
+Define L!MG = '1000000;			! manager license ;
+
+Define All.Commands = {
+
+!C!( CHANGE, " opername  Change an opername entry." )
+!C!( LIST, "   opername  List one or more opername entries." )
+!C!( OPEN, "   <file>    Read system file or <file> into memory." )
+!C!( TOGGLE, "           Toggle the various debugging flags." )
+!C!( TRACE, "  opername  Print trace information for an entry." )
+
+!C!( HELP, " or ?        Reprint this message." )
+!C!( EXIT, "             Exit program writing out any changes." )
+!C!( QUIT, "             Exit program without writing out any changes." )
+
+    };
+
+Redefine Len.Commands = 0;
+Redefine !C!(Nam,Hlp,AltC) = {
+    Ifcr Len.Commands > 0 thenc , endc CvPS(Nam)
+    Redefine Len.Commands = Len.Commands + 1;};
+Preset!with All.Commands;
+Own safe string array CmdName[1:Len.Commands];
+
+
+Redefine Len.Commands = 0;
+Redefine !C!(Nam,Hlp,AltC) = {
+    Ifcr Len.Commands > 0 thenc , endc Cvps(Nam) & Hlp
+    Redefine Len.Commands = Len.Commands + 1;};
+Preset!with All.Commands;
+Own safe string array CmdText[1:Len.Commands];
+
+
+Redefine !C!(Nam,Hlp,AltC) = {
+    Ifcr Length(CvPS(AltC))
+     thenc AltC;
+     elsec C.}&{Nam}&{;
+    endc};
+
+define spaces = 
+    {"                                                                "};
+define lpad(x,y) = {(spaces[1 for y]&(x))[inf-(y-1) to inf]};
+
+
+record!class C(	r!p (C) Nxt;		! Next comment record ;
+		String	Line		! Actual comment line ;
+	    );
+
+record!class G(	r!p (G)	Nxt;		! Next grant record ;
+		Integer	Lic;		! License being granted ;
+		String	Who;		! Who is granting, granted ;
+		Integer	Date;		! Date of grant ;
+		Integer	Start;		! Start date (date of grant) ;
+		Integer	Stop		! Stop date (infinate) ;
+	    );
+
+record!class O(	r!p (O)	Mgr;		! Manager record pointer ;
+		r!p (O)	Sub;		! First subordinate opername ;
+		r!p (O)	Nxt;		! Next opername at this level ;
+		r!p (O)	Bak;		! Previous opername at this level ;
+		r!p (O) Lnk;		! In-core link for forgetting ;
+		Integer	E!Date;		! Entry date-time ;
+		String	E!Who;		! Who entered this record ;
+		String	Oper;		! Opername ;
+		String	Name;		! Employee name ;
+		Integer	Employee;	! Employee number ;
+		Integer	District;	! District number ;
+		String	Phone;		! Employee phone and mail stop ;
+		String	Manager;	! Manager opername ;
+		String	User;		! List of usernames ;
+		String	Mail;		! Security mail address ;
+		Integer	C!Date;		! Change date-time ;
+		String	C!Who;		! Who changed this record ;
+		Integer	Password;	! Password hash ;
+		Integer	P!Date;		! Password change date-time ;
+		String	P!Who;		! Who changed this password ;
+		Integer	License;	! Accumulated license ;
+		r!p (G)	Gift;		! Received license gifts ;
+		r!p (G)	Grant;		! Granted licenses ;
+		r!p (C) Remark		! Comments about the record ;
+    );
+
+record!class DM( r!p (DM) Nxt;		! Next dummy manager ;
+		r!p (O) Mgr		! This dummy record ;
+	    );
+
+
+r!p (G) GDormant, GHead;
+r!p (O) ODormant, OHead, OList, OLink;
+r!p (DM) DHead, DList, Dis, Dat;
+
+r!p (C) C!b, C!t, C!n;
+r!p (G) G!b, G!t, G!n;
+r!p (O) O!b, O!t, O!n;
+r!p (G) R!b, R!t, R!n;
+
+r!p (O) MySelf, MyRoot;
+
+
+Integer Chan, Eof, EndOfFile, Count, Index, I;
+Integer Level;
+
+Boolean FileModified, SetMgr;
+
+String  Filename, Command, Line, Str, L;
+String  MyOper, MyName;
+
+Define LineLen = 64 * 20;		! constant length = 1280 ;
+Preset!with
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################" &
+    "################################################################";
+String array ConstantLine[0:0];
+Define Liner = { ConstantLine[0] };
+Integer MyLen, MyPtr;			! remember length of Liner ;
+
+
+simple procedure InitTextPointer;
+begin
+
+    begin!code
+	Setzm	MyLen;			! initialize length of buffer ;
+	Move	'13,Liner;		! get pointer to string ;
+	Movem	'13,MyPtr;		! store it for use ;
+    end;
+
+end;
+require InitTextPointer initialization;
+
+
+simple procedure TChr( integer Char );
+begin "character assembly"
+
+    if ( MyLen = LineLen )
+     then begin "flush buffer"
+	VMText( Chan, Liner );
+	InitTextPointer;
+     end "flush buffer";
+
+    begin!code
+	Move	'1,Char;		! get character ;
+	Idpb	'1,MyPtr;		! put into string ;
+	Aos	MyLen;			! increment length ;
+    end;
+
+end "character assembly";
+
+
+simple Procedure Text( String S );
+begin "assemble text"
+
+    if ( length( S ) + MyLen > LineLen )
+     then begin "flush buffer"
+	VMText( Chan, Liner[1 for MyLen] );
+	InitTextPointer;
+     end "flush buffer";
+
+    begin!code
+
+	Label Loop, NoMore;
+	Define ct = '13, ch = '14;
+
+	Hrrz	ct,-1(SP);		! get count ;
+	Jumpe	ct,NoMore;		! ^&*%*^* null string ;
+Loop:	Ildb	ch,(SP);		! get a character ;
+	Jumpe	ch,Loop;		! ignore nulls ;
+	Idpb	ch,MyPtr;		! deposit character ;
+	Aos	MyLen;			! count characters ;
+	Sojg	ct,Loop;		! and loop through string ;
+NoMore:
+     end;				! end begin!code ;
+
+end "assemble text";
+
+simple Procedure Tlxs( Integer Arg, Len, Rad(8), Pad(32) );
+begin "assemble text"
+    preset!with "################################";
+    own safe string array ttext[0:0];	! 32 characters long, enough for us ;
+    preset!with [33]0;
+    own safe integer array lline[0:32];
+    own integer Radix;
+
+    if ( Len + MyLen > LineLen )
+     then begin "flush buffer"
+	VMText( Chan, Liner[1 for MyLen] );
+	InitTextPointer;
+     end "flush buffer";
+
+    begin!code
+
+	Label Loop, Fill, NoFill, Copy;
+	Define ct = '1, num = '13, rem = '14, ch = '15;
+
+	Move	ct,Rad;			! get radix 8 or 10 ;
+	Movem	ct,Radix;		!  and store ;
+	Move	ct,Len;			! get pad length ;
+	Move	ch,Pad;			! get padding character ;
+	Setz	num,;			! clear high order number ;
+	Move	rem,Arg;		! get number to print ;
+	Lshc	num,1;			! copy sign bit ;
+	Lsh	rem,-1;			! shift low order number ;
+	Div	num,Radix;		! divide once ;
+	Caia;				! skip into divide loop ;
+
+Loop:	 Idiv	num,Radix;		! divide number ;
+	Movei	rem,'60(rem);		! make it a digit ;
+	Movem	rem,lline[0](ct);	! store in position ;
+	Skipe	num;			! check for value ;
+	  Sojg	ct,Loop;		! yes, get next digit ;
+Fill:	Sojle	ct,NoFill;		! none left, skip fill ;
+	Movem	ch,lline[0](ct);	! put in filler character ;
+	Jrst	Fill;			! loop till out of room ;
+NoFill:	Movn	ct,Len;			! setup counter ;
+	Hrlz	ct,ct;			! -Len,,0 for convenience ;
+	Move	num,ttext[0];		! get byte pointer ;
+Copy:	Move	ch,lline[1](ct);	! get character ;
+	Idpb	ch,num;			! deposit character ;
+	Aobjn	ct,Copy;		! loop for copy ;
+     end;				! end begin!code ;
+
+    Text( ttext[0][1 for Len] );
+
+end "assemble text";
+
+
+simple r!p (O) procedure Traverse( r!p (O) r );
+begin "traverse tree"
+    own r!p (O) t;
+
+    if not( r )				! is this a cruel joke ;
+     then return( null!record );	! return empty handed ;
+
+    if ( t_ O:Sub[ r ] )		! if a subordinate ;
+     then begin "down a level"
+	Level_ Level + 1;		! count levels downward ;
+	return( t );			!  that is who is next ;
+     end "down a level";
+
+    if ( t_ O:Nxt[ r ] )		! if a sibling ;
+     then return( t );			!  that is who is next ;
+
+    while ( r_ O:Mgr[ r ] )		! go up one level at a time ;
+     do begin "up a level"
+	Level_ Level - 1;		! no more downward travel ;
+	if ( t_ O:Nxt[ r ] )		!  checking for siblings ;
+	 then return( t );		!  return if found, else loop ;
+     end "up a level";
+
+    return( null!record );		! nothing left at this level ;d "traverse tree";
+
+
+procedure LinkList;
+begin "link list"
+    own r!p (DM) d;
+    own r!p (O) r, l;
+
+    l_ OHead;				! we have an initial head ;
+
+    if ( d_ DHead )			! for both lists ;
+     then while ( d )			! while anything in list ;
+      do begin "link tree"
+
+	O:Lnk[ l ]_ r_ DM:Mgr[ d ];	! start with the manager ;
+	while ( r_Traverse( l_ r ) )	! have each record ;
+	 do O:Lnk[ l ]_ r;		! point to next until done ;
+
+	d_ DM:Nxt[ d ];			! try next tree ;
+
+     end "link tree";
+
+    O:Lnk[ l ]_ null!record;		! end of list ;
+
+end "link list";
+
+
+define TopManager = '2000;
+safe r!p (O) array Mgrs[ 0:TopManager-1 ];
+safe string  array Managers[ 0:TopManager-1 ];
+integer UsedMgrs;
+
+
+simple procedure ClearManagers;
+begin "management purge"
+    own r!p (DM) r, l;
+
+    arrClr( Mgrs );			! clear pointer array ;
+    arrClr( Managers );			! clear text array ;
+    UsedMgrs_ -1;			! reset manager count ;
+
+    if ( r_ DHead )			! get manager list ;
+     then begin "reset pointers"
+
+	DHead_ null!record;		! reset link pointers ;
+
+	while ( r )			! while any in list ;
+         do begin "clear manager links"
+	    DM:Mgr[ r ]_ null!record;	! forget manager ;
+	    r_ DM:Nxt[ l_ r ];		! get next record ;
+	    DM:Nxt[ l ]_ null!record;	! forget previous link ;
+	 end "clear manager links";
+
+	l_ r_ null!record;		! forget pointers ;
+
+     end "reset pointers";
+
+end "management purge";
+require ClearManagers initialization;
+
+
+Procedure NoG( reference r!p (G) S );
+begin "keep dormant"
+
+    G:Nxt[ S ]_ GDormant;		!   place at front ;
+    GDormant_ S;			!   of list ;
+    S_ null!record;			!   clear pointer ;
+
+ end "keep dormant";
+
+Procedure NoO( reference r!p (O) S );
+begin "keep dormant"
+
+    O:Nxt[ S ]_ ODormant;		!   place at front ;
+    ODormant_ S;			!   of list ;
+    S_ null!record;			!   clear pointer ;
+
+ end "keep dormant";
+
+
+
+r!p (G) Procedure NewG;
+begin "new record"
+    r!p (G) Rec;
+
+    if ( GDormant )			! if any on dormant list ;
+     then begin "dormant records"
+
+	Rec_ GDormant;			! copy head of the list ;
+	GDormant_ G:Nxt[ Rec ];		! replace head with next ;
+	G:Nxt[ Rec ]_ null!record;	! clear "next" in new ;
+
+	G:Who[ Rec ]_ null;		! give a fresh record ;
+	G:Start[ Rec ]_ G:Stop[ Rec ]_
+	G:Lic[ Rec ]_ G:Date[ Rec ]_ 0;
+
+     end "dormant records"
+     else Rec_ new!record( G );		! create new record ;
+
+    return( Rec );
+
+end "new record";
+
+
+r!p (O) Procedure NewO;
+begin "new record"
+    r!p (O) Rec;
+
+    if ( ODormant )			! if any on dormant list ;
+     then begin "dormant records"
+
+	Rec_ ODormant;			! copy head of the list ;
+	ODormant_ O:Nxt[ Rec ];		! replace head with next ;
+	O:Remark[ Rec ]_ null!record;
+	O:Gift[ Rec ]_ null!record;
+	O:Grant[ Rec ]_ null!record;
+	O:Mgr[ Rec ]_ null!record;
+	O:Sub[ Rec ]_ null!record;
+	O:Nxt[ Rec ]_ null!record;	! clear "next" in new ;
+
+	O:Oper[ Rec ]_			! no left-over strings ;
+	O:Manager[ Rec ]_
+	O:Name[ Rec ]_
+	O:Phone[ Rec ]_
+	O:User[ Rec ]_
+	O:Mail[ Rec ]_
+	O:E!Who[ Rec ]_
+	O:C!Who[ Rec ]_
+	O:P!Who[ Rec ]_ null;
+
+	O:Employee[ Rec ]_		! give a "fresh" record ;
+	O:District[ Rec ]_
+	O:E!Date[ Rec ]_
+	O:C!Date[ Rec ]_
+	O:P!Date[ Rec ]_
+	O:License[ Rec ]_
+	O:Password[ Rec ]_ 0;
+
+     end "dormant records"
+     else Rec_ new!record( O );		! create new record ;
+
+    return( Rec );
+
+end "new record";
+
+
+simple string procedure Token (reference string S);
+! ----------------------------------------------------------------------;
+!									;
+!	Token		Scan the string S and return the first word	;
+!			or punctuation character to the caller.		;
+!									;
+! ----------------------------------------------------------------------;
+begin
+    Scan( S, BrkWht, Brk );	! clear whitespace;
+    L _ scan(S, BrkBrk, Brk);	! get the next word;
+    If length(L) = 0		! null?;
+	then if length(S) = 0	!   null source also?;
+	    then return (null)	!    yes - return null;
+	    else L _ lop(S);	!    no  - get a character;
+    Return(L);			! return the token;
+end;
+
+string procedure Prompt( String P );
+! ----------------------------------------------------------------------;
+!									;
+!	Prompt		Print a line and read an answer.		;
+!									;
+! ----------------------------------------------------------------------;
+begin
+    Print( P );
+    Return( inchwl );
+end;
+
+
+integer procedure CvPrt( String P; Integer D );
+! ----------------------------------------------------------------------;
+!									;
+!	CvPrt		Convert the response from Prompt to decimal	;
+!			and return that value if geq 0, else return	;
+!			the specified default.				;
+!									;
+! ----------------------------------------------------------------------;
+Return( If Length( L_ Prompt(P) ) and 0 leq I_ cvd(L)
+	 then I
+	 else D  );
+
+
+Simple procedure NotImp;
+Print( "Not Implemented", Crlf );
+
+
+
+procedure Subordinate( r!p (O) r, m );
+begin "make subordinate"
+    r!p (O) t, v;
+
+    if ( t_ O:Sub[ M ] )		! any subordinates ;
+     then begin "sort subordinates"
+
+	while ( t )			! yes, check order ;
+	 do if ( kllt( O:Oper[ t ], O:Oper[ r ] ) )
+	     then t_ O:Nxt[ v_ t ]	! try next subordinate ;
+	     else done;			! we are in front ;
+
+	if ( t )			! found one ;
+	 then begin "insert new subordinate"
+	    O:Bak[ r ]_ O:Bak[ t ];	! copy back pointer ;
+	    O:Bak[ t ]_ r;		! set next to point to me ;
+	    O:Nxt[ r ]_ t;		! set my next pointer ;
+	    if ( v_ O:Bak[ r ] )	! if any back pointer ;
+	     then O:Nxt[ v ]_ r;	!  change pointer to me ;
+	    if ( t = O:Sub[ M ] )	! if first subordinate ;
+	     then O:Sub[ M ]_ r;	!  yes, now it's me ;
+	 end "insert new subordinate"
+	 else begin "tack on the end"
+	    O:Nxt[ v ]_ r;		! I must be next for previous ;
+	    O:Bak[ r ]_ v;		! and previous is my previous ;
+	 end "tack on the end";
+
+     end "sort subordinates"
+     else O:Sub[ M ]_ r;		! set as only subordinate ;
+
+end "make subordinate";
+
+
+procedure DoGrant( r!p (G) r );
+begin "process grants"
+    own string l;
+
+    G:Lic[ r ]_ !xwd( cvo(Line[3 for 6]), cvo(Line[10 for 6]) );
+    G:Date[ r ]_ cvo( Line[17 for 12] );
+    G:Who[ r ]_ Line[30 for 12];
+    G:Start[ r ]_ if ( length( l_ Line[43 for 12] ) )
+		   then Cvo( l )
+		   else G:Date[ r ];
+    G:Stop[ r ]_ if ( length( l_ Line[56 for 12] ) )
+		  then Cvo( l )
+		  else 0;
+
+end "process grants";
+
+
+r!p (O) Procedure FindRoot( r!p (O) Self );
+begin "find root"
+    r!p (O) r;
+
+    r_ Self;				! base record ;
+    while ( O:Mgr[ r ] )		! as long as anyone there ;
+     do r_ O:Mgr[ r ];			! find out that manager ;
+
+    return( r );
+
+end "find root";
+
+
+
+simple integer procedure HashManager( String Name );
+begin "hash manager"
+
+    begin!code
+	define rt = '1, ct = '13, ch = '14;
+	label Loop, NoMore;
+
+	HRRZ	ct,-1(SP);		! get length of string ;
+	SETZ	rt,;			! clear result ;
+	JUMPE	ct,NoMore;		! done if nothing ;
+Loop:	ILDB	ch,(SP);		! use pointer from stack ;
+	CAIL	ch,'140;		! if it was lower case ;
+	  TRZ	ch,'40;			! make it upper case ;
+	SUBI	ch,'40;			! make it sixbit ;
+	ROT	rt,4;			! rotate previous ;
+	ADD	rt,ch;			! add in the new one ;
+	SOJG	ct,Loop;		! go back for more ;
+
+NoMore:	HLRZ	ct,rt;			! get high order part ;
+	ADDI	ct,(rt);		! and fold it ;
+	IDIVI	ct,TopManager;		! divide by bucket size ;
+	MOVE	rt,ch;			! return modulo function ;
+
+    end;
+
+end "hash manager";
+
+
+procedure AddManager( string Name; r!p (O) M );
+begin "add a manager"
+    own integer Mgr;
+
+!    print( Name," ",HashManager( Name ),crlf );
+    for Mgr_ HashManager( Name ) upto TopManager-1
+     do begin "check buckets"
+	if not( Mgrs[ Mgr ] )		! any manager in bucket ;
+	 then done;			! no, we have a slot ;
+	if ( M = Mgrs[ Mgr ] )		! yes, is it this manager ;
+	 then return;			! yes, we've been here before ;
+     end "check buckets";
+
+    if not( Mgrs[ Mgr ] )
+     then begin "set manager"
+
+	Managers[ Mgr ]_ Name;		! remember manager name for later ;
+	Mgrs[ Mgr ]_ M;			! remember pointer to manager ;
+	UsedMgrs_ UsedMgrs + 1;		! count managers added ;
+
+     end "set manager"
+     else usererr( 0,UsedMgrs, "Cannot fit manager: ","X" );
+
+end "add a manager";
+
+
+r!p (O) Procedure FindManager( String Name );
+begin "find manager"
+    integer Mgr;
+    r!p (O) M;
+    r!p (DM) d;
+
+    if ( kequ( Name, Spaces[1 for 12] ) )
+	or ( kequ( Name, RootHead ) )	! tree manager? ;
+     then return( OHead );		! no manager, use figurehead ;
+
+    for Mgr_ HashManager( Name ) upto TopManager-1
+     do if not( Mgrs[ Mgr ] )
+	 then done
+	 else if ( kequ( Name, Managers[ Mgr ]  ) )
+	       then return( Mgrs[ Mgr ] );
+
+    if ( d_ DHead )			! start at top ;
+     then while ( d )			! for each tree in list ;
+     do begin "each tree"
+
+	M_ DM:Mgr[ d ];			! start with manager ;
+	if ( kequ( Name, O:Oper[ M ] ) )
+	 then done "each tree";
+
+	while ( M_ Traverse( M ) )	! loop through tree ;
+	 do if ( Kequ( Name, O:Oper[ M ] ) )
+	     then done "each tree";	! got one, skip out ;
+
+	d_ DM:Nxt[ d ];			! try next tree ;
+
+     end "each tree";
+
+    if not( M )				! if blank, we went through them ;
+     then return( null!record );	!  all and none was found ;
+
+    AddManager( Name, M );		! Add manager to list ;
+!    Print( "*", Name, crlf );
+    return( M );			! remember and return pointer ;
+
+end "find manager";
+
+
+Procedure ValidateManager;
+begin "validations"
+    r!p (DM) d;
+    r!p (O) r, v;
+
+    MySelf_ null!record;		! insure security, reset each time ;
+
+    while ( true )
+     do begin "validate name"
+
+	if ( "?" = MyOper_ Prompt( "Opername: " ) )
+	 then begin "help wanted"
+	    print( crlf &"Please enter your Opername"& crlf );
+	    continue;
+	 end "help wanted";
+
+	if not( length( MyOper ) )	! allow a carriage return ;
+	 then MyOper_ RootHead;		! to setup 1,,1 as root ;
+
+	MyOper_ ( MyOper & spaces )[1 for 12];
+
+	if ( d_ DHead )			! tree trunk ;
+	 then while ( d )		!  for each branch ;
+	  do begin "each branch"
+	    v_ DM:Mgr[ d ];		! there is a manager tree ;
+	    if ( kequ( MyOper, O:Oper[ v ] ) )
+	     then done "each branch";	! I am the manager ;
+	    while ( v_ Traverse( v ) )	! as long as anyone there ;
+	     do if ( kequ( MyOper, O:Oper[ v ] ) )
+		 then done "each branch";	! we found me ;
+	    d_ DM:Nxt[ d ];		! try next branch ;
+	 end "each branch";
+
+	if ( v neq null!record )	! did we fall out or find out ;
+	 then begin "setup self"
+	    OList_ NewO;		! setup dummy pointer record ;
+	    O:Sub[ OList ]_ MySelf_ v;	! found me ;
+	    MyRoot_ FindRoot( MySelf );	! now set my root ;
+	    done;			! and finish validation ;
+	 end "setup self";
+
+	print( "No opername found matching ", MyOper, crlf );
+
+     end "validate name";
+
+    print( (if O:Mgr[ MySelf ]
+	     then "Manager: "& O:Oper[ O:Mgr[ MySelf ] ] &" "
+	     else null),
+	   "Root: ", O:Oper[ MyRoot ],
+
+	   crlf );
+
+end "validations";
+
+
+procedure Forget;
+begin
+    own r!p (O) r, t;
+    own r!p (G) h, l;
+    own r!p (C) j, k;
+
+    ClearManagers;			! clear our management list ;
+
+    r_ OHead;				! start at beginning ;
+    OHead_ null!record;
+
+    if not( r )				! if just starting, ok ;
+     then return;
+
+    while ( r_ O:Lnk[ t_ r ] )		! for each current record ;
+     do begin "forget record"
+
+	O:Lnk[ t ]_ null!record;	! forget it's pointer ;
+	NoO( t );
+
+	O:Nxt[ r ]_ O:Bak[ r ]_		! forget it's information ;
+	O:Mgr[ r ]_ O:Sub[ r ]_ null!record;
+
+	if ( h_ O:Gift[ r ] )
+	 then begin "forget gifts"
+	    while ( h_ G:Nxt[ l_ h ] )
+	     do NoG( l );
+	    NoG( l );
+	 end "forget gifts";
+
+	if ( h_ O:Grant[ r ] )
+	 then begin "forget grants"
+	    while ( h_ G:Nxt[ l_ h ] )
+	     do NoG( l );
+	    NoG( l );
+	 end "forget grants";
+
+	if ( k_ O:Remark[ r ] )
+	 then begin "forget comments"
+	    while ( k_ C:Nxt[ j_ k ] )
+	     do C:Nxt[ j ]_ null!record;
+	    C:Nxt[ j ]_ null!record;
+	 end "forget comments";
+
+     end "forget record";
+
+    O:Lnk[ t ]_ null!record;		! forget it's pointer ;
+    NoO( t );
+
+end;
+
+
+r!p (O) procedure CheckMgr( String Name );
+begin "check manager"
+    r!p (DM) r, l;
+
+    if ( l_ r_ DHead )			! start at head of list ;
+     then while ( r )			! while any on list ;
+     do if ( kequ( Name, O:Oper[ DM:Mgr[ r ] ] ) )
+	 then begin "found manager"
+
+	    if ( l = r )		! someone has tampered ;
+	     then print( "Illegal manager in system file: ",
+			 O:Oper[ DM:Mgr[ r ] ], crlf )
+	     else DM:Nxt[ l ]_ DM:Nxt[ r ];
+
+!	    print( "-",O:Oper[ DM:Mgr[ r ] ], crlf );
+
+	    SetMgr_ true;		! a manager on list ;
+	    return( DM:Mgr[ r ] );	! return the "found" record ;
+
+	 end "found manager"
+	 else r_ DM:Nxt[ l_ r ];
+
+    return( NewO );			! new record ;
+
+end "check manager";
+
+
+Procedure C.Open;
+! ----------------------------------------------------------------------;
+!									;
+!	"OPEN"		Read a new copy of the master opername list.	;
+!									;
+! ----------------------------------------------------------------------;
+begin
+  r!p (DM) d;
+  r!p (O) M, r;
+  string Name;
+
+  print( "Reading system file."& Crlf );
+  if not( length( Filename_ Line ) )
+   then Filename_ System.File;
+
+  Forget;				! empty list ;
+  Count_0;
+
+  O:Oper[ DM:Mgr[ DHead_ new!record( DM ) ]_ r_ OHead_ NewO ]_ RootHead;
+
+  if ( 0 > Chan_ VMFile( Filename, VM$Read ) )
+   then begin
+	print( Filename," not found.  Empty list created.",Crlf );
+	return
+   end;
+
+  while true
+   do begin "read loop"
+
+    while ( length( Line_ VMLine(Chan,Brk) ) )	! ignore up to a blank line ;
+     do begin "miscellaneous"
+
+	if ( Line = "L" )
+	 then begin "licenses"
+	    if ( L!MG land
+		( O:License[ r ]
+		    _ !xwd( cvo(Line[3 for 6]), cvo(Line[10 for 6]) ) ) )
+	     then SetMgr_ true;
+	 end "licenses"
+	 else if ( Line = "G" )
+	 then begin "grants"
+	    if not( G!t )
+	     then G!t_ O:Grant[ r ]_ NewG
+	     else G!t_ G:Nxt[ G!t ]_ NewG;
+	    DoGrant( G!t );
+	 end "grants"
+	 else if ( Line = "R" )
+	 then begin "receipts"
+	    if not( R!t )
+	     then R!t_ O:Gift[ r ]_ NewG
+	     else R!t_ G:Nxt[ R!t ]_ NewG;
+	    DoGrant( R!t );
+	    if ( L!MG land G:Lic[ R!t ] )
+	     then begin "manager license"
+		if not( SetMgr )
+		 then AddManager( O:Oper[ r ], r );
+		SetMgr_ true;
+	     end "manager license";
+	 end "receipts"
+	 else begin "comments"
+	    if not( O:Remark[ r ] )		! if none, create initial ;
+	     then O:Remark[ r ]_ C!t_ new!record( C );
+	    C!t_ C:Nxt[ C!t ]_ new!record( C );	! create comment line ;
+	    C:Line[ C!t ]_ Line;
+	 end "comments";
+
+     end "miscellaneous";
+
+    if not( Brk )				! have we seen eof? ;
+     then begin "finished"
+	Print( (if Count = 0
+		 then "Empty list created."
+		 else Cvs( Count )&" entries found."), Crlf );
+	done "read loop";
+     end "finished";
+
+    Count_ Count + 1;				! Count records ;
+    G!t_ R!t_ null!record;			! Clear pointers ;
+    SetMgr_ false;				! Clear manager flag ;
+
+    Line_ VMLine( Chan, Brk );			! OperName:date time:who ;
+    Name_ Line[1 for 12];			! name for manager check ;
+    r_ CheckMgr( Name );			! Get a new opername record ;
+
+    O:Oper[ r ]_ Name;				! setup identification ;
+    O:E!Date[ r ]_ cvo( Line[14 for 12] );
+    O:E!Who[ r ]_ Line[27 for 12];
+
+    Line_ VMLine( Chan, Brk );			! Emp#:district:Manager ;
+    O:Employee[ r ]_ cvd( Line[ 1 for  6] );
+    O:District[ r ]_ cvd( Line[ 8 for  4] );
+    O:Manager[ r ]_ Line[13 for 12];
+
+    O:Name[ r ]_ VMLine( Chan, Brk );		! Employee name ;
+    O:Phone[ r ]_ VMLine( Chan, Brk );		! Employee phone ;
+    O:User[ r ]_ VMLine( Chan, Brk );		! Legal usernames ;
+    O:Mail[ r ]_ VMLine( Chan, Brk );		! Security mail address ;
+
+    Line_ VMLine( Chan, Brk );			! change date time:who ;
+    O:C!Date[ r ]_ cvo( Line[ 1 for 12] );
+    O:C!Who[ r ]_ Line[14 for 12];
+
+    Line_ VMLine( Chan, Brk );			! hash:date time:who ;
+    O:Password[ r ]_ CVO( Line[ 1 for 12] );
+    O:P!Date[ r ]_ cvo( Line[14 for 12] );
+    O:P!Who[ r ]_ Line[27 for 12];
+
+    if not( M_ O:Mgr[ r ]_ FindManager( O:Manager[ r ] ) )
+     then begin "fake manager"
+
+	DList_ DHead;			! start at head ;
+	while ( DM:Nxt[ DList ] )	! while any left ;
+	 do DList_ DM:Nxt[ DList ];	! assume next identity ;
+
+	DList_ DM:Nxt[ DList ]_ new!record( DM );
+
+	DM:Mgr[ DList ]_ O:Mgr[ r ]_ M_ NewO;
+	O:Oper[ M ]_ O:Manager[ r ];	! create a record for manager ;
+	AddManager( O:Oper[ M ], M );	! add it to the list ;
+!	print( "+",O:Oper[ M ], crlf );
+
+     end "fake manager";
+
+    Subordinate( r, M );		! make r subordinate to M ;
+
+   end "read loop";
+
+  LinkList;				! make the linear links ;
+
+  if ( d_ DHead )			! start at the head ;
+   then while ( d )			! for each tree ;
+	 do begin "list trees"
+	    print( "Tree: ", O:Oper[ DM:Mgr[ d ] ], Crlf );
+	    d_ DM:Nxt[ d ];		! get next tree if any ;
+	 end "list trees";
+
+  ValidateManager;			! figure out who we are ;
+
+end;
+
+
+r!p (G) procedure WriteGrant( r!p (G) r; string Type("R") );
+begin "write grants"
+
+    Text( Type );
+    TChr( ";" );
+    Tlxs( !lh( G:Lic[ r ] ), 6 );
+    Tlxs( !rh( G:Lic[ r ] ), 7 );
+    TChr( ";" );
+    Tlxs( G:Date[ r ], 12 );
+    TChr( ";" );
+    Text( G:Who[ r ] );
+    if ( G:Start[ r ] neq G:Date[ r ] )
+	or ( G:Stop[ r ] neq 0 )
+     then begin "start date"
+	TChr( ";" );
+	Tlxs( G:Start[ r ], 12 );
+     end "start date";
+    if ( G:Stop[ r ] neq 0 )
+     then begin "stop date"
+	TChr( ";" );
+	Tlxs( G:Stop[ r ], 12 );
+     end "stop date";
+    Text( Crlf );
+
+    return( G:Nxt[ r ] );		! next pointer ;
+
+end "write grants";
+
+
+Procedure WriteFile( Boolean Reality );
+! ----------------------------------------------------------------------;
+!									;
+!	"WRITE"		Write out a copy of the in-core system list	;
+!			on the current user's directory.		;
+!									;
+! ----------------------------------------------------------------------;
+begin
+    r!p (O) r;
+
+    if not( FileModified )
+     then Print( "No changes made."& Crlf );
+    Print( "Writing..." );
+
+    if ( 0 > Chan_ VMFile( Filename, VM$Update ) )
+     then begin
+	Print(  "Enter failure for file (",!Rh(Chan),")"&
+		Crlf &"File not written."& Crlf );
+	Return
+     end;
+
+    r_ OHead;				! base record ;
+    C!t_ O:Remark[ r ];			! any initial comments? ;
+
+    while ( C!t )
+     do begin "initial comments"
+	Text( C:Line[ C!t ] );
+	Text( Crlf );
+	C!t_ C:Nxt[ C!t ];
+     end "initial comments";
+
+    while ( r_ O:Lnk[ r ] )		! as long as there is life ;
+     do begin "write loop"
+
+    !    Count_ Count + 1;		! Count records ;
+!    print( "-" );
+
+	Text( Crlf );		! all entries START, blank line ;
+	Text( O:Oper[ r ] );
+	TChr( ";" );	Tlxs( O:E!Date[ r ], 12 );
+	TChr( ";" );	Text( O:E!Who[ r ] );	Text( Crlf );
+
+	Tlxs( O:Employee[ r ], 6, 10, "0" );
+	TChr( ";" );	Tlxs( O:District[ r ], 4, 10 );
+	TChr( ";" );	Text( O:Manager[ r ] );	Text( Crlf );
+
+	Text( O:Name[ r ] );	Text( crlf );
+	Text( O:Phone[ r ] );	Text( crlf );
+	Text( O:User[ r ] );	Text( crlf );
+	Text( O:Mail[ r ] );	Text( crlf );
+
+	Tlxs( O:C!Date[ r ], 12 );
+	TChr( ";" );	Text( O:C!Who[ r ] );	Text( Crlf );
+
+	Tlxs( O:Password[ r ], 12 );
+	TChr( ";" );	Tlxs( O:P!Date[ r ], 12 );
+	TChr( ";" );	Text( O:P!Who[ r ] );	Text( Crlf );
+
+	if ( O:License[ r ] )
+	 then begin "a license"
+	    Text( "L;" );
+	    Tlxs( !lh( O:License[r] ), 6 );
+	    Tlxs( !rh( O:License[r] ), 7 );
+	    Text( Crlf );
+	 end "a license";
+
+	if ( R!t_ O:Gift[ r ] )
+	 then while ( R!t )
+	       do R!t_ WriteGrant( R!t, "R" );
+
+	if ( G!t_ O:Grant[ r ] )
+	 then while ( G!t )
+	       do G!t_ WriteGrant( G!t, "G" );
+
+	if ( C!t_ O:Remark[ r ] )
+	 then while ( C!t_ C:Nxt[ C!t ] )
+	       do begin "a comment"
+		    Text( C:Line[ C!t ] );
+		    Text( Crlf );
+		end "a comment";
+
+     end "write loop";
+
+    VMText( Chan, Liner[1 for MyLen] );
+    MyLen_ 0;
+    VMFree( Chan );
+    FileModified_ False;
+    Print( "Done."& Crlf );
+
+end;
+
+
+
+r!p (G) procedure printGrant( r!p (G) r; string Type("R") );
+begin "print grants"
+
+    print( Type,
+	  ";",  lpad( cvOS( !lh( G:Lic[ r ] ) ), 6 ),
+		lpad( cvOS( !rh( G:Lic[ r ] ) ), 7 ),
+	  ";",  TymDay( G:Date[ r ] ),
+	  ";",  G:Who[ r ],
+	  (if G:Start[ r ] neq G:Date[ r ]
+	      or G:Stop[ r ] neq 0
+	    then ";" & TymDay( G:Start[ r ] )
+	    else null),
+	  (if G:Stop[ r ] neq 0
+	    then ";" & TymDay( G:Stop[ r ] )
+	    else null),
+	  Crlf );
+
+    return( G:Nxt[ r ] );		! next pointer ;
+
+end "print grants";
+
+
+procedure printEntry( r!p (O) r );
+begin "print entry"
+
+	print(  Crlf,		! all entries START, blank line ;
+		O:Oper[ r ],
+		";", TymDay( O:E!Date[ r ] ),
+		";", O:E!Who[ r ], Crlf );
+
+	print(  O:Employee[ r ],
+		";", O:District[ r ],
+		";", O:Manager[ r ], Crlf );
+
+	print(  O:Name[ r ] , crlf );
+	print(  O:Phone[ r ], crlf );
+	print(  O:User[ r ] , crlf );
+	print(  O:Mail[ r ] , crlf );
+
+	print(  TymDay( O:C!Date[ r ] ),
+		";", O:C!Who[ r ], Crlf );
+
+	print(  cvOS( O:Password[ r ] ),
+		";", TymDay( O:P!Date[ r ] ),
+		";", O:P!Who[ r ], Crlf );
+
+	if ( O:License[ r ] )
+	 then print( "L;",
+			lpad( cvOS( !lh( O:License[r] ) ), 6 ),
+			lpad( cvOS( !rh( O:License[r] ) ), 7 ),
+			Crlf );
+
+	if ( R!t_ O:Gift[ r ] )
+	 then while ( R!t )
+	       do R!t_ PrintGrant( R!t, "R" );
+
+	if ( G!t_ O:Grant[ r ] )
+	 then while ( G!t )
+	       do G!t_ PrintGrant( G!t, "G" );
+
+	if ( C!t_ O:Remark[ r ] )
+	 then while ( C!t_ C:Nxt[ C!t ] )
+	       do print( C:Line[ C!t ], Crlf );
+
+end "print entry";
+
+
+procedure printTrace( r!p (O) r );
+begin "print trace"
+    r!p (O) t;
+
+	print(	O:Oper[ r ],
+		" ^:",
+		( if ( t_ O:Mgr[ r ] ) then O:Oper[ t ] else "-none-      " ),
+		" v:",
+		( if ( t_ O:Sub[ r ] ) then O:Oper[ t ] else "-none-      " ),
+		" <:",
+		( if ( t_ O:Bak[ r ] ) then O:Oper[ t ] else "-none-      " ),
+		" >:",
+		( if ( t_ O:Nxt[ r ] ) then O:Oper[ t ] else "-none-      " ),
+		Crlf );
+
+end "print trace";
+
+Simple Procedure ChangeList( Boolean Change );
+! ----------------------------------------------------------------------;
+!									;
+!	ChangeList	Perform common functions for the "CHANGE"	;
+!			and "LIST" commands.				;
+!									;
+! ----------------------------------------------------------------------;
+begin "Change-List"
+
+    FileModified_ true;
+
+end "Change-List";
+
+Simple Procedure C.Change;
+return;
+
+
+Procedure C.List;
+begin "list it"
+    r!p (O) r;
+
+    Level_ 0;				! assume level 0 ;
+    r_ O:Sub[ OList ];			! starting with pointer to self ;
+
+    if length( Str_ Token( Line ) )
+     then begin "find name"
+
+	Str_ (Str & spaces)[1 for 12];
+	while ( r )
+	 do begin "list one"
+	    if ( kequ( Str, O:Oper[ r ] ) )
+	     then done
+	     else r_ traverse( r );
+	    if ( Level leq 0 )
+	     then done;
+	 end "list one";
+
+	if ( r  and  ( Level > 0 ) )
+	 then printEntry( r )
+	 else print( "?OPRNNF Opername ",Str," not found"& crlf );
+
+     end "find name"
+     else begin "all names"
+
+	while ( r )
+	 do begin "list all"
+	    printEntry( r );
+	    r_ traverse( r );
+	    if ( Level leq 0 )
+	     then done;
+	 end "list all";
+
+     end "all names";
+
+    print( Crlf );
+
+end "list it";
+
+
+Procedure C.Trace;
+begin "list it"
+    r!p (O) r;
+
+    Level_ 0;				! assume level 0 ;
+    r_ O:Sub[ OList ];			! starting with pointer to self ;
+
+    if length( Str_ Token( Line ) )
+     then begin "find name"
+
+	Str_ (Str & spaces)[1 for 12];
+	while ( r )
+	 do begin "list one"
+	    if ( kequ( Str, O:Oper[ r ] ) )
+	     then done
+	     else r_ traverse( r );
+	    if ( Level leq 0 )
+	     then done;
+	 end "list one";
+
+	if ( r  and  ( Level > 0 ) )
+	 then printTrace( r )
+	 else print( "?OPRNNF Opername ",Str," not found"& crlf );
+
+     end "find name"
+     else begin "all names"
+
+	while ( r )
+	 do begin "list all"
+	    printTrace( r );
+	    r_ traverse( r );
+	    if ( Level leq 0 )
+	     then done;
+	 end "list all";
+
+     end "all names";
+
+    print( Crlf );
+
+end "list it";
+
+
+Simple Procedure C.Write;
+WriteFile( true );
+
+
+Simple Procedure C.Quit;
+Calli( 0, Calli!EXIT );
+
+
+Simple Procedure C.Help;
+begin
+    Print(  Crlf,  "License manager %",
+	    cvOS(!lh(memory['137])), ".",
+	    cvOS(!rh(memory['137])), Crlf,
+	    "Commands:", Crlf );
+    For Index_ 1 upto Len.Commands
+     do Print( "  ", CmdText[ Index ], Crlf );
+    Print( Crlf );
+end;
+
+
+Simple Procedure C.Toggle;
+FileModified_ not FileModified;
+
+
+Simple Procedure C.Exit;
+begin
+    Line_ System.File;
+
+    if ( FileModified )
+     then WriteFile( false );
+
+    C.Quit;
+end;
+
+Simple string procedure Perform!Command;
+! ----------------------------------------------------------------------;
+!									;
+!    Perform!Command	This is the CRUX of the main program.  This	;
+!			routine reads the user's command line an then	;
+!			dispatches to the proper routine to perform	;
+!			the specified command.  Initial data requests	;
+!			for each command are also read and verified	;
+!			by this routine before further processing is	;
+!			allowed.					;
+!									;
+! ----------------------------------------------------------------------;
+begin "perform command"
+    Integer Cmd, Cdx, C, P;
+
+    Line_ inchwl;				! Get a command;
+    If Length( Line ) = 0			! Ignore blank lines;
+     then Return( Null );
+    Command_ Token( Line );			! Get the first word;
+    If kequ(Command, "?") then Command_ "HELP";	! "?" means "HELP";
+    Cdx _ 0;
+    For Cmd _ 1 step 1 until Len.Commands
+     do If kequ( Command, CmdName[ Cmd ][1 for length(Command)] )
+	 then If Cdx neq 0
+		then Return( "Ambigious command." )
+		else Cdx _ Cmd;
+    If 0 < Cdx leq Len.Commands
+     then begin "setup command defaults"
+	Scan( Line, BrkWht, Brk );		! remove any whitespace;
+	If Line = "?"				! if first character is "?";
+	 then Return( CmdText[ Cdx ] );		! give an help message;
+	Command_ CmdName[ Cdx ];		! copy name for later;
+	Case Cdx-1 of begin All.Commands end;
+     end "setup command defaults"
+     else Return( "Invalid command" );
+    Return( Null );
+end;
+
+
+TTYUP( True );
+Print(  Crlf, "License manager %", Cvos(!lh(Memory['137])),
+	".",Cvos(!rh(Memory['137])), Crlf );
+
+VMValF_ false;				! try to speed up i/o ;
+C.Open;					! read in the data ;
+
+While TRUE
+ do begin
+    String More;
+    print( "SETOP> " );
+    print( More_ Perform!Command );
+    if length( More ) then print( Crlf );
+ end;
+
+
+
+end "SETOP SYSTEMS";
+    *@z
