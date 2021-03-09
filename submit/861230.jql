@@ -1,0 +1,238 @@
+00:00:34 S 30-Dec-86
+00:11:23 S -S- stream #1 Req #2657 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+00:11:26 P Stream #1 Req #2657 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+00:15:01 S -S- run #2 job 3 Req #2654  Running DSK:(MAIL)MAILER.SAV
+00:15:06 S -R- run #2 job 3 Done-End <0>
+00:15:19 P Stream #1 Req #2657 * completed *
+00:15:22 S -R- stream #1 Done-End <0>
+00:30:37 P Signing off.
+01:15:01 S -S- run #2 job 1 Req #2658  Running DSK:(MAIL)MAILER.SAV
+01:15:06 S -R- run #2 job 1 Done-End <0>
+01:17:52 S -S- stream #1 Req #2660 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+01:18:04 S Processor status JSU EXECX Setup in frame 1
+01:18:05 P Waiting for interlock
+01:18:06 P Got interlock
+01:18:06 P EXECX Job Processor %1(210) starting in frame 1
+01:18:07 S Starting job processor in frame 1
+01:18:07 P Stream #1 Req #2660 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+01:20:50 P Stream #1 Req #2660 * aborted - lost command port at line 2 *
+01:20:55 S -R- stream #1 Abort-Zap <0>
+01:36:09 P Signing off.
+01:40:01 S -S- run #2 job 1 Req #2655  Running DSK:(MAIL)ONTMTP.SAV
+01:41:10 S -R- run #2 job 1 Done-End <0>
+01:58:06 S -S- stream #1 Req #2662 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+01:58:18 S Processor status JSU EXECX Setup in frame 1
+01:58:18 P Waiting for interlock
+01:58:20 P Got interlock
+01:58:20 P EXECX Job Processor %1(211) starting in frame 1
+01:58:20 S Starting job processor in frame 1
+01:58:21 P Stream #1 Req #2662 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+02:00:42 S -S- stream #2 Req #2663 DSK:(CARL)TEST0.LOG=DSK:(CARL)TEST.CTL
+02:00:53 P Stream #2 Req #2663 DSK:(CARL)TEST0.LOG=DSK:(CARL)TEST.CTL
+02:02:14 P Stream #1 Req #2662 * completed *
+02:02:16 S -R- stream #1 Done-End <0>
+02:04:19 P Stream #2 Req #2663 * completed *
+02:04:20 S -R- stream #2 Done-End <0>
+02:15:01 S -S- run #2 job 3 Req #2659  Running DSK:(MAIL)MAILER.SAV
+02:15:09 S -R- run #2 job 3 Done-End <0>
+02:17:18 S -S- stream #1 Req #2665 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+02:17:22 P Stream #1 Req #2665 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+02:20:17 P Stream #1 Req #2665 * completed *
+02:20:22 S -R- stream #1 Done-End <0>
+02:36:13 P Signing off.
+03:00:37 S 30-Dec-86
+03:15:02 S -S- run #2 job 1 Req #2664  Running DSK:(MAIL)MAILER.SAV
+03:15:07 S -R- run #2 job 1 Done-End <0>
+03:40:03 S -S- run #2 job 1 Req #2661  Running DSK:(MAIL)ONTMTP.SAV
+03:41:02 S -R- run #2 job 1 Done-End <0>
+04:15:00 S -S- run #2 job 1 Req #2666  Running DSK:(MAIL)MAILER.SAV
+04:15:04 S -R- run #2 job 1 Done-End <0>
+06:15:03 S -S- run #2 job 3 Req #2669  Running DSK:(MAIL)MAILER.SAV
+ Req #2667  Running DSK:(MAIL)ONTMTP.SAV
+06:15:07 S -R- run #2 job 3 Done-End <0>
+06:19:00 S -S- stream #1 Req #2672 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+06:19:11 S Processor status JSU EXECX Setup in frame 3
+06:19:12 P Waiting for interlock
+06:19:14 P Got interlock
+06:19:14 P EXECX Job Processor %1(211) starting in frame 3
+06:19:14 S Starting job processor in frame 3
+06:19:15 P Stream #1 Req #2672 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+06:22:28 P Stream #1 Req #2672 * completed *
+06:22:29 S -R- stream #1 Done-End <0>
+06:38:38 P Signing off.
+06:46:17 S -S- stream #1 Req #2673 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+06:46:26 S Processor status PIO Page I/O Error in frame 3
+06:51:31 S Processor status TRE Transmission Error, Call AAMCO in frame 3
+06:55:51 P Waiting for interlock
+06:55:52 P Got interlock
+06:55:53 P EXECX Job Processor %1(211) starting in frame 1
+06:55:53 P Stream #1 Req #2673 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+06:55:54 S Starting job processor in frame 1
+06:55:54 S -S- stream #2 Req #2674 DSK:(CARL)LABEL.LOG=DSK:(CARL)LABEL.CTL
+06:55:55 P Stream #2 Req #2674 DSK:(CARL)LABEL.LOG=DSK:(CARL)LABEL.CTL
+06:56:46 P Stream #2 Req #2674 * completed *
+06:56:48 S -R- stream #2 Done-End <0>
+06:58:52 P Stream #1 Req #2673 * completed *
+06:58:54 S -R- stream #1 Done-End <0>
+07:14:07 P Signing off.
+07:15:04 S -S- run #2 job 3 Req #2671  Running DSK:(MAIL)MAILER.SAV
+07:15:08 S -R- run #2 job 3 Done-End <0>
+07:40:01 S -S- run #2 job 3 Req #2670  Running DSK:(MAIL)ONTMTP.SAV
+07:41:04 S -R- run #2 job 3 Done-End <0>
+08:13:03 S -S- stream #1 Req #2626 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+08:13:15 S Processor status JSU EXECX Setup in frame 3
+08:13:16 P Waiting for interlock
+08:13:18 P Got interlock
+08:13:18 P EXECX Job Processor %1(212) starting in frame 3
+08:13:18 S Starting job processor in frame 3
+08:13:19 P Stream #1 Req #2626 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+08:15:01 S -S- run #2 job 7 Req #2675  Running DSK:(MAIL)MAILER.SAV
+08:15:10 S -R- run #2 job 7 Done-End <0>
+08:18:56 P Stream #1 Req #2626 * completed *
+08:19:00 S -R- stream #1 Done-End <0>
+08:20:04 S -S- stream #1 Req #2627 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+08:20:04 P Stream #1 Req #2627 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+08:23:33 P Stream #1 Req #2627 * completed *
+08:23:33 S -R- stream #1 Done-End <0>
+08:30:27 S -S- stream #1 Req #2680 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+08:30:28 P Stream #1 Req #2680 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+08:31:11 P Stream #2 Req #2681 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+TL
+08:32:11 S -S- stream #3 Req #2682 DSK:(CARL)QUIT.LOG=DSK:(CARL)TEST.CTL
+08:32:49 P Stream #2 Req #2681 * completed *
+08:32:50 P Stream #3 Req #2682 DSK:(CARL)QUIT.LOG=DSK:(CARL)TEST.CTL
+08:32:51 P Stream #3 Req #2682 * completed - :STOP at line 2 *
+08:32:54 S -R- stream #2 Done-End <0>
+08:32:56 S -R- stream #3 Done-Stop <0>
+08:33:51 P Stream #1 Req #2680 * completed *
+08:33:52 S -R- stream #1 Done-End <0>
+08:48:55 P Signing off.
+09:00:32 S 30-Dec-86
+09:15:02 S -S- run #2 job 3 Req #2677  Running DSK:(MAIL)MAILER.SAV
+09:15:08 S -R- run #2 job 3 Done-End <0>
+09:40:04 S -S- run #2 job 3 Req #2676  Running DSK:(MAIL)ONTMTP.SAV
+09:41:07 S -R- run #2 job 3 Done-End <0>
+09:59:28 S -S- stream #1 Req #2685 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+09:59:38 S Processor status JSU EXECX Setup in frame 3
+09:59:39 P Waiting for interlock
+09:59:41 P Got interlock
+09:59:41 P EXECX Job Processor %1(214) starting in frame 3
+09:59:41 S Starting job processor in frame 3
+09:59:43 P Stream #1 Req #2685 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+09:59:43 P Stream #1 Req #2685 * completed - :STOP at line 35 *
+09:59:49 S -R- stream #1 Done-Stop <0>
+09:59:56 S -S- stream #1 Req #2686 DSK:(CARL)QUIT.LOG=DSK:(CARL)TEST.CTL
+10:00:01 P Stream #1 Req #2686 DSK:(CARL)QUIT.LOG=DSK:(CARL)TEST.CTL
+10:00:02 P Stream #1 Req #2686 * completed - :STOP at line 49 *
+10:00:09 S -R- stream #1 Done-Stop <0>
+10:00:09 S -S- stream #1 Req #2687 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+10:00:15 P Stream #1 Req #2687 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+10:03:27 P Stream #1 Req #2687 * completed *
+10:03:32 S -R- stream #1 Done-End <0>
+10:15:00 S -S- run #2 job 6 Req #2683  Running DSK:(MAIL)MAILER.SAV
+10:15:04 S -R- run #2 job 6 Done-End <0>
+10:18:37 S -S- stream #1 Req #2689 DSK:(CARL)F.LOG=DSK:(CARL)F.CTL
+10:18:39 P Stream #1 Req #2689 DSK:(CARL)F.LOG=DSK:(CARL)F.CTL
+10:18:42 P Stream #1 Req #2689 * completed - :STOP at line 13 *
+10:18:45 S -R- stream #1 Done-Stop <0>
+10:34:37 P Signing off.
+10:40:53 S -S- stream #1 Req #2690 DSK:(CARL)F.NEW=DSK:(CARL)F.CTL
+10:41:05 S Processor status JSU EXECX Setup in frame 3
+10:41:06 P Waiting for interlock
+10:41:07 P Got interlock
+10:41:07 P EXECX Job Processor %1(214) starting in frame 3
+10:41:08 S Starting job processor in frame 3
+10:41:08 P Stream #1 Req #2690 DSK:(CARL)F.NEW=DSK:(CARL)F.CTL
+10:41:11 P Stream #1 Req #2690 * completed - :STOP at line 13 *
+10:41:14 S -R- stream #1 Done-Stop <0>
+10:41:18 P Stream #1 Req #2691 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+TL
+10:41:18 P Stream #1 Req #2691 * completed - :STOP at line 35 *
+10:41:22 S -R- stream #1 Done-Stop <0>
+10:51:49 S -S- stream #1 Req #2692 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+10:51:53 P Stream #1 Req #2692 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+10:54:51 P Stream #1 Req #2692 * completed *
+10:54:55 S -R- stream #1 Done-End <0>
+11:10:53 P Signing off.
+11:15:04 S -S- run #2 job 1 Req #2688  Running DSK:(MAIL)MAILER.SAV
+11:15:08 S -R- run #2 job 1 Done-End <0>
+11:40:00 S -S- run #2 job 1 Req #2684  Running DSK:(MAIL)ONTMTP.SAV
+11:40:58 S -R- run #2 job 1 Done-End <0>
+12:00:31 S 30-Dec-86
+12:15:01 S -S- run #2 job 1 Req #2693  Running DSK:(MAIL)MAILER.SAV
+12:15:05 S -R- run #2 job 1 Done-End <0>
+13:15:02 S -S- run #2 job 1 Req #2695  Running DSK:(MAIL)MAILER.SAV
+13:15:06 S -R- run #2 job 1 Done-End <0>
+13:40:03 S -S- run #2 job 1 Req #2694  Running DSK:(MAIL)ONTMTP.SAV
+13:41:01 S -R- run #2 job 1 Done-End <0>
+14:15:00 S -S- run #2 job 1 Req #2696  Running DSK:(MAIL)MAILER.SAV
+14:15:04 S -R- run #2 job 1 Done-End <0>
+15:00:36 S 30-Dec-86
+15:15:01 S -S- run #2 job 1 Req #2698  Running DSK:(MAIL)MAILER.SAV
+15:15:05 S -R- run #2 job 1 Done-End <0>
+15:40:03 S -S- run #2 job 1 Req #2697  Running DSK:(MAIL)ONTMTP.SAV
+15:41:03 S -R- run #2 job 1 Done-End <0>
+16:15:00 S -S- run #2 job 1 Req #2699  Running DSK:(MAIL)MAILER.SAV
+16:15:04 S -R- run #2 job 1 Done-End <0>
+17:15:00 S -S- run #2 job 3 Req #2701  Running DSK:(MAIL)MAILER.SAV
+17:15:05 S -R- run #2 job 3 Done-End <0>
+17:40:04 S -S- run #2 job 3 2700  Running DSK:(MAIL)ONTMTP.SAV
+17:41:17 S -R- run #2 job 3 Done-End <0>
+17:53:10 S -S- stream #1 Req #2704 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.LOG
+17:53:22 S Processor status JSU EXECX Setup in frame 3
+17:53:23 P Waiting for interlock
+17:53:24 P Got interlock
+17:53:24 P EXECX Job Processor %1(215) starting in frame 3
+17:53:25 S Starting job processor in frame 3
+17:53:27 P Stream #1 JobExit: 5,11
+17:53:31 S -R- stream #1 Abort-Error <0>
+17:57:09 S -S- stream #1 Req #2705 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+17:57:15 P Stream #1 Req #2705 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+17:57:15 P Stream #1 Req #2705 * completed - :STOP at line 35 *
+17:57:19 S -R- stream #1 Done-Stop <0>
+18:00:34 S 30-Dec-86
+18:12:37 P Signing off.
+18:15:02 S -S- run #2 job 3 Req #2702  Running DSK:(MAIL)MAILER.SAV
+18:15:07 S -R- run #2 job 3 Done-End <0>
+18:40:02 S -S- stream #1 Req #2707 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+18:40:19 P Stream #1 Req #2707 * completed - :STOP at line 35 *
+1 Req #2707 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+18:40:22 S -R- stream #1 Done-Stop <0>
+18:56:18 P Signing off.
+19:15:02 S -S- run #2 job 3 Req #2706  Running DSK:(MAIL)MAILER.SAV
+19:15:06 S -R- run #2 job 3 Done-End <0>
+19:40:03 S -S- run #2 job 3 Req #2703  Running DSK:(MAIL)ONTMTP.SAV
+19:41:03 S -R- run #2 job 3 Done-End <0>
+20:11:43 S -S- stream #1 Req #2710 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+20:11:55 S Processor status JSU EXECX Setup in frame 3
+20:11:56 P Waiting for interlock
+20:11:57 P Got interlock
+20:11:57 P EXECX Job Processor %1(216) starting in frame 3
+20:11:57 S Starting job processor in frame 3
+20:11:58 P Stream #1 Req #2710 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+20:12:14 S -S- stream #2 Req #2711 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+20:12:15 P Stream #2 Req #2711 DSK:(CARL)STOP.LOG=DSK:(CARL)TEST.CTL
+20:12:16 P Stream #2 Req #2711 * completed - :STOP at line 35 *
+20:12:19 S -R- stream #2 Done-Stop <0>
+20:12:51 S -S- stream #2 Req #2712 DSK:(CARL)QUIT.LOG=DSK:(CARL)TEST.CTL
+20:12:53 P Stream #2 Req #2712 DSK:(CARL)QUIT.LOG=DSK:(CARL)TEST.CTL
+20:12:55 P Stream #2 Req #2712 * completed - :STOP at line 49 *
+20:12:57 S -R- stream #2 Done-Stop <0>
+20:15:02 S -S- run #2 job 6 Req #2708  Running DSK:(MAIL)MAILER.SAV
+20:15:07 S -R- run #2 job 6 Done-End <0>
+20:15:17 P Stream #1 Req #2710 * completed *
+20:15:20 S -R- stream #1 Done-End <0>
+20:31:29 P Signing off.
+21:00:11 S 30-Dec-86
+21:15:02 S -S- run #2 job 3 Req #2713  Running DSK:(MAIL)MAILER.SAV
+21:15:07 S -R- run #2 job 3 Done-End <0>
+21:40:03 S -S- run #2 job 3 Req #2709  Running DSK:(MAIL)ONTMTP.SAV
+21:41:03 S -R- run #2 job 3 Done-End <0>
+22:15:04 S -S- run #2 job 3 Req #2714  Running DSK:(MAIL)MAILER.SAV
+22:15:08 S -R- run #2 job 3 Done-End <0>
+23:15:00 S -S- run #2 job 3 Req #2716  Running DSK:(MAIL)MAILER.SAV
+23:15:04 S -R- run #2 job 3 Done-End <0>
+23:40:01 S -S- run #2 job 3 Req #2715  Running DSK:(MAIL)ONTMTP.SAV
+23:41:05 S -R- run #2 job 3 Done-End <0>
+00:00:18 S 31-Dec-86
+?k¦
