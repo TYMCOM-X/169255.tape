@@ -1,0 +1,224 @@
+05:30:31 S ** 19-Dec-86 XEXEC %1(210) in frame 4 ** user OPER **
+05:30:31 S run #1 job 1 is lost.
+05:30:32 S -S- run #1 job 3 Req #2027  Running DSK:(PJ)PAM.HGH
+05:30:33 S -S- run #2 job 6 Req #2282  Running DSK:(MAIL)MAILER.SAV
+05:30:40 S -R- run #2 job 6 Done-End <0>
+05:30:41 S -S- run #2 job 6 Req #2281  Running DSK:(MAIL)ONTMTP.SAV
+05:31:34 S 19-Dec-86
+05:31:48 S -R- run #2 job 6 Done-End <0>
+05:40:00 S -S- run #2 job 6 Req #2284  Running DSK:(MAIL)ONTMTP.SAV
+05:41:15 S -R- run #2 job 6 Done-End <0>
+06:00:47 S 19-Dec-86
+06:15:02 S -S- run #2 job 6 Req #2283  Running DSK:(MAIL)MAILER.SAV
+06:15:08 S -R- run #2 job 6 Done-End <0>
+07:15:02 S -S- run #2 job 6 Req #2286  Running DSK:(MAIL)MAILER.SAV
+07:15:07 S -R- run #2 job 6 Done-End <0>
+07:37:38 S -S- stream #1 Req #2288 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+07:37:49 P Waiting for interlock
+07:42:54 P Processor Interlock Busy (10)
+08:01:28 S Processor status PCO PC Out of Bounds in frame 0
+08:06:41 P Waiting for interlock
+08:11:45 P Processor Interlock Busy (10)
+08:14:01 S Processor status PCO PC Out of Bounds in frame 0
+08:16:11 P Waiting for interlock
+08:16:13 P Got interlock
+08:16:13 P EXECX Job Processor %1(203) starting in frame 6
+08:16:13 S Starting job processor in frame 6
+08:16:14 P Stream #1 Req #2288 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+08:16:15 S -S- run #2 job 8 Req #2287  Running DSK:(MAIL)MAILER.SAV
+08:16:25 S ** 19-Dec-86 XEXEC %1(211) in frame 4 ** user OPER **
+08:16:26 S run #1 job 3 grafted.
+08:16:27 S -S- run #1 job 3 Req #2027  Running DSK:(PJ)PAM.HGH
+08:16:27 S run #2 job 8 grafted.
+08:16:28 S -S- run #2 job 8 Req #2287  Running DSK:(MAIL)MAILER.SAV
+08:16:29 S Job processor already in frame 6
+08:16:30 S -R- run #2 job 8 Done-End <0>
+08:16:31 S -S- stream #2 Req #2288 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+08:16:35 P Stream #2 file enter error (104) DSK:(CARL)TEST.CTL
+08:16:36 P Stream #2 JobExit: 5,5
+08:16:40 S -R- stream #2 Abort-Enter <0>
+08:16:42 S -S- run #2 job 9 Req #2285  Running DSK:(MAIL)ONTMTP.SAV
+08:16:51 S -S- stream #2 Req #2268 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+08:16:55 P Stream #2 Req #2268 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+08:16:57 S -S- stream #3 Req #2270 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+08:17:01 P Stream #3 Req #2270 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+08:17:25 P Stream #1 Req #2288 * completed *
+08:17:28 S -R- stream #1 Done-End <0>
+08:17:35 S 19-Dec-86
+08:17:47 P Stream #2 Req #2268 * aborted - lost command port at line 8 *
+08:22:22 S -R- stream #3 Done-End <0>
+ted *
+08:37:22 P Signing off.
+08:59:25 S -S- stream #1 Req #2292 DSK:(CARL)DAYTIM.LOG=DSK:(CARL)DAYTIM.CTL
+08:59:37 S Processor status JSU EXECX Setup in frame 6
+08:59:38 P Waiting for interlock
+08:59:39 P Got interlock
+08:59:39 P EXECX Job Processor %1(203) starting in frame 6
+08:59:40 S Starting job processor in frame 6
+08:59:40 P Stream #1 Req #2292 DSK:(CARL)DAYTIM.LOG=DSK:(CARL)DAYTIM.CTL
+08:59:41 S -S- stream #2 Req #2293 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+08:59:41 P Stream #1 Req #2292 * aborted - :ERROR in job at line 1 *
+08:59:43 P Stream #2 Req #2293 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+08:59:44 P ** invalid stream #1 **
+08:59:49 S -R- stream #1 Done-Error <0>
+08:59:50 P ** invalid stream #1 **
+08:59:56 P ** invalid stream #1 **
+09:00:02 P ** invalid stream #1 **
+09:00:07 P ** invalid stream #1 **
+09:00:12 P ** invalid stream #1 **
+09:00:17 P ** invalid stream #1 **
+09:00:24 P ** invalid stream #1 **
+09:00:29 P ** invalid stream #1 **
+09:00:35 P ** invalid stream #1 **
+09:00:40 P ** invalid stream #1 **
+09:00:41 S 19-Dec-86
+09:00:47 P ** invalid stream #1 **
+09:00:52 P ** invalid stream #1 **
+09:00:58 P ** invalid stream #1 **
+09:01:03 P ** invalid stream #1 **
+09:01:09 P ** invalid stream #1 **
+09:01:14 P ** invalid stream #1 **
+09:01:19 P ** invalid stream #1 **
+09:01:25 P ** invalid stream #1 **
+09:01:30 P ** invalid stream #1 **
+09:01:35 P ** invalid stream #1 **
+09:01:40 P ** invalid stream #1 **
+09:01:45 P ** invalid stream #1 **
+09:01:50 P ** invalid stream #1 **
+09:01:56 P ** invalid stream #1 **
+09:02:01 P ** invalid stream #1 **
+09:02:06 P ** invalid stream #1 **
+09:02:11 P ** invalid stream #1 **
+09:02:17 P ** invalid stream #1 **
+09:02:22 P ** invalid stream #1 **
+09:02:27 P ** invalid stream #1 **
+09:02:33 P ** invalid stream #1 **
+09:02:40 P ** invalid stream #1 **
+09:02:47 P ** invalid stream #1 **
+09:02:52 P ** invalid stream #1 **
+09:02:58 P ** invalid stream #1 **
+09:03:04 P ** invalid stream #1 **
+09:03:09 P ** invalid stream #1 **
+09:03:14 P ** invalid stream #1 **
+09:03:20 P ** invalid stream #1 **
+09:03:25 P ** invalid stream #1 **
+09:03:31 P ** invalid stream #1 **
+09:03:37 P ** invalid stream #1 **
+09:03:42 P ** invalid stream #1 **
+09:03:46 P ** invalid stream #1 **
+09:03:51 P ** invalid stream #1 **
+09:03:56 P ** invalid stream #1 **
+09:04:02 P ** invalid stream #1 **
+09:04:07 P ** invalid stream #1 **
+09:04:13 P ** invalid stream #1 **
+09:04:18 P ** invalid stream #1 **
+09:15:08 S -R- run #2 job 7 Done-End <0>
+ning DSK:(MAIL)MAILER.SAV
+09:15:09 P ** invalid stream #1 **
+09:15:14 P ** invalid stream #1 **
+09:15:21 P ** invalid stream #1 **
+09:15:31 P ** invalid stream #1 **
+09:15:40 P ** invalid stream #1 **
+09:15:45 P ** invalid stream #1 **
+09:15:51 P ** invalid stream #1 **
+09:15:56 P ** invalid stream #1 **
+09:15:57 P ** invalid stream #1 **
+09:16:02 P ** invalid stream #1 **
+09:16:12 P ** invalid stream #1 **
+09:16:17 P ** invalid stream #1 **
+09:16:23 P ** invalid stream #1 **
+09:16:28 P ** invalid stream #1 **
+09:16:33 P ** invalid stream #1 **
+09:16:38 P ** invalid stream #1 **
+09:16:44 P ** invalid stream #1 **
+09:16:49 P ** invalid stream #1 **
+09:16:54 P ** invalid stream #1 **
+09:16:59 P ** invalid stream #1 **
+09:17:01 P ** invalid stream #1 **
+09:17:06 P ** invalid stream #1 **
+09:17:12 P ** invalid stream #1 **
+09:17:17 P ** invalid stream #1 **
+09:17:17 P Stream #2 Req #2293 * aborted - lost command port at line 0 *
+09:17:20 S -R- stream #2 Abort-Zap <0>
+09:23:58 S -S- stream #1 Req #2295 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+09:24:02 P ** invalid stream #1 **
+09:24:03 P Stream #1 Req #2295 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+09:25:01 P Stream #1 Req #2295 * aborted - :ERROR in job at line 36 *
+09:25:02 S -R- stream #1 Done-Error <0>
+09:25:44 S -S- stream #1 Req #2297 DSK:(CARL)DAYTIM.LOG=DSK:(CARL)DAYTIM.CTL
+09:25:47 P Stream #1 Req #2297 DSK:(CARL)DAYTIM.LOG=DSK:(CARL)DAYTIM.CTL
+09:25:47 P Stream #1 Req #2297 * aborted - :ERROR in job at line 37 *
+09:25:52 S -R- stream #1 Done-Error <0>
+09:25:59 S -S- stream #1 Req #2298 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+09:26:00 P Stream #1 Req #2298 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+09:26:01 P Stream #1 Req #2298 * aborted - :ERROR in job at line 39 *
+09:26:09 S -R- stream #1 Done-Error <0>
+09:27:59 P Signing off.
+09:30:35 S 19-Dec-86 Signing off.
+09:34:33 S ** 19-Dec-86 XEXEC %1(211) in frame 3 ** user OPER **
+09:34:33 S -S- run #1 job 4 Req #2027  Running DSK:(PJ)PAM.HGH
+09:35:14 S -S- stream #1 Req #2299 DSK:(CARL)DAYTIM.LOG=DSK:(CARL)DAYTIM.CTL
+09:35:26 S Processor status JSU EXECX Setup in frame 6
+09:35:27 P Waiting for interlock
+09:35:28 P Got interlock
+09:35:29 P EXECX Job Processor %1(203) starting in frame 6
+09:35:29 S Starting job processor in frame 6
+09:35:30 P Stream #1 Req #2299 DSK:(CARL)DAYTIM.LOG=DSK:(CARL)DAYTIM.CTL
+09:35:57 P Stream #1 Req #2299 * completed *
+09:36:02 S -R- stream #1 Done-End <0>
+09:36:19 S -S- stream #1 Req #2300 DSK:(CARL)TEST.LOG=DSK:(CARL)TEST.CTL
+09:36:28 P Stream #2 Req #2301 DSK:(CARL)PARAM.LOG=DSK:(CARL)PARAM.CTL
+TL
+09:36:30 S 19-Dec-86
+09:37:01 P Stream #1 Req #2300 * completed *
+09:37:04 S -R- stream #1 Done-End <0>
+09:40:02 S -S- run #2 job 7 Req #2290  Running DSK:(MAIL)ONTMTP.SAV
+09:41:18 S -R- run #2 job 7 Done-End <0>
+10:15:04 S -S- run #2 job 1 Req #2294  Running DSK:(MAIL)MAILER.SAV
+10:15:09 S -R- run #2 job 1 Done-End <0>
+10:36:41 P Stream #2 Req #2301 * aborted - time limit exceeded at line 30 *
+10:36:45 S -R- stream #2 Abort-Time <0>
+10:52:41 P Signing off.
+11:15:01 S -S- run #2 job 1 Req #2303  Running DSK:(MAIL)MAILER.SAV
+11:15:05 S -R- run #2 job 1 Done-End <0>
+11:40:02 S -S- run #2 job 1 Req #2302  Running DSK:(MAIL)ONTMTP.SAV
+11:41:16 S -R- run #2 job 1 Done-End <0>
+12:00:43 S 19-Dec-86
+12:15:04 S -S- run #2 job 1 Req #2304  Running DSK:(MAIL)MAILER.SAV
+12:15:08 S -R- run #2 job 1 Done-End <0>
+13:15:05 S -S- run #2 job 1 Req #2306  Running DSK:(MAIL)MAILER.SAV
+13:15:09 S -R- run #2 job 1 Done-End <0>
+13:40:03 S -S- run #2 job 1 Req #2305  Running DSK:(MAIL)ONTMTP.SAV
+13:41:20 S -R- run #2 job 1 Done-End <0>
+14:15:03 S -S- run #2 job 1 Req #2307  Running DSK:(MAIL)MAILER.SAV
+14:15:07 S -R- run #2 job 1 Done-End <0>
+15:00:49 S 19-Dec-86
+15:15:05 S -S- run #2 job 1 Req #2309  Running DSK:(MAIL)MAILER.SAV
+15:15:09 S -R- run #2 job 1 Done-End <0>
+15:40:01 S -S- run #2 job 1 Req #2308  Running DSK:(MAIL)ONTMTP.SAV
+15:41:25 S -R- run #2 job 1 Done-End <0>
+16:15:05 S -S- run #2 job 6 Req #2310  Running DSK:(MAIL)MAILER.SAV
+16:15:10 S -R- run #2 job 6 Done-E>
+17:15:04 S -S- run #2 job 7 Req #2312  Running DSK:(MAIL)MAILER.SAV
+17:15:09 S -R- run #2 job 7 Done-End <0>
+17:40:05 S -S- run #2 job 7 Req #2311  Running DSK:(MAIL)ONTMTP.SAV
+17:41:27 S -R- run #2 job 7 Done-End <0>
+18:00:02 S 19-Dec-86
+18:15:03 S -S- run #2 job 7 Req #2313  Running DSK:(MAIL)MAILER.SAV
+18:15:08 S -R- run #2 job 7 Done-End <0>
+19:15:04 S -S- run #2 job 7 Req #2315  Running DSK:(MAIL)MAILER.SAV
+19:15:09 S -R- run #2 job 7 Done-End <0>
+19:40:05 S -S- run #2 job 7 Req #2314  Running DSK:(MAIL)ONTMTP.SAV
+19:40:11 S -R- run #2 job 7 Done-End <0>
+20:15:03 S -S- run #2 job 7 Req #2316  Running DSK:(MAIL)MAILER.SAV
+20:15:07 S -R- run #2 job 7 Done-End <0>
+21:00:03 S 19-Dec-86
+21:15:05 S -S- run #2 job 7 Req #2318  Running DSK:(MAIL)MAILER.SAV
+21:15:10 S -R- run #2 job 7 Done-End <0>
+21:40:04 S -S- run #2 job 8 Req #2317  Running DSK:(MAIL)ONTMTP.SAV
+21:40:09 S -R- run #2 job 8 Done-End <0>
+23:40:05 S -S- run #2 job 7 Req #2320  Running DSK:(MAIL)ONTMTP.SAV
+ Req #2321  Running DSK:(MAIL)MAILER.SAV
+23:40:09 S -R- run #2 job 7 Done-End <0>
+00:00:51 S 20-Dec-86
+7z?C
