@@ -1,0 +1,281 @@
+}i
+begin "HALT"
+
+require "(SAILIB)SAIL.DEF" source!file;
+require "(SAILIB)UUOSYM.DEF" source!file;
+require "(SAILIB)ATFILE.REQ" source!file;
+require "(SAILIB)CVPPN.REQ"  source!file;
+require "(SAILIB)FNDKEY.REQ" source!file;
+require "ARGS.REQ" source!file;
+
+Define Printx(x) = { print( cvps(x)&" (",props(x),")  ",datum(x),crlf ) };
+Define Gettab(x,y) = { calli( !xwd( (x),(y) ), calli!GETTAB ) };
+
+
+String  Line, Spec, Text;
+String State!Codes;			! string of state codes ;
+Integer Inbrk, InLst, Brk;		! various break table stuff ;
+Integer CIndex;				! cmd index ;
+Boolean Interactive;			! determine how run ;
+
+Preset!with "HSB", "HALT";		! same basic principle ;
+Safe String Array LegalCommands[ 1:2 ];	!  for both commands. ;
+
+Preset!with '17, cvsix("DSK"), 0;	! open block for DSK: ;
+Safe Integer Array DSK[ 0:2 ];
+
+string item InputList;			! list of input files ;
+
+item Systat;				! controls "sticky" username ;
+item All;				! controls sorting order ;
+
+
+internal simple procedure
+  FrmXct(Integer Frame; Reference Integer Arg; Integer Funct);
+! ----------------------------------------------------------------------;
+!									;
+!	FrmXct		Routine to execute a frame operation.		;
+!			Results are returned in ac 1 and !skip!		;
+!									;
+! ----------------------------------------------------------------------;
+begin!code
+
+	Hrrz	1,Frame;		! Get frame number from array ;
+	Hrl	1,Funct;		! Get function ;
+	Movei	2,Arg;			! Get argument address ;
+	Setom	!skip!;			! Set skip return ;
+	uuo!FRMOP  1,(2);		! Do the work ;
+	  Setzm	!skip!;			! OOPS! too bad ;
+end;
+
+
+simple procedure InitStates;
+begin "init states"
+    integer I,V;
+
+    State!Codes_ Null;
+    I_ -1;
+    while ( true )
+     do begin "get state codes"
+	V_ Gettab( I_ I + 1, !gtWSC );
+	if not( !skip! )
+	 then done
+	 else State!Codes_ State!Codes & CvXstr( V );
+     end "get state codes";
+
+end "init states";
+require InitStates initialization;
+
+
+simple procedure DoSystat( integer Job );
+begin "do systat"
+    string S;
+    integer JobLOG, JobCore, JobStatus, JobPriv, JobAUN, JobGFD, JobTRU;
+    integer JobTTY, JobIdle;
+
+    JobStatus_ Gettab( Job, !gtSTS );
+    if ( not ( JobStatus land !bit(3) ))	! jna = 0 ? ;
+     then return;
+
+    JobAUN_ Gettab( Job, !gtAUN );
+    JobCore_ Gettab( Job, !gtSWP ) land '777;
+    JobIdle_ !rh( Gettab( Job, -'55 ) );
+    JobGFD_  Gettab( Job, !gtPPN );
+    JobTRU_  Gettab( Job, !gtTR1 ) div 100;
+    JobPriv_ Gettab( Job, !gtPRV );
+    JobTTY_  Gettab( Job, !gtLIN );
+
+    print(  (If ( JobTTY = Cvsix( "   TTY" ) )
+		then "detached        "
+		else (If !lh(JobTTY) then "#" else "d")
+			& cvxstr( JobTTY lsh 18 )[1 for 4]
+	    ),
+	    cvxstr( Gettab( Job, !gtNAM ) ), "  ",
+	    ( "   "&cvs(Gettab(Job,!gtSWP)) )[inf-2 to inf], "  ",
+	    (if ( ( ((JobStatus lsh -21) land '37) = 0 )  and
+		 not ( JobStatus land !bit(0) ) )
+	      then "^C"
+	      else State!Codes[(((JobStatus lsh -21) land '37)*2+1) for 2]
+	    ),
+	    (if (JobStatus land !bit(23)) then " ?" else "  " ),
+	    ( "       "&cvs( JobTRU div 100 ) )[inf-6 to inf], ".",
+		 ( "0"&cvs( JobTRU mod 100 ) )[inf-1 to inf], "  ",
+	    cv6str( Gettab( Job,!gtUNM ) ), cv6str( Gettab( Job,!gtUN1 ) ),
+	    (if ( JobAUN neq JobGFD )
+	      then " (" & cv6str( Gettab(Job,'31) ) &
+		   cv6str( Gettab(Job,'32) ) & ")"
+	      else null),
+	    " ",
+	    (if ( JobPriv land (!Bit(8)+!Bit(23))) then "*" else null),
+	    (if ( JobPriv land !bit(21)) then "+" else null),
+	    (if ( JobPriv land !bit(18)) then "$" else null),
+
+	    (if ( JobStatus land !bit(17) ) then " JL" else null),
+	    (if ( JobStatus land !bit(20) ) then " J2" else null),
+	    (if ( JobStatus land !bit(29) ) then " KJ" else null),
+
+	    (if ( JobPriv land !bit(26) ) then " RM" else null),
+	    (if ( JobPriv land !bit(10) ) then " SM" else null),
+	    (if ( JobPriv land !bit( 9) ) then " IN" else null),
+	    "  "
+	);
+
+end "do systat";
+
+
+simple string procedure HaltStatus( Integer Status );
+begin "halt status"
+    Integer Class,Type;
+
+    Class_ !lh( Status );
+    Type_  !rh( Status );
+
+    return( case Class of (
+	[0] case Type of (
+	    [0] "PCO PC Out of Bounds",
+	    [1] "IMR Illegal Memory Reference",
+	    [2] "WRV Write Violation",
+	    [3] "ADC Address Check for Device",
+	    [4] "IMU Illegal Memory reference in UUO",
+	    [5] "IIA Illegal Interrupt Address",
+	    [6] "ABK Address Break",
+	    [7] "POV PDL Overflow"
+	    ),
+	[1] case Type of (
+	    [0] "PIO Page I/O Error",
+	    [1] "DFL Disk Full during copy of C-O-W page",
+	    [2] "PHE Paging Hardware Error",
+	    [3] "TPL Too many Pages Locked",
+	    [4] "CIO Context Page I/O Error",
+	    [5] "PAR Parity Error(s), all core removed",
+	    [6] "MED Monitor Error Detected"
+	    ),
+	[2] case Type of (
+	    [0] "OCI Output device Cannot do Input",
+	    [1] "ICO Input device Cannot do Output",
+	    [2] "IDM Illegal Data Mode for Device",
+	    [3] "IUC I/O to Unassigned Channel",
+	    [4] "HDV Hung Device",
+	    [5] "DOP Device OPR action requested"
+	    ),
+	[3] case Type of (
+	    [0] "ILU Illegal UUO",
+	    [1] "UUE UUO Error",
+	    [2] "ILI Illegal Instruction",
+	    [3] "HLT Halt"
+	    ),
+	[4] case Type of (
+	    [0] "EXI Exit",
+	    [1] "EX1 Exit 1",
+	    [2] "FEX Fail Exit",
+	    [3] "TLE Time Limit Exceeded",
+	    [4] "JSU -file- Setup",
+	    [5] "JSV -file- Saved",
+	    [6] "FCL Frame Cleared"
+	    ),
+	[5] case Type of (
+	    [0] "TRE Transmission Error, Call AAMCO",
+	    [1] "PGN N Pages Required, not enough memory",
+	    [2] "DNA Device Not Available",
+	    [3] "FNF -file- Not Found",
+	    [4] "NSF Not a Save File",
+	    [5] "EUF -file- Attempted Enter UUO Failed",
+	    [6] "CAN Core Argument Not Specified",
+	    [7] "MHB Magnetic Highseg Format Bad",
+	    [8] "RMF ReMap UUO Fatal Error",
+	    [9] "MGF Magtape GET Failure",
+	    [10]"NSA No Start Address"
+	    )
+	)
+    );
+
+end "halt status";
+
+
+simple procedure EachEntry;
+begin "each entry"
+    own safe integer array HSB[0:7];
+    integer Frame, Frames;
+
+    Frames_ Frame_ cvd( Spec );
+    if ( Frames = 0 )
+     then Frames_ Gettab( !cnNJB,!gtCNF );
+
+    for Frame_ Frame upto Frames
+     do begin "each frame"
+
+	HSB[ 0 ]_ 7;			! full data requested ;
+	FrmXct( Frame, HSB[ 0 ], !foHST );
+	if ( !skip! )
+	 then begin "valid halt"	!  or so it seems ;
+
+	    print( ("    "&cvs( Frame ))[inf-3 to inf], "  " );
+
+	    if ( props( Systat ) )
+	     then DoSystat( Frame );
+
+	    print( "?", HaltStatus( HSB[1] ), crlf );
+
+	 end "valid halt";
+
+     end "each frame";
+
+end "each entry";
+
+!	***  M A I N   P R O G R A M   L O O P  ***
+;
+
+setbreak(inbrk_getbreak,#LF&#FF,null,"INS");	! break on LF FF;
+setbreak(inlst_getbreak,", "," "&#HT,"KTINS");	! break on comma;
+
+if not( 0 < CIndex_ FndKey( ArgV[0], LegalCommands ) )
+ then Usererr( 0,0, "Illegal command: "&ArgV[0], "X" );
+
+ArgParse( any, InputList, {Systat,All}, ARGS );
+
+Interactive_ true;			! default to interactive mode ;
+
+while ( true )
+ do begin "!TRUE!"
+
+    if ( props(InputList) )		! if something specified ;
+     then begin "command line"		!  then ;
+	Interactive_ false;		!   become non-interactive ;
+	Line_ datum(InputList);		!   and simulate input line ;
+     end "command line";
+
+    If ( Interactive )			! non command line data ;
+     then begin "real session"
+	Print( "Frame(s): " );		! prompt for an input line ;
+	Line_ AtFile( True );		! then read it. ;
+	If Length( Line ) = 0		! on a blank line from user ;
+	 then Calli(0,Calli!EXIT);	!  simply terminate session ;
+     end "real session";
+
+    While Length( Line )		! for each spec typed ;
+     do begin "line typed"
+	Spec_ Scan( Line, inlst, brk );	! gobble one file-spec ;
+	If Length( Spec )		! if it has substance ;
+	 then begin "entry typed"
+
+	    Case ( CIndex - 1 ) of
+	    begin
+	      [0] EachEntry;		! oh no, do it to it ;
+	      [1] EachEntry;		! consider it done ;
+	      [else] usererr( 0,0, "Bad command", "C" )
+	    end;
+
+	 end "entry typed"
+     end "line typed";
+
+    if not( Interactive )		! if we were a command line ;
+     then calli(0,calli!EXIT);		!  then we are done. ;
+
+    Interactive_ true;			! in case user says continue ;
+
+ end "!TRUE!";
+
+start!code uuo!EXIT 0, end;		! really exit! ;
+
+end "HALT" $
+    
