@@ -1,0 +1,313 @@
+00:00:16 P Waiting for interlock
+00:00:17 P Got interlock
+00:00:17 P EXECX Job Processor %1(225) starting in frame 7
+00:00:18 P Stream #1 Req #10700 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+00:01:18 S 31-Jul-87
+00:04:40 P Stream #1 Req #10700 * completed *
+00:04:44 S -R- stream #1 Done-End <0>
+00:15:05 S -S- run #2 job 6 Req #10701  Running DSK:(MAIL)MAILER.SAV
+00:15:08 S -R- run #2 job 6 Done-End <0>
+00:20:22 P Signing off.
+01:00:01 S -S- stream #1 Req #10702 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+01:00:13 S Processor status JSU EXECX Setup in frame 5
+01:00:14 P Waiting for interlock
+01:00:16 P Got interlock
+01:00:16 P EXECX Job Processor %1(225) starting in frame 5
+01:00:16 S Starting job processor in frame 5
+01:00:17 P Stream #1 Req #10702 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+01:05:06 P Stream #1 Req #10702 * completed *
+01:05:09 S -R- stream #1 Done-End <0>
+01:15:01 S -S- run #2 job 6 Req #10703  Running DSK:(MAIL)MAILER.SAV
+01:15:15 S -R- run #2 job 6 Done-End <0>
+01:20:21 P Signing off.
+02:00:02 S -S- stream #1 Req #10704 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+02:00:14 S Processor status JSU EXECX Setup in frame 5
+02:00:14 P Waiting for interlock
+02:00:16 P Got interlock
+02:00:16 P EXECX Job Processor %1(225) starting in frame 5
+02:00:16 P Stream #1 Req #10704 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+02:00:17 S Starting job processor in frame 5
+02:04:38 P Stream #1 Req #10704 * completed *
+02:04:41 S -R- stream #1 Done-End <0>
+02:15:01 S -S- run #2 job 6 Req #10705  Running DSK:(MAIL)MAILER.SAV
+02:15:06 S -R- run #2 job 6 Done-End <0>
+02:20:16 P Signing off.
+03:00:02 S -S- stream #1 Req #10706 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+03:00:14 S Processor status JSU EXECX Setup in frame 3
+03:00:14 P Waiting for interlock
+03:00:16 P Got interlock
+03:00:16 P EXECX Job Processor %1(225) starting in frame 3
+03:00:16 P Stream #1 Req #10706 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+03:00:17 S Starting job processor in frame 3
+03:01:16 S 31-Jul-87
+03:04:31 S -R- stream #1 Done-End <0>
+03:04:31 P Stream #1 Req #10706 * completed *
+03:15:01 S -S- run #2 job 5 Req #10707  Running DSK:(MAIL)MAILER.SAV
+03:15:06 S -R- run #2 job 5 Done-End <0>
+03:20:16 P Signing off.
+04:00:02 S -S- stream #1 Req #10708 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+04:00:14 S Processor status JSU EXECX Setup in frame 3
+04:00:15 P Waiting for interlock
+04:00:16 P Got interlock
+04:00:16 P EXECX Job Processor %1(225) starting in frame 3
+04:00:16 P Stream #1 Req #10708 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+04:04:05 S -R- stream #1 Done-End <0>
+eted *
+04:15:02 S -S- run #2 job 5 Req #10709  Running DSK:(MAIL)MAILER.SAV
+04:15:07 S -R- run #2 job 5 Done-End <0>
+04:19:17 P Signing off.
+05:00:03 S -S- stream #1 Req #10710 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+05:00:15 S Processor status JSU EXECX Setup in frame 3
+05:00:16 P Waiting for interlock
+05:00:17 P Got interlock
+05:00:17 P EXECX Job Processor %1(225) starting in frame 3
+05:00:17 P Stream #1 Req #10710 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+05:00:18 S Starting job processor in frame 3
+05:04:17 P Stream #1 Req #10710 * completed *
+05:04:22 S -R- stream #1 Done-End <0>
+05:15:02 S -S- run #2 job 5 Req #10711  Running DSK:(MAIL)MAILER.SAV
+05:15:07 S -R- run #2 job 5 Done-End <0>
+05:20:18 P Signing off.
+06:00:03 S -S- stream #1 Req #10712 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+06:00:15 S Processor status JSU EXECX Setup in frame 3
+06:00:16 P Waiting for interlock
+06:00:17 P Got interlock
+06:00:17 P EXECX Job Processor %1(225) starting in frame 3
+06:00:18 S Starting job processor in frame 3
+06:00:18 P Stream #1 Req #10712 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+06:01:18 S 31-Jul-87
+06:04:10 P Stream #1 Req #10712 * completed *
+06:04:15 S -R- stream #1 Done-End <0>
+06:15:03 S -S- run #2 job 5 Req #10713  Running DSK:(MAIL)MAILER.SAV
+06:15:09 S -R- run #2 job 5 Done-End <0>
+06:19:20 P Signing off.
+07:00:03 S -S- stream #1 Req #10714 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+07:00:15 S Processor status JSU EXECX Setup in frame 3
+07:00:16 P Waiting for interlock
+07:00:18 P Got interlock
+07:00:18 P EXECX Job Processor %1(225) starting in frame 3
+07:00:18 S Starting job processor in frame 3
+07:00:19 P Stream #1 Req #10714 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+07:04:28 P Stream #1 Req #10714 * completed *
+07:04:29 S -R- stream #1 Done-End <0>
+07:13:03 S -S- stream #1 Req #10665 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+07:13:08 P Stream #1 Req #10665 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+07:15:02 S -S- run #2 job 6 Req #10715  Running DSK:(MAIL)MAILER.SAV
+07:15:11 S -R- run #2 job 6 Done-End <0>
+07:16:44 P Stream #1 Req #10665 * completed *
+07:16:44 S -R- stream #1 Done-End <0>
+07:32:18 P Signing off.
+07:45:03 S -S- stream #1 Req #10666 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+07:45:18 S Processor status JSU EXECX Setup in frame 3
+07:45:19 P Waiting for interlock
+07:45:21 S Starting job processor in frame 3
+07:45:22 P Got interlock
+07:45:22 P EXECX Job Processor %1(225) starting in frame 3
+07:45:24 P Stream #1 Req #10666 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+07:50:04 S -R- stream #1 Done-End <0>
+eted *
+08:00:02 S -S- stream #1 Req #10716 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+08:00:03 P Stream #1 Req #10716 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+08:04:00 P Stream #1 Req #10716 * completed *
+08:04:02 S -R- stream #1 Done-End <0>
+08:15:01 S -S- run #2 job 5 Req #10717  Running DSK:(MAIL)MAILER.SAV
+08:15:07 S -R- run #2 job 5 Done-End <0>
+08:19:23 P Signing off.
+09:00:02 S -S- stream #1 Req #10720 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+09:00:14 S Processor status JSU EXECX Setup in frame 3
+09:00:15 P Waiting for interlock
+09:00:16 P Got interlock
+09:00:16 P EXECX Job Processor %1(225) starting in frame 3
+09:00:17 P Stream #1 Req #10720 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+09:00:17 S Starting job processor in frame 3
+09:01:18 S 31-Jul-87
+09:04:14 P Stream #1 Req #10720 * completed *
+09:04:15 S -R- stream #1 Done-End <0>
+09:15:02 S -S- run #2 job 5 Req #10721  Running DSK:(MAIL)MAILER.SAV
+09:15:08 S -R- run #2 job 5 Done-End <0>
+09:19:17 P Signing off.
+10:00:03 S -S- stream #1 Req #10722 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+10:00:15 S Processor status JSU EXECX Setup in frame 3
+10:00:16 P Waiting for interlock
+10:00:17 P Got interlock
+10:00:17 P EXECX Job Processor %1(225) starting in frame 3
+10:00:18 S Starting job processor in frame 3
+10:00:18 P Stream #1 Req #10722 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+10:02:01 P Stream #1 Req #10722 * completed *
+10:02:03 S -R- stream #1 Done-End <0>
+10:15:02 S -S- run #2 job 5 Req #10723  Running DSK:(MAIL)MAILER.SAV
+10:15:07 S -R- run #2 job 5 Done-End <0>
+10:17:18 P Signing off.
+11:00:03 S -S- stream #1 Req #10724 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+11:00:15 S Processor status JSU EXECX Setup in frame 3
+11:00:16 P Waiting for interlock
+11:00:17 P Got interlock
+11:00:17 P EXECX Job Processor %1(225) starting in frame 3
+11:00:18 P Stream #1 Req #10724 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+11:00:18 S Starting job processor in frame 3
+11:04:42 P Stream #1 Req #10724 * completed *
+11:04:43 S -R- stream #1 Done-End <0>
+11:15:03 S -S- run #2 job 5 Req #10725  Running DSK:(MAIL)MAILER.SAV
+11:15:09 S -R- run #2 job 5 Done-End <0>
+11:20:18 P Signing off.
+12:00:05 S -S- stream #1 Req #10726 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+12:00:16 S Processor status JSU EXECX Setup in frame 3
+12:00:17 P Waiting for interlock
+12:00:19 P Got interlock
+12:00:19 P EXECX Job Processor %1(225) starting in frame 3
+12:00:19 S Starting job processor in frame 3
+12:00:20 P Stream #1 Req #10726 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+12:04:16 S -R- stream #1 Done-End <0>
+eted *
+12:15:05 S -S- run #2 job 5 Req #10727  Running DSK:(MAIL)MAILER.SAV
+12:15:10 S -R- run #2 job 5 Done-End <0>
+12:19:19 P Signing off.
+13:00:05 S -S- stream #1 Req #10728 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+13:00:17 S Processor status JSU EXECX Setup in frame 3
+13:00:18 P Waiting for interlock
+13:00:19 P Got interlock
+13:00:19 P EXECX Job Processor %1(225) starting in frame 3
+13:00:19 S Starting job processor in frame 3
+13:00:20 P Stream #1 Req #10728 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+13:04:28 P Stream #1 Req #10728 * completed *
+13:04:29 S -R- stream #1 Done-End <0>
+13:15:04 S -S- run #2 job 5 Req #10729  Running DSK:(MAIL)MAILER.SAV
+13:15:10 S -R- run #2 job 5 Done-End <0>
+13:20:20 P Signing off.
+14:00:01 S -S- stream #1 Req #10730 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+14:00:13 S Processor status JSU EXECX Setup in frame 3
+14:00:14 P Waiting for interlock
+14:00:15 P Got interlock
+14:00:15 P EXECX Job Processor %1(225) starting in frame 3
+14:00:15 S Starting job processor in frame 3
+14:00:16 P Stream #1 Req #10730 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+14:04:43 P Stream #1 Req #10730 * completed *
+14:04:45 S -R- stream #1 Done-End <0>
+14:15:00 S -S- run #2 job 5 Req #10731  Running DSK:(MAIL)MAILER.SAV
+14:15:05 S -R- run #2 job 5 Done-End <0>
+14:20:16 P Signing off.
+14:30:01 S -S- stream #1 Req #10682 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+14:30:13 S Processor status JSU EXECX Setup in frame 3
+14:30:14 P Waiting for interlock
+14:30:15 P Got interlock
+14:30:15 P EXECX Job Processor %1(starting in frame 3
+14:30:16 S Starting job processor in frame 3
+14:30:16 P Stream #1 Req #10682 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+14:32:45 S -R- stream #1 Done-End <0>
+14:32:46 P Stream #1 Req #10682 * completed *
+14:48:15 P Signing off.
+15:00:00 S -S- stream #1 Req #10732 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+15:00:10 S Processor status JSU EXECX Setup in frame 3
+15:00:11 P Waiting for interlock
+15:00:12 P Got interlock
+15:00:12 P EXECX Job Processor %1(225) starting in frame 3
+15:00:13 P Stream #1 Req #10732 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+15:00:13 S Starting job processor in frame 3
+15:01:13 S 31-Jul-87
+15:05:20 P Stream #1 Req #10732 * completed *
+15:05:23 S -R- stream #1 Done-End <0>
+15:15:03 S -S- run #2 job 5 Req #10733  Running DSK:(MAIL)MAILER.SAV
+15:15:09 S -R- run #2 job 5 Done-End <0>
+15:21:13 P Signing off.
+16:00:03 S -S- stream #1 Req #10686 DSK:(JMS)FNDALL.LOG=DSK:(JMS)FNDALL.CTL
+16:00:19 S -S- stream #2 Req #10735 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+starting in frame 6
+16:00:20 P Stream #1 Req #10686 DSK:(JMS)FNDALL.LOG=DSK:(JMS)FNDALL.CTL
+16:00:21 P Stream #2 Req #10735 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+16:05:20 P Stream #2 Req #10735 * completed *
+16:05:21 S -R- stream #2 Done-End <0>
+16:06:01 P Stream #1 Req #10686 * completed *
+16:06:05 S -R- stream #1 Done-End <0>
+16:15:02 S -S- run #2 job 7 Req #10736  Running DSK:(MAIL)MAILER.SAV
+16:15:08 S -R- run #2 job 7 Done-End <0>
+16:21:27 P Signing off.
+17:00:05 S -S- stream #1 Req #10737 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+17:00:17 S Processor status JSU EXECX Setup in frame 7
+17:00:18 P Waiting for interlock
+17:00:19 P Got interlock
+17:00:19 P EXECX Job Processor %1(225) starting in frame 7
+17:00:19 S Starting job processor in frame 7
+17:00:20 P Stream #1 Req #10737 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+17:05:40 P Stream #1 Req #10737 * completed *
+17:05:44 S -R- stream #1 Done-End <0>
+17:15:01 S -S- run #2 job 9 Req #10739  Running DSK:(MAIL)MAILER.SAV
+17:15:06 S -R- run #2 job 9 Done-End <0>
+17:21:21 P Signing off.
+18:00:01 S -S- stream #1 Req #10740 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+18:00:16 S Processor status JSU EXECX Setup in frame 7
+18:00:17 P Waiting for interlock
+18:00:19 P Got interlock
+18:00:19 S Starting job processor in frame 7
+18:00:19 P EXECX Job Processor %1(225) starting in frame 7
+18:00:20 P Stream #1 Req #10740 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+18:01:18 S 31-Jul-87
+18:05:15 P Stream #1 Req #10740 * completed *
+18:05:18 S -R- stream #1 Done-End <0>
+18:15:06 S -S- run #2 job 9 Req #10741  Running DSK:(MAIL)MAILER.SAV
+18:15:10 S -R- run #2 job 9 Done-End <0>
+18:20:27 P Signing off.
+19:00:06 S -S- stream #1 Req #10742 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+19:00:17 S Processor status JSU EXECX Setup in frame 5
+19:00:18 P Waiting for interlock
+19:00:20 P Got interlock
+19:00:20 P EXECX Job Processor %1(225) starting in frame 5
+19:00:20 S Starting job processor in frame 5
+19:00:21 P Stream #1 Req #10742 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+19:04:32 P Stream #1 Req #10742 * completed *
+19:04:35 S -R- stream #1 Done-End <0>
+19:15:02 S -S- run #2 job 7 Req #10743  Running DSK:(MAIL)MAILER.SAV
+19:15:15 S -R- run #2 job 7 Done-End <0>
+19:20:25 P Signing off.
+20:00:02 S -S- stream #1 Req #10744 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+20:00:13 S Processor status JSU EXECX Setup in frame 5
+20:00:14 P Waiting for interlock
+20:00:15 P Got interlock
+20:00:16 P EXECX Job Processor %1(225) starting in frame 5
+20:04:30 P Stream #1 Req #10744 * completed *
+OG=DSK:(JMS)SYSG.CTL
+20:04:31 S -R- stream #1 Done-End <0>
+20:15:04 S -S- run #2 job 9 Req #10745  Running DSK:(MAIL)MAILER.SAV
+20:15:07 S -R- run #2 job 9 Done-End <0>
+20:20:21 P Signing off.
+21:00:01 S -S- stream #1 Req #10746 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+21:00:12 S Processor status JSU EXECX Setup in frame 9
+21:00:13 P Waiting for interlock
+21:00:15 P Got interlock
+21:00:15 P EXECX Job Processor %1(225) starting in frame 9
+21:00:15 S Starting job processor in frame 9
+21:00:16 P Stream #1 Req #10746 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+21:01:15 S 31-Jul-87
+21:04:53 P Stream #1 Req #10746 * completed *
+21:04:55 S -R- stream #1 Done-End <0>
+21:15:01 S -S- run #2 job 10 Req #10747  Running DSK:(MAIL)MAILER.SAV
+21:15:07 S -R- run #2 job 10 Done-End <0>
+21:20:26 P Signing off.
+22:00:03 S -S- stream #1 Req #10748 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+22:00:14 S Processor status JSU EXECX Setup in frame 9
+22:00:15 P Waiting for interlock
+22:00:17 P Got interlock
+22:00:17 P EXECX Job Processor %1(225) starting in frame 9
+22:00:17 S Starting job processor in frame 9
+22:00:18 P Stream #1 Req #10748 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+22:04:51 P Stream #1 Req #10748 * completed *
+22:04:53 S -R- stream #1 Done-End <0>
+22:15:02 S -S- run #2 job 10 Req #10749  Running DSK:(MAIL)MAILER.SAV
+22:15:08 S -R- run #2 job 10 Done-End <0>
+22:20:17 P Signing off.
+23:00:01 S -S- stream #1 Req #10750 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+23:00:14 S Processor status JSU EXECX Setup in frame 9
+23:00:15 P Waiting for interlock
+23:00:16 P Got interlock
+23:00:16 P EXECX Job Processor %1(225) starting in frame 9
+23:00:17 S Starting job processor in frame 9
+23:00:17 P Stream #1 Req #10750 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+23:04:45 P Stream #1 Req #10750 * completed *
+23:04:47 S -R- stream #1 Done-End <0>
+23:15:04 S -S- run #2 job 6 Req #10751  Running DSK:(MAIL)MAILER.SAV
+23:15:07 S -R- run #2 job 6 Done-End <0>
+23:20:38 P Signing off.
+00:00:04 S -S- stream #1 Req #10752 DSK:(JMS)SYSG.LOG=DSK:(JMS)SYSG.CTL
+00:00:17 S Processor status JSU EXECX Setup in frame 6
+00:00:20 S Starting job processor in frame 6
+00:01:19 S 01-Aug-87
+  = 
