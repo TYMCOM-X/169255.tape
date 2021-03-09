@@ -1,0 +1,47 @@
+21:44:11 S ** 03-Apr-87 XEXEC %1(212) in frame 4 ** user PERPOPER **
+21:44:12 S -S- run #1 job 1 Req #6378  Running DSK:(PJ)PAM.HGH
+21:44:18 S -S- run #2 job 5 Req #6403  Running DSK:(MAIL)MAILER.SAV
+21:44:23 S -R- run #2 job 5 Done-End <0>
+21:44:24 S -S- run #2 job 5 Req #6402  Running DSK:(MAIL)ONTMTP.SAV
+21:44:33 S -S- stream #1 Req #6384 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+21:44:45 S Processor status JSU EXECX Setup in frame 6
+21:44:46 P Waiting for interlock
+21:44:47 P Got interlock
+21:44:47 P EXECX Job Processor %1(222) starting in frame 6
+21:44:48 S Starting job processor in frame 6
+21:44:49 P Stream #1 Req #6384 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+21:44:49 S -S- stream #2 Req #6386 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+21:44:50 P Stream #2 Req #6386 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+21:44:55 S -S- stream #3 Req #6397 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+21:45:00 P Stream #3 Req #6397 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+21:45:33 S -R- run #2 job 5 Done-End <0>
+21:45:48 S 03-Apr-87
+21:48:58 P Stream #3 Req #6397 * completed *
+21:48:59 S -R- stream #3 Done-End <0>
+21:49:38 P Stream #2 Req #6386 * completed *
+21:49:41 S -R- stream #2 Done-End <0>
+21:49:59 P Stream #1 Req #6384 * completed *
+21:50:02 S -R- stream #1 Done-End <0>
+22:05:47 P Signing off.
+22:15:02 S -S- run #2 job 5 Req #6406  Running DSK:(MAIL)MAILER.SAV
+22:15:08 S -R- run #2 job 5 Done-End <0>
+22:40:04 S -S- run #2 job 5 Req #6407  Running DSK:(MAIL)ONTMTP.SAV
+22:41:26 S -R- run #2 job 5 Done-End <0>
+23:15:04 S -S- run #2 job 9 Req #6411  Running DSK:(MAIL)MAILER.SAV
+23:15:09 S -R- run #2 job 9 Done-End <0>
+23:15:57 S -S- stream #1 Req #6414 DSK:(SPPOPER)CLEAN2.LOG=DSK:(SPPOPER)CLEAN2
+23:16:11 S Processor status JSU EXECX Setup in frame 10
+23:16:13 P Waiting for interlock
+23:16:15 P Got interlock
+23:16:15 P EXECX Job Processor %1(222) starting in frame 10
+23:16:16 S Starting job processor in frame 10
+23:16:16 P Stream #1 Req #6414 DSK:(SPPOPER)CLEAN2.LOG=DSK:(SPPOPER)CLEAN2
+23:17:06 P Stream #1 Req #6414 * completed *
+23:17:12 S -R- stream #1 Done-End <0>
+23:32:28 P Signing off.
+23:46:59 S -R- run #1 job 1 Done-End <0>
+23:59:57 S -S- stream #1 Req #6416 DSK:(SPPOPER)WARNG.CTL
+00:00:15 S Processor status JSU EXECX Setup in frame 10
+00:00:17 S Starting job processor in frame 10
+00:01:02 S -R- stream #1 Done-End <0>
+00:01:18 S 04-Apr-87
