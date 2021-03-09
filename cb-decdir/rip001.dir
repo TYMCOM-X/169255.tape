@@ -1,0 +1,2658 @@
+
+Tape #1 from TITO version 16
+Written 10-Jun-85 23:16 GMT
+
+
+Saveset #1 from TITO version 16
+Written 10-Jun-85 23:16 GMT
+
+    1 RPG   .INI   ADELE         16-Aug-82 23:28  10-Jun-85 23:16     2 NIJTAT
+    2 ACCESS.LIS   ADELE         15-May-85 21:23  10-Jun-85 23:16     2 RUDFIS
+    3 UUOSYM.DEF   ADELE         03-Mar-83 21:56  10-Jun-85 23:16    10 WUYBES
+    4 INIT  .SAV   ADELE         08-Mar-83 19:49  10-Jun-85 23:16    33 ZONWIK
+    5 LABELS.SAV   ADELE         26-Oct-83 17:36  10-Jun-85 23:16    11 DOMJON
+    6 LABELS.SAI   ADELE         26-Oct-83 17:36  10-Jun-85 23:16     2 TOXYAR
+    7 CALNDR.DOC   ADELE         09-Aug-83 01:15  10-Jun-85 23:16     3 DICSAX
+   10 MFDSCN.REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     2 DAZLOS
+   11 MFDSCN.SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     5 KEBYAR
+   12 MEMO  .LIB   ADELE         01-Sep-83 19:15  10-Jun-85 23:16     3 PEJVUT
+   13 SIZES .SAV   ADELE         14-Sep-82 16:08  10-Jun-85 23:16    16 FIPDAZ
+   14 SIZES .SAI   ADELE         07-Apr-82 15:54  10-Jun-85 23:16     4 XOBNIZ
+   15 CYFER .SAV   ADELE         06-Jul-82 16:32  10-Jun-85 23:16    13 GISFIC
+   16 DUL   .REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     2 XALDEH
+   17 DUL   .SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     3 CUJSUG
+   20 CVPPN .REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     2 SURPED
+   21 CVPPN .SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     2 RELCET
+   22 PEAK  .INI   ADELE         10-Jan-84 18:11  10-Jun-85 23:16     2 BEWGEF
+   23 LOKLUD.SAI   ADELE         31-Aug-82 16:38  10-Jun-85 23:16     2 BEKFUJ
+   24 SAIL  .DEF   ADELE         03-Mar-83 21:56  10-Jun-85 23:16     3 PONWAF
+   25 SWITCH.INI   ADELE         03-Jan-84 17:11  10-Jun-85 23:16     2 SENJOW
+   26 LICENS.SAV   ADELE         14-Sep-82 16:18  10-Jun-85 23:16    17 GUKBIQ
+   27 SYSTAT.TST   ADELE         30-Nov-82 18:37  10-Jun-85 23:16     2 TAQWIS
+   30 DULWLD.REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     2 SONZEN
+   31 DULWLD.SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:16     2 XABHAN
+   32 DIRIT .INI   ADELE         08-Mar-83 19:38  10-Jun-85 23:16     2 XAJPIS
+
+Total of 26 files in saveset.
+
+End of Saveset #1 from TITO version 16
+Written 10-Jun-85 23:16 GMT
+
+Saveset #2 from TITO version 16
+Written 10-Jun-85 23:17 GMT
+
+   33 RPG   .INI   ADELE         16-Aug-82 23:28  10-Jun-85 23:17     2 NIJTAT
+   34 ACCESS.LIS   ADELE         15-May-85 21:23  10-Jun-85 23:17     2 RUDFIS
+   35 UUOSYM.DEF   ADELE         03-Mar-83 21:56  10-Jun-85 23:17    10 WUYBES
+   36 INIT  .SAV   ADELE         08-Mar-83 19:49  10-Jun-85 23:17    33 ZONWIK
+   37 LABELS.SAV   ADELE         26-Oct-83 17:36  10-Jun-85 23:17    11 DOMJON
+   40 LABELS.SAI   ADELE         26-Oct-83 17:36  10-Jun-85 23:17     2 TOXYAR
+   41 CALNDR.DOC   ADELE         09-Aug-83 01:15  10-Jun-85 23:17     3 DICSAX
+   42 MFDSCN.REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 DAZLOS
+   43 MFDSCN.SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     5 KEBYAR
+   44 MEMO  .LIB   ADELE         01-Sep-83 19:15  10-Jun-85 23:17     3 PEJVUT
+   45 SIZES .SAV   ADELE         14-Sep-82 16:08  10-Jun-85 23:17    16 FIPDAZ
+   46 SIZES .SAI   ADELE         07-Apr-82 15:54  10-Jun-85 23:17     4 XOBNIZ
+   47 CYFER .SAV   ADELE         06-Jul-82 16:32  10-Jun-85 23:17    13 GISFIC
+   50 DUL   .REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 XALDEH
+   51 DUL   .SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     3 CUJSUG
+   52 CVPPN .REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 SURPED
+   53 CVPPN .SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 RELCET
+   54 PEAK  .INI   ADELE         10-Jan-84 18:11  10-Jun-85 23:17     2 BEWGEF
+   55 LOKLUD.SAI   ADELE         31-Aug-82 16:38  10-Jun-85 23:17     2 BEKFUJ
+   56 SAIL  .DEF   ADELE         03-Mar-83 21:56  10-Jun-85 23:17     3 PONWAF
+   57 SWITCH.INI   ADELE         03-Jan-84 17:11  10-Jun-85 23:17     2 SENJOW
+   60 LICENS.SAV   ADELE         14-Sep-82 16:18  10-Jun-85 23:17    17 GUKBIQ
+   61 SYSTAT.TST   ADELE         30-Nov-82 18:37  10-Jun-85 23:17     2 TAQWIS
+   62 DULWLD.REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 SONZEN
+   63 DULWLD.SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 XABHAN
+   64 DIRIT .INI   ADELE         08-Mar-83 19:38  10-Jun-85 23:17     2 XAJPIS
+
+Total of 26 files in saveset.
+
+End of Saveset #2 from TITO version 16
+Written 10-Jun-85 23:17 GMT
+
+Saveset #3 from TITO version 16
+Written 10-Jun-85 23:17 GMT
+
+   65 RPG   .INI   ADELE         16-Aug-82 23:28  10-Jun-85 23:17     2 NIJTAT
+   66 ACCESS.LIS   ADELE         15-May-85 21:23  10-Jun-85 23:17     2 RUDFIS
+   67 UUOSYM.DEF   ADELE         03-Mar-83 21:56  10-Jun-85 23:17    10 WUYBES
+   70 INIT  .SAV   ADELE         08-Mar-83 19:49  10-Jun-85 23:17    33 ZONWIK
+   71 LABELS.SAV   ADELE         26-Oct-83 17:36  10-Jun-85 23:17    11 DOMJON
+   72 LABELS.SAI   ADELE         26-Oct-83 17:36  10-Jun-85 23:17     2 TOXYAR
+   73 CALNDR.DOC   ADELE         09-Aug-83 01:15  10-Jun-85 23:17     3 DICSAX
+   74 MFDSCN.REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 DAZLOS
+   75 MFDSCN.SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     5 KEBYAR
+   76 MEMO  .LIB   ADELE         01-Sep-83 19:15  10-Jun-85 23:17     3 PEJVUT
+   77 SIZES .SAV   ADELE         14-Sep-82 16:08  10-Jun-85 23:17    16 FIPDAZ
+  100 SIZES .SAI   ADELE         07-Apr-82 15:54  10-Jun-85 23:17     4 XOBNIZ
+  101 CYFER .SAV   ADELE         06-Jul-82 16:32  10-Jun-85 23:17    13 GISFIC
+  102 DUL   .REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 XALDEH
+  103 DUL   .SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     3 CUJSUG
+  104 CVPPN .REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 SURPED
+  105 CVPPN .SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 RELCET
+  106 PEAK  .INI   ADELE         10-Jan-84 18:11  10-Jun-85 23:17     2 BEWGEF
+  107 LOKLUD.SAI   ADELE         31-Aug-82 16:38  10-Jun-85 23:17     2 BEKFUJ
+  110 SAIL  .DEF   ADELE         03-Mar-83 21:56  10-Jun-85 23:17     3 PONWAF
+  111 SWITCH.INI   ADELE         03-Jan-84 17:11  10-Jun-85 23:17     2 SENJOW
+  112 LICENS.SAV   ADELE         14-Sep-82 16:18  10-Jun-85 23:17    17 GUKBIQ
+  113 SYSTAT.TST   ADELE         30-Nov-82 18:37  10-Jun-85 23:17     2 TAQWIS
+  114 DULWLD.REQ   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 SONZEN
+  115 DULWLD.SAI   ADELE         03-Mar-83 21:57  10-Jun-85 23:17     2 XABHAN
+  116 DIRIT .INI   ADELE         08-Mar-83 19:38  10-Jun-85 23:17     2 XAJPIS
+
+Total of 26 files in saveset.
+
+End of Saveset #3 from TITO version 16
+Written 10-Jun-85 23:17 GMT
+
+Saveset #4 from TITO version 16
+Written 10-Jun-85 23:17 GMT
+
+  117 EDTNAM.SYS   ALLENG        24-Feb-78 18:13  10-Jun-85 23:17     2 CELRIV
+  120 BIGMOD.MOD   ALLENG        19-Jul-78 23:20  10-Jun-85 23:17     8 JAVCAP
+  121 BIGMOD.OUT   ALLENG        19-Jul-78 23:41  10-Jun-85 23:17    15 XEJPUH
+  122 CUFFS .MAC   ALLENG        24-Feb-78 30:56  10-Jun-85 23:17     2 NIHFUT
+  123 CUFFS .OVL   ALLENG        24-Feb-78 03:46  10-Jun-85 23:17    71 XIQMON
+  124 CUFFS .PIP   ALLENG        24-Feb-78 13:09  10-Jun-85 23:17     2 LEYKUQ
+  125 CUFFS .MAP   ALLENG        25-Feb-78 18:13  10-Jun-85 23:17    42 VUCSEV
+  126 CUFNWS.SYS   ALLENG        24-Feb-78 22:40  10-Jun-85 23:17     2 MIFGEJ
+  127 ERMESS.SYS   ALLENG        24-Feb-78 07:39  10-Jun-85 23:17    35 GORMEJ
+  130 INS4TH.SUS   ALLENG        03-Jul-78 17:00  10-Jun-85 23:17    35 HUVJAD
+  131 INS4TH.RND   ALLENG        03-Jul-78 16:52  10-Jun-85 23:17    20 COBDEV
+  132 INS4TH.MOD   ALLENG        03-Jul-78 16:59  10-Jun-85 23:17     6 JUHMIC
+  133 CUFFS .LOW   ALLENG        03-Mar-78 01:01  10-Jun-85 23:17    31 BUCSOJ
+  134 CUFFS .SHR   ALLENG        03-Mar-78 01:01  10-Jun-85 23:17   158 QEWBIG
+  135 CUFFS .CMD   ALLENG        24-Feb-78 07:55  10-Jun-85 23:17     2 VEVDUJ
+  136 CUFFS .OL2   ALLENG        24-Feb-78 27:52  10-Jun-85 23:17     2 DOSGOC
+  137 INS1ST.SUS   ALLENG        03-Jul-78 17:00  10-Jun-85 23:17    25 WUCMAZ
+  140 INS10T.SUS   ALLENG        19-Jul-78 23:20  10-Jun-85 23:17    46 XAKKUJ
+  141 INS10T.RND   ALLENG        16-Jul-78 04:16  10-Jun-85 23:17    39 YEMGIV
+  142 TYM3RD.SUS   ALLENG        19-Jul-78 19:27  10-Jun-85 23:17    20 MUHWUP
+  143 ERMSGS.SYS   ALLENG        24-Feb-78 17:15  10-Jun-85 23:17    35 FUJLUT
+  144 TYM4TH.SUS   ALLENG        06-Nov-80 19:32  10-Jun-85 23:17    20 ZAXNAX
+  145 TYM4TH.MOD   ALLENG        06-Jul-78 00:11  10-Jun-85 23:17     3 BUKYIK
+  146 TYM3RD.RND   ALLENG        06-Jul-78 00:13  10-Jun-85 23:17    12 KIBDIV
+  147 TYM4TH.RND   ALLENG        06-Nov-80 19:26  10-Jun-85 23:17    11 ZITKIC
+  150 TYMSHR.MOD   ALLENG        05-Jul-78 23:36  10-Jun-85 23:17     3 PORJET
+  151 NAMES .SYS   ALLENG        24-Feb-78 04:13  10-Jun-85 23:17    10 ROVXOT
+  152 TYM6TH.SUS   ALLENG        14-Aug-78 20:02  10-Jun-85 23:17    20 VARRIG
+  153 TYM6TH.RND   ALLENG        06-Jul-78 00:21  10-Jun-85 23:17    10 YEFYAK
+  154 MOD   .DAT   ALLENG        25-Jul-78 22:54  1-85 23:17     2 FIQYEM
+  155 FO2006.MOD   ALLENG        11-Sep-78 18:33  10-Jun-85 23:17     4 JOTDUP
+  156 FO2006.SUS   ALLENG        06-Oct-80 00:20  10-Jun-85 23:17    28 YEGCEF
+  157 FO2006.RND   ALLENG        11-Sep-78 18:31  10-Jun-85 23:17    14 LIXKIP
+  160 CUFED .SYS   ALLENG        24-Feb-78 25:03  10-Jun-85 23:17     3 RIVCAS
+
+Total of 34 files in saveset.
+
+End of Saveset #4 from TITO version 16
+Written 10-Jun-85 23:17 GMT
+
+Saveset #5 from TITO version 16
+Written 10-Jun-85 23:19 GMT
+
+  161 EDTNAM.SYS   ALLENG        24-Feb-78 18:13  10-Jun-85 23:19     2 CELRIV
+  162 BIGMOD.MOD   ALLENG        19-Jul-78 23:20  10-Jun-85 23:19     8 JAVCAP
+  163 BIGMOD.OUT   ALLENG        19-Jul-78 23:41  10-Jun-85 23:19    15 XEJPUH
+  164 CUFFS .MAC   ALLENG        24-Feb-78 30:56  10-Jun-85 23:19     2 NIHFUT
+  165 CUFFS .OVL   ALLENG        24-Feb-78 03:46  10-Jun-85 23:19    71 XIQMON
+  166 CUFFS .PIP   ALLENG        24-Feb-78 13:09  10-Jun-85 23:19     2 LEYKUQ
+  167 CUFFS .MAP   ALLENG        25-Feb-78 18:13  10-Jun-85 23:19    42 VUCSEV
+  170 CUFNWS.SYS   ALLENG        24-Feb-78 22:40  10-Jun-85 23:19     2 MIFGEJ
+  171 ERMESS.SYS   ALLENG        24-Feb-78 07:39  10-Jun-85 23:19    35 GORMEJ
+  172 INS4TH.SUS   ALLENG        03-Jul-78 17:00  10-Jun-85 23:19    35 HUVJAD
+  173 INS4TH.RND   ALLENG        03-Jul-78 16:52  10-Jun-85 23:19    20 COBDEV
+  174 INS4TH.MOD   ALLENG        03-Jul-78 16:59  10-Jun-85 23:19     6 JUHMIC
+  175 CUFFS .LOW   ALLENG        03-Mar-78 01:01  10-Jun-85 23:19    31 BUCSOJ
+  176 CUFFS .SHR   ALLENG        03-Mar-78 01:01  10-Jun-85 23:19   158 QEWBIG
+  177 CUFFS .CMD   ALLENG        24-Feb-78 07:55  10-Jun-85 23:19     2 VEVDUJ
+  200 CUFFS .OL2   ALLENG        24-Feb-78 27:52  10-Jun-85 23:19     2 DOSGOC
+  201 INS1ST.SUS   ALLENG        03-Jul-78 17:00  10-Jun-85 23:19    25 WUCMAZ
+  202 INS10T.SUS   ALLENG        19-Jul-78 23:20  10-Jun-85 23:19    46 XAKKUJ
+  203 INS10T.RND   ALLENG        16-Jul-78 04:16  10-Jun-85 23:19    39 YEMGIV
+  204 TYM3RD.SUS   ALLENG        19-Jul-78 19:27  10-Jun-85 23:19    20 MUHWUP
+  205 ERMSGS.SYS   ALLENG        24-Feb-78 17:15  10-Jun-85 23:19    35 FUJLUT
+  206 TYM4TH.SUS   ALLENG        06-Nov-80 19:32  10-Jun-85 23:19    20 ZAXNAX
+  207 TYM4TH.MOD   ALLENG        06-Jul-78 00:11  10-Jun-85 23:19     3 BUKYIK
+  210 TYM3RD.RND   ALLENG        06-Jul-78 00:13  10-Jun-85 23:19    12 KIBDIV
+  211 TYM4TH.RND   ALLENG        06-Nov-80 19:26  10-Jun-85 23:19    11 ZITKIC
+  212 TYMSHR.MOD   ALLENG        05-Jul-78 23:36  10-Jun-85 23:19     3 PORJET
+  213 NAMES .SYS   ALLENG        24-Feb-78 04:13  10-Jun-85 23:19    10 ROVXOT
+  214 TYM6TH.SUS   ALLENG        14-Aug-78 20:02  10-Jun-85 23:19    20 VARRIG
+  215 TYM6TH.RND   ALLENG        06-Jul-78 00:21  10-Jun-85 23:19    10 YEFYAK
+  216 MOD   .DAT   ALLENG        25-Jul-78 22:54  10-Jun-85 23:19     2 FIQYEM
+  217 FO2006.MOD   ALLENG        11-Sep-78 18:33  10-Jun-85 23:19     4 JOTDUP
+  220 FO2006.SUS   ALLENG        06-Oct-80 00:20  10-Jun-85 23:19    28 YEGCEF
+  221 FO2006.RND   ALLENG        11-Sep-78 18:31  10-Jun-85 23:19    14 LIXKIP
+  222 CUFED .SYS   ALLENG        24-Feb-78 25:03  10-Jun-85 23:19     3 RIVCAS
+
+Total of 34 files in saveset.
+
+End of Saveset #5 from TITO version 16
+Written 10-Jun-85 23:19 GMT
+
+Saveset #6 from TITO version 16
+Written 10-Jun-85 23:20 GMT
+
+  223 EDTNAM.SYS   ALLENG        24-Feb-78 18:13  10-Jun-85 23:20     2 CELRIV
+  224 BIGMOD.MOD   ALLENG        19-Jul-78 23:20  10-Jun-85 23:20     8 JAVCAP
+  225 BIGMOD.OUT   ALLENG        19-Jul-78 23:41  10-Jun-85 23:20    15 XEJPUH
+  226 CUFFS .MAC   ALLENG        24-Feb-78 30:56  10-Jun-85 23:20     2 NIHFUT
+  227 CUFFS .OVL   ALLENG        24-Feb-78 03:46  10-Jun-85 23:20    71 XIQMON
+  230 CUFFS .PIP   ALLENG        24-Feb-78 13:09  10-Jun-85 23:20     2 LEYKUQ
+  231 CUFFS .MAP   ALLENG        25-Feb-78 18:13  10-Jun-85 23:20    42 VUCSEV
+  232 CUFNWS.SYS   ALLENG        24-Feb-78 22:40  10-Jun-85 23:20     2 MIFGEJ
+  233 ERMESS.SYS   ALLENG        24-Feb-78 07:39  10-Jun-85 23:20    35 GORMEJ
+  234 INS4TH.SUS   ALLENG        03-Jul-78 17:00  10-Jun-85 23:20    35 HUVJAD
+  235 INS4TH.RND   ALLENG        03-Jul-78 16:52  10-Jun-85 23:20    20 COBDEV
+  236 INS4TH.MOD   ALLENG        03-Jul-78 16:59  10-Jun-85 23:20     6 JUHMIC
+  237 CUFFS .LOW   ALLENG        03-Mar-78 01:01  10-Jun-85 23:20    31 BUCSOJ
+  240 CUFFS .SHR   ALLENG        03-Mar-78 01:01  10-Jun-85 23:20   158 QEWBIG
+  241 CUFFS .CMD   ALLENG        24-Feb-78 07:55  10-Jun-85 23:20     2 VEVDUJ
+  242 CUFFS .OL2   ALLENG        24-Feb-78 27:52  10-Jun-85 23:20     2 DOSGOC
+  243 INS1ST.SUS   ALLENG        03-Jul-78 17:00  10-Jun-85 23:20    25 WUCMAZ
+  244 INS10T.SUS   ALLENG        19-Jul-78 23:20  10-Jun-85 23:20    46 XAKKUJ
+  245 INS10T.RND   ALLENG        16-Jul-78 04:16  10-Jun-85 23:20    39 YEMGIV
+  246 TYM3RD.SUS   ALLENG        19-Jul-78 19:27  10-Jun-85 23:20    20 MUHWUP
+  247 ERMSGS.SYS   ALLENG        24-Feb-78 17:15  10-Jun-85 23:20    35 FUJLUT
+  250 TYM4TH.SUS   ALLENG        06-Nov-80 19:32  10-Jun-85 23:20    20 ZAXNAX
+  251 TYM4TH.MOD   ALLENG        06-Jul-78 00:11  10-Jun-85 23:20     3 BUKYIK
+  252 TYM3RD.RND   ALLENG        06-Jul-78 00:13  10-Jun-85 23:20    12 KIBDIV
+  253 TYM4TH.RND   ALLENG        06-Nov-80 19:26  10-Jun-85 23:20    11 ZITKIC
+  254 TYMSHR.MOD   ALLENG        05-Jul-78 23:36  10-Jun-85 23:20     3 PORJET
+  255 NAMES .SYS   ALLENG        24-Feb-78 04:13  10-Jun-85 23:20    10 ROVXOT
+  256 TYM6TH.SUS   ALLENG        14-Aug-78 20:02  10-Jun-85 23:20    20 VARRIG
+  257 TYM6TH.RND   ALLENG        06-Jul-78 00:21  10-Jun-85 23:20    10 YEFYAK
+  260 MOD   .DAT   ALLENG        25-Jul-78 22:54  10-Jun-85 23:20     2 FIQYEM
+  261 FO2006.MOD   ALLENG        11-Sep-78 18:33  10-Jun-85 23:20     4 JOTDUP
+  262 FO2006.SUS   ALLENG        06-Oct-80 00:20  10-Jun-85 23:20    28 YEGCEF
+  263 FO2006.RND   ALLENG        11-Sep-78 18:31  10-Jun-85 23:20    14 LIXKIP
+  264 CUFED .SYS   ALLENG        24-Feb-78 25:03  10-Jun-85 23:20     3 RIVCAS
+
+Total of 34 files in saveset.
+
+End of Saveset #6 from TITO version 16
+Written 10-Jun-85 23:20 GMT
+
+Saveset #7 from TITO version 16
+Written 10-Jun-85 23:22 GMT
+
+  265 RPG   .INI   DWS           06-Apr-83 23:46  10-Jun-85 23:22     2 XAZGEV
+  266 DATE  .SAI   DWS           05-Nov-81 02:01  10-Jun-85 23:22     2 GUDFAQ
+  267 DED   .KEY   DWS           09-Mar-82 01:00  10-Jun-85 23:22     5 BANNED
+  270 CRYPT .SAI   DWS           21-Jan-82 18:58  10-Jun-85 23:22     2 XUCRIR
+  271 DEDUSR.CMD   DWS           21-Apr-82 22:26  10-Jun-85 23:22     2 PEQKAS
+  272 DED   .BUG   DWS           23-Feb-82 23:24  10-Jun-85 23:22     2 HEZTOW
+  273 BOX   .SAI   DWS           16-Mar-82 06:42  10-Jun-85 23:22     7 CILPOS
+  274 DED   .WSH   DWS           08-Apr-82 02:44  10-Jun-85 23:22     3 NEJFET
+  275 CRT   .DEF   DWS           10-May-82 05:15  10-Jun-85 23:22     2 MAPVIB
+  276 TERMS .DEF   DWS           13-May-82 17:23  10-Jun-85 23:22     2 RALZUP
+  277 TERMS .HLD   DWS           10-May-82 18:27  10-Jun-85 23:22     2 GONRUW
+  300 TERMS .HDR   DWS           10-May-82 21:40  10-Jun-85 23:22     2 SUJXOT
+  301 TERMS .SAV   DWS           13-May-82 17:22  10-Jun-85 23:22     6 POQWUN
+  302 TERMS .SAI   DWS           13-May-82 17:21  10-Jun-85 23:22     6 MARWOM
+  303 TIFIX .SAV   DWS           25-May-82 16:57  10-Jun-85 23:22     2 WONWEK
+  304 DED   .INI   DWS           10-Jun-82 18:59  10-Jun-85 23:22     2 YIKVUG
+  305 RDMAIL.INI   DWS           26-Jul-82 20:09  10-Jun-85 23:22     2 WEXNOV
+  306 RTEST .SAI   DWS           06-Sep-82 22:08  10-Jun-85 23:22     2 BIFNIZ
+  307 COEES .MEM   DWS           04-Oct-82 17:58  10-Jun-85 23:22     2 MINDIR
+  310 REDISP.REL   DWS           16-Feb-83 01:50  10-Jun-85 23:22    10 VEFNUS
+  311 REDISP.SAI   DWS           16-Feb-83 01:47  10-Jun-85 23:22    13 GUXDUF
+  312 REDISP.DIF   DWS           17-Feb-83 17:18  10-Jun-85 23:22     2 TIVPIJ
+  313 ACCESS.MSG   DWS           13-Oct-83 01:39  10-Jun-85 23:22     2 KORMOS
+  314 RDMAIL.SAV   DWS           23-Jan-83 07:21  10-Jun-85 23:22    43 DUFLUN
+  315 SLR   .SAV   DWS           10-Mar-82 21:58  10-Jun-85 23:22    13 CERCEP
+  316 SLR   .SAI   DWS           10-Mar-82 21:57  10-Jun-85 23:22    13 QULMEF
+  317 CREAUX.SAI   DWS           11-Feb-82 19:23  10-Jun-85 23:22     2 JOFJET
+  320 TRMSUB.SAI   DWS           13-May-82 17:38  10-Jun-85 23:22     3 KIFPUT
+  321 ETEST .SLR   DWS           09-Aug-82 21:02  10-Jun-85 23:22     2 MAFTOY
+  322 DSKUSE.OLD   DWS           27-Sep-82 23:48  10-Jun-85 23:22     5 MOKPUL
+  323 DSKUSE.SAV   DWS           28-Sep-82 21:14  10-Jun-85 23:22    19 WINGEC
+  324 DSKUSE.SAI   DWS           28-Sep-82 21:13  10-Jun-85 23:22     3 SEJZET
+  325 DSKUSE.RPT   DWS           29-Sep-82 01:28  10-Jun-85 23:22    15 FIKHUK
+  326 DSKUSE.MSG   DWS           27-Sep-82 23:19  10-Jun-85 23:22     2 GETMIR
+  327 INIT  .SAI   DWS           03-Jan-83 21:32  10-Jun-85 23:22     2 NEDBUG
+  330 INIT  .SAV   DWS           03-Jan-83 21:33  10-Jun-85 23:22    32 PADRAB
+  331 TABLES.OLD   DWS           24-Jan-82 19:36  10-Jun-85 23:22     3 DAVHER
+  332 SYMTAB.SAI   DWS           14-Jan-82 19:38  10-Jun-85 23:22     2 ZASPOZ
+  333 APPLY .SAI   DWS           19-Jan-82 23:22  10-Jun-85 23:22     2 TONKOD
+  334 TABLES.INC   DWS           09-Feb-82 00:38  10-Jun-85 23:22     5 TATTUV
+  335 MEMO  .PUB   DWS           01-Apr-82 18:16  10-Jun-85 23:22     2 BEWRAM
+  336 MEMO  .LIB   DWS           01-Apr-82 18:22  10-Jun-85 23:22     3 HIWGAJ
+  337 SPOOL .DEF   DWS           05-Apr-82 18:36  10-Jun-85 23:22     2 TEQSEB
+  340 MUP   .DEF   DWS           06-Oct-82 18:50  10-Jun-85 23:22     3 LETTUC
+  341 TASM  .SAI   DWS           11-Oct-82 16:45  10-Jun-85 23:22     8 JAFQEQ
+  342 EMPIRE.DAT   DWS           09-Feb-84 21:54  10-Jun-85 23:22     9 GUKLOW
+  343 IDEA  .DED   DWS           08-Feb-82 22:36  10-Jun-85 23:22     2 POSYAL
+  344 LOGIN .300   DWS           11-Mar-82 22:37  10-Jun-85 23:22     2 GOCKOP
+  345 START .DED   DWS           08-Apr-82 19:07  10-Jun-85 23:22     3 TAMHUM
+  346 PEAK  .RPT   DWS           04-May-82 22:04  10-Jun-85 23:22     2 TEYJOB
+  347 PEAK  .KEY   DWS           23-May-82 21:02  10-Jun-85 23:22     5 BIRHAL
+  350 PEAK  .SAV   DWS           18-Oct-82 22:23  10-Jun-85 23:22    51 SIRVUT
+  351 CHUNK .SAI   DWS           30-Sep-82 22:16  10-Jun-85 23:22     3 SAYKOJ
+  352 TRM   .TXT   DWS           19-Oct-82 23:17  10-Jun-85 23:22     2 FISMOY
+  353 PEAK  .INI   DWS           25-Oct-82 00:15  10-Jun-85 23:22     2 HEZCOV
+  354 TYMCOM.CMD   DWS           07-Jan-82 20:02  10-Jun-85 23:22     2 BATDUR
+  355 LINED .SAI   DWS           20-Jan-82 00:54  10-Jun-85 23:22     4 MOSCUF
+  356 LRSUB .SAI   DWS           10-Feb-82 21:38  10-Jun-85 23:22     4 RENZOG
+  357 MARKET.DED   DWS           08-Apr-82 17:40  10-Jun-85 23:22     2 KILZUF
+  360 SURVEY.DED   DWS           22-Apr-82 18:05  10-Jun-85 23:22     2 KOFTAB
+  361 NEWXM .MAP   DWS           06-Mar-82 01:22  10-Jun-85 23:22     4 RECFIW
+  362 DRIVER.SAI   DWS           19-Jan-82 23:36  10-Jun-85 23:22     2 YUQWUN
+  363 DATE3 .SAI   DWS           20-Jan-82 19:21  10-Jun-85 23:22     2 MUGSIL
+  364 E     .DIF   DWS           11-Mar-82 21:14  10-Jun-85 23:22     3 KEJCIB
+  365 S     .DIF   DWS           08-Apr-82 00:40  10-Jun-85 23:22     4 GUBCEJ
+  366 LISP  .INI   DWS           31-Mar-82 05:17  10-Jun-85 23:22     2 FOXQAV
+  367 LISP  .LSP   DWS           31-Mar-82 05:17  10-Jun-85 23:22     4 BILMID
+  370 MATH  .      DWS           21-Jun-82 00:49  10-Jun-85 23:22     3 KOPDEL
+  371 AUTHOR.SAI   DWS           29-Sep-82 01:01  10-Jun-85 23:22     4 COQKEG
+  372 RDISP .REQ   DWS           07-Oct-82 17:06  10-Jun-85 23:22     2 ZEJWUZ
+  373 RDISP .SAI   DWS           07-Oct-82 17:11  10-Jun-85 23:22    13 HESNUY
+  374 DMPSYM.MAC   DWS           19-Aug-81 00:13  10-Jun-85 23:22     3 WETYOZ
+  375 QUOTES.MEM   DWS           16-Sep-82 17:07  10-Jun-85 23:22     2 LISSUX
+  376 MAIL  .BOX   DWS           01-Nov-82 23:54  10-Jun-85 23:22    13 REWVAF
+  377 NOTES .      DWS           16-Feb-83 01:54  10-Jun-85 23:22     2 KUBKUK
+  400 SEND  .SAV   DWS           23-Jan-83 04:18  10-Jun-85 23:22    37 KURQEX
+  401 MAIL  .FWD   DWS           12-Jul-84 10:40  10-Jun-85 23:22     2 WOSWEN
+  402 006TEL.COM   DWS           12-Jul-84 10:40  10-Jun-85 23:22     2 MIPYEY
+  403 006TEL.OUT   DWS           12-Jul-84 10:40  10-Jun-85 23:22     2 TOLBUG
+  404 DIRIT .IN    DWS           08-Oct-81 07:13  10-Jun-85 23:22     2 PAFMUZ
+  405 TOKENS.      DWS           14-Jan-82 17:18  10-Jun-85 23:22     2 COJBUJ
+  406 PARSER.DEF   DWS           19-Jan-82 17:31  10-Jun-85 23:22     2 NEYZEM
+  407 INTRFC.SAI   DWS           19-Jan-82 18:29  10-Jun-85 23:22     3 MUTMOZ
+  410 PARSER.CMD   DWS           19-Jan-82 19:13  10-Jun-85 23:22     2 VEKHOT
+  411 LEXSCN.SAI   DWS           24-Jan-82 23:31  10-Jun-85 23:22     4 MUTCAY
+  412 PAGE  .SAI   DWS           01-Feb-82 01:27  10-Jun-85 23:22     4 NERMIJ
+  413 DSKCLN.DIF   DWS           16-Feb-82 21:30  10-Jun-85 23:22     6 MAFXUR
+  414 CRTDEF.LST   DWS           10-May-82 06:52  10-Jun-85 23:22     2 MOKZUZ
+  415 PARSER.SAI   DWS           14-Jun-82 18:12  10-Jun-85 23:22     6 FILLIL
+  416 NBSSUB.WRS   DWS           13-Jul-82 20:11  10-Jun-85 23:22     4 DUVTOM
+  417 TEST  .SLR   DWS           02-Sep-82 16:32  10-Jun-85 23:22     2 QOJYOX
+  420 FILSCN.REQ   DWS           29-Sep-82 17:37  10-Jun-85 23:22     2 SEPSEB
+  421 PRT   .SAV   DWS           30-Sep-82 23:22  10-Jun-85 23:22    25 SEFPOL
+  422 FILSCN.SAI   DWS           06-Oct-82 16:18  10-Jun-85 23:22     4 HABTAF
+  423 DSKCHK.SAI   DWS           12-Oct-82 22:41  10-Jun-85 23:22     2 TAKGOS
+  424 TID   .DOC   DWS           21-Oct-82 16:51  10-Jun-85 23:22     3 XIDKIJ
+  425 DIRIT .INI   DWS           27-Oct-82 18:39  10-Jun-85 23:22     2 XAJPIS
+  426 [MAIL].      DWS           11-Dec-83 22:42  10-Jun-85 23:22     3 TIBDOB
+
+Total of 98 files in saveset.
+
+End of Saveset #7 from TITO version 16
+Written 10-Jun-85 23:22 GMT
+
+Saveset #8 from TITO version 16
+Written 10-Jun-85 23:34 GMT
+
+  427 RPG   .INI   DWS           06-Apr-83 23:46  10-Jun-85 23:34     2 XAZGEV
+  430 DATE  .SAI   DWS           05-Nov-81 02:01  10-Jun-85 23:34     2 GUDFAQ
+  431 DED   .KEY   DWS           09-Mar-82 01:00  10-Jun-85 23:34     5 BANNED
+  432 CRYPT .SAI   DWS           21-Jan-82 18:58  10-Jun-85 23:34     2 XUCRIR
+  433 DEDUSR.CMD   DWS           21-Apr-82 22:26  10-Jun-85 23:34     2 PEQKAS
+  434 DED   .BUG   DWS           23-Feb-82 23:24  10-Jun-85 23:34     2 HEZTOW
+  435 BOX   .SAI   DWS           16-Mar-82 06:42  10-Jun-85 23:34     7 CILPOS
+  436 DED   .WSH   DWS           08-Apr-82 02:44  10-Jun-85 23:34     3 NEJFET
+  437 CRT   .DEF   DWS           10-May-82 05:15  10-Jun-85 23:34     2 MAPVIB
+  440 TERMS .DEF   DWS           13-May-82 17:23  10-Jun-85 23:34     2 RALZUP
+  441 TERMS .HLD   DWS           10-May-82 18:27  10-Jun-85 23:34     2 GONRUW
+  442 TERMS .HDR   DWS           10-May-82 21:40  10-Jun-85 23:34     2 SUJXOT
+  443 TERMS .SAV   DWS           13-May-82 17:22  10-Jun-85 23:34     6 POQWUN
+  444 TERMS .SAI   DWS           13-May-82 17:21  10-Jun-85 23:34     6 MARWOM
+  445 TIFIX .SAV   DWS           25-May-82 16:57  10-Jun-85 23:34     2 WONWEK
+  446 DED   .INI   DWS           10-Jun-82 18:59  10-Jun-85 23:34     2 YIKVUG
+  447 RDMAIL.INI   DWS           26-Jul-82 20:09  10-Jun-85 23:34     2 WEXNOV
+  450 RTEST .SAI   DWS           06-Sep-82 22:08  10-Jun-85 23:34     2 BIFNIZ
+  451 COEES .MEM   DWS           04-Oct-82 17:58  10-Jun-85 23:34     2 MINDIR
+  452 REDISP.REL   DWS           16-Feb-83 01:50  10-Jun-85 23:34    10 VEFNUS
+  453 REDISP.SAI   DWS           16-Feb-83 01:47  10-Jun-85 23:34    13 GUXDUF
+  454 REDISP.DIF   DWS           17-Feb-83 17:18  10-Jun-85 23:34     2 TIVPIJ
+  455 ACCESS.MSG   DWS           13-Oct-83 01:39  10-Jun-85 23:34     2 KORMOS
+  456 RDMAIL.SAV   DWS           23-Jan-83 07:21  10-Jun-85 23:34    43 DUFLUN
+  457 SLR   .SAV   DWS           10-Mar-82 21:58  10-Jun-85 23:34    13 CERCEP
+  460 SLR   .SAI   DWS           10-Mar-82 21:57  10-Jun-85 23:34    13 QULMEF
+  461 CREAUX.SAI   DWS           11-Feb-82 19:23  10-Jun-85 23:34     2 JOFJET
+  462 TRMSUB.SAI   DWS           13-May-82 17:38  10-Jun-85 23:34     3 KIFPUT
+  463 ETEST .SLR   DWS           09-Aug-82 21:02  10-Jun-85 23:34     2 MAFTOY
+  464 DSKUSE.OLD   DWS           27-Sep-82 23:48  10-Jun-85 23:34     5 MOKPUL
+  465 DSKUSE.SAV   DWS           28-Sep-82 21:14  10-Jun-85 23:34    19 WINGEC
+  466 DSKUSE.SAI   DWS           28-Sep-82 21:13  10-Jun-85 23:34     3 SEJZET
+  467 DSKUSE.RPT   DWS           29-Sep-82 01:28  10-Jun-85 23:34    15 FIKHUK
+  470 DSKUSE.MSG   DWS           27-Sep-82 23:19  10-Jun-85 23:34     2 GETMIR
+  471 INIT  .SAI   DWS           03-Jan-83 21:32  10-Jun-85 23:34     2 NEDBUG
+  472 INIT  .SAV   DWS           03-Jan-83 21:33  10-Jun-85 23:34    32 PADRAB
+  473 TABLES.OLD   DWS           24-Jan-82 19:36  10-Jun-85 23:34     3 DAVHER
+  474 SYMTAB.SAI   DWS           14-Jan-82 19:38  10-Jun-85 23:34     2 ZASPOZ
+  475 APPLY .SAI   DWS           19-Jan-82 23:22  10-Jun-85 23:34     2 TONKOD
+  476 TABLES.INC   DWS           09-Feb-82 00:38  10-Jun-85 23:34     5 TATTUV
+  477 MEMO  .PUB   DWS           01-Apr-82 18:16  10-Jun-85 23:34     2 BEWRAM
+  500 MEMO  .LIB   DWS           01-Apr-82 18:22  10-Jun-85 23:34     3 HIWGAJ
+  501 SPOOL .DEF   DWS           05-Apr-82 18:36  10-Jun-85 23:34     2 TEQSEB
+  502 MUP   .DEF   DWS           06-Oct-82 18:50  10-Jun-85 23:34     3 LETTUC
+  503 TASM  .SAI   DWS           11-Oct-82 16:45  10-Jun-85 23:34     8 JAFQEQ
+  504 EMPIRE.DAT   DWS           09-Feb-84 21:54  10-Jun-85 23:34     9 GUKLOW
+  505 IDEA  .DED   DWS           08-Feb-82 22:36  10-Jun-85 23:34     2 POSYAL
+  506 LOGIN .300   DWS           11-Mar-82 22:37  10-Jun-85 23:34     2 GOCKOP
+  507 START .DED   DWS           08-Apr-82 19:07  10-Jun-85 23:34     3 TAMHUM
+  510 PEAK  .RPT   DWS           04-May-82 22:04  10-Jun-85 23:34     2 TEYJOB
+  511 PEAK  .KEY   DWS           23-May-82 21:02  10-Jun-85 23:34     5 BIRHAL
+  512 PEAK  .SAV   DWS           18-Oct-82 22:23  10-Jun-85 23:34    51 SIRVUT
+  513 CHUNK .SAI   DWS           30-Sep-82 22:16  10-Jun-85 23:34     3 SAYKOJ
+  514 TRM   .TXT   DWS           19-Oct-82 23:17  10-Jun-85 23:34     2 FISMOY
+  515 PEAK  .INI   DWS           25-Oct-82 00:15  10-Jun-85 23:34     2 HEZCOV
+  516 TYMCOM.CMD   DWS           07-Jan-82 20:02  10-Jun-85 23:34     2 BATDUR
+  517 LINED .SAI   DWS           20-Jan-82 00:54  10-Jun-85 23:34     4 MOSCUF
+  520 LRSUB .SAI   DWS           10-Feb-82 21:38  10-Jun-85 23:34     4 RENZOG
+  521 MARKET.DED   DWS           08-Apr-82 17:40  10-Jun-85 23:34     2 KILZUF
+  522 SURVEY.DED   DWS           22-Apr-82 18:05  10-Jun-85 23:34     2 KOFTAB
+  523 NEWXM .MAP   DWS           06-Mar-82 01:22  10-Jun-85 23:34     4 RECFIW
+  524 DRIVER.SAI   DWS           19-Jan-82 23:36  10-Jun-85 23:34     2 YUQWUN
+  525 DATE3 .SAI   DWS           20-Jan-82 19:21  10-Jun-85 23:34     2 MUGSIL
+  526 E     .DIF   DWS           11-Mar-82 21:14  10-Jun-85 23:34     3 KEJCIB
+  527 S     .DIF   DWS           08-Apr-82 00:40  10-Jun-85 23:34     4 GUBCEJ
+  530 LISP  .INI   DWS           31-Mar-82 05:17  10-Jun-85 23:34     2 FOXQAV
+  531 LISP  .LSP   DWS           31-Mar-82 05:17  10-Jun-85 23:34     4 BILMID
+  532 MATH  .      DWS           21-Jun-82 00:49  10-Jun-85 23:34     3 KOPDEL
+  533 AUTHOR.SAI   DWS           29-Sep-82 01:01  10-Jun-85 23:34     4 COQKEG
+  534 RDISP .REQ   DWS           07-Oct-82 17:06  10-Jun-85 23:34     2 ZEJWUZ
+  535 RDISP .SAI   DWS           07-Oct-82 17:11  10-Jun-85 23:34    13 HESNUY
+  536 DMPSYM.MAC   DWS           19-Aug-81 00:13  10-Jun-85 23:34     3 WETYOZ
+  537 QUOTES.MEM   DWS           16-Sep-82 17:07  10-Jun-85 23:34     2 LISSUX
+  540 MAIL  .BOX   DWS           01-Nov-82 23:54  10-Jun-85 23:34    13 REWVAF
+  541 NOTES .      DWS           16-Feb-83 01:54  10-Jun-85 23:34     2 KUBKUK
+  542 SEND  .SAV   DWS           23-Jan-83 04:18  10-Jun-85 23:34    37 KURQEX
+  543 MAIL  .FWD   DWS           12-Jul-84 10:40  10-Jun-85 23:34     2 WOSWEN
+  544 006TEL.COM   DWS           12-Jul-84 10:40  10-Jun-85 23:34     2 MIPYEY
+  545 006TEL.OUT   DWS           12-Jul-84 10:40  10-Jun-85 23:34     2 TOLBUG
+  546 DIRIT .IN    DWS           08-Oct-81 07:13  10-Jun-85 23:34     2 PAFMUZ
+  547 TOKENS.      DWS           14-Jan-82 17:18  10-Jun-85 23:34     2 COJBUJ
+  550 PARSER.DEF   DWS           19-Jan-82 17:31  10-Jun-85 23:34     2 NEYZEM
+  551 INTRFC.SAI   DWS           19-Jan-82 18:29  10-Jun-85 23:34     3 MUTMOZ
+  552 PARSER.CMD   DWS           19-Jan-82 19:13  10-Jun-85 23:34     2 VEKHOT
+  553 LEXSCN.SAI   DWS           24-Jan-82 23:31  10-Jun-85 23:34     4 MUTCAY
+  554 PAGE  .SAI   DWS           01-Feb-82 01:27  10-Jun-85 23:34     4 NERMIJ
+  555 DSKCLN.DIF   DWS           16-Feb-82 21:30  10-Jun-85 23:34     6 MAFXUR
+  556 CRTDEF.LST   DWS           10-May-82 06:52  10-Jun-85 23:34     2 MOKZUZ
+  557 PARSER.SAI   DWS           14-Jun-82 18:12  10-Jun-85 23:34     6 FILLIL
+  560 NBSSUB.WRS   DWS           13-Jul-82 20:11  10-Jun-85 23:34     4 DUVTOM
+  561 TEST  .SLR   DWS           02-Sep-82 16:32  10-Jun-85 23:34     2 QOJYOX
+  562 FILSCN.REQ   DWS           29-Sep-82 17:37  10-Jun-85 23:34     2 SEPSEB
+  563 PRT   .SAV   DWS           30-Sep-82 23:22  10-Jun-85 23:34    25 SEFPOL
+  564 FILSCN.SAI   DWS           06-Oct-82 16:18  10-Jun-85 23:34     4 HABTAF
+  565 DSKCHK.SAI   DWS           12-Oct-82 22:41  10-Jun-85 23:34     2 TAKGOS
+  566 TID   .DOC   DWS           21-Oct-82 16:51  10-Jun-85 23:34     3 XIDKIJ
+  567 DIRIT .INI   DWS           27-Oct-82 18:39  10-Jun-85 23:34     2 XAJPIS
+  570 [MAIL].      DWS           11-Dec-83 22:42  10-Jun-85 23:34     3 TIBDOB
+
+Total of 98 files in saveset.
+
+End of Saveset #8 from TITO version 16
+Written 10-Jun-85 23:34 GMT
+
+Saveset #9 from TITO version 16
+Written 10-Jun-85 23:35 GMT
+
+  571 RPG   .INI   DWS           06-Apr-83 23:46  10-Jun-85 23:35     2 XAZGEV
+  572 DATE  .SAI   DWS           05-Nov-81 02:01  10-Jun-85 23:35     2 GUDFAQ
+  573 DED   .KEY   DWS           09-Mar-82 01:00  10-Jun-85 23:35     5 BANNED
+  574 CRYPT .SAI   DWS           21-Jan-82 18:58  10-Jun-85 23:35     2 XUCRIR
+  575 DEDUSR.CMD   DWS           21-Apr-82 22:26  10-Jun-85 23:35     2 PEQKAS
+  576 DED   .BUG   DWS           23-Feb-82 23:24  10-Jun-85 23:35     2 HEZTOW
+  577 BOX   .SAI   DWS           16-Mar-82 06:42  10-Jun-85 23:35     7 CILPOS
+  600 DED   .WSH   DWS           08-Apr-82 02:44  10-Jun-85 23:35     3 NEJFET
+  601 CRT   .DEF   DWS           10-May-82 05:15  10-Jun-85 23:35     2 MAPVIB
+  602 TERMS .DEF   DWS           13-May-82 17:23  10-Jun-85 23:35     2 RALZUP
+  603 TERMS .HLD   DWS           10-May-82 18:27  10-Jun-85 23:35     2 GONRUW
+  604 TERMS .HDR   DWS           10-May-82 21:40  10-Jun-85 23:35     2 SUJXOT
+  605 TERMS .SAV   DWS           13-May-82 17:22  10-Jun-85 23:35     6 POQWUN
+  606 TERMS .SAI   DWS           13-May-82 17:21  10-Jun-85 23:35     6 MARWOM
+  607 TIFIX .SAV   DWS           25-May-82 16:57  10-Jun-85 23:35     2 WONWEK
+  610 DED   .INI   DWS           10-Jun-82 18:59  10-Jun-85 23:35     2 YIKVUG
+  611 RDMAIL.INI   DWS           26-Jul-82 20:09  10-Jun-85 23:35     2 WEXNOV
+  612 RTEST .SAI   DWS           06-Sep-82 22:08  10-Jun-85 23:35     2 BIFNIZ
+  613 COEES .MEM   DWS           04-Oct-82 17:58  10-Jun-85 23:35     2 MINDIR
+  614 REDISP.REL   DWS           16-Feb-83 01:50  10-Jun-85 23:35    10 VEFNUS
+  615 REDISP.SAI   DWS           16-Feb-83 01:47  10-Jun-85 23:35    13 GUXDUF
+  616 REDISP.DIF   DWS           17-Feb-83 17:18  10-Jun-85 23:35     2 TIVPIJ
+  617 ACCESS.MSG   DWS           13-Oct-83 01:39  10-Jun-85 23:35     2 KORMOS
+  620 RDMAIL.SAV   DWS           23-Jan-83 07:21  10-Jun-85 23:35    43 DUFLUN
+  621 SLR   .SAV   DWS           10-Mar-82 21:58  10-Jun-85 23:35    13 CERCEP
+  622 SLR   .SAI   DWS           10-Mar-82 21:57  10-Jun-85 23:35    13 QULMEF
+  623 CREAUX.SAI   DWS           11-Feb-82 19:23  10-Jun-85 23:35     2 JOFJET
+  624 TRMSUB.SAI   DWS           13-May-82 17:38  10-Jun-85 23:35     3 KIFPUT
+  625 ETEST .SLR   DWS           09-Aug-82 21:02  10-Jun-85 23:35     2 MAFTOY
+  626 DSKUSE.OLD   DWS           27-Sep-82 23:48  10-Jun-85 23:35     5 MOKPUL
+  627 DSKUSE.SAV   DWS           28-Sep-82 21:14  10-Jun-85 23:35    19 WINGEC
+  630 DSKUSE.SAI   DWS           28-Sep-82 21:13  10-Jun-85 23:35     3 SEJZET
+  631 DSKUSE.RPT   DWS           29-Sep-82 01:28  10-Jun-85 23:35    15 FIKHUK
+  632 DSKUSE.MSG   DWS           27-Sep-82 23:19  10-Jun-85 23:35     2 GETMIR
+  633 INIT  .SAI   DWS           03-Jan-83 21:32  10-Jun-85 23:35     2 NEDBUG
+  634 INIT  .SAV   DWS           03-Jan-83 21:33  10-Jun-85 23:35    32 PADRAB
+  635 TABLES.OLD   DWS           24-Jan-82 19:36  10-Jun-85 23:35     3 DAVHER
+  636 SYMTAB.SAI   DWS           14-Jan-82 19:38  10-Jun-85 23:35     2 ZASPOZ
+  637 APPLY .SAI   DWS           19-Jan-82 23:22  10-Jun-85 23:35     2 TONKOD
+  640 TABLES.INC   DWS           09-Feb-82 00:38  10-Jun-85 23:35     5 TATTUV
+  641 MEMO  .PUB   DWS           01-Apr-82 18:16  10-Jun-85 23:35     2 BEWRAM
+  642 MEMO  .LIB   DWS           01-Apr-82 18:22  10-Jun-85 23:35     3 HIWGAJ
+  643 SPOOL .DEF   DWS           05-Apr-82 18:36  10-Jun-85 23:35     2 TEQSEB
+  644 MUP   .DEF   DWS           06-Oct-82 18:50  10-Jun-85 23:35     3 LETTUC
+  645 TASM  .SAI   DWS           11-Oct-82 16:45  10-Jun-85 23:35     8 JAFQEQ
+  646 EMPIRE.DAT   DWS           09-Feb-84 21:54  10-Jun-85 23:35     9 GUKLOW
+  647 IDEA  .DED   DWS           08-Feb-82 22:36  10-Jun-85 23:35     2 POSYAL
+  650 LOGIN .300   DWS           11-Mar-82 22:37  10-Jun-85 23:35     2 GOCKOP
+  651 START .DED   DWS           08-Apr-82 19:07  10-Jun-85 23:35     3 TAMHUM
+  652 PEAK  .RPT   DWS           04-May-82 22:04  10-Jun-85 23:35     2 TEYJOB
+  653 PEAK  .KEY   DWS           23-May-82 21:02  10-Jun-85 23:35     5 BIRHAL
+  654 PEAK  .SAV   DWS           18-Oct-82 22:23  10-Jun-85 23:35    51 SIRVUT
+  655 CHUNK .SAI   DWS           30-Sep-82 22:16  10-Jun-85 23:35     3 SAYKOJ
+  656 TRM   .TXT   DWS           19-Oct-82 23:17  10-Jun-85 23:35     2 FISMOY
+  657 PEAK  .INI   DWS           25-Oct-82 00:15  10-Jun-85 23:35     2 HEZCOV
+  660 TYMCOM.CMD   DWS           07-Jan-82 20:02  10-Jun-85 23:35     2 BATDUR
+  661 LINED .SAI   DWS           20-Jan-82 00:54  10-Jun-85 23:35     4 MOSCUF
+  662 LRSUB .SAI   DWS           10-Feb-82 21:38  10-Jun-85 23:35     4 RENZOG
+  663 MARKET.DED   DWS           08-Apr-82 17:40  10-Jun-85 23:35     2 KILZUF
+  664 SURVEY.DED   DWS           22-Apr-82 18:05  10-Jun-85 23:35     2 KOFTAB
+  665 NEWXM .MAP   DWS           06-Mar-82 01:22  10-Jun-85 23:35     4 RECFIW
+  666 DRIVER.SAI   DWS           19-Jan-82 23:36  10-Jun-85 23:35     2 YUQWUN
+  667 DATE3 .SAI   DWS           20-Jan-82 19:21  10-Jun-85 23:35     2 MUGSIL
+  670 E     .DIF   DWS           11-Mar-82 21:14  10-Jun-85 23:35     3 KEJCIB
+  671 S     .DIF   DWS           08-Apr-82 00:40  10-Jun-85 23:35     4 GUBCEJ
+  672 LISP  .INI   DWS           31-Mar-82 05:17  10-Jun-85 23:35     2 FOXQAV
+  673 LISP  .LSP   DWS           31-Mar-82 05:17  10-Jun-85 23:35     4 BILMID
+  674 MATH  .      DWS           21-Jun-82 00:49  10-Jun-85 23:35     3 KOPDEL
+  675 AUTHOR.SAI   DWS           29-Sep-82 01:01  10-Jun-85 23:35     4 COQKEG
+  676 RDISP .REQ   DWS           07-Oct-82 17:06  10-Jun-85 23:35     2 ZEJWUZ
+  677 RDISP .SAI   DWS           07-Oct-82 17:11  10-Jun-85 23:35    13 HESNUY
+  700 DMPSYM.MAC   DWS           19-Aug-81 00:13  10-Jun-85 23:35     3 WETYOZ
+  701 QUOTES.MEM   DWS           16-Sep-82 17:07  10-Jun-85 23:35     2 LISSUX
+  702 MAIL  .BOX   DWS           01-Nov-82 23:54  10-Jun-85 23:35    13 REWVAF
+  703 NOTES .      DWS           16-Feb-83 01:54  10-Jun-85 23:35     2 KUBKUK
+  704 SEND  .SAV   DWS           23-Jan-83 04:18  10-Jun-85 23:35    37 KURQEX
+  705 MAIL  .FWD   DWS           12-Jul-84 10:40  10-Jun-85 23:35     2 WOSWEN
+  706 006TEL.COM   DWS           12-Jul-84 10:40  10-Jun-85 23:35     2 MIPYEY
+  707 006TEL.OUT   DWS           12-Jul-84 10:40  10-Jun-85 23:35     2 TOLBUG
+  710 DIRIT .IN    DWS           08-Oct-81 07:13  10-Jun-85 23:35     2 PAFMUZ
+  711 TOKENS.      DWS           14-Jan-82 17:18  10-Jun-85 23:35     2 COJBUJ
+  712 PARSER.DEF   DWS           19-Jan-82 17:31  10-Jun-85 23:35     2 NEYZEM
+  713 INTRFC.SAI   DWS           19-Jan-82 18:29  10-Jun-85 23:35     3 MUTMOZ
+  714 PARSER.CMD   DWS           19-Jan-82 19:13  10-Jun-85 23:35     2 VEKHOT
+  715 LEXSCN.SAI   DWS           24-Jan-82 23:31  10-Jun-85 23:35     4 MUTCAY
+  716 PAGE  .SAI   DWS           01-Feb-82 01:27  10-Jun-85 23:35     4 NERMIJ
+  717 DSKCLN.DIF   DWS           16-Feb-82 21:30  10-Jun-85 23:35     6 MAFXUR
+  720 CRTDEF.LST   DWS           10-May-82 06:52  10-Jun-85 23:35     2 MOKZUZ
+  721 PARSER.SAI   DWS           14-Jun-82 18:12  10-Jun-85 23:35     6 FILLIL
+  722 NBSSUB.WRS   DWS           13-Jul-82 20:11  10-Jun-85 23:35     4 DUVTOM
+  723 TEST  .SLR   DWS           02-Sep-82 16:32  10-Jun-85 23:35     2 QOJYOX
+  724 FILSCN.REQ   DWS           29-Sep-82 17:37  10-Jun-85 23:35     2 SEPSEB
+  725 PRT   .SAV   DWS           30-Sep-82 23:22  10-Jun-85 23:35    25 SEFPOL
+  726 FILSCN.SAI   DWS           06-Oct-82 16:18  10-Jun-85 23:35     4 HABTAF
+  727 DSKCHK.SAI   DWS           12-Oct-82 22:41  10-Jun-85 23:35     2 TAKGOS
+  730 TID   .DOC   DWS           21-Oct-82 16:51  10-Jun-85 23:35     3 XIDKIJ
+  731 DIRIT .INI   DWS           27-Oct-82 18:39  10-Jun-85 23:35     2 XAJPIS
+  732 [MAIL].      DWS           11-Dec-83 22:42  10-Jun-85 23:35     3 TIBDOB
+
+Total of 98 files in saveset.
+
+End of Saveset #9 from TITO version 16
+Written 10-Jun-85 23:35 GMT
+
+Saveset #10 from TITO version 16
+Written 11-Jun-85 00:28 GMT
+
+  733 INIT  .SAI   FRENCH        29-Jul-80 21:51  11-Jun-85 00:28     2 BALCUF
+  734 INIT  .SAV   FRENCH        29-Jul-80 21:55  11-Jun-85 00:28    27 QOYSEL
+  735 SV522A.IMG   FRENCH        05-Jan-81 23:27  11-Jun-85 00:28    23 PUVVUS
+  736 SV522A.NIB   FRENCH        05-Jan-81 23:43  11-Jun-85 00:28    20 YIWWER
+  737 SV421 .IMG   FRENCH        22-Jan-81 02:11  11-Jun-85 00:28    23 DIRGAT
+  740 SV371 .IMG   FRENCH        22-Jan-81 02:18  11-Jun-85 00:28    23 YITRIT
+
+Total of 6 files in saveset.
+
+End of Saveset #10 from TITO version 16
+Written 11-Jun-85 00:28 GMT
+
+Saveset #11 from TITO version 16
+Written 11-Jun-85 00:29 GMT
+
+  741 INIT  .SAI   FRENCH        29-Jul-80 21:51  11-Jun-85 00:29     2 BALCUF
+  742 INIT  .SAV   FRENCH        29-Jul-80 21:55  11-Jun-85 00:29    27 QOYSEL
+  743 SV522A.IMG   FRENCH        05-Jan-81 23:27  11-Jun-85 00:29    23 PUVVUS
+  744 SV522A.NIB   FRENCH        05-Jan-81 23:43  11-Jun-85 00:29    20 YIWWER
+  745 SV421 .IMG   FRENCH        22-Jan-81 02:11  11-Jun-85 00:29    23 DIRGAT
+  746 SV371 .IMG   FRENCH        22-Jan-81 02:18  11-Jun-85 00:29    23 YITRIT
+
+Total of 6 files in saveset.
+
+End of Saveset #11 from TITO version 16
+Written 11-Jun-85 00:29 GMT
+
+Saveset #12 from TITO version 16
+Written 11-Jun-85 00:29 GMT
+
+  747 INIT  .SAI   FRENCH        29-Jul-80 21:51  11-Jun-85 00:29     2 BALCUF
+  750 INIT  .SAV   FRENCH        29-Jul-80 21:55  11-Jun-85 00:29    27 QOYSEL
+  751 SV522A.IMG   FRENCH        05-Jan-81 23:27  11-Jun-85 00:29    23 PUVVUS
+  752 SV522A.NIB   FRENCH        05-Jan-81 23:43  11-Jun-85 00:29    20 YIWWER
+  753 SV421 .IMG   FRENCH        22-Jan-81 02:11  11-Jun-85 00:29    23 DIRGAT
+  754 SV371 .IMG   FRENCH        22-Jan-81 02:18  11-Jun-85 00:29    23 YITRIT
+
+Total of 6 files in saveset.
+
+End of Saveset #12 from TITO version 16
+Written 11-Jun-85 00:29 GMT
+
+Saveset #13 from TITO version 16
+Written 11-Jun-85 00:29 GMT
+
+  755 INIT  .SAV   GAZEL         18-Feb-81 22:50  11-Jun-85 00:29    28 NUSWOL
+
+Total of 1 files in saveset.
+
+End of Saveset #13 from TITO version 16
+Written 11-Jun-85 00:29 GMT
+
+Saveset #14 from TITO version 16
+Written 11-Jun-85 00:30 GMT
+
+  756 INIT  .SAV   GAZEL         18-Feb-81 22:50  11-Jun-85 00:30    28 NUSWOL
+
+Total of 1 files in saveset.
+
+End of Saveset #14 from TITO version 16
+Written 11-Jun-85 00:30 GMT
+
+Saveset #15 from TITO version 16
+Written 11-Jun-85 00:30 GMT
+
+  757 INIT  .SAV   GAZEL         18-Feb-81 22:50  11-Jun-85 00:30    28 NUSWOL
+
+Total of 1 files in saveset.
+
+End of Saveset #15 from TITO version 16
+Written 11-Jun-85 00:30 GMT
+
+Saveset #16 from TITO version 16
+Written 11-Jun-85 00:30 GMT
+
+  760 GLYONS.MAI   GLYONS        13-Jul-84 23:43  11-Jun-85 00:30    82 KEPVUV
+  761 VERSE .SAV   GLYONS        28-Jul-80 18:55  11-Jun-85 00:30     5 ZIQZOJ
+  762 FOONLY.NEW   GLYONS        13-Feb-80 02:24  11-Jun-85 00:30     2 NUBKOT
+  763 PC70TS.DAT   GLYONS        05-May-81 01:15  11-Jun-85 00:30     7 YIDSIZ
+
+Total of 4 files in saveset.
+
+End of Saveset #16 from TITO version 16
+Written 11-Jun-85 00:30 GMT
+
+Saveset #17 from TITO version 16
+Written 11-Jun-85 00:31 GMT
+
+  764 GLYONS.MAI   GLYONS        13-Jul-84 23:43  11-Jun-85 00:31    82 KEPVUV
+  765 VERSE .SAV   GLYONS        28-Jul-80 18:55  11-Jun-85 00:31     5 ZIQZOJ
+  766 FOONLY.NEW   GLYONS        13-Feb-80 02:24  11-Jun-85 00:31     2 NUBKOT
+  767 PC70TS.DAT   GLYONS        05-May-81 01:15  11-Jun-85 00:31     7 YIDSIZ
+
+Total of 4 files in saveset.
+
+End of Saveset #17 from TITO version 16
+Written 11-Jun-85 00:31 GMT
+
+Saveset #18 from TITO version 16
+Written 11-Jun-85 00:31 GMT
+
+  770 GLYONS.MAI   GLYONS        13-Jul-84 23:43  11-Jun-85 00:31    82 KEPVUV
+  771 VERSE .SAV   GLYONS        28-Jul-80 18:55  11-Jun-85 00:31     5 ZIQZOJ
+  772 FOONLY.NEW   GLYONS        13-Feb-80 02:24  11-Jun-85 00:31     2 NUBKOT
+  773 PC70TS.DAT   GLYONS        05-May-81 01:15  11-Jun-85 00:31     7 YIDSIZ
+
+Total of 4 files in saveset.
+
+End of Saveset #18 from TITO version 16
+Written 11-Jun-85 00:31 GMT
+
+Saveset #19 from TITO version 16
+Written 11-Jun-85 00:33 GMT
+
+  774 ONCE  .MAC   LENKOV        02-Mar-82 18:24  11-Jun-85 00:33    29 FAPQIM
+  775 INIT  .SAV   LENKOV        18-Feb-82 01:17  11-Jun-85 00:33    14 QARZUT
+  776 INIT  .SAI   LENKOV        21-Dec-80 07:02  11-Jun-85 00:33     2 TUKVOJ
+  777 TVSTRI.NGS   LENKOV        22-Jun-82 04:36  11-Jun-85 00:33     2 YIFXEH
+ 1000 SETTRM.SAI   LENKOV        30-Nov-80 22:55  11-Jun-85 00:33    10 XOMFEC
+ 1001 NEWPJT.LIS   LENKOV        07-Mar-82 23:17  11-Jun-85 00:33     2 HEPROK
+ 1002 SNARL .NOT   LENKOV        15-Mar-82 01:08  11-Jun-85 00:33     2 NUGYIC
+ 1003 MAIL  .BOX   LENKOV        25-Feb-82 23:50  11-Jun-85 00:33    15 MAHBIG
+ 1004 S     .MAC   LENKOV        30-Dec-81 20:39  11-Jun-85 00:33    18 PEMFAN
+ 1005 DATEXP.LIS   LENKOV        10-Mar-82 00:52  11-Jun-85 00:33     2 YITNAD
+
+Total of 10 files in saveset.
+
+End of Saveset #19 from TITO version 16
+Written 11-Jun-85 00:33 GMT
+
+Saveset #20 from TITO version 16
+Written 11-Jun-85 00:33 GMT
+
+ 1006 ONCE  .MAC   LENKOV        02-Mar-82 18:24  11-Jun-85 00:33    29 FAPQIM
+ 1007 INIT  .SAV   LENKOV        18-Feb-82 01:17  11-Jun-85 00:33    14 QARZUT
+ 1010 INIT  .SAI   LENKOV        21-Dec-80 07:02  11-Jun-85 00:33     2 TUKVOJ
+ 1011 TVSTRI.NGS   LENKOV        22-Jun-82 04:36  11-Jun-85 00:33     2 YIFXEH
+ 1012 SETTRM.SAI   LENKOV        30-Nov-80 22:55  11-Jun-85 00:33    10 XOMFEC
+ 1013 NEWPJT.LIS   LENKOV        07-Mar-82 23:17  11-Jun-85 00:33     2 HEPROK
+ 1014 SNARL .NOT   LENKOV        15-Mar-82 01:08  11-Jun-85 00:33     2 NUGYIC
+ 1015 MAIL  .BOX   LENKOV        25-Feb-82 23:50  11-Jun-85 00:33    15 MAHBIG
+ 1016 S     .MAC   LENKOV        30-Dec-81 20:39  11-Jun-85 00:33    18 PEMFAN
+ 1017 DATEXP.LIS   LENKOV        10-Mar-82 00:52  11-Jun-85 00:33     2 YITNAD
+
+Total of 10 files in saveset.
+
+End of Saveset #20 from TITO version 16
+Written 11-Jun-85 00:33 GMT
+
+Saveset #21 from TITO version 16
+Written 11-Jun-85 00:33 GMT
+
+ 1020 ONCE  .MAC   LENKOV        02-Mar-82 18:24  11-Jun-85 00:33    29 FAPQIM
+ 1021 INIT  .SAV   LENKOV        18-Feb-82 01:17  11-Jun-85 00:33    14 QARZUT
+ 1022 INIT  .SAI   LENKOV        21-Dec-80 07:02  11-Jun-85 00:33     2 TUKVOJ
+ 1023 TVSTRI.NGS   LENKOV        22-Jun-82 04:36  11-Jun-85 00:33     2 YIFXEH
+ 1024 SETTRM.SAI   LENKOV        30-Nov-80 22:55  11-Jun-85 00:33    10 XOMFEC
+ 1025 NEWPJT.LIS   LENKOV        07-Mar-82 23:17  11-Jun-85 00:33     2 HEPROK
+ 1026 SNARL .NOT   LENKOV        15-Mar-82 01:08  11-Jun-85 00:33     2 NUGYIC
+ 1027 MAIL  .BOX   LENKOV        25-Feb-82 23:50  11-Jun-85 00:33    15 MAHBIG
+ 1030 S     .MAC   LENKOV        30-Dec-81 20:39  11-Jun-85 00:33    18 PEMFAN
+ 1031 DATEXP.LIS   LENKOV        10-Mar-82 00:52  11-Jun-85 00:33     2 YITNAD
+
+Total of 10 files in saveset.
+
+End of Saveset #21 from TITO version 16
+Written 11-Jun-85 00:33 GMT
+
+Saveset #22 from TITO version 16
+Written 11-Jun-85 00:34 GMT
+
+ 1032 RPG   .INI   LOIS          16-Feb-84 23:36  11-Jun-85 00:34     2 VIDDUS
+ 1033 ACCESS.MSG   LOIS          08-Nov-82 18:01  11-Jun-85 00:34     2 PUVREX
+ 1034 ONTYME.INS   LOIS          14-Jun-84 22:04  11-Jun-85 00:34     5 CIQHIS
+ 1035 USERS .ALL   LOIS          09-Apr-85 00:45  11-Jun-85 00:34     5 VERXEZ
+ 1036 ACCESS.LIS   LOIS          15-May-85 21:15  11-Jun-85 00:34     2 QIWLIH
+ 1037 INITAD.SAI   LOIS          21-May-85 19:13  11-Jun-85 00:34     2 QIYMOT
+ 1040 UNDER .SAI   LOIS          20-Sep-83 18:21  11-Jun-85 00:34     4 RULXIN
+ 1041 P034  .MKR   LOIS          28-May-85 16:53  11-Jun-85 00:34     2 ZOZDEQ
+ 1042 UNDER .SAV   LOIS          09-Apr-85 18:32  11-Jun-85 00:34    14 DUJDEP
+ 1043 SYS74 .HIS   LOIS          02-Dec-81 20:12  11-Jun-85 00:34     2 JUDVIJ
+ 1044 SPINIT.SAI   LOIS          11-Nov-82 17:06  11-Jun-85 00:34     2 BELCON
+ 1045 INITR .SAI   LOIS          21-May-84 21:37  11-Jun-85 00:34     2 JUCKIT
+ 1046 INITR .SAV   LOIS          21-May-84 21:38  11-Jun-85 00:34    33 HUYGAJ
+ 1047 USEGAN.SAI   LOIS          10-Oct-83 20:09  11-Jun-85 00:34    12 RUGBID
+ 1050 PEAK  .INI   LOIS          11-Mar-84 20:54  11-Jun-85 00:34     2 DOBPIC
+ 1051 C     .SAV   LOIS          29-Sep-83 17:06  11-Jun-85 00:34     2 REYKOP
+ 1052 R     .MAC   LOIS          27-Sep-83 21:47  11-Jun-85 00:34     2 NOGNEQ
+ 1053 R     .SAV   LOIS          27-Sep-83 21:47  11-Jun-85 00:34     2 QOCGED
+ 1054 OLD   .MAI   LOIS          24-Jun-84 23:26  11-Jun-85 00:34     2 LIZXIF
+ 1055 STAND .HRS   LOIS          24-Jun-84 17:15  11-Jun-85 00:34     2 ZAVWAC
+ 1056 MAIL  .BOX   LOIS          24-Jun-84 23:18  11-Jun-85 00:34     4 CUCDUV
+ 1057 PTEST .SAI   LOIS          14-Sep-83 01:39  11-Jun-85 00:34     4 JAXGUP
+ 1060 USER  .CAN   LOIS          11-Apr-84 18:05  11-Jun-85 00:34     2 TAMTAR
+ 1061 MAIL  .      LOIS          27-May-85 16:13  11-Jun-85 00:34    11 YADDOH
+ 1062 MAGNUM.DIR   LOIS          16-Oct-84 17:57  11-Jun-85 00:34     2 LIFPUS
+ 1063 PTEST .SAV   LOIS          08-Jan-85 21:56  11-Jun-85 00:34     4 CENZUR
+ 1064 CPU   .SAI   LOIS          19-Jul-82 23:57  11-Jun-85 00:34     2 SENTUN
+ 1065 PAGE  .SAI   LOIS          29-Aug-82 19:08  11-Jun-85 00:34     2 YEPQAG
+ 1066 RDLIC .SAI   LOIS          23-Aug-83 21:36  11-Jun-85 00:34     2 QEWSAB
+ 1067 CLEAR .MAC   LOIS          27-Sep-83 21:33  11-Jun-85 00:34     2 WODZIR
+ 1070 RESET .SAI   LOIS          27-Sep-83 21:43  11-Jun-85 00:34     2 XEYWAK
+ 1071 CLR   .SAI   LOIS          27-Sep-83 21:43  11-Jun-85 00:34     2 KIXPIC
+ 1072 AUTO  .SAI   LOIS          25-Mar-84 21:47  11-Jun-85 00:34     2 ZOMBEX
+ 1073 DIRIT .INI   LOIS          21-Jun-84 16:29  11-Jun-85 00:34     2 XAJPIS
+
+Total of 34 files in saveset.
+
+End of Saveset #22 from TITO version 16
+Written 11-Jun-85 00:34 GMT
+
+Saveset #23 from TITO version 16
+Written 11-Jun-85 00:34 GMT
+
+ 1074 RPG   .INI   LOIS          16-Feb-84 23:36  11-Jun-85 00:34     2 VIDDUS
+ 1075 ACCESS.MSG   LOIS          08-Nov-82 18:01  11-Jun-85 00:34     2 PUVREX
+ 1076 ONTYME.INS   LOIS          14-Jun-84 22:04  11-Jun-85 00:34     5 CIQHIS
+ 1077 USERS .ALL   LOIS          09-Apr-85 00:45  11-Jun-85 00:34     5 VERXEZ
+ 1100 ACCESS.LIS   LOIS          15-May-85 21:15  11-Jun-85 00:34     2 QIWLIH
+ 1101 INITAD.SAI   LOIS          21-May-85 19:13  11-Jun-85 00:34     2 QIYMOT
+ 1102 UNDER .SAI   LOIS          20-Sep-83 18:21  11-Jun-85 00:34     4 RULXIN
+ 1103 P034  .MKR   LOIS          28-May-85 16:53  11-Jun-85 00:34     2 ZOZDEQ
+ 1104 UNDER .SAV   LOIS          09-Apr-85 18:32  11-Jun-85 00:34    14 DUJDEP
+ 1105 SYS74 .HIS   LOIS          02-Dec-81 20:12  11-Jun-85 00:34     2 JUDVIJ
+ 1106 SPINIT.SAI   LOIS          11-Nov-82 17:06  11-Jun-85 00:34     2 BELCON
+ 1107 INITR .SAI   LOIS          21-May-84 21:37  11-Jun-85 00:34     2 JUCKIT
+ 1110 INITR .SAV   LOIS          21-May-84 21:38  11-Jun-85 00:34    33 HUYGAJ
+ 1111 USEGAN.SAI   LOIS          10-Oct-83 20:09  11-Jun-85 00:34    12 RUGBID
+ 1112 PEAK  .INI   LOIS          11-Mar-84 20:54  11-Jun-85 00:34     2 DOBPIC
+ 1113 C     .SAV   LOIS          29-Sep-83 17:06  11-Jun-85 00:34     2 REYKOP
+ 1114 R     .MAC   LOIS          27-Sep-83 21:47  11-Jun-85 00:34     2 NOGNEQ
+ 1115 R     .SAV   LOIS          27-Sep-83 21:47  11-Jun-85 00:34     2 QOCGED
+ 1116 OLD   .MAI   LOIS          24-Jun-84 23:26  11-Jun-85 00:34     2 LIZXIF
+ 1117 STAND .HRS   LOIS          24-Jun-84 17:15  11-Jun-85 00:34     2 ZAVWAC
+ 1120 MAIL  .BOX   LOIS          24-Jun-84 23:18  11-Jun-85 00:34     4 CUCDUV
+ 1121 PTEST .SAI   LOIS          14-Sep-83 01:39  11-Jun-85 00:34     4 JAXGUP
+ 1122 USER  .CAN   LOIS          11-Apr-84 18:05  11-Jun-85 00:34     2 TAMTAR
+ 1123 MAIL  .      LOIS          27-May-85 16:13  11-Jun-85 00:34    11 YADDOH
+ 1124 MAGNUM.DIR   LOIS          16-Oct-84 17:57  11-Jun-85 00:34     2 LIFPUS
+ 1125 PTEST .SAV   LOIS          08-Jan-85 21:56  11-Jun-85 00:34     4 CENZUR
+ 1126 CPU   .SAI   LOIS          19-Jul-82 23:57  11-Jun-85 00:34     2 SENTUN
+ 1127 PAGE  .SAI   LOIS          29-Aug-82 19:08  11-Jun-85 00:34     2 YEPQAG
+ 1130 RDLIC .SAI   LOIS          23-Aug-83 21:36  11-Jun-85 00:34     2 QEWSAB
+ 1131 CLEAR .MAC   LOIS          27-Sep-83 21:33  11-Jun-85 00:34     2 WODZIR
+ 1132 RESET .SAI   LOIS          27-Sep-83 21:43  11-Jun-85 00:34     2 XEYWAK
+ 1133 CLR   .SAI   LOIS          27-Sep-83 21:43  11-Jun-85 00:34     2 KIXPIC
+ 1134 AUTO  .SAI   LOIS          25-Mar-84 21:47  11-Jun-85 00:34     2 ZOMBEX
+ 1135 DIRIT .INI   LOIS          21-Jun-84 16:29  11-Jun-85 00:34     2 XAJPIS
+
+Total of 34 files in saveset.
+
+End of Saveset #23 from TITO version 16
+Written 11-Jun-85 00:34 GMT
+
+Saveset #24 from TITO version 16
+Written 11-Jun-85 00:34 GMT
+
+ 1136 RPG   .INI   LOIS          16-Feb-84 23:36  11-Jun-85 00:34     2 VIDDUS
+ 1137 ACCESS.MSG   LOIS          08-Nov-82 18:01  11-Jun-85 00:34     2 PUVREX
+ 1140 ONTYME.INS   LOIS          14-Jun-84 22:04  11-Jun-85 00:34     5 CIQHIS
+ 1141 USERS .ALL   LOIS          09-Apr-85 00:45  11-Jun-85 00:34     5 VERXEZ
+ 1142 ACCESS.LIS   LOIS          15-May-85 21:15  11-Jun-85 00:34     2 QIWLIH
+ 1143 INITAD.SAI   LOIS          21-May-85 19:13  11-Jun-85 00:34     2 QIYMOT
+ 1144 UNDER .SAI   LOIS          20-Sep-83 18:21  11-Jun-85 00:34     4 RULXIN
+ 1145 P034  .MKR   LOIS          28-May-85 16:53  11-Jun-85 00:34     2 ZOZDEQ
+ 1146 UNDER .SAV   LOIS          09-Apr-85 18:32  11-Jun-85 00:34    14 DUJDEP
+ 1147 SYS74 .HIS   LOIS          02-Dec-81 20:12  11-Jun-85 00:34     2 JUDVIJ
+ 1150 SPINIT.SAI   LOIS          11-Nov-82 17:06  11-Jun-85 00:34     2 BELCON
+ 1151 INITR .SAI   LOIS          21-May-84 21:37  11-Jun-85 00:34     2 JUCKIT
+ 1152 INITR .SAV   LOIS          21-May-84 21:38  11-Jun-85 00:34    33 HUYGAJ
+ 1153 USEGAN.SAI   LOIS          10-Oct-83 20:09  11-Jun-85 00:34    12 RUGBID
+ 1154 PEAK  .INI   LOIS          11-Mar-84 20:54  11-Jun-85 00:34     2 DOBPIC
+ 1155 C     .SAV   LOIS          29-Sep-83 17:06  11-Jun-85 00:34     2 REYKOP
+ 1156 R     .MAC   LOIS          27-Sep-83 21:47  11-Jun-85 00:34     2 NOGNEQ
+ 1157 R     .SAV   LOIS          27-Sep-83 21:47  11-Jun-85 00:34     2 QOCGED
+ 1160 OLD   .MAI   LOIS          24-Jun-84 23:26  11-Jun-85 00:34     2 LIZXIF
+ 1161 STAND .HRS   LOIS          24-Jun-84 17:15  11-Jun-85 00:34     2 ZAVWAC
+ 1162 MAIL  .BOX   LOIS          24-Jun-84 23:18  11-Jun-85 00:34     4 CUCDUV
+ 1163 PTEST .SAI   LOIS          14-Sep-83 01:39  11-Jun-85 00:34     4 JAXGUP
+ 1164 USER  .CAN   LOIS          11-Apr-84 18:05  11-Jun-85 00:34     2 TAMTAR
+ 1165 MAIL  .      LOIS          27-May-85 16:13  11-Jun-85 00:34    11 YADDOH
+ 1166 MAGNUM.DIR   LOIS          16-Oct-84 17:57  11-Jun-85 00:34     2 LIFPUS
+ 1167 PTEST .SAV   LOIS          08-Jan-85 21:56  11-Jun-85 00:34     4 CENZUR
+ 1170 CPU   .SAI   LOIS          19-Jul-82 23:57  11-Jun-85 00:34     2 SENTUN
+ 1171 PAGE  .SAI   LOIS          29-Aug-82 19:08  11-Jun-85 00:34     2 YEPQAG
+ 1172 RDLIC .SAI   LOIS          23-Aug-83 21:36  11-Jun-85 00:34     2 QEWSAB
+ 1173 CLEAR .MAC   LOIS          27-Sep-83 21:33  11-Jun-85 00:34     2 WODZIR
+ 1174 RESET .SAI   LOIS          27-Sep-83 21:43  11-Jun-85 00:34     2 XEYWAK
+ 1175 CLR   .SAI   LOIS          27-Sep-83 21:43  11-Jun-85 00:34     2 KIXPIC
+ 1176 AUTO  .SAI   LOIS          25-Mar-84 21:47  11-Jun-85 00:34     2 ZOMBEX
+ 1177 DIRIT .INI   LOIS          21-Jun-84 16:29  11-Jun-85 00:34     2 XAJPIS
+
+Total of 34 files in saveset.
+
+End of Saveset #24 from TITO version 16
+Written 11-Jun-85 00:34 GMT
+
+Saveset #25 from TITO version 16
+Written 11-Jun-85 00:36 GMT
+
+ 1200 MILEST.STD   NOS           25-Nov-80 02:55  11-Jun-85 00:36     2 LOGGAS
+ 1201 MILEST.DFS   NOS           25-Nov-80 02:58  11-Jun-85 00:36     2 HOGQIT
+ 1202 DSSQ4 .TXT   NOS           02-Feb-82 02:24  11-Jun-85 00:36     6 PAMGIB
+ 1203 CPSTAT.TXT   NOS           21-Jul-81 23:41  11-Jun-85 00:36     5 PURDON
+
+Total of 4 files in saveset.
+
+End of Saveset #25 from TITO version 16
+Written 11-Jun-85 00:36 GMT
+
+Saveset #26 from TITO version 16
+Written 11-Jun-85 00:36 GMT
+
+ 1204 MILEST.STD   NOS           25-Nov-80 02:55  11-Jun-85 00:36     2 LOGGAS
+ 1205 MILEST.DFS   NOS           25-Nov-80 02:58  11-Jun-85 00:36     2 HOGQIT
+ 1206 DSSQ4 .TXT   NOS           02-Feb-82 02:24  11-Jun-85 00:36     6 PAMGIB
+ 1207 CPSTAT.TXT   NOS           21-Jul-81 23:41  11-Jun-85 00:36     5 PURDON
+
+Total of 4 files in saveset.
+
+End of Saveset #26 from TITO version 16
+Written 11-Jun-85 00:36 GMT
+
+Saveset #27 from TITO version 16
+Written 11-Jun-85 00:36 GMT
+
+ 1210 MILEST.STD   NOS           25-Nov-80 02:55  11-Jun-85 00:36     2 LOGGAS
+ 1211 MILEST.DFS   NOS           25-Nov-80 02:58  11-Jun-85 00:36     2 HOGQIT
+ 1212 DSSQ4 .TXT   NOS           02-Feb-82 02:24  11-Jun-85 00:36     6 PAMGIB
+ 1213 CPSTAT.TXT   NOS           21-Jul-81 23:41  11-Jun-85 00:36     5 PURDON
+
+Total of 4 files in saveset.
+
+End of Saveset #27 from TITO version 16
+Written 11-Jun-85 00:36 GMT
+
+Saveset #28 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+ 1214 PHOCMP.MSA   PERP          08-Mar-82 08:22  11-Jun-85 00:37     7 WAFLUN
+ 1215 PHOUTL.MSA   PERP          08-Mar-82 08:24  11-Jun-85 00:37     8 REWRAH
+ 1216 PHONIX.MSG   PERP          08-Mar-82 08:25  11-Jun-85 00:37     3 LEFKIY
+ 1217 PHOPNT.MSA   PERP          08-Mar-82 08:21  11-Jun-85 00:37     4 CISSAP
+ 1220 PHOSCN.MSA   PERP          08-Mar-82 08:23  11-Jun-85 00:37     4 DAKZUC
+ 1221 PHOTAB.GRM   PERP          08-Mar-82 08:25  11-Jun-85 00:37     3 VOLXAK
+
+Total of 6 files in saveset.
+
+End of Saveset #28 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+Saveset #29 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+ 1222 PHOCMP.MSA   PERP          08-Mar-82 08:22  11-Jun-85 00:37     7 WAFLUN
+ 1223 PHOUTL.MSA   PERP          08-Mar-82 08:24  11-Jun-85 00:37     8 REWRAH
+ 1224 PHONIX.MSG   PERP          08-Mar-82 08:25  11-Jun-85 00:37     3 LEFKIY
+ 1225 PHOPNT.MSA   PERP          08-Mar-82 08:21  11-Jun-85 00:37     4 CISSAP
+ 1226 PHOSCN.MSA   PERP          08-Mar-82 08:23  11-Jun-85 00:37     4 DAKZUC
+ 1227 PHOTAB.GRM   PERP          08-Mar-82 08:25  11-Jun-85 00:37     3 VOLXAK
+
+Total of 6 files in saveset.
+
+End of Saveset #29 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+Saveset #30 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+ 1230 PHOCMP.MSA   PERP          08-Mar-82 08:22  11-Jun-85 00:37     7 WAFLUN
+ 1231 PHOUTL.MSA   PERP          08-Mar-82 08:24  11-Jun-85 00:37     8 REWRAH
+ 1232 PHONIX.MSG   PERP          08-Mar-82 08:25  11-Jun-85 00:37     3 LEFKIY
+ 1233 PHOPNT.MSA   PERP          08-Mar-82 08:21  11-Jun-85 00:37     4 CISSAP
+ 1234 PHOSCN.MSA   PERP          08-Mar-82 08:23  11-Jun-85 00:37     4 DAKZUC
+ 1235 PHOTAB.GRM   PERP          08-Mar-82 08:25  11-Jun-85 00:37     3 VOLXAK
+
+Total of 6 files in saveset.
+
+End of Saveset #30 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+Saveset #31 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+ 1236 G     .SAV   SLG           28-Feb-79 02:24  11-Jun-85 00:37     2 FEDCEP
+ 1237 INIT  .SAV   SLG           28-Apr-82 23:18  11-Jun-85 00:37    30 TAXLOP
+ 1240 INIT  .SAI   SLG           15-Apr-82 23:12  11-Jun-85 00:37     2 NARNEF
+ 1241 DWNLOD.SAV   SLG           07-Jun-80 16:19  11-Jun-85 00:37     2 POCDAP
+ 1242 MAZE  .DAT   SLG           27-Nov-82 05:47  11-Jun-85 00:37     2 KOCXOH
+ 1243 XHEAD .CNT   SLG           05-Apr-82 23:53  11-Jun-85 00:37     2 HOTLOW
+ 1244 SPPARC.MEM   SLG           19-May-82 01:57  11-Jun-85 00:37     2 HIZTIM
+ 1245 CYFER .SAV   SLG           15-Aug-79 20:39  11-Jun-85 00:37    13 GISFIC
+ 1246 XSECT .MAI   SLG           28-Apr-82 17:17  11-Jun-85 00:37     2 LOXNAY
+ 1247 LUK   .SAV   SLG           13-Dec-78 00:28  11-Jun-85 00:37    17 FURVIP
+ 1250 REMINI.SAV   SLG           10-Feb-80 23:07  11-Jun-85 00:37     5 CIYRIC
+ 1251 GO    .SAV   SLG           02-Nov-78 17:25  11-Jun-85 00:37     2 TOWZOZ
+ 1252 CLNUP .COM   SLG           15-Apr-82 23:05  11-Jun-85 00:37     2 XIGYAB
+ 1253 GRAB  .SAV   SLG           22-Oct-80 20:44  11-Jun-85 00:37    13 RACYEW
+ 1254 L     .SAV   SLG           13-Aug-79 20:28  11-Jun-85 00:37     3 TOJWIV
+ 1255 MAIL  .BOX   SLG           23-Jun-82 05:31  11-Jun-85 00:37     4 VULQOL
+ 1256 SLGPER.FDM   SLG           19-Mar-75 00:00  11-Jun-85 00:37   197 HOKNIV
+ 1257 REMIND.DAT   SLG           23-Jun-82 05:31  11-Jun-85 00:37     2 WAQMUP
+
+Total of 18 files in saveset.
+
+End of Saveset #31 from TITO version 16
+Written 11-Jun-85 00:37 GMT
+
+Saveset #32 from TITO version 16
+Written 11-Jun-85 00:38 GMT
+
+ 1260 G     .SAV   SLG           28-Feb-79 02:24  11-Jun-85 00:38     2 FEDCEP
+ 1261 INIT  .SAV   SLG           28-Apr-82 23:18  11-Jun-85 00:38    30 TAXLOP
+ 1262 INIT  .SAI   SLG           15-Apr-82 23:12  11-Jun-85 00:38     2 NARNEF
+ 1263 DWNLOD.SAV   SLG           07-Jun-80 16:19  11-Jun-85 00:38     2 POCDAP
+ 1264 MAZE  .DAT   SLG           27-Nov-82 05:47  11-Jun-85 00:38     2 KOCXOH
+ 1265 XHEAD .CNT   SLG           05-Apr-82 23:53  11-Jun-85 00:38     2 HOTLOW
+ 1266 SPPARC.MEM   SLG           19-May-82 01:57  11-Jun-85 00:38     2 HIZTIM
+ 1267 CYFER .SAV   SLG           15-Aug-79 20:39  11-Jun-85 00:38    13 GISFIC
+ 1270 XSECT .MAI   SLG           28-Apr-82 17:17  11-Jun-85 00:38     2 LOXNAY
+ 1271 LUK   .SAV   SLG           13-Dec-78 00:28  11-Jun-85 00:38    17 FURVIP
+ 1272 REMINI.SAV   SLG           10-Feb-80 23:07  11-Jun-85 00:38     5 CIYRIC
+ 1273 GO    .SAV   SLG           02-Nov-78 17:25  11-Jun-85 00:38     2 TOWZOZ
+ 1274 CLNUP .COM   SLG           15-Apr-82 23:05  11-Jun-85 00:38     2 XIGYAB
+ 1275 GRAB  .SAV   SLG           22-Oct-80 20:44  11-Jun-85 00:38    13 RACYEW
+ 1276 L     .SAV   SLG           13-Aug-79 20:28  11-Jun-85 00:38     3 TOJWIV
+ 1277 MAIL  .BOX   SLG           23-Jun-82 05:31  11-Jun-85 00:38     4 VULQOL
+ 1300 SLGPER.FDM   SLG           19-Mar-75 00:00  11-Jun-85 00:38   197 HOKNIV
+ 1301 REMIND.DAT   SLG           23-Jun-82 05:31  11-Jun-85 00:38     2 WAQMUP
+
+Total of 18 files in saveset.
+
+End of Saveset #32 from TITO version 16
+Written 11-Jun-85 00:38 GMT
+
+Saveset #33 from TITO version 16
+Written 11-Jun-85 00:38 GMT
+
+ 1302 G     .SAV   SLG           28-Feb-79 02:24  11-Jun-85 00:38     2 FEDCEP
+ 1303 INIT  .SAV   SLG           28-Apr-82 23:18  11-Jun-85 00:38    30 TAXLOP
+ 1304 INIT  .SAI   SLG           15-Apr-82 23:12  11-Jun-85 00:38     2 NARNEF
+ 1305 DWNLOD.SAV   SLG           07-Jun-80 16:19  11-Jun-85 00:38     2 POCDAP
+ 1306 MAZE  .DAT   SLG           27-Nov-82 05:47  11-Jun-85 00:38     2 KOCXOH
+ 1307 XHEAD .CNT   SLG           05-Apr-82 23:53  11-Jun-85 00:38     2 HOTLOW
+ 1310 SPPARC.MEM   SLG           19-May-82 01:57  11-Jun-85 00:38     2 HIZTIM
+ 1311 CYFER .SAV   SLG           15-Aug-79 20:39  11-Jun-85 00:38    13 GISFIC
+ 1312 XSECT .MAI   SLG           28-Apr-82 17:17  11-Jun-85 00:38     2 LOXNAY
+ 1313 LUK   .SAV   SLG           13-Dec-78 00:28  11-Jun-85 00:38    17 FURVIP
+ 1314 REMINI.SAV   SLG           10-Feb-80 23:07  11-Jun-85 00:38     5 CIYRIC
+ 1315 GO    .SAV   SLG           02-Nov-78 17:25  11-Jun-85 00:38     2 TOWZOZ
+ 1316 CLNUP .COM   SLG           15-Apr-82 23:05  11-Jun-85 00:38     2 XIGYAB
+ 1317 GRAB  .SAV   SLG           22-Oct-80 20:44  11-Jun-85 00:38    13 RACYEW
+ 1320 L     .SAV   SLG           13-Aug-79 20:28  11-Jun-85 00:38     3 TOJWIV
+ 1321 MAIL  .BOX   SLG           23-Jun-82 05:31  11-Jun-85 00:38     4 VULQOL
+ 1322 SLGPER.FDM   SLG           19-Mar-75 00:00  11-Jun-85 00:38   197 HOKNIV
+ 1323 REMIND.DAT   SLG           23-Jun-82 05:31  11-Jun-85 00:38     2 WAQMUP
+
+Total of 18 files in saveset.
+
+End of Saveset #33 from TITO version 16
+Written 11-Jun-85 00:38 GMT
+
+Saveset #34 from TITO version 16
+Written 11-Jun-85 00:39 GMT
+
+ 1324 ACCESS.LIS   SNARL         17-Mar-82 02:04  11-Jun-85 00:39     2 JITLUP
+ 1325 TDPARS.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:39     2 KOPYAN
+ 1326 RF    .XXX   SNARL         17-Mar-82 02:11  11-Jun-85 00:39     3 SORVOD
+ 1327 DATE  .DA    SNARL         05-Mar-82 23:26  11-Jun-85 00:39     3 KUMRIR
+ 1330 TDPARS.PUB   SNARL         16-Feb-84 21:53  11-Jun-85 00:39    10 ZENGIF
+ 1331 TDPARS.DOC   SNARL         16-Feb-84 21:52  11-Jun-85 00:39    13 WUJMEL
+ 1332 TDPARS.DIR   SNARL         16-Feb-84 21:52  11-Jun-85 00:39     2 HEBLOS
+ 1333 TDP002.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:39     2 ZOSQUY
+ 1334 FTRANS.UNB   SNARL         16-Feb-84 21:37  11-Jun-85 00:39    16 NEZYUK
+ 1335 TDPARS.SAI   SNARL         16-Feb-84 21:17  11-Jun-85 00:39     6 POXHUM
+ 1336 WTRUNC.SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:39     3 YALMEM
+ 1337 WTRUNC.SAV   SNARL         16-Feb-84 21:10  11-Jun-85 00:39    14 QITGAW
+ 1340 SNA010.SAI   SNARL         16-Feb-84 20:54  11-Jun-85 00:39     3 QIBNAV
+ 1341 FTRANS.SAI   SNARL         16-Feb-84 20:52  11-Jun-85 00:39    32 PURQIP
+ 1342 FTRANS.SUB   SNARL         16-Feb-84 20:51  11-Jun-85 00:39     8 MAQMIZ
+ 1343 DSHELP.DOC   SNARL         16-Feb-84 20:42  11-Jun-85 00:39     2 DUVVEL
+ 1344 SNHARR.SAI   SNARL         16-Feb-84 20:24  11-Jun-85 00:39     2 XUJPUM
+ 1345 RPG   .INI   SNARL         16-Feb-84 20:10  11-Jun-85 00:39     2 NIJTAT
+ 1346 BRKTBL.DA    SNARL         12-Mar-82 21:32  11-Jun-85 00:39     3 NAPKUX
+ 1347 A     .      SNARL         19-Mar-82 02:50  11-Jun-85 00:39     9 CEJZUT
+ 1350 TBGSYM.NEW   SNARL         16-Feb-84 21:51  11-Jun-85 00:39     2 CEDJIZ
+ 1351 TBGSCN.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:39     4 YICJAC
+ 1352 SNMAST.SWM   SNARL         16-Feb-84 21:41  11-Jun-85 00:39    15 XOPDIM
+ 1353 TBGSYM.SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:39     2 ZIZFAW
+ 1354 STATUS.1ST   SNARL         16-Feb-84 21:39  11-Jun-85 00:39     4 HUTGAC
+ 1355 STATUS.DOC   SNARL         16-Feb-84 21:39  11-Jun-85 00:39     4 PISGEZ
+ 1356 STATUS.2ND   SNARL         16-Feb-84 21:36  11-Jun-85 00:39     3 MOSZOK
+ 1357 SNCMDL.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:39     2 BAFREH
+ 1360 SNLIST.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:39     3 SASKIY
+ 1361 SNMILE.PUB   SNARL         16-Feb-84 21:10  11-Jun-85 00:39     4 QERQUT
+ 1362 SNMILE.DOC   SNARL         16-Feb-84 21:10  11-Jun-85 00:39     5 MUTZOM
+ 1363 SNSYM .SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:39     3 ZORFIK
+ 1364 SNA020.SAI   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     2 HAZFED
+ 1365 INIT  .SAV   SNARL         16-Feb-84 20:06  11-Jun-85 00:39    33 ZONWIK
+ 1366 P     .DAT   SNARL         17-Mar-82 02:11  11-Jun-85 00:39     3 DIDTAZ
+ 1367 LIST  .LST   SNARL         19-Mar-82 02:51  11-Jun-85 00:39    29 BUMKIS
+ 1370 TAB000.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:39     2 GADSON
+ 1371 MTDUMP.SAI   SNARL         16-Feb-84 21:50  11-Jun-85 00:39    13 KOTBUN
+ 1372 MTDUMP.MEM   SNARL         16-Feb-84 21:49  11-Jun-85 00:39     8 TOPQAP
+ 1373 MTDUMP.RNO   SNARL         16-Feb-84 21:49  11-Jun-85 00:39     7 YOBYEL
+ 1374 MTDUMP.SAV   SNARL         16-Feb-84 21:42  11-Jun-85 00:39    59 BADDUN
+ 1375 SHELL .SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:39     2 ZUCWAB
+ 1376 MEMO  .PUB   SNARL         16-Feb-84 21:39  11-Jun-85 00:39     2 MIRPEY
+ 1377 MEMO  .DOC   SNARL         16-Feb-84 21:39  11-Jun-85 00:39     2 FEHBEJ
+ 1400 LINK  .CCL   SNARL         16-Feb-84 21:36  11-Jun-85 00:39     2 WOXMIJ
+ 1401 FORMAT.RES   SNARL         16-Feb-84 21:36  11-Jun-85 00:39     2 FESDEN
+ 1402 SN    .SAV   SNARL         16-Feb-84 21:17  11-Jun-85 00:39   133 YECKUY
+ 1403 PROCOM.PUB   SNARL         16-Feb-84 21:15  11-Jun-85 00:39     2 JOXNID
+ 1404 PROCOM.SAI   SNARL         16-Feb-84 21:15  11-Jun-85 00:39     4 DEKHAJ
+ 1405 PROCOM.SAV   SNARL         16-Feb-84 21:13  11-Jun-85 00:39    20 VULMEV
+ 1406 SNBLOK.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:39     2 QEGPUC
+ 1407 SN    .SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:39     2 TOZPAZ
+ 1410 SNPLNS.PUB   SNARL         16-Feb-84 21:10  11-Jun-85 00:39     5 SEJDIP
+ 1411 SNPLNS.DOC   SNARL         16-Feb-84 21:09  11-Jun-85 00:39     5 JEBLOX
+ 1412 SNPARS.SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:39    13 BIDNAF
+ 1413 MODES .SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:39     3 MIHZIY
+ 1414 SNPARS.SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:39     4 TIMROS
+ 1415 MODES .SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     2 SUTHOP
+ 1416 SNA030.SAI   SNARL         16-Feb-84 20:54  11-Jun-85 00:39     2 JOJTEF
+ 1417 DSN000.PUB   SNARL         16-Feb-84 20:47  11-Jun-85 00:39    13 NIVQOX
+ 1420 SNARLI.PUB   SNARL         16-Feb-84 20:46  11-Jun-85 00:39    15 WIQZEG
+ 1421 SNARLI.DOC   SNARL         16-Feb-84 20:42  11-Jun-85 00:39    49 TUCPUL
+ 1422 FORMAT.SAI   SNARL         16-Feb-84 20:41  11-Jun-85 00:39    11 NIMZAJ
+ 1423 FORMAT.SAV   SNARL         16-Feb-84 20:38  11-Jun-85 00:39    27 PAJYIL
+ 1424 DSNSYM.SAI   SNARL         16-Feb-84 20:37  11-Jun-85 00:39     2 BOXLOM
+ 1425 SNDSN .SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:39     2 TOZPAZ
+ 1426 TVSTRI.NGS   SNARL         16-Feb-84 20:10  11-Jun-85 00:39     2 CEQCAR
+ 1427 SNARL .FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:39     2 NILLUQ
+ 1430 PRT2  .SAV   SNARL         19-Mar-82 01:03  11-Jun-85 00:39    10 NEPQUM
+ 1431 PRT2  .SAI   SNARL         19-Mar-82 01:01  11-Jun-85 00:39    10 XAQROW
+ 1432 PRT2  .REL   SNARL         19-Mar-82 02:49  11-Jun-85 00:39    14 NOSJOY
+ 1433 TEL   .COM   SNARL         17-Mar-82 02:14  11-Jun-85 00:39     2 TALQID
+ 1434 DSN001.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:39     2 TAZYIZ
+ 1435 TAB001.PUB   SNARL         16-Feb-84 21:54  11-Jun-85 00:39     3 HOSPIQ
+ 1436 SAIPIT.PUB   SNARL         16-Feb-84 21:36  11-Jun-85 00:39     2 LEXNAZ
+ 1437 SNARL .CMD   SNARL         16-Feb-84 21:36  11-Jun-85 00:39     2 GEPDUK
+ 1440 SNARL .DEB   SNARL         16-Feb-84 21:36  11-Jun-85 00:39     2 PEQGAJ
+ 1441 SNCLI .TRY   SNARL         16-Feb-84 21:15  11-Jun-85 00:39    20 PAKWAF
+ 1442 SNARL .BNF   SNARL         16-Feb-84 21:09  11-Jun-85 00:39     5 NIGXIS
+ 1443 SNARL .SAV   SNARL         16-Feb-84 20:56  11-Jun-85 00:39   115 FARXIB
+ 1444 SNARL .SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:39     2 CABPIH
+ 1445 SNCLI .SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:39     6 VAQKIW
+ 1446 SNHELP.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     2 XAKNEB
+ 1447 SNA040.SAI   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     2 JUTVOF
+ 1450 SNARL .DIR   SNARL         16-Feb-84 20:54  11-Jun-85 00:39     2 ZOHYIT
+ 1451 SIZES .SAV   SNARL         16-Feb-84 20:50  11-Jun-85 00:39    13 PUGFIJ
+ 1452 SNDEFS.SAI   SNARL         16-Feb-84 20:49  11-Jun-85 00:39     2 XEXTOR
+ 1453 DSN   .SAI   SNARL         16-Feb-84 20:49  11-Jun-85 00:39     2 CEXVIM
+ 1454 SNHELP.SAI   SNARL         16-Feb-84 20:42  11-Jun-85 00:39     3 KORPIQ
+ 1455 SNCLI .SAI   SNARL         16-Feb-84 20:36  11-Jun-85 00:39    22 JOVQAD
+ 1456 SNHELP.DOC   SNARL         16-Feb-84 20:26  11-Jun-85 00:39     3 JIQQUS
+ 1457 SNARL .HGH   SNARL         16-Feb-84 20:17  11-Jun-85 00:39    70 RABYUC
+ 1460 SNARL .LOW   SNARL         16-Feb-84 20:15  11-Jun-85 00:39    25 GEZPEH
+ 1461 SNARL .DOC   SNARL         16-Feb-84 20:13  11-Jun-85 00:39    38 WULXUD
+ 1462 SNARL .PUB   SNARL         16-Feb-84 20:10  11-Jun-85 00:39    30 JUXSUC
+ 1463 MFD   .SAI   SNARL         16-Feb-84 20:10  11-Jun-85 00:39     3 RISXIX
+ 1464 SNARL .SAI   SNARL         16-Feb-84 20:10  11-Jun-85 00:39     5 RUDXUP
+ 1465 FILES .DA    SNARL         09-Mar-82 00:47  11-Jun-85 00:39     9 LEKGIK
+ 1466 UTIL  .REQ   SNARL         16-Mar-82 05:41  11-Jun-85 00:39     4 SEDHIC
+ 1467 DSNARL.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:39     2 WOJVES
+ 1470 TBGPRS.NEW   SNARL         16-Feb-84 21:51  11-Jun-85 00:39     6 QEVDUP
+ 1471 TBGPRS.SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:39     7 QORZUL
+ 1472 TAPCOM.UNB   SNARL         16-Feb-84 21:38  11-Jun-85 00:39     6 SEKVIW
+ 1473 TAPCOM.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     3 BEFDAD
+ 1474 SNBUGS.DOC   SNARL         16-Feb-84 20:51  11-Jun-85 00:39     4 QIDSUZ
+ 1475 DSN002.PUB   SNARL         16-Feb-84 20:49  11-Jun-85 00:39     2 YIJHAX
+ 1476 TAPCOM.SAI   SNARL         16-Feb-84 20:48  11-Jun-85 00:39    10 QIJJAQ
+ 1477 DSNARL.DEB   SNARL         16-Feb-84 20:48  11-Jun-85 00:39     2 CUJPEQ
+ 1500 DSNARL.CMD   SNARL         16-Feb-84 20:48  11-Jun-85 00:39     2 VIHSAF
+ 1501 LOKLUD.SAI   SNARL         16-Feb-84 20:48  11-Jun-85 00:39     2 BEKFUJ
+ 1502 DSNARL.DOC   SNARL         16-Feb-84 20:47  11-Jun-85 00:39    19 PACFUT
+ 1503 BLDHLP.SAI   SNARL         16-Feb-84 20:42  11-Jun-85 00:39     4 KIPFUM
+ 1504 DSNARL.BNF   SNARL         16-Feb-84 20:38  11-Jun-85 00:39     3 MUHZIJ
+ 1505 DSNARL.SAV   SNARL         16-Feb-84 20:27  11-Jun-85 00:39    86 BOWJOX
+ 1506 DSHARR.SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:39     2 RAPNED
+ 1507 BLDHLP.SAV   SNARL         16-Feb-84 20:24  11-Jun-85 00:39    16 HUKDAW
+ 1510 SNBUGS.PUB   SNARL         16-Feb-84 20:15  11-Jun-85 00:39     4 TEMZEX
+ 1511 TDP000.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:39     2 MELCEB
+ 1512 TDP000.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:39     2 GOJPOL
+ 1513 TVDEFS.DOC   SNARL         16-Feb-84 21:52  11-Jun-85 00:39     2 JOYHAF
+ 1514 MASTER.INF   SNARL         16-Feb-84 21:40  11-Jun-85 00:39     3 BOKMEM
+ 1515 MAIL  .BOX   SNARL         16-Feb-84 21:36  11-Jun-85 00:39     5 SAGNIK
+ 1516 LOKBIT.PUB   SNARL         16-Feb-84 20:50  11-Jun-85 00:39     2 GEPNER
+ 1517 LOKBIT.DOC   SNARL         16-Feb-84 20:50  11-Jun-85 00:39     3 XUYRES
+ 1520 DSN003.PUB   SNARL         16-Feb-84 20:49  11-Jun-85 00:39     2 FEHMUZ
+ 1521 TABGEN.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:39     2 JISDEJ
+ 1522 SNPUBS.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:39     2 HETZUY
+ 1523 PRUNE .DAT   SNARL         17-Mar-82 11:52  11-Jun-85 00:39     3 TOMHOZ
+ 1524 PRT   .SAI   SNARL         17-Mar-82 10:05  11-Jun-85 00:39     9 LADJIY
+ 1525 FLASH .MSG   SNARL         19-Mar-82 03:00  11-Jun-85 00:39     2 HUYFUD
+ 1526 DSDUMP.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:39     7 DEJSAG
+ 1527 TABGEN.PUB   SNARL         16-Feb-84 21:54  11-Jun-85 00:39     8 TETCEG
+ 1530 TABGEN.DOC   SNARL         16-Feb-84 21:53  11-Jun-85 00:39    10 XURPUQ
+ 1531 TDP001.PUB   SNARL         16-Feb-84 21:53  11-Jun-85 00:39     4 GEPBEC
+ 1532 TDP001.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:39     2 POMVOY
+ 1533 TABGEN.BNF   SNARL         16-Feb-84 21:51  11-Jun-85 00:39     2 HUGDIX
+ 1534 FAKEB .SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:39     2 ZIYXEC
+ 1535 TAPELI.SAV   SNARL         16-Feb-84 21:39  11-Jun-85 00:39     3 HUCKET
+ 1536 SNIO  .UNB   SNARL         16-Feb-84 21:38  11-Jun-85 00:39     5 LOMTUF
+ 1537 TABGEN.SAI   SNARL         16-Feb-84 21:35  11-Jun-85 00:39     9 YAPVEH
+ 1540 TABGEN.CMD   SNARL         16-Feb-84 21:35  11-Jun-85 00:39     2 HICGAM
+ 1541 TABGEN.SAV   SNARL         16-Feb-84 21:31  11-Jun-85 00:39    27 CUJQIN
+ 1542 TDPLIB.SAI   SNARL         16-Feb-84 21:17  11-Jun-85 00:39     2 ZOMBON
+ 1543 SN1101.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:39     3 MAPRUG
+ 1544 SN1101.DOC   SNARL         16-Feb-84 21:12  11-Jun-85 00:39     3 PUNYUS
+ 1545 SNIO  .SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:39     6 CEXZOK
+ 1546 SNIO  .SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     3 TUGKIK
+ 1547 DSPARS.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     4 TIMROS
+ 1550 DSDUMP.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:39     3 CEZFIY
+ 1551 SNMISC.SAI   SNARL         16-Feb-84 20:51  11-Jun-85 00:39     2 DEZCIB
+ 1552 SNMISC.SUB   SNARL         16-Feb-84 20:51  11-Jun-85 00:39     2 QALROC
+ 1553 DSCHEC.SUB   SNARL         16-Feb-84 20:48  11-Jun-85 00:39     2 YUXWEZ
+ 1554 DSPARS.SAI   SNARL         16-Feb-84 20:38  11-Jun-85 00:39     9 XUFTUH
+ 1555 DSCHEC.SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:39     5 LODDUM
+ 1556 DIRIT .INI   SNARL         16-Feb-84 20:06  11-Jun-85 00:39     2 XAJPIS
+
+Total of 155 files in saveset.
+
+End of Saveset #34 from TITO version 16
+Written 11-Jun-85 00:39 GMT
+
+Saveset #35 from TITO version 16
+Written 11-Jun-85 00:41 GMT
+
+ 1557 ACCESS.LIS   SNARL         17-Mar-82 02:04  11-Jun-85 00:41     2 JITLUP
+ 1560 TDPARS.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:41     2 KOPYAN
+ 1561 RF    .XXX   SNARL         17-Mar-82 02:11  11-Jun-85 00:41     3 SORVOD
+ 1562 DATE  .DA    SNARL         05-Mar-82 23:26  11-Jun-85 00:41     3 KUMRIR
+ 1563 TDPARS.PUB   SNARL         16-Feb-84 21:53  11-Jun-85 00:41    10 ZENGIF
+ 1564 TDPARS.DOC   SNARL         16-Feb-84 21:52  11-Jun-85 00:41    13 WUJMEL
+ 1565 TDPARS.DIR   SNARL         16-Feb-84 21:52  11-Jun-85 00:41     2 HEBLOS
+ 1566 TDP002.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:41     2 ZOSQUY
+ 1567 FTRANS.UNB   SNARL         16-Feb-84 21:37  11-Jun-85 00:41    16 NEZYUK
+ 1570 TDPARS.SAI   SNARL         16-Feb-84 21:17  11-Jun-85 00:41     6 POXHUM
+ 1571 WTRUNC.SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:41     3 YALMEM
+ 1572 WTRUNC.SAV   SNARL         16-Feb-84 21:10  11-Jun-85 00:41    14 QITGAW
+ 1573 SNA010.SAI   SNARL         16-Feb-84 20:54  11-Jun-85 00:41     3 QIBNAV
+ 1574 FTRANS.SAI   SNARL         16-Feb-84 20:52  11-Jun-85 00:41    32 PURQIP
+ 1575 FTRANS.SUB   SNARL         16-Feb-84 20:51  11-Jun-85 00:41     8 MAQMIZ
+ 1576 DSHELP.DOC   SNARL         16-Feb-84 20:42  11-Jun-85 00:41     2 DUVVEL
+ 1577 SNHARR.SAI   SNARL         16-Feb-84 20:24  11-Jun-85 00:41     2 XUJPUM
+ 1600 RPG   .INI   SNARL         16-Feb-84 20:10  11-Jun-85 00:41     2 NIJTAT
+ 1601 BRKTBL.DA    SNARL         12-Mar-82 21:32  11-Jun-85 00:41     3 NAPKUX
+ 1602 A     .      SNARL         19-Mar-82 02:50  11-Jun-85 00:41     9 CEJZUT
+ 1603 TBGSYM.NEW   SNARL         16-Feb-84 21:51  11-Jun-85 00:41     2 CEDJIZ
+ 1604 TBGSCN.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:41     4 YICJAC
+ 1605 SNMAST.SWM   SNARL         16-Feb-84 21:41  11-Jun-85 00:41    15 XOPDIM
+ 1606 TBGSYM.SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:41     2 ZIZFAW
+ 1607 STATUS.1ST   SNARL         16-Feb-84 21:39  11-Jun-85 00:41     4 HUTGAC
+ 1610 STATUS.DOC   SNARL         16-Feb-84 21:39  11-Jun-85 00:41     4 PISGEZ
+ 1611 STATUS.2ND   SNARL         16-Feb-84 21:36  11-Jun-85 00:41     3 MOSZOK
+ 1612 SNCMDL.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:41     2 BAFREH
+ 1613 SNLIST.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:41     3 SASKIY
+ 1614 SNMILE.PUB   SNARL         16-Feb-84 21:10  11-Jun-85 00:41     4 QERQUT
+ 1615 SNMILE.DOC   SNARL         16-Feb-84 21:10  11-Jun-85 00:41     5 MUTZOM
+ 1616 SNSYM .SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:41     3 ZORFIK
+ 1617 SNA020.SAI   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     2 HAZFED
+ 1620 INIT  .SAV   SNARL         16-Feb-84 20:06  11-Jun-85 00:41    33 ZONWIK
+ 1621 P     .DAT   SNARL         17-Mar-82 02:11  11-Jun-85 00:41     3 DIDTAZ
+ 1622 LIST  .LST   SNARL         19-Mar-82 02:51  11-Jun-85 00:41    29 BUMKIS
+ 1623 TAB000.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:41     2 GADSON
+ 1624 MTDUMP.SAI   SNARL         16-Feb-84 21:50  11-Jun-85 00:41    13 KOTBUN
+ 1625 MTDUMP.MEM   SNARL         16-Feb-84 21:49  11-Jun-85 00:41     8 TOPQAP
+ 1626 MTDUMP.RNO   SNARL         16-Feb-84 21:49  11-Jun-85 00:41     7 YOBYEL
+ 1627 MTDUMP.SAV   SNARL         16-Feb-84 21:42  11-Jun-85 00:41    59 BADDUN
+ 1630 SHELL .SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:41     2 ZUCWAB
+ 1631 MEMO  .PUB   SNARL         16-Feb-84 21:39  11-Jun-85 00:41     2 MIRPEY
+ 1632 MEMO  .DOC   SNARL         16-Feb-84 21:39  11-Jun-85 00:41     2 FEHBEJ
+ 1633 LINK  .CCL   SNARL         16-Feb-84 21:36  11-Jun-85 00:41     2 WOXMIJ
+ 1634 FORMAT.RES   SNARL         16-Feb-84 21:36  11-Jun-85 00:41     2 FESDEN
+ 1635 SN    .SAV   SNARL         16-Feb-84 21:17  11-Jun-85 00:41   133 YECKUY
+ 1636 PROCOM.PUB   SNARL         16-Feb-84 21:15  11-Jun-85 00:41     2 JOXNID
+ 1637 PROCOM.SAI   SNARL         16-Feb-84 21:15  11-Jun-85 00:41     4 DEKHAJ
+ 1640 PROCOM.SAV   SNARL         16-Feb-84 21:13  11-Jun-85 00:41    20 VULMEV
+ 1641 SNBLOK.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:41     2 QEGPUC
+ 1642 SN    .SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:41     2 TOZPAZ
+ 1643 SNPLNS.PUB   SNARL         16-Feb-84 21:10  11-Jun-85 00:41     5 SEJDIP
+ 1644 SNPLNS.DOC   SNARL         16-Feb-84 21:09  11-Jun-85 00:41     5 JEBLOX
+ 1645 SNPARS.SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:41    13 BIDNAF
+ 1646 MODES .SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:41     3 MIHZIY
+ 1647 SNPARS.SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:41     4 TIMROS
+ 1650 MODES .SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     2 SUTHOP
+ 1651 SNA030.SAI   SNARL         16-Feb-84 20:54  11-Jun-85 00:41     2 JOJTEF
+ 1652 DSN000.PUB   SNARL         16-Feb-84 20:47  11-Jun-85 00:41    13 NIVQOX
+ 1653 SNARLI.PUB   SNARL         16-Feb-84 20:46  11-Jun-85 00:41    15 WIQZEG
+ 1654 SNARLI.DOC   SNARL         16-Feb-84 20:42  11-Jun-85 00:41    49 TUCPUL
+ 1655 FORMAT.SAI   SNARL         16-Feb-84 20:41  11-Jun-85 00:41    11 NIMZAJ
+ 1656 FORMAT.SAV   SNARL         16-Feb-84 20:38  11-Jun-85 00:41    27 PAJYIL
+ 1657 DSNSYM.SAI   SNARL         16-Feb-84 20:37  11-Jun-85 00:41     2 BOXLOM
+ 1660 SNDSN .SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:41     2 TOZPAZ
+ 1661 TVSTRI.NGS   SNARL         16-Feb-84 20:10  11-Jun-85 00:41     2 CEQCAR
+ 1662 SNARL .FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:41     2 NILLUQ
+ 1663 PRT2  .SAV   SNARL         19-Mar-82 01:03  11-Jun-85 00:41    10 NEPQUM
+ 1664 PRT2  .SAI   SNARL         19-Mar-82 01:01  11-Jun-85 00:41    10 XAQROW
+ 1665 PRT2  .REL   SNARL         19-Mar-82 02:49  11-Jun-85 00:41    14 NOSJOY
+ 1666 TEL   .COM   SNARL         17-Mar-82 02:14  11-Jun-85 00:41     2 TALQID
+ 1667 DSN001.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:41     2 TAZYIZ
+ 1670 TAB001.PUB   SNARL         16-Feb-84 21:54  11-Jun-85 00:41     3 HOSPIQ
+ 1671 SAIPIT.PUB   SNARL         16-Feb-84 21:36  11-Jun-85 00:41     2 LEXNAZ
+ 1672 SNARL .CMD   SNARL         16-Feb-84 21:36  11-Jun-85 00:41     2 GEPDUK
+ 1673 SNARL .DEB   SNARL         16-Feb-84 21:36  11-Jun-85 00:41     2 PEQGAJ
+ 1674 SNCLI .TRY   SNARL         16-Feb-84 21:15  11-Jun-85 00:41    20 PAKWAF
+ 1675 SNARL .BNF   SNARL         16-Feb-84 21:09  11-Jun-85 00:41     5 NIGXIS
+ 1676 SNARL .SAV   SNARL         16-Feb-84 20:56  11-Jun-85 00:41   115 FARXIB
+ 1677 SNARL .SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:41     2 CABPIH
+ 1700 SNCLI .SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:41     6 VAQKIW
+ 1701 SNHELP.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     2 XAKNEB
+ 1702 SNA040.SAI   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     2 JUTVOF
+ 1703 SNARL .DIR   SNARL         16-Feb-84 20:54  11-Jun-85 00:41     2 ZOHYIT
+ 1704 SIZES .SAV   SNARL         16-Feb-84 20:50  11-Jun-85 00:41    13 PUGFIJ
+ 1705 SNDEFS.SAI   SNARL         16-Feb-84 20:49  11-Jun-85 00:41     2 XEXTOR
+ 1706 DSN   .SAI   SNARL         16-Feb-84 20:49  11-Jun-85 00:41     2 CEXVIM
+ 1707 SNHELP.SAI   SNARL         16-Feb-84 20:42  11-Jun-85 00:41     3 KORPIQ
+ 1710 SNCLI .SAI   SNARL         16-Feb-84 20:36  11-Jun-85 00:41    22 JOVQAD
+ 1711 SNHELP.DOC   SNARL         16-Feb-84 20:26  11-Jun-85 00:41     3 JIQQUS
+ 1712 SNARL .HGH   SNARL         16-Feb-84 20:17  11-Jun-85 00:41    70 RABYUC
+ 1713 SNARL .LOW   SNARL         16-Feb-84 20:15  11-Jun-85 00:41    25 GEZPEH
+ 1714 SNARL .DOC   SNARL         16-Feb-84 20:13  11-Jun-85 00:41    38 WULXUD
+ 1715 SNARL .PUB   SNARL         16-Feb-84 20:10  11-Jun-85 00:41    30 JUXSUC
+ 1716 MFD   .SAI   SNARL         16-Feb-84 20:10  11-Jun-85 00:41     3 RISXIX
+ 1717 SNARL .SAI   SNARL         16-Feb-84 20:10  11-Jun-85 00:41     5 RUDXUP
+ 1720 FILES .DA    SNARL         09-Mar-82 00:47  11-Jun-85 00:41     9 LEKGIK
+ 1721 UTIL  .REQ   SNARL         16-Mar-82 05:41  11-Jun-85 00:41     4 SEDHIC
+ 1722 DSNARL.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:41     2 WOJVES
+ 1723 TBGPRS.NEW   SNARL         16-Feb-84 21:51  11-Jun-85 00:41     6 QEVDUP
+ 1724 TBGPRS.SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:41     7 QORZUL
+ 1725 TAPCOM.UNB   SNARL         16-Feb-84 21:38  11-Jun-85 00:41     6 SEKVIW
+ 1726 TAPCOM.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     3 BEFDAD
+ 1727 SNBUGS.DOC   SNARL         16-Feb-84 20:51  11-Jun-85 00:41     4 QIDSUZ
+ 1730 DSN002.PUB   SNARL         16-Feb-84 20:49  11-Jun-85 00:41     2 YIJHAX
+ 1731 TAPCOM.SAI   SNARL         16-Feb-84 20:48  11-Jun-85 00:41    10 QIJJAQ
+ 1732 DSNARL.DEB   SNARL         16-Feb-84 20:48  11-Jun-85 00:41     2 CUJPEQ
+ 1733 DSNARL.CMD   SNARL         16-Feb-84 20:48  11-Jun-85 00:41     2 VIHSAF
+ 1734 LOKLUD.SAI   SNARL         16-Feb-84 20:48  11-Jun-85 00:41     2 BEKFUJ
+ 1735 DSNARL.DOC   SNARL         16-Feb-84 20:47  11-Jun-85 00:41    19 PACFUT
+ 1736 BLDHLP.SAI   SNARL         16-Feb-84 20:42  11-Jun-85 00:41     4 KIPFUM
+ 1737 DSNARL.BNF   SNARL         16-Feb-84 20:38  11-Jun-85 00:41     3 MUHZIJ
+ 1740 DSNARL.SAV   SNARL         16-Feb-84 20:27  11-Jun-85 00:41    86 BOWJOX
+ 1741 DSHARR.SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:41     2 RAPNED
+ 1742 BLDHLP.SAV   SNARL         16-Feb-84 20:24  11-Jun-85 00:41    16 HUKDAW
+ 1743 SNBUGS.PUB   SNARL         16-Feb-84 20:15  11-Jun-85 00:41     4 TEMZEX
+ 1744 TDP000.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:41     2 MELCEB
+ 1745 TDP000.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:41     2 GOJPOL
+ 1746 TVDEFS.DOC   SNARL         16-Feb-84 21:52  11-Jun-85 00:41     2 JOYHAF
+ 1747 MASTER.INF   SNARL         16-Feb-84 21:40  11-Jun-85 00:41     3 BOKMEM
+ 1750 MAIL  .BOX   SNARL         16-Feb-84 21:36  11-Jun-85 00:41     5 SAGNIK
+ 1751 LOKBIT.PUB   SNARL         16-Feb-84 20:50  11-Jun-85 00:41     2 GEPNER
+ 1752 LOKBIT.DOC   SNARL         16-Feb-84 20:50  11-Jun-85 00:41     3 XUYRES
+ 1753 DSN003.PUB   SNARL         16-Feb-84 20:49  11-Jun-85 00:41     2 FEHMUZ
+ 1754 TABGEN.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:41     2 JISDEJ
+ 1755 SNPUBS.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:41     2 HETZUY
+ 1756 PRUNE .DAT   SNARL         17-Mar-82 11:52  11-Jun-85 00:41     3 TOMHOZ
+ 1757 PRT   .SAI   SNARL         17-Mar-82 10:05  11-Jun-85 00:41     9 LADJIY
+ 1760 FLASH .MSG   SNARL         19-Mar-82 03:00  11-Jun-85 00:41     2 HUYFUD
+ 1761 DSDUMP.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:41     7 DEJSAG
+ 1762 TABGEN.PUB   SNARL         16-Feb-84 21:54  11-Jun-85 00:41     8 TETCEG
+ 1763 TABGEN.DOC   SNARL         16-Feb-84 21:53  11-Jun-85 00:41    10 XURPUQ
+ 1764 TDP001.PUB   SNARL         16-Feb-84 21:53  11-Jun-85 00:41     4 GEPBEC
+ 1765 TDP001.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:41     2 POMVOY
+ 1766 TABGEN.BNF   SNARL         16-Feb-84 21:51  11-Jun-85 00:41     2 HUGDIX
+ 1767 FAKEB .SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:41     2 ZIYXEC
+ 1770 TAPELI.SAV   SNARL         16-Feb-84 21:39  11-Jun-85 00:41     3 HUCKET
+ 1771 SNIO  .UNB   SNARL         16-Feb-84 21:38  11-Jun-85 00:41     5 LOMTUF
+ 1772 TABGEN.SAI   SNARL         16-Feb-84 21:35  11-Jun-85 00:41     9 YAPVEH
+ 1773 TABGEN.CMD   SNARL         16-Feb-84 21:35  11-Jun-85 00:41     2 HICGAM
+ 1774 TABGEN.SAV   SNARL         16-Feb-84 21:31  11-Jun-85 00:41    27 CUJQIN
+ 1775 TDPLIB.SAI   SNARL         16-Feb-84 21:17  11-Jun-85 00:41     2 ZOMBON
+ 1776 SN1101.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:41     3 MAPRUG
+ 1777 SN1101.DOC   SNARL         16-Feb-84 21:12  11-Jun-85 00:41     3 PUNYUS
+ 2000 SNIO  .SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:41     6 CEXZOK
+ 2001 SNIO  .SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     3 TUGKIK
+ 2002 DSPARS.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     4 TIMROS
+ 2003 DSDUMP.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:41     3 CEZFIY
+ 2004 SNMISC.SAI   SNARL         16-Feb-84 20:51  11-Jun-85 00:41     2 DEZCIB
+ 2005 SNMISC.SUB   SNARL         16-Feb-84 20:51  11-Jun-85 00:41     2 QALROC
+ 2006 DSCHEC.SUB   SNARL         16-Feb-84 20:48  11-Jun-85 00:41     2 YUXWEZ
+ 2007 DSPARS.SAI   SNARL         16-Feb-84 20:38  11-Jun-85 00:41     9 XUFTUH
+ 2010 DSCHEC.SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:41     5 LODDUM
+ 2011 DIRIT .INI   SNARL         16-Feb-84 20:06  11-Jun-85 00:41     2 XAJPIS
+
+Total of 155 files in saveset.
+
+End of Saveset #35 from TITO version 16
+Written 11-Jun-85 00:41 GMT
+
+Saveset #36 from TITO version 16
+Written 11-Jun-85 00:44 GMT
+
+ 2012 ACCESS.LIS   SNARL         17-Mar-82 02:04  11-Jun-85 00:44     2 JITLUP
+ 2013 TDPARS.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:44     2 KOPYAN
+ 2014 RF    .XXX   SNARL         17-Mar-82 02:11  11-Jun-85 00:44     3 SORVOD
+ 2015 DATE  .DA    SNARL         05-Mar-82 23:26  11-Jun-85 00:44     3 KUMRIR
+ 2016 TDPARS.PUB   SNARL         16-Feb-84 21:53  11-Jun-85 00:44    10 ZENGIF
+ 2017 TDPARS.DOC   SNARL         16-Feb-84 21:52  11-Jun-85 00:44    13 WUJMEL
+ 2020 TDPARS.DIR   SNARL         16-Feb-84 21:52  11-Jun-85 00:44     2 HEBLOS
+ 2021 TDP002.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:44     2 ZOSQUY
+ 2022 FTRANS.UNB   SNARL         16-Feb-84 21:37  11-Jun-85 00:44    16 NEZYUK
+ 2023 TDPARS.SAI   SNARL         16-Feb-84 21:17  11-Jun-85 00:44     6 POXHUM
+ 2024 WTRUNC.SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:44     3 YALMEM
+ 2025 WTRUNC.SAV   SNARL         16-Feb-84 21:10  11-Jun-85 00:44    14 QITGAW
+ 2026 SNA010.SAI   SNARL         16-Feb-84 20:54  11-Jun-85 00:44     3 QIBNAV
+ 2027 FTRANS.SAI   SNARL         16-Feb-84 20:52  11-Jun-85 00:44    32 PURQIP
+ 2030 FTRANS.SUB   SNARL         16-Feb-84 20:51  11-Jun-85 00:44     8 MAQMIZ
+ 2031 DSHELP.DOC   SNARL         16-Feb-84 20:42  11-Jun-85 00:44     2 DUVVEL
+ 2032 SNHARR.SAI   SNARL         16-Feb-84 20:24  11-Jun-85 00:44     2 XUJPUM
+ 2033 RPG   .INI   SNARL         16-Feb-84 20:10  11-Jun-85 00:44     2 NIJTAT
+ 2034 BRKTBL.DA    SNARL         12-Mar-82 21:32  11-Jun-85 00:44     3 NAPKUX
+ 2035 A     .      SNARL         19-Mar-82 02:50  11-Jun-85 00:44     9 CEJZUT
+ 2036 TBGSYM.NEW   SNARL         16-Feb-84 21:51  11-Jun-85 00:44     2 CEDJIZ
+ 2037 TBGSCN.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:44     4 YICJAC
+ 2040 SNMAST.SWM   SNARL         16-Feb-84 21:41  11-Jun-85 00:44    15 XOPDIM
+ 2041 TBGSYM.SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:44     2 ZIZFAW
+ 2042 STATUS.1ST   SNARL         16-Feb-84 21:39  11-Jun-85 00:44     4 HUTGAC
+ 2043 STATUS.DOC   SNARL         16-Feb-84 21:39  11-Jun-85 00:44     4 PISGEZ
+ 2044 STATUS.2ND   SNARL         16-Feb-84 21:36  11-Jun-85 00:44     3 MOSZOK
+ 2045 SNCMDL.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:44     2 BAFREH
+ 2046 SNLIST.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:44     3 SASKIY
+ 2047 SNMILE.PUB   SNARL         16-Feb-84 21:10  11-Jun-85 00:44     4 QERQUT
+ 2050 SNMILE.DOC   SNARL         16-Feb-84 21:10  11-Jun-85 00:44     5 MUTZOM
+ 2051 SNSYM .SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:44     3 ZORFIK
+ 2052 SNA020.SAI   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     2 HAZFED
+ 2053 INIT  .SAV   SNARL         16-Feb-84 20:06  11-Jun-85 00:44    33 ZONWIK
+ 2054 P     .DAT   SNARL         17-Mar-82 02:11  11-Jun-85 00:44     3 DIDTAZ
+ 2055 LIST  .LST   SNARL         19-Mar-82 02:51  11-Jun-85 00:44    29 BUMKIS
+ 2056 TAB000.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:44     2 GADSON
+ 2057 MTDUMP.SAI   SNARL         16-Feb-84 21:50  11-Jun-85 00:44    13 KOTBUN
+ 2060 MTDUMP.MEM   SNARL         16-Feb-84 21:49  11-Jun-85 00:44     8 TOPQAP
+ 2061 MTDUMP.RNO   SNARL         16-Feb-84 21:49  11-Jun-85 00:44     7 YOBYEL
+ 2062 MTDUMP.SAV   SNARL         16-Feb-84 21:42  11-Jun-85 00:44    59 BADDUN
+ 2063 SHELL .SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:44     2 ZUCWAB
+ 2064 MEMO  .PUB   SNARL         16-Feb-84 21:39  11-Jun-85 00:44     2 MIRPEY
+ 2065 MEMO  .DOC   SNARL         16-Feb-84 21:39  11-Jun-85 00:44     2 FEHBEJ
+ 2066 LINK  .CCL   SNARL         16-Feb-84 21:36  11-Jun-85 00:44     2 WOXMIJ
+ 2067 FORMAT.RES   SNARL         16-Feb-84 21:36  11-Jun-85 00:44     2 FESDEN
+ 2070 SN    .SAV   SNARL         16-Feb-84 21:17  11-Jun-85 00:44   133 YECKUY
+ 2071 PROCOM.PUB   SNARL         16-Feb-84 21:15  11-Jun-85 00:44     2 JOXNID
+ 2072 PROCOM.SAI   SNARL         16-Feb-84 21:15  11-Jun-85 00:44     4 DEKHAJ
+ 2073 PROCOM.SAV   SNARL         16-Feb-84 21:13  11-Jun-85 00:44    20 VULMEV
+ 2074 SNBLOK.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:44     2 QEGPUC
+ 2075 SN    .SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:44     2 TOZPAZ
+ 2076 SNPLNS.PUB   SNARL         16-Feb-84 21:10  11-Jun-85 00:44     5 SEJDIP
+ 2077 SNPLNS.DOC   SNARL         16-Feb-84 21:09  11-Jun-85 00:44     5 JEBLOX
+ 2100 SNPARS.SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:44    13 BIDNAF
+ 2101 MODES .SAI   SNARL         16-Feb-84 21:08  11-Jun-85 00:44     3 MIHZIY
+ 2102 SNPARS.SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:44     4 TIMROS
+ 2103 MODES .SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     2 SUTHOP
+ 2104 SNA030.SAI   SNARL         16-Feb-84 20:54  11-Jun-85 00:44     2 JOJTEF
+ 2105 DSN000.PUB   SNARL         16-Feb-84 20:47  11-Jun-85 00:44    13 NIVQOX
+ 2106 SNARLI.PUB   SNARL         16-Feb-84 20:46  11-Jun-85 00:44    15 WIQZEG
+ 2107 SNARLI.DOC   SNARL         16-Feb-84 20:42  11-Jun-85 00:44    49 TUCPUL
+ 2110 FORMAT.SAI   SNARL         16-Feb-84 20:41  11-Jun-85 00:44    11 NIMZAJ
+ 2111 FORMAT.SAV   SNARL         16-Feb-84 20:38  11-Jun-85 00:44    27 PAJYIL
+ 2112 DSNSYM.SAI   SNARL         16-Feb-84 20:37  11-Jun-85 00:44     2 BOXLOM
+ 2113 SNDSN .SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:44     2 TOZPAZ
+ 2114 TVSTRI.NGS   SNARL         16-Feb-84 20:10  11-Jun-85 00:44     2 CEQCAR
+ 2115 SNARL .FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:44     2 NILLUQ
+ 2116 PRT2  .SAV   SNARL         19-Mar-82 01:03  11-Jun-85 00:44    10 NEPQUM
+ 2117 PRT2  .SAI   SNARL         19-Mar-82 01:01  11-Jun-85 00:44    10 XAQROW
+ 2120 PRT2  .REL   SNARL         19-Mar-82 02:49  11-Jun-85 00:44    14 NOSJOY
+ 2121 TEL   .COM   SNARL         17-Mar-82 02:14  11-Jun-85 00:44     2 TALQID
+ 2122 DSN001.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:44     2 TAZYIZ
+ 2123 TAB001.PUB   SNARL         16-Feb-84 21:54  11-Jun-85 00:44     3 HOSPIQ
+ 2124 SAIPIT.PUB   SNARL         16-Feb-84 21:36  11-Jun-85 00:44     2 LEXNAZ
+ 2125 SNARL .CMD   SNARL         16-Feb-84 21:36  11-Jun-85 00:44     2 GEPDUK
+ 2126 SNARL .DEB   SNARL         16-Feb-84 21:36  11-Jun-85 00:44     2 PEQGAJ
+ 2127 SNCLI .TRY   SNARL         16-Feb-84 21:15  11-Jun-85 00:44    20 PAKWAF
+ 2130 SNARL .BNF   SNARL         16-Feb-84 21:09  11-Jun-85 00:44     5 NIGXIS
+ 2131 SNARL .SAV   SNARL         16-Feb-84 20:56  11-Jun-85 00:44   115 FARXIB
+ 2132 SNARL .SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:44     2 CABPIH
+ 2133 SNCLI .SUB   SNARL         16-Feb-84 20:56  11-Jun-85 00:44     6 VAQKIW
+ 2134 SNHELP.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     2 XAKNEB
+ 2135 SNA040.SAI   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     2 JUTVOF
+ 2136 SNARL .DIR   SNARL         16-Feb-84 20:54  11-Jun-85 00:44     2 ZOHYIT
+ 2137 SIZES .SAV   SNARL         16-Feb-84 20:50  11-Jun-85 00:44    13 PUGFIJ
+ 2140 SNDEFS.SAI   SNARL         16-Feb-84 20:49  11-Jun-85 00:44     2 XEXTOR
+ 2141 DSN   .SAI   SNARL         16-Feb-84 20:49  11-Jun-85 00:44     2 CEXVIM
+ 2142 SNHELP.SAI   SNARL         16-Feb-84 20:42  11-Jun-85 00:44     3 KORPIQ
+ 2143 SNCLI .SAI   SNARL         16-Feb-84 20:36  11-Jun-85 00:44    22 JOVQAD
+ 2144 SNHELP.DOC   SNARL         16-Feb-84 20:26  11-Jun-85 00:44     3 JIQQUS
+ 2145 SNARL .HGH   SNARL         16-Feb-84 20:17  11-Jun-85 00:44    70 RABYUC
+ 2146 SNARL .LOW   SNARL         16-Feb-84 20:15  11-Jun-85 00:44    25 GEZPEH
+ 2147 SNARL .DOC   SNARL         16-Feb-84 20:13  11-Jun-85 00:44    38 WULXUD
+ 2150 SNARL .PUB   SNARL         16-Feb-84 20:10  11-Jun-85 00:44    30 JUXSUC
+ 2151 MFD   .SAI   SNARL         16-Feb-84 20:10  11-Jun-85 00:44     3 RISXIX
+ 2152 SNARL .SAI   SNARL         16-Feb-84 20:10  11-Jun-85 00:44     5 RUDXUP
+ 2153 FILES .DA    SNARL         09-Mar-82 00:47  11-Jun-85 00:44     9 LEKGIK
+ 2154 UTIL  .REQ   SNARL         16-Mar-82 05:41  11-Jun-85 00:44     4 SEDHIC
+ 2155 DSNARL.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:44     2 WOJVES
+ 2156 TBGPRS.NEW   SNARL         16-Feb-84 21:51  11-Jun-85 00:44     6 QEVDUP
+ 2157 TBGPRS.SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:44     7 QORZUL
+ 2160 TAPCOM.UNB   SNARL         16-Feb-84 21:38  11-Jun-85 00:44     6 SEKVIW
+ 2161 TAPCOM.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     3 BEFDAD
+ 2162 SNBUGS.DOC   SNARL         16-Feb-84 20:51  11-Jun-85 00:44     4 QIDSUZ
+ 2163 DSN002.PUB   SNARL         16-Feb-84 20:49  11-Jun-85 00:44     2 YIJHAX
+ 2164 TAPCOM.SAI   SNARL         16-Feb-84 20:48  11-Jun-85 00:44    10 QIJJAQ
+ 2165 DSNARL.DEB   SNARL         16-Feb-84 20:48  11-Jun-85 00:44     2 CUJPEQ
+ 2166 DSNARL.CMD   SNARL         16-Feb-84 20:48  11-Jun-85 00:44     2 VIHSAF
+ 2167 LOKLUD.SAI   SNARL         16-Feb-84 20:48  11-Jun-85 00:44     2 BEKFUJ
+ 2170 DSNARL.DOC   SNARL         16-Feb-84 20:47  11-Jun-85 00:44    19 PACFUT
+ 2171 BLDHLP.SAI   SNARL         16-Feb-84 20:42  11-Jun-85 00:44     4 KIPFUM
+ 2172 DSNARL.BNF   SNARL         16-Feb-84 20:38  11-Jun-85 00:44     3 MUHZIJ
+ 2173 DSNARL.SAV   SNARL         16-Feb-84 20:27  11-Jun-85 00:44    86 BOWJOX
+ 2174 DSHARR.SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:44     2 RAPNED
+ 2175 BLDHLP.SAV   SNARL         16-Feb-84 20:24  11-Jun-85 00:44    16 HUKDAW
+ 2176 SNBUGS.PUB   SNARL         16-Feb-84 20:15  11-Jun-85 00:44     4 TEMZEX
+ 2177 TDP000.PUB   SNARL         16-Feb-84 21:55  11-Jun-85 00:44     2 MELCEB
+ 2200 TDP000.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:44     2 GOJPOL
+ 2201 TVDEFS.DOC   SNARL         16-Feb-84 21:52  11-Jun-85 00:44     2 JOYHAF
+ 2202 MASTER.INF   SNARL         16-Feb-84 21:40  11-Jun-85 00:44     3 BOKMEM
+ 2203 MAIL  .BOX   SNARL         16-Feb-84 21:36  11-Jun-85 00:44     5 SAGNIK
+ 2204 LOKBIT.PUB   SNARL         16-Feb-84 20:50  11-Jun-85 00:44     2 GEPNER
+ 2205 LOKBIT.DOC   SNARL         16-Feb-84 20:50  11-Jun-85 00:44     3 XUYRES
+ 2206 DSN003.PUB   SNARL         16-Feb-84 20:49  11-Jun-85 00:44     2 FEHMUZ
+ 2207 TABGEN.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:44     2 JISDEJ
+ 2210 SNPUBS.FIL   SNARL         17-Mar-82 02:07  11-Jun-85 00:44     2 HETZUY
+ 2211 PRUNE .DAT   SNARL         17-Mar-82 11:52  11-Jun-85 00:44     3 TOMHOZ
+ 2212 PRT   .SAI   SNARL         17-Mar-82 10:05  11-Jun-85 00:44     9 LADJIY
+ 2213 FLASH .MSG   SNARL         19-Mar-82 03:00  11-Jun-85 00:44     2 HUYFUD
+ 2214 DSDUMP.SAI   SNARL         16-Feb-84 21:55  11-Jun-85 00:44     7 DEJSAG
+ 2215 TABGEN.PUB   SNARL         16-Feb-84 21:54  11-Jun-85 00:44     8 TETCEG
+ 2216 TABGEN.DOC   SNARL         16-Feb-84 21:53  11-Jun-85 00:44    10 XURPUQ
+ 2217 TDP001.PUB   SNARL         16-Feb-84 21:53  11-Jun-85 00:44     4 GEPBEC
+ 2220 TDP001.SAI   SNARL         16-Feb-84 21:51  11-Jun-85 00:44     2 POMVOY
+ 2221 TABGEN.BNF   SNARL         16-Feb-84 21:51  11-Jun-85 00:44     2 HUGDIX
+ 2222 FAKEB .SAI   SNARL         16-Feb-84 21:40  11-Jun-85 00:44     2 ZIYXEC
+ 2223 TAPELI.SAV   SNARL         16-Feb-84 21:39  11-Jun-85 00:44     3 HUCKET
+ 2224 SNIO  .UNB   SNARL         16-Feb-84 21:38  11-Jun-85 00:44     5 LOMTUF
+ 2225 TABGEN.SAI   SNARL         16-Feb-84 21:35  11-Jun-85 00:44     9 YAPVEH
+ 2226 TABGEN.CMD   SNARL         16-Feb-84 21:35  11-Jun-85 00:44     2 HICGAM
+ 2227 TABGEN.SAV   SNARL         16-Feb-84 21:31  11-Jun-85 00:44    27 CUJQIN
+ 2230 TDPLIB.SAI   SNARL         16-Feb-84 21:17  11-Jun-85 00:44     2 ZOMBON
+ 2231 SN1101.PUB   SNARL         16-Feb-84 21:13  11-Jun-85 00:44     3 MAPRUG
+ 2232 SN1101.DOC   SNARL         16-Feb-84 21:12  11-Jun-85 00:44     3 PUNYUS
+ 2233 SNIO  .SAI   SNARL         16-Feb-84 21:12  11-Jun-85 00:44     6 CEXZOK
+ 2234 SNIO  .SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     3 TUGKIK
+ 2235 DSPARS.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     4 TIMROS
+ 2236 DSDUMP.SUB   SNARL         16-Feb-84 20:55  11-Jun-85 00:44     3 CEZFIY
+ 2237 SNMISC.SAI   SNARL         16-Feb-84 20:51  11-Jun-85 00:44     2 DEZCIB
+ 2240 SNMISC.SUB   SNARL         16-Feb-84 20:51  11-Jun-85 00:44     2 QALROC
+ 2241 DSCHEC.SUB   SNARL         16-Feb-84 20:48  11-Jun-85 00:44     2 YUXWEZ
+ 2242 DSPARS.SAI   SNARL         16-Feb-84 20:38  11-Jun-85 00:44     9 XUFTUH
+ 2243 DSCHEC.SAI   SNARL         16-Feb-84 20:26  11-Jun-85 00:44     5 LODDUM
+ 2244 DIRIT .INI   SNARL         16-Feb-84 20:06  11-Jun-85 00:44     2 XAJPIS
+
+Total of 155 files in saveset.
+
+End of Saveset #36 from TITO version 16
+Written 11-Jun-85 00:44 GMT
+
+Saveset #37 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+ 2245 CIOPR .ORG   STAMMERS      24-Sep-79 21:07  11-Jun-85 00:47     6 GUGLIJ
+ 2246 CIOPR .JMS   STAMMERS      05-Apr-80 03:28  11-Jun-85 00:47     4 DUMYED
+ 2247 INIT  .SAV   STAMMERS      22-Mar-80 01:26  11-Jun-85 00:47    27 CIQNUF
+ 2250 INIT  .SAI   STAMMERS      22-Mar-80 01:24  11-Jun-85 00:47     2 WAJLOX
+ 2251 TVSTRI.NGS   STAMMERS      29-Jul-80 17:38  11-Jun-85 00:47     2 XUKSOZ
+ 2252 LEASE .MEM   STAMMERS      20-Jul-80 18:30  11-Jun-85 00:47     2 YUPWOW
+ 2253 LEASE .RNO   STAMMERS      20-Jul-80 18:29  11-Jun-85 00:47     2 ZEXHES
+ 2254 UNIX  .RNO   STAMMERS      16-Jul-80 22:31  11-Jun-85 00:47    13 JIJXUH
+ 2255 UNIX  .MEM   STAMMERS      16-Jul-80 22:45  11-Jun-85 00:47    18 GOGQIT
+ 2256 UNIX  .DOC   STAMMERS      23-Jul-80 15:58  11-Jun-85 00:47    18 GOGQIT
+ 2257 DIR   .DOC   STAMMERS      29-Jul-80 17:36  11-Jun-85 00:47     2 NIJQAL
+ 2260 MAIL  .BOX   STAMMERS      31-Mar-80 01:27  11-Jun-85 00:47     7 REGFAH
+ 2261 COMMND.TXT   STAMMERS      09-Jul-80 17:44  11-Jun-85 00:47     2 HIMVEJ
+ 2262 IC9   .SAI   STAMMERS      07-Apr-80 04:00  11-Jun-85 00:47     6 HEVNED
+
+Total of 14 files in saveset.
+
+End of Saveset #37 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+Saveset #38 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+ 2263 CIOPR .ORG   STAMMERS      24-Sep-79 21:07  11-Jun-85 00:47     6 GUGLIJ
+ 2264 CIOPR .JMS   STAMMERS      05-Apr-80 03:28  11-Jun-85 00:47     4 DUMYED
+ 2265 INIT  .SAV   STAMMERS      22-Mar-80 01:26  11-Jun-85 00:47    27 CIQNUF
+ 2266 INIT  .SAI   STAMMERS      22-Mar-80 01:24  11-Jun-85 00:47     2 WAJLOX
+ 2267 TVSTRI.NGS   STAMMERS      29-Jul-80 17:38  11-Jun-85 00:47     2 XUKSOZ
+ 2270 LEASE .MEM   STAMMERS      20-Jul-80 18:30  11-Jun-85 00:47     2 YUPWOW
+ 2271 LEASE .RNO   STAMMERS      20-Jul-80 18:29  11-Jun-85 00:47     2 ZEXHES
+ 2272 UNIX  .RNO   STAMMERS      16-Jul-80 22:31  11-Jun-85 00:47    13 JIJXUH
+ 2273 UNIX  .MEM   STAMMERS      16-Jul-80 22:45  11-Jun-85 00:47    18 GOGQIT
+ 2274 UNIX  .DOC   STAMMERS      23-Jul-80 15:58  11-Jun-85 00:47    18 GOGQIT
+ 2275 DIR   .DOC   STAMMERS      29-Jul-80 17:36  11-Jun-85 00:47     2 NIJQAL
+ 2276 MAIL  .BOX   STAMMERS      31-Mar-80 01:27  11-Jun-85 00:47     7 REGFAH
+ 2277 COMMND.TXT   STAMMERS      09-Jul-80 17:44  11-Jun-85 00:47     2 HIMVEJ
+ 2300 IC9   .SAI   STAMMERS      07-Apr-80 04:00  11-Jun-85 00:47     6 HEVNED
+
+Total of 14 files in saveset.
+
+End of Saveset #38 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+Saveset #39 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+ 2301 CIOPR .ORG   STAMMERS      24-Sep-79 21:07  11-Jun-85 00:47     6 GUGLIJ
+ 2302 CIOPR .JMS   STAMMERS      05-Apr-80 03:28  11-Jun-85 00:47     4 DUMYED
+ 2303 INIT  .SAV   STAMMERS      22-Mar-80 01:26  11-Jun-85 00:47    27 CIQNUF
+ 2304 INIT  .SAI   STAMMERS      22-Mar-80 01:24  11-Jun-85 00:47     2 WAJLOX
+ 2305 TVSTRI.NGS   STAMMERS      29-Jul-80 17:38  11-Jun-85 00:47     2 XUKSOZ
+ 2306 LEASE .MEM   STAMMERS      20-Jul-80 18:30  11-Jun-85 00:47     2 YUPWOW
+ 2307 LEASE .RNO   STAMMERS      20-Jul-80 18:29  11-Jun-85 00:47     2 ZEXHES
+ 2310 UNIX  .RNO   STAMMERS      16-Jul-80 22:31  11-Jun-85 00:47    13 JIJXUH
+ 2311 UNIX  .MEM   STAMMERS      16-Jul-80 22:45  11-Jun-85 00:47    18 GOGQIT
+ 2312 UNIX  .DOC   STAMMERS      23-Jul-80 15:58  11-Jun-85 00:47    18 GOGQIT
+ 2313 DIR   .DOC   STAMMERS      29-Jul-80 17:36  11-Jun-85 00:47     2 NIJQAL
+ 2314 MAIL  .BOX   STAMMERS      31-Mar-80 01:27  11-Jun-85 00:47     7 REGFAH
+ 2315 COMMND.TXT   STAMMERS      09-Jul-80 17:44  11-Jun-85 00:47     2 HIMVEJ
+ 2316 IC9   .SAI   STAMMERS      07-Apr-80 04:00  11-Jun-85 00:47     6 HEVNED
+
+Total of 14 files in saveset.
+
+End of Saveset #39 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+Saveset #40 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+ 2317 MMONXT.MEM   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:47     2 BAHTIM
+ 2320 UC0420.BIN   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:47    17 DEZKES
+ 2321 CID2  .SAI   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     4 RIQJUH
+ 2322 CID2  .OLD   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     3 WIHTAM
+ 2323 IDEA01.MEM   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     2 GURJOD
+ 2324 STATUS.MEM   SUTTOND       17-Jul-84 04:41  11-Jun-85 00:47    10 LIYZEF
+ 2325 UTAPE .SAV   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     9 TEMCOJ
+ 2326 CRSUPD.MAC   SUTTOND       07-Mar-84 19:27  11-Jun-85 00:47     2 CUVVOR
+ 2327 LANG20.MEM   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:47     2 RACKIT
+ 2330 CRSHID.SAI   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:47     9 VAWQUS
+ 2331 PAKCOP.SAV   SUTTOND       24-Feb-84 00:02  11-Jun-85 00:47    11 WIRVUR
+ 2332 PAKCOP.17    SUTTOND       23-Feb-84 23:58  11-Jun-85 00:47    38 BAKKIV
+ 2333 MAIL  .BOX   SUTTOND       21-Jul-83 16:49  11-Jun-85 00:47    56 HOXNOL
+ 2334 SYMSRC.MAC   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     5 QARJIZ
+ 2335 CRAIG .MEM   SUTTOND       25-Apr-84 19:11  11-Jun-85 00:47     5 YIDCOL
+ 2336 MONL1 .PAT   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     2 MEGZEW
+ 2337 CID1  .SAI   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     4 NIBMIJ
+ 2340 CID1  .REQ   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:47     2 BEXVAQ
+
+Total of 18 files in saveset.
+
+End of Saveset #40 from TITO version 16
+Written 11-Jun-85 00:47 GMT
+
+Saveset #41 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+ 2341 MMONXT.MEM   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48     2 BAHTIM
+ 2342 UC0420.BIN   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48    17 DEZKES
+ 2343 CID2  .SAI   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     4 RIQJUH
+ 2344 CID2  .OLD   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     3 WIHTAM
+ 2345 IDEA01.MEM   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     2 GURJOD
+ 2346 STATUS.MEM   SUTTOND       17-Jul-84 04:41  11-Jun-85 00:48    10 LIYZEF
+ 2347 UTAPE .SAV   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     9 TEMCOJ
+ 2350 CRSUPD.MAC   SUTTOND       07-Mar-84 19:27  11-Jun-85 00:48     2 CUVVOR
+ 2351 LANG20.MEM   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48     2 RACKIT
+ 2352 CRSHID.SAI   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48     9 VAWQUS
+ 2353 PAKCOP.SAV   SUTTOND       24-Feb-84 00:02  11-Jun-85 00:48    11 WIRVUR
+ 2354 PAKCOP.17    SUTTOND       23-Feb-84 23:58  11-Jun-85 00:48    38 BAKKIV
+ 2355 MAIL  .BOX   SUTTOND       21-Jul-83 16:49  11-Jun-85 00:48    56 HOXNOL
+ 2356 SYMSRC.MAC   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     5 QARJIZ
+ 2357 CRAIG .MEM   SUTTOND       25-Apr-84 19:11  11-Jun-85 00:48     5 YIDCOL
+ 2360 MONL1 .PAT   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     2 MEGZEW
+ 2361 CID1  .SAI   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     4 NIBMIJ
+ 2362 CID1  .REQ   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     2 BEXVAQ
+
+Total of 18 files in saveset.
+
+End of Saveset #41 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+Saveset #42 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+ 2363 MMONXT.MEM   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48     2 BAHTIM
+ 2364 UC0420.BIN   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48    17 DEZKES
+ 2365 CID2  .SAI   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     4 RIQJUH
+ 2366 CID2  .OLD   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     3 WIHTAM
+ 2367 IDEA01.MEM   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     2 GURJOD
+ 2370 STATUS.MEM   SUTTOND       17-Jul-84 04:41  11-Jun-85 00:48    10 LIYZEF
+ 2371 UTAPE .SAV   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     9 TEMCOJ
+ 2372 CRSUPD.MAC   SUTTOND       07-Mar-84 19:27  11-Jun-85 00:48     2 CUVVOR
+ 2373 LANG20.MEM   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48     2 RACKIT
+ 2374 CRSHID.SAI   SUTTOND       07-Mar-84 19:25  11-Jun-85 00:48     9 VAWQUS
+ 2375 PAKCOP.SAV   SUTTOND       24-Feb-84 00:02  11-Jun-85 00:48    11 WIRVUR
+ 2376 PAKCOP.17    SUTTOND       23-Feb-84 23:58  11-Jun-85 00:48    38 BAKKIV
+ 2377 MAIL  .BOX   SUTTOND       21-Jul-83 16:49  11-Jun-85 00:48    56 HOXNOL
+ 2400 SYMSRC.MAC   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     5 QARJIZ
+ 2401 CRAIG .MEM   SUTTOND       25-Apr-84 19:11  11-Jun-85 00:48     5 YIDCOL
+ 2402 MONL1 .PAT   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     2 MEGZEW
+ 2403 CID1  .SAI   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     4 NIBMIJ
+ 2404 CID1  .REQ   SUTTOND       07-Mar-84 19:26  11-Jun-85 00:48     2 BEXVAQ
+
+Total of 18 files in saveset.
+
+End of Saveset #42 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+Saveset #43 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+ 2405 G     .MAC   TYMGRIPE      11-Sep-78 05:57  11-Jun-85 00:48     2 DOFCIV
+ 2406 G     .SAV   TYMGRIPE      11-Sep-78 05:57  11-Jun-85 00:48     2 FEDCEP
+ 2407 ACCESS.LIS   TYMGRIPE      14-Feb-79 02:08  11-Jun-85 00:48     2 SIFQOX
+ 2410 GRIPE .SAV   TYMGRIPE      03-Jun-80 00:22  11-Jun-85 00:48    17 JAVCUD
+ 2411 SCOTT .GRP   TYMGRIPE      13-Aug-79 23:31  11-Jun-85 00:48     3 ZOVSUB
+ 2412 CT3   .LOG   TYMGRIPE      29-Jun-80 07:56  11-Jun-85 00:48     2 TAJSUR
+ 2413 CT3   .XFR   TYMGRIPE      29-Jun-80 07:56  11-Jun-85 00:48     2 XOXZIS
+
+Total of 7 files in saveset.
+
+End of Saveset #43 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+Saveset #44 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+ 2414 G     .MAC   TYMGRIPE      11-Sep-78 05:57  11-Jun-85 00:48     2 DOFCIV
+ 2415 G     .SAV   TYMGRIPE      11-Sep-78 05:57  11-Jun-85 00:48     2 FEDCEP
+ 2416 ACCESS.LIS   TYMGRIPE      14-Feb-79 02:08  11-Jun-85 00:48     2 SIFQOX
+ 2417 GRIPE .SAV   TYMGRIPE      03-Jun-80 00:22  11-Jun-85 00:48    17 JAVCUD
+ 2420 SCOTT .GRP   TYMGRIPE      13-Aug-79 23:31  11-Jun-85 00:48     3 ZOVSUB
+ 2421 CT3   .LOG   TYMGRIPE      29-Jun-80 07:56  11-Jun-85 00:48     2 TAJSUR
+ 2422 CT3   .XFR   TYMGRIPE      29-Jun-80 07:56  11-Jun-85 00:48     2 XOXZIS
+
+Total of 7 files in saveset.
+
+End of Saveset #44 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+Saveset #45 from TITO version 16
+Written 11-Jun-85 00:48 GMT
+
+ 2423 G     .MAC   TYMGRIPE      11-Sep-78 05:57  11-Jun-85 00:48     2 DOFCIV
+ 2424 G     .SAV   TYMGRIPE      11-Sep-78 05:57  11-Jun-85 00:48     2 FEDCEP
+ 2425 ACCESS.LIS   TYMGRIPE      14-Feb-79 02:08  11-Jun-85 00:48     2 SIFQOX
+ 2426 GRIPE .SAV   TYMGRIPE      03-Jun-80 00:22  11-Jun-85 00:48    17 JAVCUD
+ 2427 SCOTT .GRP   TYMGRIPE      13-Aug-79 23:31  11-Jun-85 00:48     3 ZOVSUB
+ 2430 CT3   .LOG   TYMGRIPE      29-Jun-80 07:56  11-Jun-85 00:48     2 TAJSUR
+ 2431 CT3   .XFR   TYMGRIPE      29-Jun-80 07:56  11-Jun-85 00:48     2 XOXZIS
+
+Total of 7 files in saveset.
+
+End of Saveset #45 from TITO version 16
+Written 11-Jun-85 01:31 GMT
+
+Saveset #46 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+ 2432 TYMIO .DEF   WFW           23-Jan-77 19:41  11-Jun-85 01:32     2 ZESWOC
+ 2433 DIRN  .CMD   WFW           14-Dec-77 17:30  11-Jun-85 01:32     2 CEWCAP
+ 2434 SAILIB.DOC   WFW           21-Feb-77 18:06  11-Jun-85 01:32     7 VANLUV
+ 2435 TYMINT.DEF   WFW           29-Mar-77 19:32  11-Jun-85 01:32     2 TODDOZ
+ 2436 TYMCAL.DEF   WFW           21-Nov-76 17:09  11-Jun-85 01:32     2 KAQKUZ
+ 2437 TRMSET.SAV   WFW           18-Apr-78 04:22  11-Jun-85 01:32     8 ZEGRUW
+ 2440 AUXCHK.MAC   WFW           17-Nov-75 18:33  11-Jun-85 01:32     5 GOYPIZ
+ 2441 TYMSHR.DEF   WFW           17-Nov-76 19:42  11-Jun-85 01:32     4 GUTJUX
+ 2442 AUXCHK.SAV   WFW           28-Feb-77 23:17  11-Jun-85 01:32     2 LOSVOD
+ 2443 PAGTST.SAV   WFW           01-Jan-64 21:22  11-Jun-85 01:32     2 KISHAG
+ 2444 PAGTST.MAC   WFW           01-Jan-64 21:21  11-Jun-85 01:32     5 FUBZON
+ 2445 TYMGET.DEF   WFW           14-Dec-76 00:58  11-Jun-85 01:32     2 COHBIP
+ 2446 AUXTRN.SAV   WFW           28-Feb-77 23:12  11-Jun-85 01:32     4 VIMYUR
+ 2447 AUXTRN.LRC   WFW           19-Sep-78 23:36  11-Jun-85 01:32     2 CUTHEZ
+ 2450 AUXTRN.MAC   WFW           19-Sep-78 23:39  11-Jun-85 01:32     7 LEQXON
+
+Total of 15 files in saveset.
+
+End of Saveset #46 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+Saveset #47 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+ 2451 TYMIO .DEF   WFW           23-Jan-77 19:41  11-Jun-85 01:32     2 ZESWOC
+ 2452 DIRN  .CMD   WFW           14-Dec-77 17:30  11-Jun-85 01:32     2 CEWCAP
+ 2453 SAILIB.DOC   WFW           21-Feb-77 18:06  11-Jun-85 01:32     7 VANLUV
+ 2454 TYMINT.DEF   WFW           29-Mar-77 19:32  11-Jun-85 01:32     2 TODDOZ
+ 2455 TYMCAL.DEF   WFW           21-Nov-76 17:09  11-Jun-85 01:32     2 KAQKUZ
+ 2456 TRMSET.SAV   WFW           18-Apr-78 04:22  11-Jun-85 01:32     8 ZEGRUW
+ 2457 AUXCHK.MAC   WFW           17-Nov-75 18:33  11-Jun-85 01:32     5 GOYPIZ
+ 2460 TYMSHR.DEF   WFW           17-Nov-76 19:42  11-Jun-85 01:32     4 GUTJUX
+ 2461 AUXCHK.SAV   WFW           28-Feb-77 23:17  11-Jun-85 01:32     2 LOSVOD
+ 2462 PAGTST.SAV   WFW           01-Jan-64 21:22  11-Jun-85 01:32     2 KISHAG
+ 2463 PAGTST.MAC   WFW           01-Jan-64 21:21  11-Jun-85 01:32     5 FUBZON
+ 2464 TYMGET.DEF   WFW           14-Dec-76 00:58  11-Jun-85 01:32     2 COHBIP
+ 2465 AUXTRN.SAV   WFW           28-Feb-77 23:12  11-Jun-85 01:32     4 VIMYUR
+ 2466 AUXTRN.LRC   WFW           19-Sep-78 23:36  11-Jun-85 01:32     2 CUTHEZ
+ 2467 AUXTRN.MAC   WFW           19-Sep-78 23:39  11-Jun-85 01:32     7 LEQXON
+
+Total of 15 files in saveset.
+
+End of Saveset #47 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+Saveset #48 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+ 2470 TYMIO .DEF   WFW           23-Jan-77 19:41  11-Jun-85 01:32     2 ZESWOC
+ 2471 DIRN  .CMD   WFW           14-Dec-77 17:30  11-Jun-85 01:32     2 CEWCAP
+ 2472 SAILIB.DOC   WFW           21-Feb-77 18:06  11-Jun-85 01:32     7 VANLUV
+ 2473 TYMINT.DEF   WFW           29-Mar-77 19:32  11-Jun-85 01:32     2 TODDOZ
+ 2474 TYMCAL.DEF   WFW           21-Nov-76 17:09  11-Jun-85 01:32     2 KAQKUZ
+ 2475 TRMSET.SAV   WFW           18-Apr-78 04:22  11-Jun-85 01:32     8 ZEGRUW
+ 2476 AUXCHK.MAC   WFW           17-Nov-75 18:33  11-Jun-85 01:32     5 GOYPIZ
+ 2477 TYMSHR.DEF   WFW           17-Nov-76 19:42  11-Jun-85 01:32     4 GUTJUX
+ 2500 AUXCHK.SAV   WFW           28-Feb-77 23:17  11-Jun-85 01:32     2 LOSVOD
+ 2501 PAGTST.SAV   WFW           01-Jan-64 21:22  11-Jun-85 01:32     2 KISHAG
+ 2502 PAGTST.MAC   WFW           01-Jan-64 21:21  11-Jun-85 01:32     5 FUBZON
+ 2503 TYMGET.DEF   WFW           14-Dec-76 00:58  11-Jun-85 01:32     2 COHBIP
+ 2504 AUXTRN.SAV   WFW           28-Feb-77 23:12  11-Jun-85 01:32     4 VIMYUR
+ 2505 AUXTRN.LRC   WFW           19-Sep-78 23:36  11-Jun-85 01:32     2 CUTHEZ
+ 2506 AUXTRN.MAC   WFW           19-Sep-78 23:39  11-Jun-85 01:32     7 LEQXON
+
+Total of 15 files in saveset.
+
+End of Saveset #48 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+Saveset #49 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+ 2507 SEC   .SAV   WFWCUSP       01-Jan-64 00:01  11-Jun-85 01:32     4 CEGRAR
+
+Total of 1 files in saveset.
+
+End of Saveset #49 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+Saveset #50 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+ 2510 SEC   .SAV   WFWCUSP       01-Jan-64 00:01  11-Jun-85 01:32     4 CEGRAR
+
+Total of 1 files in saveset.
+
+End of Saveset #50 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+Saveset #51 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+ 2511 SEC   .SAV   WFWCUSP       01-Jan-64 00:01  11-Jun-85 01:32     4 CEGRAR
+
+Total of 1 files in saveset.
+
+End of Saveset #51 from TITO version 16
+Written 11-Jun-85 01:32 GMT
+
+Saveset #52 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+ 2512 RPG   .INI   XCONSULT      12-Jan-82 19:19  11-Jun-85 01:33     2 SAFTOZ
+ 2513 INIT  .SAV   XCONSULT      12-Jan-82 18:50  11-Jun-85 01:33    28 RIMMEJ
+ 2514 XCO   .FRM   XCONSULT      16-Jun-83 21:41  11-Jun-85 01:33     2 FAFXIX
+ 2515 XCO   .DOC   XCONSULT      03-Aug-83 17:01  11-Jun-85 01:33     4 BIGZOV
+ 2516 XCO   .PUB   XCONSULT      03-Aug-83 17:00  11-Jun-85 01:33     4 LODCEW
+ 2517 MAIL  .RPT   XCONSULT      20-Jan-82 21:48  11-Jun-85 01:33     2 JAFBOV
+ 2520 MAGNUM.DIR   XCONSULT      29-Sep-83 15:40  11-Jun-85 01:33     2 QITHIF
+ 2521 [MAIL].      XCONSULT      27-Aug-83 17:51  11-Jun-85 01:33     2 SIGGIF
+
+Total of 8 files in saveset.
+
+End of Saveset #52 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+Saveset #53 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+ 2522 RPG   .INI   XCONSULT      12-Jan-82 19:19  11-Jun-85 01:33     2 SAFTOZ
+ 2523 INIT  .SAV   XCONSULT      12-Jan-82 18:50  11-Jun-85 01:33    28 RIMMEJ
+ 2524 XCO   .FRM   XCONSULT      16-Jun-83 21:41  11-Jun-85 01:33     2 FAFXIX
+ 2525 XCO   .DOC   XCONSULT      03-Aug-83 17:01  11-Jun-85 01:33     4 BIGZOV
+ 2526 XCO   .PUB   XCONSULT      03-Aug-83 17:00  11-Jun-85 01:33     4 LODCEW
+ 2527 MAIL  .RPT   XCONSULT      20-Jan-82 21:48  11-Jun-85 01:33     2 JAFBOV
+ 2530 MAGNUM.DIR   XCONSULT      29-Sep-83 15:40  11-Jun-85 01:33     2 QITHIF
+ 2531 [MAIL].      XCONSULT      27-Aug-83 17:51  11-Jun-85 01:33     2 SIGGIF
+
+Total of 8 files in saveset.
+
+End of Saveset #53 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+Saveset #54 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+ 2532 RPG   .INI   XCONSULT      12-Jan-82 19:19  11-Jun-85 01:33     2 SAFTOZ
+ 2533 INIT  .SAV   XCONSULT      12-Jan-82 18:50  11-Jun-85 01:33    28 RIMMEJ
+ 2534 XCO   .FRM   XCONSULT      16-Jun-83 21:41  11-Jun-85 01:33     2 FAFXIX
+ 2535 XCO   .DOC   XCONSULT      03-Aug-83 17:01  11-Jun-85 01:33     4 BIGZOV
+ 2536 XCO   .PUB   XCONSULT      03-Aug-83 17:00  11-Jun-85 01:33     4 LODCEW
+ 2537 MAIL  .RPT   XCONSULT      20-Jan-82 21:48  11-Jun-85 01:33     2 JAFBOV
+ 2540 MAGNUM.DIR   XCONSULT      29-Sep-83 15:40  11-Jun-85 01:33     2 QITHIF
+ 2541 [MAIL].      XCONSULT      27-Aug-83 17:51  11-Jun-85 01:33     2 SIGGIF
+
+Total of 8 files in saveset.
+
+End of Saveset #54 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+Saveset #55 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+ 2542 BLKDAT.FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:33    12 ZIHQEZ
+ 2543 FWIM  .FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:33     2 CAWYIC
+ 2544 LIT   .FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:33     2 LURFUQ
+ 2545 LOADFL.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:33     9 KIWBAM
+ 2546 MAIN  .FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:33     5 XIZSUV
+ 2547 MAINLO.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:33     5 RUPMEJ
+ 2550 NUMBR .FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:33     2 SAXTIV
+ 2551 PRINCR.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33     3 FEXBOJ
+ 2552 PROTCT.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33     2 QAGNOR
+ 2553 READJL.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 KUQHOR
+ 2554 SPARSE.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:33     6 YIHYOV
+ 2555 SVERBS.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:33     9 CIVPEX
+ 2556 SYNEQL.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:33     2 COJCAH
+ 2557 TAKE  .FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:33     3 PEZVAS
+ 2560 THIEFP.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:33     5 CIPLUZ
+ 2561 THISIT.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:33     2 GAHXOB
+ 2562 XVEHIC.FOR   ZORK          06-Jan-82 09:05  11-Jun-85 01:33     2 YAFVEV
+ 2563 APLCHR.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:33     2 BEPWUZ
+ 2564 BALLOP.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:33     4 TAZXUD
+ 2565 BLOW  .FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:33     5 DUTHEB
+ 2566 CHADD .FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     2 ZAFSOW
+ 2567 CXAPPL.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     3 JEWXEM
+ 2570 GWIM  .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     2 BUZYOB
+ 2571 INIT  .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     5 MUPSIH
+ 2572 LIGHTP.FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:33     4 SIFVUR
+ 2573 OBJACT.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33     2 CORMEL
+ 2574 OPNCLS.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33     2 BIGQES
+ 2575 ORPHAN.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33     2 FACPIN
+ 2576 RAPPLI.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33    12 SERYOR
+ 2577 R50CNV.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:33     2 LEMCUH
+ 2600 TROLLP.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:33     4 HIKZUK
+ 2601 WEIGHT.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:33     2 QEZQER
+ 2602 RANDOM.BAL   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     3 WUXGUG
+ 2603 UPCASE.BAL   ZORK          06-Jan-82 09:07  11-Jun-85 01:33     4 CUXVUH
+ 2604 CMS   .JCL   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     2 TOHRER
+ 2605 DROP  .FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     3 ZAHDER
+ 2606 GETOBJ.FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:33     3 JUVGED
+ 2607 G50   .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     2 NIVMAF
+ 2610 LOAD  .FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:33     9 BUXLUX
+ 2611 PUT   .FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33     3 NUXKAL
+ 2612 RDEXIT.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     2 RUKVUT
+ 2613 RDRMNM.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 LISBAX
+ 2614 RND   .FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 WILCUF
+ 2615 TAKEIT.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:33     3 KAQHOS
+ 2616 THIEFD.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:33     5 NEDDEN
+ 2617 UNPACK.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:33     2 KEVRAJ
+ 2620 ITIME .BAL   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     3 VIWSEK
+ 2621 BUG   .FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:33     2 QOJYIB
+ 2622 CYCLOP.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     4 RAMHEZ
+ 2623 GAME  .FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:33     6 KEPTAD
+ 2624 GTTIME.FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:33     2 FOSHOG
+ 2625 LOX   .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     3 WAGWUL
+ 2626 RDOAL .FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     2 YEDPEL
+ 2627 RSPSB2.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     3 MOWXAH
+ 2630 RSPSUB.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 QIQKOH
+ 2631 RSTRGM.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     3 KEYWOZ
+ 2632 SAVEGM.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:33     3 BIDTUV
+ 2633 SCHLST.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:33     3 QIQWIH
+ 2634 SCRUPD.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:33     2 SEYGOV
+ 2635 VALUAC.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:33     3 NIQBUH
+ 2636 WALK  .FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:33     4 VEWCAW
+ 2637 YESNO .FOR   ZORK          06-Jan-82 09:05  11-Jun-85 01:33     2 QEWKEM
+ 2640 FIGHTD.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     4 CISKEY
+ 2641 GUARD .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     9 ZUHSEN
+ 2642 JIGSUP.FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     4 QEVFAB
+ 2643 NEWSTA.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:33     2 TAYQAV
+ 2644 QEMPTY.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     2 JENYOD
+ 2645 RDADVS.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     2 FUDVUR
+ 2646 RDOBJS.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 HATTUS
+ 2647 RMINFO.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     3 TOLTUF
+ 2650 SOBJS .FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:33    12 XUBRAH
+ 2651 SYNMCH.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:33     3 SALFIP
+ 2652 XENDMV.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:33     2 RADGIK
+ 2653 GETGUA.BAL   ZORK          06-Jan-82 09:16  11-Jun-85 01:33     3 XUNJUW
+ 2654 LOADFI.JCL   ZORK          06-Jan-82 09:14  11-Jun-85 01:33     2 FIXBAK
+ 2655 AAPPLI.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:33     4 QUVSEJ
+ 2656 CLOCKD.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     2 CAXHUK
+ 2657 FIGHTS.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     2 PEMDUF
+ 2660 MOVETO.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:33     3 JIFSOL
+ 2661 OAPPLI.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33    11 NUJKOP
+ 2662 PARSE .FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:33     2 HUPQEW
+ 2663 RDLINE.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     2 NIQDIY
+ 2664 ROBADV.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 PEKGOR
+ 2665 ROBRM .FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 ZUNGOD
+ 2666 SWORDD.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:33     3 YUVCUL
+ 2667 VAPPLI.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:33    11 JODROY
+ 2670 WINNIN.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:33     2 PUKJUW
+ 2671 GETSET.BAL   ZORK          06-Jan-82 09:16  11-Jun-85 01:33     3 NEFKOJ
+ 2672 ZORK  .JCL   ZORK          06-Jan-82 09:05  11-Jun-85 01:33     2 LIDVAH
+ 2673 ZORK  .DAT   ZORK          06-Jan-82 09:19  11-Jun-85 01:33    46 XAQDIK
+ 2674 CEVAPP.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     9 WUQFED
+ 2675 CONCAT.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     2 CEQTUS
+ 2676 FINDXT.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:33     2 VELMEZ
+ 2677 INVENT.FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:33     2 ROBBOY
+ 2700 LITINT.FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:33     2 PALNOW
+ 2701 QHERE .FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     2 GINYAJ
+ 2702 RDCLOK.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:33     2 REPCAF
+ 2703 RSPEAK.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:33     2 YACJUW
+ 2704 SCORE .FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:33     2 ZEWCIL
+ 2705 AND   .BAL   ZORK          06-Jan-82 09:19  11-Jun-85 01:33     3 GEVYUK
+ 2706 GEN   .JCL   ZORK          06-Jan-82 09:16  11-Jun-85 01:33     2 RIMWEF
+
+Total of 101 files in saveset.
+
+End of Saveset #55 from TITO version 16
+Written 11-Jun-85 01:33 GMT
+
+Saveset #56 from TITO version 16
+Written 11-Jun-85 01:34 GMT
+
+ 2707 BLKDAT.FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:34    12 ZIHQEZ
+ 2710 FWIM  .FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:34     2 CAWYIC
+ 2711 LIT   .FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:34     2 LURFUQ
+ 2712 LOADFL.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:34     9 KIWBAM
+ 2713 MAIN  .FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:34     5 XIZSUV
+ 2714 MAINLO.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:34     5 RUPMEJ
+ 2715 NUMBR .FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:34     2 SAXTIV
+ 2716 PRINCR.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34     3 FEXBOJ
+ 2717 PROTCT.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34     2 QAGNOR
+ 2720 READJL.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 KUQHOR
+ 2721 SPARSE.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:34     6 YIHYOV
+ 2722 SVERBS.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:34     9 CIVPEX
+ 2723 SYNEQL.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:34     2 COJCAH
+ 2724 TAKE  .FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:34     3 PEZVAS
+ 2725 THIEFP.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:34     5 CIPLUZ
+ 2726 THISIT.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:34     2 GAHXOB
+ 2727 XVEHIC.FOR   ZORK          06-Jan-82 09:05  11-Jun-85 01:34     2 YAFVEV
+ 2730 APLCHR.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:34     2 BEPWUZ
+ 2731 BALLOP.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:34     4 TAZXUD
+ 2732 BLOW  .FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:34     5 DUTHEB
+ 2733 CHADD .FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     2 ZAFSOW
+ 2734 CXAPPL.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     3 JEWXEM
+ 2735 GWIM  .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     2 BUZYOB
+ 2736 INIT  .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     5 MUPSIH
+ 2737 LIGHTP.FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:34     4 SIFVUR
+ 2740 OBJACT.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34     2 CORMEL
+ 2741 OPNCLS.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34     2 BIGQES
+ 2742 ORPHAN.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34     2 FACPIN
+ 2743 RAPPLI.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34    12 SERYOR
+ 2744 R50CNV.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:34     2 LEMCUH
+ 2745 TROLLP.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:34     4 HIKZUK
+ 2746 WEIGHT.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:34     2 QEZQER
+ 2747 RANDOM.BAL   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     3 WUXGUG
+ 2750 UPCASE.BAL   ZORK          06-Jan-82 09:07  11-Jun-85 01:34     4 CUXVUH
+ 2751 CMS   .JCL   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     2 TOHRER
+ 2752 DROP  .FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     3 ZAHDER
+ 2753 GETOBJ.FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:34     3 JUVGED
+ 2754 G50   .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     2 NIVMAF
+ 2755 LOAD  .FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:34     9 BUXLUX
+ 2756 PUT   .FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34     3 NUXKAL
+ 2757 RDEXIT.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     2 RUKVUT
+ 2760 RDRMNM.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 LISBAX
+ 2761 RND   .FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 WILCUF
+ 2762 TAKEIT.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:34     3 KAQHOS
+ 2763 THIEFD.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:34     5 NEDDEN
+ 2764 UNPACK.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:34     2 KEVRAJ
+ 2765 ITIME .BAL   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     3 VIWSEK
+ 2766 BUG   .FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:34     2 QOJYIB
+ 2767 CYCLOP.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     4 RAMHEZ
+ 2770 GAME  .FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:34     6 KEPTAD
+ 2771 GTTIME.FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:34     2 FOSHOG
+ 2772 LOX   .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     3 WAGWUL
+ 2773 RDOAL .FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     2 YEDPEL
+ 2774 RSPSB2.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     3 MOWXAH
+ 2775 RSPSUB.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 QIQKOH
+ 2776 RSTRGM.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     3 KEYWOZ
+ 2777 SAVEGM.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:34     3 BIDTUV
+ 3000 SCHLST.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:34     3 QIQWIH
+ 3001 SCRUPD.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:34     2 SEYGOV
+ 3002 VALUAC.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:34     3 NIQBUH
+ 3003 WALK  .FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:34     4 VEWCAW
+ 3004 YESNO .FOR   ZORK          06-Jan-82 09:05  11-Jun-85 01:34     2 QEWKEM
+ 3005 FIGHTD.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     4 CISKEY
+ 3006 GUARD .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     9 ZUHSEN
+ 3007 JIGSUP.FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     4 QEVFAB
+ 3010 NEWSTA.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:34     2 TAYQAV
+ 3011 QEMPTY.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     2 JENYOD
+ 3012 RDADVS.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     2 FUDVUR
+ 3013 RDOBJS.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 HATTUS
+ 3014 RMINFO.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     3 TOLTUF
+ 3015 SOBJS .FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:34    12 XUBRAH
+ 3016 SYNMCH.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:34     3 SALFIP
+ 3017 XENDMV.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:34     2 RADGIK
+ 3020 GETGUA.BAL   ZORK          06-Jan-82 09:16  11-Jun-85 01:34     3 XUNJUW
+ 3021 LOADFI.JCL   ZORK          06-Jan-82 09:14  11-Jun-85 01:34     2 FIXBAK
+ 3022 AAPPLI.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:34     4 QUVSEJ
+ 3023 CLOCKD.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     2 CAXHUK
+ 3024 FIGHTS.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     2 PEMDUF
+ 3025 MOVETO.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:34     3 JIFSOL
+ 3026 OAPPLI.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34    11 NUJKOP
+ 3027 PARSE .FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:34     2 HUPQEW
+ 3030 RDLINE.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     2 NIQDIY
+ 3031 ROBADV.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 PEKGOR
+ 3032 ROBRM .FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 ZUNGOD
+ 3033 SWORDD.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:34     3 YUVCUL
+ 3034 VAPPLI.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:34    11 JODROY
+ 3035 WINNIN.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:34     2 PUKJUW
+ 3036 GETSET.BAL   ZORK          06-Jan-82 09:16  11-Jun-85 01:34     3 NEFKOJ
+ 3037 ZORK  .JCL   ZORK          06-Jan-82 09:05  11-Jun-85 01:34     2 LIDVAH
+ 3040 ZORK  .DAT   ZORK          06-Jan-82 09:19  11-Jun-85 01:34    46 XAQDIK
+ 3041 CEVAPP.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     9 WUQFED
+ 3042 CONCAT.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     2 CEQTUS
+ 3043 FINDXT.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:34     2 VELMEZ
+ 3044 INVENT.FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:34     2 ROBBOY
+ 3045 LITINT.FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:34     2 PALNOW
+ 3046 QHERE .FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     2 GINYAJ
+ 3047 RDCLOK.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:34     2 REPCAF
+ 3050 RSPEAK.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:34     2 YACJUW
+ 3051 SCORE .FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:34     2 ZEWCIL
+ 3052 AND   .BAL   ZORK          06-Jan-82 09:19  11-Jun-85 01:34     3 GEVYUK
+ 3053 GEN   .JCL   ZORK          06-Jan-82 09:16  11-Jun-85 01:34     2 RIMWEF
+
+Total of 101 files in saveset.
+
+End of Saveset #56 from TITO version 16
+Written 11-Jun-85 01:34 GMT
+
+Saveset #57 from TITO version 16
+Written 11-Jun-85 01:35 GMT
+
+ 3054 BLKDAT.FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:35    12 ZIHQEZ
+ 3055 FWIM  .FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:35     2 CAWYIC
+ 3056 LIT   .FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:35     2 LURFUQ
+ 3057 LOADFL.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:35     9 KIWBAM
+ 3060 MAIN  .FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:35     5 XIZSUV
+ 3061 MAINLO.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:35     5 RUPMEJ
+ 3062 NUMBR .FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:35     2 SAXTIV
+ 3063 PRINCR.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35     3 FEXBOJ
+ 3064 PROTCT.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35     2 QAGNOR
+ 3065 READJL.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 KUQHOR
+ 3066 SPARSE.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:35     6 YIHYOV
+ 3067 SVERBS.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:35     9 CIVPEX
+ 3070 SYNEQL.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:35     2 COJCAH
+ 3071 TAKE  .FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:35     3 PEZVAS
+ 3072 THIEFP.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:35     5 CIPLUZ
+ 3073 THISIT.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:35     2 GAHXOB
+ 3074 XVEHIC.FOR   ZORK          06-Jan-82 09:05  11-Jun-85 01:35     2 YAFVEV
+ 3075 APLCHR.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:35     2 BEPWUZ
+ 3076 BALLOP.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:35     4 TAZXUD
+ 3077 BLOW  .FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:35     5 DUTHEB
+ 3100 CHADD .FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     2 ZAFSOW
+ 3101 CXAPPL.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     3 JEWXEM
+ 3102 GWIM  .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     2 BUZYOB
+ 3103 INIT  .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     5 MUPSIH
+ 3104 LIGHTP.FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:35     4 SIFVUR
+ 3105 OBJACT.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35     2 CORMEL
+ 3106 OPNCLS.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35     2 BIGQES
+ 3107 ORPHAN.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35     2 FACPIN
+ 3110 RAPPLI.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35    12 SERYOR
+ 3111 R50CNV.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:35     2 LEMCUH
+ 3112 TROLLP.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:35     4 HIKZUK
+ 3113 WEIGHT.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:35     2 QEZQER
+ 3114 RANDOM.BAL   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     3 WUXGUG
+ 3115 UPCASE.BAL   ZORK          06-Jan-82 09:07  11-Jun-85 01:35     4 CUXVUH
+ 3116 CMS   .JCL   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     2 TOHRER
+ 3117 DROP  .FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     3 ZAHDER
+ 3120 GETOBJ.FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:35     3 JUVGED
+ 3121 G50   .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     2 NIVMAF
+ 3122 LOAD  .FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:35     9 BUXLUX
+ 3123 PUT   .FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35     3 NUXKAL
+ 3124 RDEXIT.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     2 RUKVUT
+ 3125 RDRMNM.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 LISBAX
+ 3126 RND   .FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 WILCUF
+ 3127 TAKEIT.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:35     3 KAQHOS
+ 3130 THIEFD.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:35     5 NEDDEN
+ 3131 UNPACK.FOR   ZORK          06-Jan-82 09:07  11-Jun-85 01:35     2 KEVRAJ
+ 3132 ITIME .BAL   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     3 VIWSEK
+ 3133 BUG   .FOR   ZORK          06-Jan-82 09:18  11-Jun-85 01:35     2 QOJYIB
+ 3134 CYCLOP.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     4 RAMHEZ
+ 3135 GAME  .FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:35     6 KEPTAD
+ 3136 GTTIME.FOR   ZORK          06-Jan-82 09:16  11-Jun-85 01:35     2 FOSHOG
+ 3137 LOX   .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     3 WAGWUL
+ 3140 RDOAL .FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     2 YEDPEL
+ 3141 RSPSB2.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     3 MOWXAH
+ 3142 RSPSUB.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 QIQKOH
+ 3143 RSTRGM.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     3 KEYWOZ
+ 3144 SAVEGM.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:35     3 BIDTUV
+ 3145 SCHLST.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:35     3 QIQWIH
+ 3146 SCRUPD.FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:35     2 SEYGOV
+ 3147 VALUAC.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:35     3 NIQBUH
+ 3150 WALK  .FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:35     4 VEWCAW
+ 3151 YESNO .FOR   ZORK          06-Jan-82 09:05  11-Jun-85 01:35     2 QEWKEM
+ 3152 FIGHTD.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     4 CISKEY
+ 3153 GUARD .FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     9 ZUHSEN
+ 3154 JIGSUP.FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     4 QEVFAB
+ 3155 NEWSTA.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:35     2 TAYQAV
+ 3156 QEMPTY.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     2 JENYOD
+ 3157 RDADVS.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     2 FUDVUR
+ 3160 RDOBJS.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 HATTUS
+ 3161 RMINFO.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     3 TOLTUF
+ 3162 SOBJS .FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:35    12 XUBRAH
+ 3163 SYNMCH.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:35     3 SALFIP
+ 3164 XENDMV.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:35     2 RADGIK
+ 3165 GETGUA.BAL   ZORK          06-Jan-82 09:16  11-Jun-85 01:35     3 XUNJUW
+ 3166 LOADFI.JCL   ZORK          06-Jan-82 09:14  11-Jun-85 01:35     2 FIXBAK
+ 3167 AAPPLI.FOR   ZORK          06-Jan-82 09:19  11-Jun-85 01:35     4 QUVSEJ
+ 3170 CLOCKD.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     2 CAXHUK
+ 3171 FIGHTS.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     2 PEMDUF
+ 3172 MOVETO.FOR   ZORK          06-Jan-82 09:13  11-Jun-85 01:35     3 JIFSOL
+ 3173 OAPPLI.FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35    11 NUJKOP
+ 3174 PARSE .FOR   ZORK          06-Jan-82 09:12  11-Jun-85 01:35     2 HUPQEW
+ 3175 RDLINE.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     2 NIQDIY
+ 3176 ROBADV.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 PEKGOR
+ 3177 ROBRM .FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 ZUNGOD
+ 3200 SWORDD.FOR   ZORK          06-Jan-82 09:08  11-Jun-85 01:35     3 YUVCUL
+ 3201 VAPPLI.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:35    11 JODROY
+ 3202 WINNIN.FOR   ZORK          06-Jan-82 09:06  11-Jun-85 01:35     2 PUKJUW
+ 3203 GETSET.BAL   ZORK          06-Jan-82 09:16  11-Jun-85 01:35     3 NEFKOJ
+ 3204 ZORK  .JCL   ZORK          06-Jan-82 09:05  11-Jun-85 01:35     2 LIDVAH
+ 3205 ZORK  .DAT   ZORK          06-Jan-82 09:19  11-Jun-85 01:35    46 XAQDIK
+ 3206 CEVAPP.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     9 WUQFED
+ 3207 CONCAT.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     2 CEQTUS
+ 3210 FINDXT.FOR   ZORK          06-Jan-82 09:17  11-Jun-85 01:35     2 VELMEZ
+ 3211 INVENT.FOR   ZORK          06-Jan-82 09:15  11-Jun-85 01:35     2 ROBBOY
+ 3212 LITINT.FOR   ZORK          06-Jan-82 09:14  11-Jun-85 01:35     2 PALNOW
+ 3213 QHERE .FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     2 GINYAJ
+ 3214 RDCLOK.FOR   ZORK          06-Jan-82 09:11  11-Jun-85 01:35     2 REPCAF
+ 3215 RSPEAK.FOR   ZORK          06-Jan-82 09:10  11-Jun-85 01:35     2 YACJUW
+ 3216 SCORE .FOR   ZORK          06-Jan-82 09:09  11-Jun-85 01:35     2 ZEWCIL
+ 3217 AND   .BAL   ZORK          06-Jan-82 09:19  11-Jun-85 01:35     3 GEVYUK
+ 3220 GEN   .JCL   ZORK          06-Jan-82 09:16  11-Jun-85 01:35     2 RIMWEF
+
+Total of 101 files in saveset.
+
+End of Saveset #57 from TITO version 16
+Written 11-Jun-85 01:35 GMT
+
+Saveset #58 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+ 3221 INIT  .SAV   RKLUTE        05-Mar-85 17:46  11-Jun-85 01:36    32 DEJDUL
+ 3222 TYM425.SAV   RKLUTE        05-Mar-85 17:45  11-Jun-85 01:36    32 JOKTIC
+
+Total of 2 files in saveset.
+
+End of Saveset #58 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+Saveset #59 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+ 3223 INIT  .SAV   RKLUTE        05-Mar-85 17:46  11-Jun-85 01:36    32 DEJDUL
+ 3224 TYM425.SAV   RKLUTE        05-Mar-85 17:45  11-Jun-85 01:36    32 JOKTIC
+
+Total of 2 files in saveset.
+
+End of Saveset #59 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+Saveset #60 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+ 3225 INIT  .SAV   RKLUTE        05-Mar-85 17:46  11-Jun-85 01:36    32 DEJDUL
+ 3226 TYM425.SAV   RKLUTE        05-Mar-85 17:45  11-Jun-85 01:36    32 JOKTIC
+
+Total of 2 files in saveset.
+
+End of Saveset #60 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+Saveset #61 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+ 3227 INIT  .SAV   KLUTE         11-Aug-83 22:15  11-Jun-85 01:36    27 VIKJOZ
+ 3230 EMPIRE.DAT   KLUTE         01-Sep-83 02:01  11-Jun-85 01:36    10 ZIBLUV
+ 3231 PROG  .BAS   KLUTE         26-Oct-83 16:46  11-Jun-85 01:36     2 CEBHEG
+ 3232 PROG  .REL   KLUTE         26-Oct-83 16:50  11-Jun-85 01:36     2 FOFHAD
+ 3233 PROG  .SAV   KLUTE         26-Oct-83 16:52  11-Jun-85 01:36     9 ZOBFUP
+
+Total of 5 files in saveset.
+
+End of Saveset #61 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+Saveset #62 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+ 3234 INIT  .SAV   KLUTE         11-Aug-83 22:15  11-Jun-85 01:36    27 VIKJOZ
+ 3235 EMPIRE.DAT   KLUTE         01-Sep-83 02:01  11-Jun-85 01:36    10 ZIBLUV
+ 3236 PROG  .BAS   KLUTE         26-Oct-83 16:46  11-Jun-85 01:36     2 CEBHEG
+ 3237 PROG  .REL   KLUTE         26-Oct-83 16:50  11-Jun-85 01:36     2 FOFHAD
+ 3240 PROG  .SAV   KLUTE         26-Oct-83 16:52  11-Jun-85 01:36     9 ZOBFUP
+
+Total of 5 files in saveset.
+
+End of Saveset #62 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+Saveset #63 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+ 3241 INIT  .SAV   KLUTE         11-Aug-83 22:15  11-Jun-85 01:36    27 VIKJOZ
+ 3242 EMPIRE.DAT   KLUTE         01-Sep-83 02:01  11-Jun-85 01:36    10 ZIBLUV
+ 3243 PROG  .BAS   KLUTE         26-Oct-83 16:46  11-Jun-85 01:36     2 CEBHEG
+ 3244 PROG  .REL   KLUTE         26-Oct-83 16:50  11-Jun-85 01:36     2 FOFHAD
+ 3245 PROG  .SAV   KLUTE         26-Oct-83 16:52  11-Jun-85 01:36     9 ZOBFUP
+
+Total of 5 files in saveset.
+
+End of Saveset #63 from TITO version 16
+Written 11-Jun-85 01:36 GMT
+
+Saveset #64 from TITO version 16
+Written 11-Jun-85 01:37 GMT
+
+ 3246 VAXJUN.DOC   RUSSELLB      26-Mar-81 04:58  11-Jun-85 01:37     2 BEZPUC
+ 3247 VAXJUN.PUB   RUSSELLB      26-Mar-81 04:57  11-Jun-85 01:37     2 SIRSAN
+ 3250 VUE   .INI   RUSSELLB      11-May-81 09:19  11-Jun-85 01:37     2 LUDZOK
+ 3251 EXXON .UPD   RUSSELLB      04-Jun-81 17:05  11-Jun-85 01:37     2 WAYBIL
+ 3252 HDWRST.      RUSSELLB      17-Sep-81 15:27  11-Jun-85 01:37     3 WUSSAD
+ 3253 OP    .      RUSSELLB      23-Mar-82 05:16  11-Jun-85 01:37     2 XUBWUN
+ 3254 INIT  .SAV   RUSSELLB      29-Apr-82 17:54  11-Jun-85 01:37    27 XODSIF
+ 3255 PRT66 .SAI   RUSSELLB      15-Jul-80 23:47  11-Jun-85 01:37     2 QUBCAD
+ 3256 INIT  .SAI   RUSSELLB      30-Sep-81 18:13  11-Jun-85 01:37     2 ZUMJAP
+ 3257 LP20FS.SAI   RUSSELLB      19-Jan-81 17:19  11-Jun-85 01:37     2 BANSIM
+ 3260 DELETE.ME    RUSSELLB      01-Mar-81 00:12  11-Jun-85 01:37     2 YIGSUV
+ 3261 MEMOHD.PUB   RUSSELLB      04-Mar-81 04:12  11-Jun-85 01:37     2 VUFQAC
+ 3262 TELCO .      RUSSELLB      30-Aug-81 21:54  11-Jun-85 01:37     2 YESSAH
+ 3263 TELCO .DOC   RUSSELLB      30-Aug-81 21:55  11-Jun-85 01:37     2 RAWMOM
+ 3264 STATUS.DOC   RUSSELLB      17-Sep-81 15:32  11-Jun-85 01:37     3 JUPLUW
+ 3265 SKANDI.      RUSSELLB      29-Dec-81 07:27  11-Jun-85 01:37     2 YIGGOC
+ 3266 ICP   .SYN   RUSSELLB      15-Apr-78 05:22  11-Jun-85 01:37     3 ZARJUQ
+ 3267 MAZE  .DAT   RUSSELLB      23-Sep-82 03:52  11-Jun-85 01:37     4 KAWJOF
+ 3270 ICP   .      RUSSELLB      22-May-82 14:55  11-Jun-85 01:37     2 YOSQAK
+ 3271 ICP   .EXP   RUSSELLB      22-May-82 14:59  11-Jun-85 01:37     3 VUZLOJ
+ 3272 PRT51 .SAI   RUSSELLB      15-Jul-80 23:49  11-Jun-85 01:37     2 MALHAP
+ 3273 FILE  .CMD   RUSSELLB      06-Sep-80 22:23  11-Jun-85 01:37     2 VEXXOV
+ 3274 HIBER .SAI   RUSSELLB      08-Sep-80 02:08  11-Jun-85 01:37     2 MAGWEQ
+ 3275 TAKEIT.DOC   RUSSELLB      13-Jul-80 00:39  11-Jun-85 01:37    29 HEMFUP
+ 3276 DELACT.SAI   RUSSELLB      29-Nov-80 18:36  11-Jun-85 01:37     3 ZIDXAX
+ 3277 LPVFU .SAI   RUSSELLB      29-Jan-81 04:30  11-Jun-85 01:37     2 QOJTOS
+ 3300 MEMO  .PUB   RUSSELLB      04-Mar-81 05:23  11-Jun-85 01:37     3 NEQYEH
+ 3301 IBIS  .ME    RUSSELLB      05-Mar-81 05:18  11-Jun-85 01:37     4 HUDJED
+ 3302 IBIS  .      RUSSELLB      05-Mar-81 05:25  11-Jun-85 01:37     4 HAZCEJ
+ 3303 IBIS  .505   RUSSELLB      27-Apr-81 04:18  11-Jun-85 01:37     2 MOYSEK
+ 3304 RUNOFF.SHR   RUSSELLB      14-Feb-81 02:42  11-Jun-85 01:37    26 PAWFAQ
+ 3305 RUNOFF.LOW   RUSSELLB      14-Feb-81 02:42  11-Jun-85 01:37     2 DUFQIP
+ 3306 RUNOFF.DOC   RUSSELLB      14-Feb-81 02:45  11-Jun-85 01:37    58 MIMZEP
+ 3307 S2    .DAT   RUSSELLB      04-Jul-81 00:14  11-Jun-85 01:37     9 FARCIL
+ 3310 DELACT.      RUSSELLB      22-May-82 14:38  11-Jun-85 01:37     2 JUNVAC
+ 3311 DELACT.EXP   RUSSELLB      22-May-82 14:40  11-Jun-85 01:37     5 NATKAN
+ 3312 FOO   .FOR   RUSSELLB      09-Nov-80 03:02  11-Jun-85 01:37     2 WUVHOY
+ 3313 FOO   .F4    RUSSELLB      08-Sep-80 02:02  11-Jun-85 01:37     2 KAGRUD
+ 3314 X     .F4    RUSSELLB      07-Sep-80 02:16  11-Jun-85 01:37     2 VEHRAP
+ 3315 X     .FOR   RUSSELLB      07-Sep-80 02:18  11-Jun-85 01:37     2 HAYZAM
+ 3316 SLEEP .SAI   RUSSELLB      08-Sep-80 01:52  11-Jun-85 01:37     2 CAWQIS
+ 3317 BCKDRV.SAI   RUSSELLB      08-Sep-80 02:28  11-Jun-85 01:37     2 JEYZUH
+ 3320 SETTRM.SAI   RUSSELLB      25-Jan-83 20:34  11-Jun-85 01:37    11 GAKNID
+ 3321 MEMDFS.DOC   RUSSELLB      05-Mar-81 07:22  11-Jun-85 01:37     3 TEKWAL
+ 3322 HSSPLN.PUB   RUSSELLB      04-Jun-81 22:36  11-Jun-85 01:37     5 WECCOB
+ 3323 JULY  .STS   RUSSELLB      30-Jul-81 16:48  11-Jun-85 01:37     2 RAJLET
+ 3324 HSSPLN.      RUSSELLB      04-Oct-81 23:57  11-Jun-85 01:37     4 JAZGED
+ 3325 DCF1  .      RUSSELLB      31-Jan-82 23:09  11-Jun-85 01:37     2 XAMQAV
+ 3326 IUDCF .      RUSSELLB      23-Mar-82 05:09  11-Jun-85 01:37     2 JOMZEY
+ 3327 RDST  .      RUSSELLB      22-May-82 14:33  11-Jun-85 01:37     2 JEXHIL
+ 3330 RDST  .EXP   RUSSELLB      22-May-82 14:35  11-Jun-85 01:37     3 CUWQOL
+ 3331 INIT1 .SAV   RUSSELLB      01-Sep-80 17:11  11-Jun-85 01:37    27 YAJLOX
+ 3332 SAIL  .DEF   RUSSELLB      30-Jul-80 03:59  11-Jun-85 01:37     2 LIYSUN
+ 3333 PRINTE.SAV   RUSSELLB      05-May-82 04:50  11-Jun-85 01:37    28 DOYPOS
+ 3334 Y94CJ2.ME0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     2 MIZTIQ
+ 3335 Y94CJ2.MP0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     3 NOFWET
+ 3336 MEM   .DFS   RUSSELLB      05-Mar-81 07:20  11-Jun-85 01:37     3 TIRKUN
+ 3337 PRINTE.SAI   RUSSELLB      05-May-82 04:46  11-Jun-85 01:37     2 WIWMUR
+ 3340 SYST  .      RUSSELLB      22-May-82 14:48  11-Jun-85 01:37     2 XOWFOT
+ 3341 SYST  .EXP   RUSSELLB      22-May-82 14:48  11-Jun-85 01:37     2 XOPKAC
+ 3342 RUNPAM.MAC   RUSSELLB      21-Aug-80 18:37  11-Jun-85 01:37     2 JAYNUR
+ 3343 DR    .MAN   RUSSELLB      19-Sep-80 01:03  11-Jun-85 01:37    43 YUVSIP
+ 3344 MAGNUM.DIR   RUSSELLB      30-Mar-82 15:39  11-Jun-85 01:37     2 KIVSEH
+ 3345 COMARS.BCK   RUSSELLB      01-Mar-81 00:19  11-Jun-85 01:37     2 DILXUK
+ 3346 COMARS.1     RUSSELLB      02-Mar-81 02:37  11-Jun-85 01:37     3 JANDEQ
+ 3347 COMARS.RFP   RUSSELLB      02-Mar-81 02:38  11-Jun-85 01:37     3 TIDTIY
+ 3350 COMARS.DOC   RUSSELLB      04-Mar-81 05:39  11-Jun-85 01:37     3 VUWSIK
+ 3351 COMARS.OK    RUSSELLB      04-Mar-81 05:38  11-Jun-85 01:37     2 LUMCIN
+ 3352 MAY   .      RUSSELLB      22-May-82 14:03  11-Jun-85 01:37     1 VAVVAV
+ 3353 ACTSUM.DOC   RUSSELLB      26-Jun-79 23:24  11-Jun-85 01:37     3 ZOCWOG
+ 3354 ACTSUM.SAI   RUSSELLB      22-Feb-79 17:24  11-Jun-85 01:37     8 SAYCOK
+ 3355 INFRED.SAV   RUSSELLB      20-Jan-81 02:56  11-Jun-85 01:37     5 KUNNUY
+ 3356 INFRED.CMD   RUSSELLB      20-Jan-81 02:56  11-Jun-85 01:37     2 YIZDOX
+ 3357 INFRED.MAC   RUSSELLB      20-Jan-81 02:54  11-Jun-85 01:37     9 NIVMIT
+ 3360 A88948.MA0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     7 GURGES
+ 3361 A88948.MD0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     3 FUHRIN
+ 3362 A88948.MX0   RUSSELLB      22-Feb-81 04:22  11-Jun-85 01:37     2 YICGED
+ 3363 BENCH .PUB   RUSSELLB      04-Mar-81 04:06  11-Jun-85 01:37     2 PUNMUY
+ 3364 BCG   .DOC   RUSSELLB      28-May-81 00:59  11-Jun-85 01:37     2 FIGVOT
+ 3365 BCG   .PUB   RUSSELLB      28-May-81 00:52  11-Jun-85 01:37     2 ZIRPOB
+ 3366 ACTSUM.      RUSSELLB      22-May-82 15:41  11-Jun-85 01:37     2 FOZPOV
+ 3367 ACTSUM.EXP   RUSSELLB      22-May-82 15:41  11-Jun-85 01:37     2 BULXOJ
+
+Total of 82 files in saveset.
+
+End of Saveset #64 from TITO version 16
+Written 11-Jun-85 01:37 GMT
+
+Saveset #65 from TITO version 16
+Written 11-Jun-85 01:37 GMT
+
+ 3370 VAXJUN.DOC   RUSSELLB      26-Mar-81 04:58  11-Jun-85 01:37     2 BEZPUC
+ 3371 VAXJUN.PUB   RUSSELLB      26-Mar-81 04:57  11-Jun-85 01:37     2 SIRSAN
+ 3372 VUE   .INI   RUSSELLB      11-May-81 09:19  11-Jun-85 01:37     2 LUDZOK
+ 3373 EXXON .UPD   RUSSELLB      04-Jun-81 17:05  11-Jun-85 01:37     2 WAYBIL
+ 3374 HDWRST.      RUSSELLB      17-Sep-81 15:27  11-Jun-85 01:37     3 WUSSAD
+ 3375 OP    .      RUSSELLB      23-Mar-82 05:16  11-Jun-85 01:37     2 XUBWUN
+ 3376 INIT  .SAV   RUSSELLB      29-Apr-82 17:54  11-Jun-85 01:37    27 XODSIF
+ 3377 PRT66 .SAI   RUSSELLB      15-Jul-80 23:47  11-Jun-85 01:37     2 QUBCAD
+ 3400 INIT  .SAI   RUSSELLB      30-Sep-81 18:13  11-Jun-85 01:37     2 ZUMJAP
+ 3401 LP20FS.SAI   RUSSELLB      19-Jan-81 17:19  11-Jun-85 01:37     2 BANSIM
+ 3402 DELETE.ME    RUSSELLB      01-Mar-81 00:12  11-Jun-85 01:37     2 YIGSUV
+ 3403 MEMOHD.PUB   RUSSELLB      04-Mar-81 04:12  11-Jun-85 01:37     2 VUFQAC
+ 3404 TELCO .      RUSSELLB      30-Aug-81 21:54  11-Jun-85 01:37     2 YESSAH
+ 3405 TELCO .DOC   RUSSELLB      30-Aug-81 21:55  11-Jun-85 01:37     2 RAWMOM
+ 3406 STATUS.DOC   RUSSELLB      17-Sep-81 15:32  11-Jun-85 01:37     3 JUPLUW
+ 3407 SKANDI.      RUSSELLB      29-Dec-81 07:27  11-Jun-85 01:37     2 YIGGOC
+ 3410 ICP   .SYN   RUSSELLB      15-Apr-78 05:22  11-Jun-85 01:37     3 ZARJUQ
+ 3411 MAZE  .DAT   RUSSELLB      23-Sep-82 03:52  11-Jun-85 01:37     4 KAWJOF
+ 3412 ICP   .      RUSSELLB      22-May-82 14:55  11-Jun-85 01:37     2 YOSQAK
+ 3413 ICP   .EXP   RUSSELLB      22-May-82 14:59  11-Jun-85 01:37     3 VUZLOJ
+ 3414 PRT51 .SAI   RUSSELLB      15-Jul-80 23:49  11-Jun-85 01:37     2 MALHAP
+ 3415 FILE  .CMD   RUSSELLB      06-Sep-80 22:23  11-Jun-85 01:37     2 VEXXOV
+ 3416 HIBER .SAI   RUSSELLB      08-Sep-80 02:08  11-Jun-85 01:37     2 MAGWEQ
+ 3417 TAKEIT.DOC   RUSSELLB      13-Jul-80 00:39  11-Jun-85 01:37    29 HEMFUP
+ 3420 DELACT.SAI   RUSSELLB      29-Nov-80 18:36  11-Jun-85 01:37     3 ZIDXAX
+ 3421 LPVFU .SAI   RUSSELLB      29-Jan-81 04:30  11-Jun-85 01:37     2 QOJTOS
+ 3422 MEMO  .PUB   RUSSELLB      04-Mar-81 05:23  11-Jun-85 01:37     3 NEQYEH
+ 3423 IBIS  .ME    RUSSELLB      05-Mar-81 05:18  11-Jun-85 01:37     4 HUDJED
+ 3424 IBIS  .      RUSSELLB      05-Mar-81 05:25  11-Jun-85 01:37     4 HAZCEJ
+ 3425 IBIS  .505   RUSSELLB      27-Apr-81 04:18  11-Jun-85 01:37     2 MOYSEK
+ 3426 RUNOFF.SHR   RUSSELLB      14-Feb-81 02:42  11-Jun-85 01:37    26 PAWFAQ
+ 3427 RUNOFF.LOW   RUSSELLB      14-Feb-81 02:42  11-Jun-85 01:37     2 DUFQIP
+ 3430 RUNOFF.DOC   RUSSELLB      14-Feb-81 02:45  11-Jun-85 01:37    58 MIMZEP
+ 3431 S2    .DAT   RUSSELLB      04-Jul-81 00:14  11-Jun-85 01:37     9 FARCIL
+ 3432 DELACT.      RUSSELLB      22-May-82 14:38  11-Jun-85 01:37     2 JUNVAC
+ 3433 DELACT.EXP   RUSSELLB      22-May-82 14:40  11-Jun-85 01:37     5 NATKAN
+ 3434 FOO   .FOR   RUSSELLB      09-Nov-80 03:02  11-Jun-85 01:37     2 WUVHOY
+ 3435 FOO   .F4    RUSSELLB      08-Sep-80 02:02  11-Jun-85 01:37     2 KAGRUD
+ 3436 X     .F4    RUSSELLB      07-Sep-80 02:16  11-Jun-85 01:37     2 VEHRAP
+ 3437 X     .FOR   RUSSELLB      07-Sep-80 02:18  11-Jun-85 01:37     2 HAYZAM
+ 3440 SLEEP .SAI   RUSSELLB      08-Sep-80 01:52  11-Jun-85 01:37     2 CAWQIS
+ 3441 BCKDRV.SAI   RUSSELLB      08-Sep-80 02:28  11-Jun-85 01:37     2 JEYZUH
+ 3442 SETTRM.SAI   RUSSELLB      25-Jan-83 20:34  11-Jun-85 01:37    11 GAKNID
+ 3443 MEMDFS.DOC   RUSSELLB      05-Mar-81 07:22  11-Jun-85 01:37     3 TEKWAL
+ 3444 HSSPLN.PUB   RUSSELLB      04-Jun-81 22:36  11-Jun-85 01:37     5 WECCOB
+ 3445 JULY  .STS   RUSSELLB      30-Jul-81 16:48  11-Jun-85 01:37     2 RAJLET
+ 3446 HSSPLN.      RUSSELLB      04-Oct-81 23:57  11-Jun-85 01:37     4 JAZGED
+ 3447 DCF1  .      RUSSELLB      31-Jan-82 23:09  11-Jun-85 01:37     2 XAMQAV
+ 3450 IUDCF .      RUSSELLB      23-Mar-82 05:09  11-Jun-85 01:37     2 JOMZEY
+ 3451 RDST  .      RUSSELLB      22-May-82 14:33  11-Jun-85 01:37     2 JEXHIL
+ 3452 RDST  .EXP   RUSSELLB      22-May-82 14:35  11-Jun-85 01:37     3 CUWQOL
+ 3453 INIT1 .SAV   RUSSELLB      01-Sep-80 17:11  11-Jun-85 01:37    27 YAJLOX
+ 3454 SAIL  .DEF   RUSSELLB      30-Jul-80 03:59  11-Jun-85 01:37     2 LIYSUN
+ 3455 PRINTE.SAV   RUSSELLB      05-May-82 04:50  11-Jun-85 01:37    28 DOYPOS
+ 3456 Y94CJ2.ME0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     2 MIZTIQ
+ 3457 Y94CJ2.MP0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     3 NOFWET
+ 3460 MEM   .DFS   RUSSELLB      05-Mar-81 07:20  11-Jun-85 01:37     3 TIRKUN
+ 3461 PRINTE.SAI   RUSSELLB      05-May-82 04:46  11-Jun-85 01:37     2 WIWMUR
+ 3462 SYST  .      RUSSELLB      22-May-82 14:48  11-Jun-85 01:37     2 XOWFOT
+ 3463 SYST  .EXP   RUSSELLB      22-May-82 14:48  11-Jun-85 01:37     2 XOPKAC
+ 3464 RUNPAM.MAC   RUSSELLB      21-Aug-80 18:37  11-Jun-85 01:37     2 JAYNUR
+ 3465 DR    .MAN   RUSSELLB      19-Sep-80 01:03  11-Jun-85 01:37    43 YUVSIP
+ 3466 MAGNUM.DIR   RUSSELLB      30-Mar-82 15:39  11-Jun-85 01:37     2 KIVSEH
+ 3467 COMARS.BCK   RUSSELLB      01-Mar-81 00:19  11-Jun-85 01:37     2 DILXUK
+ 3470 COMARS.1     RUSSELLB      02-Mar-81 02:37  11-Jun-85 01:37     3 JANDEQ
+ 3471 COMARS.RFP   RUSSELLB      02-Mar-81 02:38  11-Jun-85 01:37     3 TIDTIY
+ 3472 COMARS.DOC   RUSSELLB      04-Mar-81 05:39  11-Jun-85 01:37     3 VUWSIK
+ 3473 COMARS.OK    RUSSELLB      04-Mar-81 05:38  11-Jun-85 01:37     2 LUMCIN
+ 3474 MAY   .      RUSSELLB      22-May-82 14:03  11-Jun-85 01:37     1 VAVVAV
+ 3475 ACTSUM.DOC   RUSSELLB      26-Jun-79 23:24  11-Jun-85 01:37     3 ZOCWOG
+ 3476 ACTSUM.SAI   RUSSELLB      22-Feb-79 17:24  11-Jun-85 01:37     8 SAYCOK
+ 3477 INFRED.SAV   RUSSELLB      20-Jan-81 02:56  11-Jun-85 01:37     5 KUNNUY
+ 3500 INFRED.CMD   RUSSELLB      20-Jan-81 02:56  11-Jun-85 01:37     2 YIZDOX
+ 3501 INFRED.MAC   RUSSELLB      20-Jan-81 02:54  11-Jun-85 01:37     9 NIVMIT
+ 3502 A88948.MA0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     7 GURGES
+ 3503 A88948.MD0   RUSSELLB      27-Apr-81 03:32  11-Jun-85 01:37     3 FUHRIN
+ 3504 A88948.MX0   RUSSELLB      22-Feb-81 04:22  11-Jun-85 01:37     2 YICGED
+ 3505 BENCH .PUB   RUSSELLB      04-Mar-81 04:06  11-Jun-85 01:37     2 PUNMUY
+ 3506 BCG   .DOC   RUSSELLB      28-May-81 00:59  11-Jun-85 01:37     2 FIGVOT
+ 3507 BCG   .PUB   RUSSELLB      28-May-81 00:52  11-Jun-85 01:37     2 ZIRPOB
+ 3510 ACTSUM.      RUSSELLB      22-May-82 15:41  11-Jun-85 01:37     2 FOZPOV
+ 3511 ACTSUM.EXP   RUSSELLB      22-May-82 15:41  11-Jun-85 01:37     2 BULXOJ
+
+Total of 82 files in saveset.
+
+End of Saveset #65 from TITO version 16
+Written 11-Jun-85 01:37 GMT
+
+Saveset #66 from TITO version 16
+Written 11-Jun-85 01:39 GMT
+
+ 3512 RPG   .INI   JMS-TJB       07-Jun-83 20:20  11-Jun-85 01:39     2 CEWQUB
+ 3513 ACCESS.MSG   JMS-TJB       23-Mar-83 05:04  11-Jun-85 01:39     2 CIWWOT
+ 3514 TRACE .      JMS-TJB       31-Mar-82 05:19  11-Jun-85 01:39     3 DECDIB
+ 3515 INIT  .SAV   JMS-TJB       21-Dec-83 00:08  11-Jun-85 01:39    19 XUTMUV
+ 3516 INIT  .SAI   JMS-TJB       21-Dec-83 00:07  11-Jun-85 01:39     6 XIHWIP
+ 3517 UDSET .COM   JMS-TJB       12-Sep-83 06:22  11-Jun-85 01:39     4 KIRGEF
+ 3520 UD    .COM   JMS-TJB       12-Sep-83 05:35  11-Jun-85 01:39     4 CIRDIL
+ 3521 SLR   .SAV   JMS-TJB       16-Jan-83 21:59  11-Jun-85 01:39    25 BULLIW
+ 3522 VERSE .SAV   JMS-TJB       11-Oct-82 19:20  11-Jun-85 01:39     5 NUXHUS
+ 3523 V     .MAC   JMS-TJB       11-Oct-82 19:19  11-Jun-85 01:39     6 KILLUF
+ 3524 FIXUP .      JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:39     2 LIVLON
+ 3525 FAEMAR.      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39    17 JUJVIW
+ 3526 TABLES.INC   JMS-TJB       16-Jan-83 21:54  11-Jun-85 01:39     4 PIMQUK
+ 3527 RAID  .REL   JMS-TJB       08-Apr-82 08:11  11-Jun-85 01:39    26 TIBPIX
+ 3530 RAID  .LSP   JMS-TJB       31-Mar-82 05:19  11-Jun-85 01:39     2 FATFAN
+ 3531 LAP   .FNS   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39     2 CIFHOL
+ 3532 LAP   .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39     5 CECCEN
+ 3533 ITRAST.FOR   JMS-TJB       22-May-85 01:09  11-Jun-85 01:39     4 KUSCOZ
+ 3534 PEAK  .INI   JMS-TJB       08-Nov-83 18:11  11-Jun-85 01:39     2 KIXFOP
+ 3535 XMODEM.SAV   JMS-TJB       01-Aug-83 23:10  11-Jun-85 01:39    15 PEXCOC
+ 3536 XMODEM.SAI   JMS-TJB       01-Aug-83 23:10  11-Jun-85 01:39     5 FEMGOH
+ 3537 TEXTXP.PEA   JMS-TJB       27-Feb-83 20:48  11-Jun-85 01:39     2 LODMAC
+ 3540 SAILXP.PEA   JMS-TJB       27-Feb-83 20:42  11-Jun-85 01:39     2 ZOKHEK
+ 3541 GAME  .LSP   JMS-TJB       20-Nov-82 07:40  11-Jun-85 01:39    15 VOZSEW
+ 3542 MAC   .COM   JMS-TJB       12-Sep-83 06:30  11-Jun-85 01:39     7 YAXVOT
+ 3543 TEXT  .PEA   JMS-TJB       27-Feb-83 20:49  11-Jun-85 01:39     2 GAFNIY
+ 3544 MAGNXP.PEA   JMS-TJB       27-Feb-83 20:45  11-Jun-85 01:39     2 HEWRIY
+ 3545 SAIL  .PEA   JMS-TJB       27-Feb-83 20:45  11-Jun-85 01:39     2 YUSROP
+ 3546 SYMMAK.MAC   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:39     2 CAKTUQ
+ 3547 SMILE .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39     4 KOTQIF
+ 3550 GRIN  .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39     3 DIWHEM
+ 3551 MAIL  .      JMS-TJB       02-Oct-84 23:06  11-Jun-85 01:39     2 WABWAC
+ 3552 MAIL  .BOX   JMS-TJB       03-Apr-84 17:33  11-Jun-85 01:39     2 DERXEV
+ 3553 DRIVER.ASM   JMS-TJB       07-Sep-83 17:39  11-Jun-85 01:39     5 FUXSOG
+ 3554 LISP  .ED    JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:39     4 ZOHFAH
+ 3555 LISP  .SYM   JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:39     7 BUJHAP
+ 3556 LISP  .SAV   JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:39    13 LUXWIZ
+ 3557 LISP  .MAC   JMS-TJB       18-Apr-83 01:18  11-Jun-85 01:39    42 MUYZIJ
+ 3560 LISP  .LSP   JMS-TJB       17-Apr-83 21:07  11-Jun-85 01:39     4 WEHPIW
+ 3561 LISP  .COM   JMS-TJB       30-Mar-83 04:02  11-Jun-85 01:39     2 VOCJOQ
+ 3562 MAGNUM.PEA   JMS-TJB       27-Feb-83 20:47  11-Jun-85 01:39     2 SADVUL
+ 3563 LISP  .INI   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:39     2 FOXQAV
+ 3564 DMPSYM.MAC   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39     3 WETYOZ
+ 3565 LOADER.MAC   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39    34 XOGGUZ
+ 3566 LISP  .LOD   JMS-TJB       31-Mar-82 05:14  11-Jun-85 01:39     9 KAZNAC
+ 3567 CLEANU.      JMS-TJB       01-Aug-83 23:12  11-Jun-85 01:39     2 YOWCUT
+ 3570 ZLYNK .PAT   JMS-TJB       19-Jul-83 16:31  11-Jun-85 01:39     3 CAYMUY
+ 3571 ZLYNK .HLP   JMS-TJB       14-Jun-83 20:44  11-Jun-85 01:39     2 COWBOG
+ 3572 COMPLR.SAV   JMS-TJB       18-Apr-83 01:37  11-Jun-85 01:39    58 KETLUX
+ 3573 NULISP.DOC   JMS-TJB       17-Apr-83 21:44  11-Jun-85 01:39     4 PAJLEN
+ 3574 AIP   .LSP   JMS-TJB       04-Apr-83 02:00  11-Jun-85 01:39     6 KEVSUX
+ 3575 ALVINE.MAC   JMS-TJB       30-Mar-83 03:44  11-Jun-85 01:39     9 ZOQZAH
+ 3576 NOTDDT.MAC   JMS-TJB       29-Mar-83 23:43  11-Jun-85 01:39     2 CAFHAT
+ 3577 COMPLR.      JMS-TJB       23-Mar-83 18:42  11-Jun-85 01:39    29 RUYRAW
+ 3600 UNCARM.SAI   JMS-TJB       16-Jan-83 19:52  11-Jun-85 01:39     2 WIBGAQ
+ 3601 COMPLR.INI   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:39     2 FOXQAV
+ 3602 ALVINE.LSP   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:39     2 PUCQEK
+ 3603 DIRIT .INI   JMS-TJB       31-Mar-82 05:14  11-Jun-85 01:39     2 PAFMUZ
+
+Total of 58 files in saveset.
+
+End of Saveset #66 from TITO version 16
+Written 11-Jun-85 01:39 GMT
+
+Saveset #67 from TITO version 16
+Written 11-Jun-85 01:40 GMT
+
+ 3604 RPG   .INI   JMS-TJB       07-Jun-83 20:20  11-Jun-85 01:40     2 CEWQUB
+ 3605 ACCESS.MSG   JMS-TJB       23-Mar-83 05:04  11-Jun-85 01:40     2 CIWWOT
+ 3606 TRACE .      JMS-TJB       31-Mar-82 05:19  11-Jun-85 01:40     3 DECDIB
+ 3607 INIT  .SAV   JMS-TJB       21-Dec-83 00:08  11-Jun-85 01:40    19 XUTMUV
+ 3610 INIT  .SAI   JMS-TJB       21-Dec-83 00:07  11-Jun-85 01:40     6 XIHWIP
+ 3611 UDSET .COM   JMS-TJB       12-Sep-83 06:22  11-Jun-85 01:40     4 KIRGEF
+ 3612 UD    .COM   JMS-TJB       12-Sep-83 05:35  11-Jun-85 01:40     4 CIRDIL
+ 3613 SLR   .SAV   JMS-TJB       16-Jan-83 21:59  11-Jun-85 01:40    25 BULLIW
+ 3614 VERSE .SAV   JMS-TJB       11-Oct-82 19:20  11-Jun-85 01:40     5 NUXHUS
+ 3615 V     .MAC   JMS-TJB       11-Oct-82 19:19  11-Jun-85 01:40     6 KILLUF
+ 3616 FIXUP .      JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:40     2 LIVLON
+ 3617 FAEMAR.      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40    17 JUJVIW
+ 3620 TABLES.INC   JMS-TJB       16-Jan-83 21:54  11-Jun-85 01:40     4 PIMQUK
+ 3621 RAID  .REL   JMS-TJB       08-Apr-82 08:11  11-Jun-85 01:40    26 TIBPIX
+ 3622 RAID  .LSP   JMS-TJB       31-Mar-82 05:19  11-Jun-85 01:40     2 FATFAN
+ 3623 LAP   .FNS   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40     2 CIFHOL
+ 3624 LAP   .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40     5 CECCEN
+ 3625 ITRAST.FOR   JMS-TJB       22-May-85 01:09  11-Jun-85 01:40     4 KUSCOZ
+ 3626 PEAK  .INI   JMS-TJB       08-Nov-83 18:11  11-Jun-85 01:40     2 KIXFOP
+ 3627 XMODEM.SAV   JMS-TJB       01-Aug-83 23:10  11-Jun-85 01:40    15 PEXCOC
+ 3630 XMODEM.SAI   JMS-TJB       01-Aug-83 23:10  11-Jun-85 01:40     5 FEMGOH
+ 3631 TEXTXP.PEA   JMS-TJB       27-Feb-83 20:48  11-Jun-85 01:40     2 LODMAC
+ 3632 SAILXP.PEA   JMS-TJB       27-Feb-83 20:42  11-Jun-85 01:40     2 ZOKHEK
+ 3633 GAME  .LSP   JMS-TJB       20-Nov-82 07:40  11-Jun-85 01:40    15 VOZSEW
+ 3634 MAC   .COM   JMS-TJB       12-Sep-83 06:30  11-Jun-85 01:40     7 YAXVOT
+ 3635 TEXT  .PEA   JMS-TJB       27-Feb-83 20:49  11-Jun-85 01:40     2 GAFNIY
+ 3636 MAGNXP.PEA   JMS-TJB       27-Feb-83 20:45  11-Jun-85 01:40     2 HEWRIY
+ 3637 SAIL  .PEA   JMS-TJB       27-Feb-83 20:45  11-Jun-85 01:40     2 YUSROP
+ 3640 SYMMAK.MAC   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:40     2 CAKTUQ
+ 3641 SMILE .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40     4 KOTQIF
+ 3642 GRIN  .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40     3 DIWHEM
+ 3643 MAIL  .      JMS-TJB       02-Oct-84 23:06  11-Jun-85 01:40     2 WABWAC
+ 3644 MAIL  .BOX   JMS-TJB       03-Apr-84 17:33  11-Jun-85 01:40     2 DERXEV
+ 3645 DRIVER.ASM   JMS-TJB       07-Sep-83 17:39  11-Jun-85 01:40     5 FUXSOG
+ 3646 LISP  .ED    JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:40     4 ZOHFAH
+ 3647 LISP  .SYM   JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:40     7 BUJHAP
+ 3650 LISP  .SAV   JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:40    13 LUXWIZ
+ 3651 LISP  .MAC   JMS-TJB       18-Apr-83 01:18  11-Jun-85 01:40    42 MUYZIJ
+ 3652 LISP  .LSP   JMS-TJB       17-Apr-83 21:07  11-Jun-85 01:40     4 WEHPIW
+ 3653 LISP  .COM   JMS-TJB       30-Mar-83 04:02  11-Jun-85 01:40     2 VOCJOQ
+ 3654 MAGNUM.PEA   JMS-TJB       27-Feb-83 20:47  11-Jun-85 01:40     2 SADVUL
+ 3655 LISP  .INI   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:40     2 FOXQAV
+ 3656 DMPSYM.MAC   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40     3 WETYOZ
+ 3657 LOADER.MAC   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40    34 XOGGUZ
+ 3660 LISP  .LOD   JMS-TJB       31-Mar-82 05:14  11-Jun-85 01:40     9 KAZNAC
+ 3661 CLEANU.      JMS-TJB       01-Aug-83 23:12  11-Jun-85 01:40     2 YOWCUT
+ 3662 ZLYNK .PAT   JMS-TJB       19-Jul-83 16:31  11-Jun-85 01:40     3 CAYMUY
+ 3663 ZLYNK .HLP   JMS-TJB       14-Jun-83 20:44  11-Jun-85 01:40     2 COWBOG
+ 3664 COMPLR.SAV   JMS-TJB       18-Apr-83 01:37  11-Jun-85 01:40    58 KETLUX
+ 3665 NULISP.DOC   JMS-TJB       17-Apr-83 21:44  11-Jun-85 01:40     4 PAJLEN
+ 3666 AIP   .LSP   JMS-TJB       04-Apr-83 02:00  11-Jun-85 01:40     6 KEVSUX
+ 3667 ALVINE.MAC   JMS-TJB       30-Mar-83 03:44  11-Jun-85 01:40     9 ZOQZAH
+ 3670 NOTDDT.MAC   JMS-TJB       29-Mar-83 23:43  11-Jun-85 01:40     2 CAFHAT
+ 3671 COMPLR.      JMS-TJB       23-Mar-83 18:42  11-Jun-85 01:40    29 RUYRAW
+ 3672 UNCARM.SAI   JMS-TJB       16-Jan-83 19:52  11-Jun-85 01:40     2 WIBGAQ
+ 3673 COMPLR.INI   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:40     2 FOXQAV
+ 3674 ALVINE.LSP   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:40     2 PUCQEK
+ 3675 DIRIT .INI   JMS-TJB       31-Mar-82 05:14  11-Jun-85 01:40     2 PAFMUZ
+
+Total of 58 files in saveset.
+
+End of Saveset #67 from TITO version 16
+Written 11-Jun-85 01:40 GMT
+
+Saveset #68 from TITO version 16
+Written 11-Jun-85 01:41 GMT
+
+ 3676 RPG   .INI   JMS-TJB       07-Jun-83 20:20  11-Jun-85 01:41     2 CEWQUB
+ 3677 ACCESS.MSG   JMS-TJB       23-Mar-83 05:04  11-Jun-85 01:41     2 CIWWOT
+ 3700 TRACE .      JMS-TJB       31-Mar-82 05:19  11-Jun-85 01:41     3 DECDIB
+ 3701 INIT  .SAV   JMS-TJB       21-Dec-83 00:08  11-Jun-85 01:41    19 XUTMUV
+ 3702 INIT  .SAI   JMS-TJB       21-Dec-83 00:07  11-Jun-85 01:41     6 XIHWIP
+ 3703 UDSET .COM   JMS-TJB       12-Sep-83 06:22  11-Jun-85 01:41     4 KIRGEF
+ 3704 UD    .COM   JMS-TJB       12-Sep-83 05:35  11-Jun-85 01:41     4 CIRDIL
+ 3705 SLR   .SAV   JMS-TJB       16-Jan-83 21:59  11-Jun-85 01:41    25 BULLIW
+ 3706 VERSE .SAV   JMS-TJB       11-Oct-82 19:20  11-Jun-85 01:41     5 NUXHUS
+ 3707 V     .MAC   JMS-TJB       11-Oct-82 19:19  11-Jun-85 01:41     6 KILLUF
+ 3710 FIXUP .      JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:41     2 LIVLON
+ 3711 FAEMAR.      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41    17 JUJVIW
+ 3712 TABLES.INC   JMS-TJB       16-Jan-83 21:54  11-Jun-85 01:41     4 PIMQUK
+ 3713 RAID  .REL   JMS-TJB       08-Apr-82 08:11  11-Jun-85 01:41    26 TIBPIX
+ 3714 RAID  .LSP   JMS-TJB       31-Mar-82 05:19  11-Jun-85 01:41     2 FATFAN
+ 3715 LAP   .FNS   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41     2 CIFHOL
+ 3716 LAP   .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41     5 CECCEN
+ 3717 ITRAST.FOR   JMS-TJB       22-May-85 01:09  11-Jun-85 01:41     4 KUSCOZ
+ 3720 PEAK  .INI   JMS-TJB       08-Nov-83 18:11  11-Jun-85 01:41     2 KIXFOP
+ 3721 XMODEM.SAV   JMS-TJB       01-Aug-83 23:10  11-Jun-85 01:41    15 PEXCOC
+ 3722 XMODEM.SAI   JMS-TJB       01-Aug-83 23:10  11-Jun-85 01:41     5 FEMGOH
+ 3723 TEXTXP.PEA   JMS-TJB       27-Feb-83 20:48  11-Jun-85 01:41     2 LODMAC
+ 3724 SAILXP.PEA   JMS-TJB       27-Feb-83 20:42  11-Jun-85 01:41     2 ZOKHEK
+ 3725 GAME  .LSP   JMS-TJB       20-Nov-82 07:40  11-Jun-85 01:41    15 VOZSEW
+ 3726 MAC   .COM   JMS-TJB       12-Sep-83 06:30  11-Jun-85 01:41     7 YAXVOT
+ 3727 TEXT  .PEA   JMS-TJB       27-Feb-83 20:49  11-Jun-85 01:41     2 GAFNIY
+ 3730 MAGNXP.PEA   JMS-TJB       27-Feb-83 20:45  11-Jun-85 01:41     2 HEWRIY
+ 3731 SAIL  .PEA   JMS-TJB       27-Feb-83 20:45  11-Jun-85 01:41     2 YUSROP
+ 3732 SYMMAK.MAC   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:41     2 CAKTUQ
+ 3733 SMILE .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41     4 KOTQIF
+ 3734 GRIN  .      JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41     3 DIWHEM
+ 3735 MAIL  .      JMS-TJB       02-Oct-84 23:06  11-Jun-85 01:41     2 WABWAC
+ 3736 MAIL  .BOX   JMS-TJB       03-Apr-84 17:33  11-Jun-85 01:41     2 DERXEV
+ 3737 DRIVER.ASM   JMS-TJB       07-Sep-83 17:39  11-Jun-85 01:41     5 FUXSOG
+ 3740 LISP  .ED    JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:41     4 ZOHFAH
+ 3741 LISP  .SYM   JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:41     7 BUJHAP
+ 3742 LISP  .SAV   JMS-TJB       18-Apr-83 01:32  11-Jun-85 01:41    13 LUXWIZ
+ 3743 LISP  .MAC   JMS-TJB       18-Apr-83 01:18  11-Jun-85 01:41    42 MUYZIJ
+ 3744 LISP  .LSP   JMS-TJB       17-Apr-83 21:07  11-Jun-85 01:41     4 WEHPIW
+ 3745 LISP  .COM   JMS-TJB       30-Mar-83 04:02  11-Jun-85 01:41     2 VOCJOQ
+ 3746 MAGNUM.PEA   JMS-TJB       27-Feb-83 20:47  11-Jun-85 01:41     2 SADVUL
+ 3747 LISP  .INI   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:41     2 FOXQAV
+ 3750 DMPSYM.MAC   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41     3 WETYOZ
+ 3751 LOADER.MAC   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41    34 XOGGUZ
+ 3752 LISP  .LOD   JMS-TJB       31-Mar-82 05:14  11-Jun-85 01:41     9 KAZNAC
+ 3753 CLEANU.      JMS-TJB       01-Aug-83 23:12  11-Jun-85 01:41     2 YOWCUT
+ 3754 ZLYNK .PAT   JMS-TJB       19-Jul-83 16:31  11-Jun-85 01:41     3 CAYMUY
+ 3755 ZLYNK .HLP   JMS-TJB       14-Jun-83 20:44  11-Jun-85 01:41     2 COWBOG
+ 3756 COMPLR.SAV   JMS-TJB       18-Apr-83 01:37  11-Jun-85 01:41    58 KETLUX
+ 3757 NULISP.DOC   JMS-TJB       17-Apr-83 21:44  11-Jun-85 01:41     4 PAJLEN
+ 3760 AIP   .LSP   JMS-TJB       04-Apr-83 02:00  11-Jun-85 01:41     6 KEVSUX
+ 3761 ALVINE.MAC   JMS-TJB       30-Mar-83 03:44  11-Jun-85 01:41     9 ZOQZAH
+ 3762 NOTDDT.MAC   JMS-TJB       29-Mar-83 23:43  11-Jun-85 01:41     2 CAFHAT
+ 3763 COMPLR.      JMS-TJB       23-Mar-83 18:42  11-Jun-85 01:41    29 RUYRAW
+ 3764 UNCARM.SAI   JMS-TJB       16-Jan-83 19:52  11-Jun-85 01:41     2 WIBGAQ
+ 3765 COMPLR.INI   JMS-TJB       31-Mar-82 05:17  11-Jun-85 01:41     2 FOXQAV
+ 3766 ALVINE.LSP   JMS-TJB       31-Mar-82 05:16  11-Jun-85 01:41     2 PUCQEK
+ 3767 DIRIT .INI   JMS-TJB       31-Mar-82 05:14  11-Jun-85 01:41     2 PAFMUZ
+
+Total of 58 files in saveset.
+
+End of Saveset #68 from TITO version 16
+Written 11-Jun-85 01:41 GMT
+
+Total of 2039 files found.
+   :K#ió
