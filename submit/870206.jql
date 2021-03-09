@@ -1,0 +1,108 @@
+00:00:47 S 06-Feb-87
+00:03:39 S -S- run #2 job 6 Req #4164  Running DSK:(PJ)PAM.HGH
+00:03:39 S -R- run #2 job 6 Done-End <0>
+00:05:55 S -S- run #2 job 6 Req #4165  Running DSK:(PJ)PAM.HGH
+00:06:01 S -R- run #2 job 6 Done-End <0>
+00:15:02 S -S- run #2 job 7 Req #4163  Running DSK:(MAIL)MAILER.SAV
+00:15:08 S -R- run #2 job 7 Done-End <0>
+00:29:11 S -S- run #2 job 7 Req #4166  Running DSK:(PJ)PAM.HGH
+00:29:16 S -R- run #2 job 7 Done-End <0>
+01:15:02 S -S- run #2 job 5 Req #4170  Running DSK:(MAIL)MAILER.SAV
+01:15:07 S -R- run #2 job 5 Done-End <0>
+01:40:02 S -S- run #2 job 8 Req #4162  Running DSK:(MAIL)ONTMTP.SAV
+01:41:23 S -R- run #2 job 8 Done-End <0>
+02:15:03 S -S- run #2 job 7 Req #4172  Running DSK:(MAIL)MAILER.SAV
+02:15:08 S -R- run #2 job 7 Done-End <0>
+03:00:42 S 06-Feb-87
+03:15:02 S -S- run #2 job 7 Req #4174  Running DSK:(MAIL)MAILER.SAV
+03:15:07 S -R- run #2 job 7 Done-End <0>
+03:40:04 S -S- run #2 job 7 Req #4173  Running DSK:(MAIL)ONTMTP.SAV
+03:41:19 S -R- run #2 job 7 Done-End <0>
+04:15:03 S -S- run #2 job 7 Req #4175  Running DSK:(MAIL)MAILER.SAV
+04:15:07 S -R- run #2 job 7 Done-End <0>
+05:15:04 S -S- run #2 job 7 Req #4177  Running DSK:(MAIL)MAILER.SAV
+05:15:08 S -R- run #2 job 7 Done-End <0>
+05:40:04 S -S- run #2 job 7 Req #4176  Running DSK:(MAIL)ONTMTP.SAV
+05:41:19 S -R- run #2 job 7 Done-End <0>
+06:00:51 S 06-Feb-87
+06:15:01 S -S- run #2 job 7 Req #4178  Running DSK:(MAIL)MAILER.SAV
+06:15:06 S -R- run #2 job 7 Done-End <0>
+07:15:02 S -S- run #2 job 7 Req #4180  Running DSK:(MAIL)MAILER.SAV
+07:15:06 S -R- run #2 job 7 Done-End <0>
+07:40:03 S -S- run #2 job 7 Req #4179  Running DSK:(MAIL)ONTMTP.SAV
+07:41:19 S -R- run #2 job 7 Done-End <0>
+08:13:00 S -S- stream #1 Req #4168 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+08:13:12 S Processor status JSU EXECX Setup in frame 7
+08:13:13 P EXECX Job Processor %1(222) starting in frame 7
+08:13:13 P Stream #1 no input file (0) :()
+08:13:13 P Stream #1 JobExit: 5,0
+08:13:14 S Starting job processor in frame 7
+08:13:16 S -R- stream #1 Abort-Input <0>
+08:15:02 S -S- run #2 job 8 Req #4181  Running DSK:(MAIL)MAILER.SAV
+08:15:07 S -R- run #2 job 8 Done-End <0>
+08:29:17 P Signing off.
+08:45:03 S -S- stream #1 Req #4167 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+08:45:15 S Processor status JSU EXECX Setup in frame 7
+08:45:16 P EXECX Job Processor %1(222) starting in frame 7
+08:45:16 P Stream #1 no input file (0) :()
+08:45:16 P Stream #1 JobExit: 5,0
+08:45:16 S Starting job processor in frame 7
+09:15:09 S -R- run #2 job 7 Done-End <0>
+2 job 7 Req #4183  Running DSK:(MAIL)MAILER.SAV
+09:40:00 S -S- run #2 job 7 Req #4182  Running DSK:(MAIL)ONTMTP.SAV
+09:41:11 S -R- run #2 job 7 Done-End <0>
+10:15:02 S -S- run #2 job 7 Req #4184  Running DSK:(MAIL)MAILER.SAV
+10:15:06 S -R- run #2 job 7 Done-End <0>
+11:15:03 S -S- run #2 job 7 Req #4186  Running DSK:(MAIL)MAILER.SAV
+11:15:07 S -R- run #2 job 7 Done-End <0>
+11:40:04 S -S- run #2 job 7 Req #4185  Running DSK:(MAIL)ONTMTP.SAV
+11:41:17 S -R- run #2 job 7 Done-End <0>
+12:00:41 S 06-Feb-87
+12:15:01 S -S- run #2 job 7 Req #4187  Running DSK:(MAIL)MAILER.SAV
+12:15:06 S -R- run #2 job 7 Done-End <0>
+13:15:02 S -S- run #2 job 7 Req #4189  Running DSK:(MAIL)MAILER.SAV
+13:15:07 S -R- run #2 job 7 Done-End <0>
+13:40:03 S -S- run #2 job 7 Req #4188  Running DSK:(MAIL)ONTMTP.SAV
+13:41:22 S -R- run #2 job 7 Done-End <0>
+14:15:00 S -S- run #2 job 7 Req #4190  Running DSK:(MAIL)MAILER.SAV
+14:15:05 S -R- run #2 job 7 Done-End <0>
+15:00:46 S 06-Feb-87
+15:15:01 S -S- run #2 job 7 Req #4192  Running DSK:(MAIL)MAILER.SAV
+15:15:06 S -R- run #2 job 7 Done-End <0>
+15:30:02 S -S- stream #1 Req #4169 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+15:30:14 S Processor status JSU EXECX Setup in frame 7
+15:30:15 P EXECX Job Processor %1(222) starting in frame 7
+15:30:15 P Stream #1 no input file (0) :()
+15:30:15 P Stream #1 JobExit: 5,0
+15:30:16 S Starting job processor in frame 7
+15:30:18 S -R- stream #1 Abort-Input <0>
+15:40:04 S -S- run #2 job 8 Req #4191  Running DSK:(MAIL)ONTMTP.SAV
+15:41:28 S -R- run #2 job 8 Done-End <0>
+15:46:20 P Signing off.
+16:15:01 S -S- run #2 job 7 Req #4193  Running DSK:(MAIL)MAILER.SAV
+16:15:06 S -R- run #2 job 7 Done-End <0>
+16:55:55 S -S- run #2 job 8 Req #4196  Running DSK:(PJ)PAM.HGH
+16:56:00 S -R- run #2 job 8 Done-End <0>
+17:15:01 S -S- run #2 job 8 Req #4195  Running DSK:(MAIL)MAILER.SAV
+17:15:07 S -R- run #2 job 8 Done-End <0>
+17:40:01 S -S- run #2 job 8 Req #4194  Running DSK:(MAIL)ONTMTP.SAV
+17:41:23 S -R- run #2 job 8 Done-End <0>
+18:00:22 S 06-Feb-87
+18:15:01 S -S- run #2 job 8 Req #4197  Running DSK:(MAIL)MAILER.SAV
+18:15:06 S -R- run #2 job 8 Done-End <0>
+19:15:05 S -S- run #2 job 8 Req #4199  Running DSK:(MAIL)MAILER.SAV
+19:15:10 S -R- run #2 job 8 Done-End <0>
+19:40:01 S -S- run #2 job 8 Req #4198  Running DSK:(MAIL)ONTMTP.SAV
+19:41:26 S -R- run #2 job 8 Done-End <0>
+20:15:02 S -S- run #2 job 8 Req #4200  Running DSK:(MAIL)MAILER.SAV
+20:15:07 S -R- run #2 job 8 Done-End <0>
+21:40:03 S -S- run #2 job 9 Req #4201  Running DSK:(MAIL)ONTMTP.SAV
+ 9 Req #4202  Running DSK:(MAIL)MAILER.SAV
+21:41:24 S -R- run #2 job 9 Done-End <0>
+22:15:02 S -S- run #2 job 9 Req #4204  Running DSK:(MAIL)MAILER.SAV
+22:15:06 S -R- run #2 job 9 Done-End <0>
+23:15:03 S -S- run #2 job 9 Req #4206  Running DSK:(MAIL)MAILER.SAV
+23:15:07 S -R- run #2 job 9 Done-End <0>
+23:40:04 S -S- run #2 job 9 Req #4205  Running DSK:(MAIL)ONTMTP.SAV
+23:41:18 S -R- run #2 job 9 Done-End <0>
+00:01:02 S 07-Feb-87
