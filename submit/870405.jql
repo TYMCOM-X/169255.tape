@@ -1,0 +1,537 @@
+00:00:58 S 05-Apr-87
+00:15:04 S -S- run #1 job 6 Req #6461  Running DSK:(MAIL)MAILER.SAV
+00:15:10 S -R- run #1 job 6 Done-End <0>
+00:40:00 S -S- run #1 job 6 Req #6460  Running DSK:(MAIL)ONTMTP.SAV
+00:41:20 S -R- run #1 job 6 Done-End <0>
+01:15:04 S -S- run #1 job 3 Req #6462  Running DSK:(MAIL)MAILER.SAV
+01:15:09 S -R- run #1 job 3 Done-End <0>
+02:15:01 S -S- run #1 job 3 Req #6464  Running DSK:(MAIL)MAILER.SAV
+02:15:06 S -R- run #1 job 3 Done-End <0>
+02:40:02 S -S- run #1 job 5 Req #6463  Running DSK:(MAIL)ONTMTP.SAV
+02:41:24 S -R- run #1 job 5 Done-End <0>
+03:00:09 S 05-Apr-87
+03:15:04 S -S- run #1 job 3 Req #6465  Running DSK:(MAIL)MAILER.SAV
+03:15:10 S -R- run #1 job 3 Done-End <0>
+04:15:02 S -S- run #1 job 3 Req #6467  Running DSK:(MAIL)MAILER.SAV
+04:15:07 S -R- run #1 job 3 Done-End <0>
+04:40:02 S -S- run #1 job 5 Req #6466  Running DSK:(MAIL)ONTMTP.SAV
+04:41:28 S -R- run #1 job 5 Done-End <0>
+05:15:05 S -S- run #1 job 3 Req #6468  Running DSK:(MAIL)MAILER.SAV
+05:15:10 S -R- run #1 job 3 Done-End <0>
+06:00:17 S 05-Apr-87
+06:15:02 S -S- run #1 job 3 Req #6470  Running DSK:(MAIL)MAILER.SAV
+06:15:07 S -R- run #1 job 3 Done-End <0>
+06:40:03 S -S- run #1 job 6 Req #6469  Running DSK:(MAIL)ONTMTP.SAV
+06:41:24 S -R- run #1 job 6 Done-End <0>
+07:15:02 S -S- run #1 job 3 Req #6471  Running DSK:(MAIL)MAILER.SAV
+07:15:06 S -R- run #1 job 3 Done-End <0>
+08:13:03 S -S- stream #1 Req #6436 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+08:13:16 S Processor status JSU EXECX Setup in frame 3
+08:13:16 P Waiting for interlock
+08:13:18 P Got interlock
+08:13:18 P EXECX Job Processor %1(222) starting in frame 3
+08:13:18 S Starting job processor in frame 3
+08:13:19 P Stream #1 Req #6436 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+08:15:01 S -S- run #1 job 7 Req #6473  Running DSK:(MAIL)MAILER.SAV
+08:15:09 S -R- run #1 job 7 Done-End <0>
+08:15:11 S -S- run #1 job 7 Req #6474  Running DSK:(MAIL)MAILER.SAV
+08:15:18 S -R- run #1 job 7 Done-End <0>
+08:15:20 S -S- run #1 job 7 Req #6475  Running DSK:(MAIL)MAILER.SAV
+08:15:28 S -R- run #1 job 7 Done-End <0>
+08:15:29 S -S- run #1 job 7 Req #6476  Running DSK:(MAIL)MAILER.SAV
+08:15:37 S -R- run #1 job 7 Done-End <0>
+08:15:39 S -S- run #1 job 7 Req #6477  Running DSK:(MAIL)MAILER.SAV
+08:15:46 S -R- run #1 job 7 Done-End <0>
+08:15:47 S -S- run #1 job 7 Req #6478  Running DSK:(MAIL)MAILER.SAV
+08:16:00 S -R- run #1 job 7 Done-End <0>
+08:16:01 S -S- run #1 job 7 Req #6479  Running DSK:(MAIL)MAILER.SAV
+08:16:23 S -S- run #1 job 7 Req #6482  Running DSK:(MAIL)MAILER.SAV
+ Req #6481  Running DSK:(MAIL)MAILER.SAV
+08:16:29 S -R- run #1 job 7 Done-End <0>
+08:16:30 S -S- run #1 job 7 Req #6483  Running DSK:(MAIL)MAILER.SAV
+08:16:34 S -R- run #1 job 7 Done-End <0>
+08:16:35 S -S- run #1 job 7 Req #6484  Running DSK:(MAIL)MAILER.SAV
+08:16:44 S -R- run #1 job 7 Done-End <0>
+08:16:46 S -S- run #1 job 7 Req #6485  Running DSK:(MAIL)MAILER.SAV
+08:16:52 S -R- run #1 job 7 Done-End <0>
+08:16:53 S -S- run #1 job 7 Req #6486  Running DSK:(MAIL)MAILER.SAV
+08:16:58 S -R- run #1 job 7 Done-End <0>
+08:16:59 S -S- run #1 job 7 Req #6487  Running DSK:(MAIL)MAILER.SAV
+08:17:03 S -R- run #1 job 7 Done-End <0>
+08:17:04 S -S- run #1 job 7 Req #6488  Running DSK:(MAIL)MAILER.SAV
+08:17:09 S -R- run #1 job 7 Done-End <0>
+08:17:10 S -S- run #1 job 6 Req #6489  Running DSK:(MAIL)MAILER.SAV
+08:17:14 S -R- run #1 job 6 Done-End <0>
+08:17:15 S -S- run #1 job 6 Req #6490  Running DSK:(MAIL)MAILER.SAV
+08:17:19 S -R- run #1 job 6 Done-End <0>
+08:17:20 S -S- run #1 job 6 Req #6491  Running DSK:(MAIL)MAILER.SAV
+08:17:24 S -R- run #1 job 6 Done-End <0>
+08:17:25 S -S- run #1 job 6 Req #6492  Running DSK:(MAIL)MAILER.SAV
+08:17:29 S -R- run #1 job 6 Done-End <0>
+08:17:31 S -S- run #1 job 6 Req #6493  Running DSK:(MAIL)MAILER.SAV
+08:17:32 P Stream #1 Req #6436 * completed *
+08:17:35 S -R- run #1 job 6 Done-End <0>
+08:17:36 S -R- stream #1 Done-End <0>
+08:17:36 S -S- run #1 job 6 Req #6494  Running DSK:(MAIL)MAILER.SAV
+08:17:41 S -R- run #1 job 6 Done-End <0>
+08:17:41 S -S- run #1 job 6 Req #6496  Running DSK:(MAIL)MAILER.SAV
+08:17:46 S -R- run #1 job 6 Done-End <0>
+08:17:46 S -S- run #1 job 6 Req #6497  Running DSK:(MAIL)MAILER.SAV
+08:17:51 S -R- run #1 job 6 Done-End <0>
+08:17:52 S -S- run #1 job 6 Req #6498  Running DSK:(MAIL)MAILER.SAV
+08:17:57 S -R- run #1 job 6 Done-End <0>
+08:17:57 S -S- run #1 job 6 Req #6499  Running DSK:(MAIL)MAILER.SAV
+08:18:02 S -R- run #1 job 6 Done-End <0>
+08:18:03 S -S- run #1 job 6 Req #6500  Running DSK:(MAIL)MAILER.SAV
+08:18:07 S -R- run #1 job 6 Done-End <0>
+08:18:08 S -S- run #1 job 6 Req #6501  Running DSK:(MAIL)MAILER.SAV
+08:18:12 S -R- run #1 job 6 Done-End <0>
+08:18:13 S -S- run #1 job 6 Req #6502  Running DSK:(MAIL)MAILER.SAV
+08:18:18 S -R- run #1 job 6 Done-End <0>
+08:18:18 S -S- run #1 job 6 Req #6503  Running DSK:(MAIL)MAILER.SAV
+08:18:23 S -R- run #1 job 6 Done-End <0>
+08:18:24 S -S- run #1 job 6 Req #6504  Running DSK:(MAIL)MAILER.SAV
+08:18:29 S -R- run #1 job 6 Done-End <0>
+08:18:41 S -S- run #1 job 6 Req #6507  Running DSK:(MAIL)MAILER.SAV
+ Req #6506  Running DSK:(MAIL)MAILER.SAV
+08:18:44 S -R- run #1 job 6 Done-End <0>
+08:18:45 S -S- run #1 job 6 Req #6508  Running DSK:(MAIL)MAILER.SAV
+08:18:49 S -R- run #1 job 6 Done-End <0>
+08:18:50 S -S- run #1 job 6 Req #6509  Running DSK:(MAIL)MAILER.SAV
+08:18:54 S -R- run #1 job 6 Done-End <0>
+08:18:55 S -S- run #1 job 6 Req #6510  Running DSK:(MAIL)MAILER.SAV
+08:19:00 S -R- run #1 job 6 Done-End <0>
+08:19:01 S -S- run #1 job 6 Req #6511  Running DSK:(MAIL)MAILER.SAV
+08:19:05 S -R- run #1 job 6 Done-End <0>
+08:19:06 S -S- run #1 job 6 Req #6512  Running DSK:(MAIL)MAILER.SAV
+08:19:11 S -R- run #1 job 6 Done-End <0>
+08:19:11 S -S- run #1 job 6 Req #6513  Running DSK:(MAIL)MAILER.SAV
+08:19:16 S -R- run #1 job 6 Done-End <0>
+08:19:16 S -S- run #1 job 6 Req #6514  Running DSK:(MAIL)MAILER.SAV
+08:19:21 S -R- run #1 job 6 Done-End <0>
+08:19:22 S -S- run #1 job 6 Req #6515  Running DSK:(MAIL)MAILER.SAV
+08:19:28 S -R- run #1 job 6 Done-End <0>
+08:19:30 S -S- run #1 job 6 Req #6516  Running DSK:(MAIL)MAILER.SAV
+08:19:33 S -R- run #1 job 6 Done-End <0>
+08:19:34 S -S- run #1 job 6 Req #6517  Running DSK:(MAIL)MAILER.SAV
+08:19:39 S -R- run #1 job 6 Done-End <0>
+08:19:39 S -S- run #1 job 6 Req #6518  Running DSK:(MAIL)MAILER.SAV
+08:19:44 S -R- run #1 job 6 Done-End <0>
+08:19:45 S -S- run #1 job 6 Req #6519  Running DSK:(MAIL)MAILER.SAV
+08:19:50 S -R- run #1 job 6 Done-End <0>
+08:19:50 S -S- run #1 job 6 Req #6520  Running DSK:(MAIL)MAILER.SAV
+08:19:55 S -R- run #1 job 6 Done-End <0>
+08:19:56 S -S- run #1 job 6 Req #6521  Running DSK:(MAIL)MAILER.SAV
+08:20:00 S -R- run #1 job 6 Done-End <0>
+08:20:02 S -S- run #1 job 6 Req #6522  Running DSK:(MAIL)MAILER.SAV
+08:20:06 S -R- run #1 job 6 Done-End <0>
+08:20:07 S -S- run #1 job 6 Req #6523  Running DSK:(MAIL)MAILER.SAV
+08:20:13 S -R- run #1 job 6 Done-End <0>
+08:20:14 S -S- run #1 job 6 Req #6524  Running DSK:(MAIL)MAILER.SAV
+08:20:18 S -R- run #1 job 6 Done-End <0>
+08:20:19 S -S- run #1 job 6 Req #6525  Running DSK:(MAIL)MAILER.SAV
+08:20:22 S -R- run #1 job 6 Done-End <0>
+08:20:23 S -S- run #1 job 6 Req #6526  Running DSK:(MAIL)MAILER.SAV
+08:20:27 S -R- run #1 job 6 Done-End <0>
+08:20:28 S -S- run #1 job 6 Req #6527  Running DSK:(MAIL)MAILER.SAV
+08:20:31 S -R- run #1 job 6 Done-End <0>
+08:20:32 S -S- run #1 job 6 Req #6528  Running DSK:(MAIL)MAILER.SAV
+08:20:36 S -R- run #1 job 6 Done-End <0>
+08:20:37 S -S- run #1 job 6 Req #6529  Running DSK:(MAIL)MAILER.SAV
+08:20:46 S -S- run #1 job 6 Req #6531  Running DSK:(MAIL)MAILER.SAV
+ Req #6530  Running DSK:(MAIL)MAILER.SAV
+08:20:50 S -R- run #1 job 6 Done-End <0>
+08:20:51 S -S- run #1 job 6 Req #6532  Running DSK:(MAIL)MAILER.SAV
+08:20:55 S -R- run #1 job 6 Done-End <0>
+08:20:55 S -S- run #1 job 6 Req #6533  Running DSK:(MAIL)MAILER.SAV
+08:21:00 S -R- run #1 job 6 Done-End <0>
+08:21:01 S -S- run #1 job 6 Req #6534  Running DSK:(MAIL)MAILER.SAV
+08:21:04 S -R- run #1 job 6 Done-End <0>
+08:21:05 S -S- run #1 job 6 Req #6535  Running DSK:(MAIL)MAILER.SAV
+08:21:09 S -R- run #1 job 6 Done-End <0>
+08:21:10 S -S- run #1 job 6 Req #6536  Running DSK:(MAIL)MAILER.SAV
+08:21:14 S -R- run #1 job 6 Done-End <0>
+08:21:14 S -S- run #1 job 6 Req #6537  Running DSK:(MAIL)MAILER.SAV
+08:21:18 S -R- run #1 job 6 Done-End <0>
+08:21:19 S -S- run #1 job 6 Req #6538  Running DSK:(MAIL)MAILER.SAV
+08:21:23 S -R- run #1 job 6 Done-End <0>
+08:21:24 S -S- run #1 job 6 Req #6539  Running DSK:(MAIL)MAILER.SAV
+08:21:28 S -R- run #1 job 6 Done-End <0>
+08:21:29 S -S- run #1 job 6 Req #6540  Running DSK:(MAIL)MAILER.SAV
+08:21:33 S -R- run #1 job 6 Done-End <0>
+08:21:35 S -S- run #1 job 6 Req #6541  Running DSK:(MAIL)MAILER.SAV
+08:21:39 S -R- run #1 job 6 Done-End <0>
+08:21:42 S -S- run #1 job 6 Req #6542  Running DSK:(MAIL)MAILER.SAV
+08:21:47 S -R- run #1 job 6 Done-End <0>
+08:21:51 S -S- run #1 job 6 Req #6543  Running DSK:(MAIL)MAILER.SAV
+08:21:55 S -R- run #1 job 6 Done-End <0>
+08:21:59 S -S- run #1 job 6 Req #6544  Running DSK:(MAIL)MAILER.SAV
+08:22:04 S -R- run #1 job 6 Done-End <0>
+08:22:07 S -S- run #1 job 6 R545  Running DSK:(MAIL)MAILER.SAV
+08:22:12 S -R- run #1 job 6 Done-End <0>
+08:22:17 S -S- run #1 job 6 Req #6546  Running DSK:(MAIL)MAILER.SAV
+08:22:20 S -R- run #1 job 6 Done-End <0>
+08:22:25 S -S- run #1 job 6 Req #6547  Running DSK:(MAIL)MAILER.SAV
+08:22:29 S -R- run #1 job 6 Done-End <0>
+08:22:32 S -S- run #1 job 6 Req #6548  Running DSK:(MAIL)MAILER.SAV
+08:22:37 S -R- run #1 job 6 Done-End <0>
+08:22:40 S -S- run #1 job 6 Req #6549  Running DSK:(MAIL)MAILER.SAV
+08:22:44 S -R- run #1 job 6 Done-End <0>
+08:22:46 S -S- run #1 job 6 Req #6550  Running DSK:(MAIL)MAILER.SAV
+08:22:53 S -R- run #1 job 6 Done-End <0>
+08:22:57 S -S- run #1 job 6 Req #6551  Running DSK:(MAIL)MAILER.SAV
+08:23:01 S -R- run #1 job 6 Done-End <0>
+08:23:05 S -S- run #1 job 6 Req #6552  Running DSK:(MAIL)MAILER.SAV
+08:23:08 S -R- run #1 job 6 Done-End <0>
+08:23:13 S -S- run #1 job 6 Req #6553  Running DSK:(MAIL)MAILER.SAV
+08:23:27 S -S- run #1 job 6 Req #6555  Running DSK:(MAIL)MAILER.SAV
+ Req #6554  Running DSK:(MAIL)MAILER.SAV
+08:23:31 S -R- run #1 job 6 Done-End <0>
+08:23:34 S -S- run #1 job 6 Req #6556  Running DSK:(MAIL)MAILER.SAV
+08:23:38 S -R- run #1 job 6 Done-End <0>
+08:23:42 S -S- run #1 job 6 Req #6557  Running DSK:(MAIL)MAILER.SAV
+08:23:46 S -R- run #1 job 6 Done-End <0>
+08:23:50 S -S- run #1 job 6 Req #6558  Running DSK:(MAIL)MAILER.SAV
+08:23:55 S -R- run #1 job 6 Done-End <0>
+08:23:58 S -S- run #1 job 6 Req #6559  Running DSK:(MAIL)MAILER.SAV
+08:24:02 S -R- run #1 job 6 Done-End <0>
+08:24:05 S -S- run #1 job 6 Req #6560  Running DSK:(MAIL)MAILER.SAV
+08:24:10 S -R- run #1 job 6 Done-End <0>
+08:24:13 S -S- run #1 job 6 Req #6561  Running DSK:(MAIL)MAILER.SAV
+08:24:18 S -R- run #1 job 6 Done-End <0>
+08:24:21 S -S- run #1 job 6 Req #6562  Running DSK:(MAIL)MAILER.SAV
+08:24:25 S -R- run #1 job 6 Done-End <0>
+08:24:28 S -S- run #1 job 6 Req #6563  Running DSK:(MAIL)MAILER.SAV
+08:24:33 S -R- run #1 job 6 Done-End <0>
+08:24:36 S -S- run #1 job 6 Req #6564  Running DSK:(MAIL)MAILER.SAV
+08:24:40 S -R- run #1 job 6 Done-End <0>
+08:24:43 S -S- run #1 job 6 Req #6565  Running DSK:(MAIL)MAILER.SAV
+08:24:47 S -R- run #1 job 6 Done-End <0>
+08:24:52 S -S- run #1 job 6 Req #6566  Running DSK:(MAIL)MAILER.SAV
+08:24:55 S -R- run #1 job 6 Done-End <0>
+08:25:00 S -S- run #1 job 6 Req #6567  Running DSK:(MAIL)MAILER.SAV
+08:25:04 S -R- run #1 job 6 Done-End <0>
+08:25:07 S -S- run #1 job 6 Req #6568  Running DSK:(MAIL)MAILER.SAV
+08:25:11 S -R- run #1 job 6 Done-End <0>
+08:25:14 S -S- run #1 job 6 Req #6569  Running DSK:(MAIL)MAILER.SAV
+08:25:18 S -R- run #1 job 6 Done-End <0>
+08:25:21 S -S- run #1 job 6 Req #6570  Running DSK:(MAIL)MAILER.SAV
+08:25:26 S -R- run #1 job 6 Done-End <0>
+08:25:29 S -S- run #1 job 6 Req #6571  Running DSK:(MAIL)MAILER.SAV
+08:25:34 S -R- run #1 job 6 Done-End <0>
+08:25:38 S -S- run #1 job 6 Req #6572  Running DSK:(MAIL)MAILER.SAV
+08:25:42 S -R- run #1 job 6 Done-End <0>
+08:25:46 S -S- run #1 job 6 Req #6573  Running DSK:(MAIL)MAILER.SAV
+08:25:50 S -R- run #1 job 6 Done-End <0>
+08:25:53 S -S- run #1 job 6 Req #6574  Running DSK:(MAIL)MAILER.SAV
+08:25:59 S -R- run #1 job 6 Done-End <0>
+08:26:04 S -S- run #1 job 6 Req #6575  Running DSK:(MAIL)MAILER.SAV
+08:26:07 S -R- run #1 job 6 Done-End <0>
+08:26:11 S -S- run #1 job 6 Req #6576  Running DSK:(MAIL)MAILER.SAV
+08:26:15 S -R- run #1 job 6 Done-End <0>
+08:26:17 S -S- run #1 job 6 Req #6577  Running DSK:(MAIL)MAILER.SAV
+08:41:51 S run #1 job 3 Uid 361 neq 361 sts=20310400000 que=300000015042 jna=0
+-S- run #1 job 6 Req #6580  Running DSK:(MAIL)MAILER.SAV
+08:41:52 S -R- run #1 job 3 Done-End <0>
+08:41:56 S -S- run #1 job 3 Req #6692  Running DSK:(MAIL)MAILER.SAV
+08:42:00 S -R- run #1 job 3 Done-End <0>
+08:42:04 S -S- run #1 job 3 Req #6693  Running DSK:(MAIL)MAILER.SAV
+08:42:07 S -R- run #1 job 3 Done-End <0>
+08:42:11 S -S- run #1 job 3 Req #6694  Running DSK:(MAIL)MAILER.SAV
+08:42:15 S -R- run #1 job 3 Done-End <0>
+08:42:19 S -S- run #1 job 3 Req #6695  Running DSK:(MAIL)MAILER.SAV
+08:42:22 S -R- run #1 job 3 Done-End <0>
+08:42:26 S -S- run #1 job 3 Req #6696  Running DSK:(MAIL)MAILER.SAV
+08:42:30 S -R- run #1 job 3 Done-End <0>
+08:42:34 S -S- run #1 job 3 Req #6697  Running DSK:(MAIL)MAILER.SAV
+08:42:38 S -R- run #1 job 3 Done-End <0>
+08:42:42 S -S- run #1 job 3 Req #6698  Running DSK:(MAIL)MAILER.SAV
+08:42:46 S -R- run #1 job 3 Done-End <0>
+08:42:50 S -S- run #1 job 3 Req #6699  Running DSK:(MAIL)MAILER.SAV
+08:42:53 S -R- run #1 job 3 Done-End <0>
+08:42:57 S -S- run #1 job 3 Req #6700  Running DSK:(MAIL)MAILER.SAV
+08:43:02 S -R- run #1 job 3 Done-End <0>
+08:43:05 S -S- run #1 job 3 Req #6701  Running DSK:(MAIL)MAILER.SAV
+08:43:09 S -R- run #1 job 3 Done-End <0>
+08:43:13 S -S- run #1 job 3 Req #6702  Running DSK:(MAIL)MAILER.SAV
+08:43:16 S -R- run #1 job 3 Done-End <0>
+08:43:20 S -S- run #1 job 3 Req #6703  Running DSK:(MAIL)MAILER.SAV
+08:43:24 S -R- run #1 job 3 Done-End <0>
+08:43:28 S -S- run #1 job 3 Req #6704  Running DSK:(MAIL)MAILER.SAV
+08:43:31 S -R- run #1 job 3 Done-End <0>
+08:43:34 S -S- run #1 job 3 Req #6705  Running DSK:(MAIL)MAILER.SAV
+08:43:39 S -R- run #1 job 3 Done-End <0>
+08:43:42 S -S- run #1 job 3 Req #6706  Running DSK:(MAIL)MAILER.SAV
+08:43:47 S -R- run #1 job 3 Done-End <0>
+08:43:51 S -S- run #1 job 3 Req #6707  Running DSK:(MAIL)MAILER.SAV
+08:43:55 S -R- run #1 job 3 Done-End <0>
+08:43:58 S -S- run #1 job 3 Req #6708  Running DSK:(MAIL)MAILER.SAV
+08:44:02 S -R- run #1 job 3 Done-End <0>
+08:44:06 S -S- run #1 job 3 Req #6709  Running DSK:(MAIL)MAILER.SAV
+08:44:09 S -R- run #1 job 3 Done-End <0>
+08:44:13 S -S- run #1 job 3 Req #6710  Running DSK:(MAIL)MAILER.SAV
+08:44:17 S -R- run #1 job 3 Done-End <0>
+08:44:20 S -S- run #1 job 3 Req #6711  Running DSK:(MAIL)MAILER.SAV
+08:44:24 S -R- run #1 job 3 Done-End <0>
+08:44:27 S -S- run #1 job 3 Req #6712  Running DSK:(MAIL)MAILER.SAV
+08:44:32 S -R- run #1 job 3 Done-End <0>
+08:44:35 S -S- run #1 job 3 Req #6713  Running DSK:(MAIL)MAILER.SAV
+08:44:52 S -S- run #1 job 3 Req #6715  Running DSK:(MAIL)MAILER.SAV
+ Req #6714  Running DSK:(MAIL)MAILER.SAV
+08:44:55 S -R- run #1 job 3 Done-End <0>
+08:44:59 S -S- run #1 job 3 Req #6716  Running DSK:(MAIL)MAILER.SAV
+08:45:03 S -R- run #1 job 3 Done-End <0>
+08:45:06 S -S- run #1 job 3 Req #6717  Running DSK:(MAIL)MAILER.SAV
+08:45:10 S -R- run #1 job 3 Done-End <0>
+08:45:13 S -S- run #1 job 3 Req #6718  Running DSK:(MAIL)MAILER.SAV
+08:45:18 S -R- run #1 job 3 Done-End <0>
+08:45:22 S -S- run #1 job 3 Req #6719  Running DSK:(MAIL)MAILER.SAV
+08:45:26 S -R- run #1 job 3 Done-End <0>
+08:45:31 S -S- run #1 job 3 Req #6720  Running DSK:(MAIL)MAILER.SAV
+08:45:34 S -R- run #1 job 3 Done-End <0>
+08:45:38 S -S- run #1 job 3 Req #6721  Running DSK:(MAIL)MAILER.SAV
+08:45:42 S -R- run #1 job 3 Done-End <0>
+08:45:45 S -S- run #1 job 3 Req #6722  Running DSK:(MAIL)MAILER.SAV
+08:45:50 S -R- run #1 job 3 Done-End <0>
+08:45:51 S -S- run #1 job 3 Req #6723  Running DSK:(MAIL)MAILER.SAV
+08:45:57 S -R- run #1 job 3 Done-End <0>
+08:46:01 S -S- run #1 job 3 Req #6724  Running DSK:(MAIL)MAILER.SAV
+08:46:05 S -R- run #1 job 3 Done-End <0>
+08:46:08 S -S- run #1 job 3 Req #6725  Running DSK:(MAIL)MAILER.SAV
+08:46:12 S -R- run #1 job 3 Done-End <0>
+08:46:15 S -S- run #1 job 3 Req #6726  Running DSK:(MAIL)MAILER.SAV
+08:46:21 S -S- stream #1 Req #6438 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+08:46:26 S -R- run #1 job 3 Done-End <0>
+08:46:37 S Processor status JSU EXECX Setup in frame 3
+08:46:40 P Waiting for interlock
+08:46:42 P Got interlock
+08:46:42 P EXECX Job Processor %1(222) starting in frame 3
+08:46:42 S Starting job processor in frame 3
+08:46:44 P Stream #1 Req #6438 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+08:46:45 S -R- run #1 job 0 Sched-Frame <0>
+08:46:53 S -S- run #1 job 8 Req #6728  Running DSK:(MAIL)MAILER.SAV
+08:47:04 S -R- run #1 job 8 Done-End <0>
+08:47:07 S -S- run #1 job 8 Req #6729  Running DSK:(MAIL)MAILER.SAV
+08:47:18 S -R- run #1 job 8 Done-End <0>
+08:47:20 S -S- run #1 job 8 Req #6730  Running DSK:(MAIL)MAILER.SAV
+08:47:32 S -R- run #1 job 8 Done-End <0>
+08:47:34 S -S- run #1 job 8 Req #6731  Running DSK:(MAIL)MAILER.SAV
+08:47:49 S -R- run #1 job 8 Done-End <0>
+08:47:53 S -S- run #1 job 8 Req #6732  Running DSK:(MAIL)MAILER.SAV
+08:48:00 S -R- run #1 job 8 Done-End <0>
+08:48:07 S -S- run #1 job 8 Req #6733  Running DSK:(MAIL)MAILER.SAV
+08:48:13 S -R- run #1 job 8 Done-End <0>
+08:48:15 S -R- run #1 job 0 Sched-Frame <0>
+08:48:24 S -S- run #1 job 8 Req #6735  Running DSK:(MAIL)MAILER.SAV
+08:48:52 S -S- run #1 job 8 Req #6737  Running DSK:(MAIL)MAILER.SAV
+ 8 Req #6736  Running DSK:(MAIL)MAILER.SAV
+08:49:00 S -R- run #1 job 8 Done-End <0>
+08:49:03 S -S- run #1 job 8 Req #6738  Running DSK:(MAIL)MAILER.SAV
+08:49:14 S -R- run #1 job 8 Done-End <0>
+08:49:16 S -S- run #1 job 8 Req #6739  Running DSK:(MAIL)MAILER.SAV
+08:49:25 S -R- run #1 job 8 Done-End <0>
+08:49:31 S -S- run #1 job 8 Req #6740  Running DSK:(MAIL)MAILER.SAV
+08:49:43 S -R- run #1 job 8 Done-End <0>
+08:49:46 S -S- run #1 job 8 Req #6741  Running DSK:(MAIL)MAILER.SAV
+08:49:57 S -R- run #1 job 8 Done-End <0>
+08:49:58 S -S- run #1 job 8 Req #6742  Running DSK:(MAIL)MAILER.SAV
+08:50:14 S -R- run #1 job 8 Done-End <0>
+08:50:19 S -S- run #1 job 8 Req #6743  Running DSK:(MAIL)MAILER.SAV
+08:50:27 S -R- run #1 job 8 Done-End <0>
+08:50:32 S -S- run #1 job 8 Req #6744  Running DSK:(MAIL)MAILER.SAV
+08:50:38 S -R- run #1 job 8 Done-End <0>
+08:50:41 S -S- run #1 job 8 Req #6745  Running DSK:(MAIL)MAILER.SAV
+08:50:54 S -R- run #1 job 8 Done-End <0>
+08:50:57 S -S- run #1 job 6 Req #6746  Running DSK:(MAIL)MAILER.SAV
+08:51:01 S -R- run #1 job 6 Done-End <0>
+08:51:05 S -S- run #1 job 6 Req #6747  Running DSK:(MAIL)MAILER.SAV
+08:51:10 S -R- run #1 job 6 Done-End <0>
+08:51:14 S -S- run #1 job 6 Req #6748  Running DSK:(MAIL)MAILER.SAV
+08:51:14 P Stream #1 Req #6438 * completed *
+08:51:17 S -R- run #1 job 6 Done-End <0>
+08:51:19 S -R- stream #1 Done-End <0>
+08:51:21 S -S- run #1 job 6 Req #6749  Running DSK:(MAIL)MAILER.SAV
+08:51:27 S -R- run #1 job 6 Done-End <0>
+08:51:31 S -S- run #1 job 6 Req #6751  Running DSK:(MAIL)MAILER.SAV
+08:51:34 S -R- run #1 job 6 Done-End <0>
+08:51:39 S -S- run #1 job 6 Req #6752  Running DSK:(MAIL)MAILER.SAV
+08:51:42 S -R- run #1 job 6 Done-End <0>
+08:51:48 S -S- run #1 job 6 Req #6753  Running DSK:(MAIL)MAILER.SAV
+08:51:51 S -R- run #1 job 6 Done-End <0>
+08:51:55 S -S- run #1 job 6 Req #6754  Running DSK:(MAIL)MAILER.SAV
+08:51:59 S -R- run #1 job 6 Done-End <0>
+08:52:02 S -S- run #1 job 6 Req #6755  Running DSK:(MAIL)MAILER.SAV
+08:52:07 S -R- run #1 job 6 Done-End <0>
+08:52:12 S -S- run #1 job 6 Req #6756  Running DSK:(MAIL)MAILER.SAV
+08:52:15 S -R- run #1 job 6 Done-End <0>
+08:52:19 S -S- run #1 job 6 Req #6757  Running DSK:(MAIL)MAILER.SAV
+08:52:23 S -R- run #1 job 6 Done-End <0>
+08:52:27 S -S- run #1 job 6 Req #6758  Running DSK:(MAIL)MAILER.SAV
+08:52:30 S -R- run #1 job 6 Done-End <0>
+08:52:34 S -S- run #1 job 6 Req #6759  Running DSK:(MAIL)MAILER.SAV
+08:52:39 S -R- run #1 job 6 Done-End <0>
+08:52:47 S -R- run #1 job 6 Done-End <0>
+ning DSK:(MAIL)MAILER.SAV
+08:52:51 S -S- run #1 job 6 Req #6761  Running DSK:(MAIL)MAILER.SAV
+08:52:55 S -R- run #1 job 6 Done-End <0>
+08:52:58 S -S- run #1 job 6 Req #6762  Running DSK:(MAIL)MAILER.SAV
+08:53:02 S -R- run #1 job 6 Done-End <0>
+08:53:04 S -S- run #1 job 6 Req #6763  Running DSK:(MAIL)MAILER.SAV
+08:53:12 S -R- run #1 job 6 Done-End <0>
+08:53:15 S -S- run #1 job 6 Req #6764  Running DSK:(MAIL)MAILER.SAV
+08:53:20 S -R- run #1 job 6 Done-End <0>
+08:53:24 S -S- run #1 job 6 Req #6765  Running DSK:(MAIL)MAILER.SAV
+08:53:28 S -R- run #1 job 6 Done-End <0>
+08:53:33 S -S- run #1 job 6 Req #6766  Running DSK:(MAIL)MAILER.SAV
+08:53:36 S -R- run #1 job 6 Done-End <0>
+08:53:40 S -S- run #1 job 6 Req #6767  Running DSK:(MAIL)MAILER.SAV
+08:53:45 S -R- run #1 job 6 Done-End <0>
+08:53:48 S -S- run #1 job 6 Req #6768  Running DSK:(MAIL)MAILER.SAV
+08:53:52 S -R- run #1 job 6 Done-End <0>
+08:53:55 S -S- run #1 job 6 Req #6769  Running DSK:(MAIL)MAILER.SAV
+08:54:00 S -R- run #1 job 6 Done-End <0>
+08:54:03 S -S- run #1 job 6 Req #6770  Running DSK:(MAIL)MAILER.SAV
+08:54:07 S -R- run #1 job 6 Done-End <0>
+08:54:10 S -S- run #1 job 6 Req #6771  Running DSK:(MAIL)MAILER.SAV
+08:54:16 S -R- run #1 job 6 Done-End <0>
+08:54:19 S -S- run #1 job 6 Req #6772  Running DSK:(MAIL)MAILER.SAV
+08:54:23 S -R- run #1 job 6 Done-End <0>
+08:54:27 S -S- run #1 job 6 Req #6773  Running DSK:(MAIL)MAILER.SAV
+08:54:31 S -R- run #1 job 6 Done-End <0>
+08:54:34 S -S- run #1 job 6 Req #6774  Running DSK:(MAIL)MAILER.SAV
+08:54:39 S -R- run #1 job 6 Done-End <0>
+08:54:42 S -S- run #1 job 6 Req #6775  Running DSK:(MAIL)MAILER.SAV
+08:54:47 S -R- run #1 job 6 Done-End <0>
+08:54:49 S -S- run #1 job 6 Req #6776  Running DSK:(MAIL)MAILER.SAV
+08:54:56 S -R- run #1 job 6 Done-End <0>
+08:54:59 S -S- run #1 job 6 Req #6777  Running DSK:(MAIL)MAILER.SAV
+08:55:04 S -R- run #1 job 6 Done-End <0>
+08:55:05 S -S- run #1 job 6 Req #6778  Running DSK:(MAIL)MAILER.SAV
+08:55:11 S -R- run #1 job 6 Done-End <0>
+08:55:15 S -S- run #1 job 6 Req #6779  Running DSK:(MAIL)MAILER.SAV
+08:55:20 S -R- run #1 job 6 Done-End <0>
+08:55:22 S -S- run #1 job 6 Req #6780  Running DSK:(MAIL)MAILER.SAV
+08:55:28 S -R- run #1 job 6 Done-End <0>
+08:55:33 S -S- run #1 job 6 Req #6781  Running DSK:(MAIL)MAILER.SAV
+08:55:37 S -R- run #1 job 6 Done-End <0>
+08:55:40 S -S- run #1 job 6 Req #6782  Running DSK:(MAIL)MAILER.SAV
+08:55:44 S -R- run #1 job 6 Done-End <0>
+08:55:49 S -S- run #1 job 6 Req #6783  Running DSK:(MAIL)MAILER.SAV
+08:56:00 S -R- run #1 job 6 Done-End <0>
+ning DSK:(MAIL)MAILER.SAV
+08:56:03 S -S- run #1 job 6 Req #6785  Running DSK:(MAIL)MAILER.SAV
+08:56:08 S -R- run #1 job 6 Done-End <0>
+08:56:12 S -S- run #1 job 6 Req #6786  Running DSK:(MAIL)MAILER.SAV
+08:56:16 S -R- run #1 job 6 Done-End <0>
+08:56:19 S -S- run #1 job 6 Req #6787  Running DSK:(MAIL)MAILER.SAV
+08:56:23 S -R- run #1 job 6 Done-End <0>
+08:56:27 S -S- run #1 job 6 Req #6788  Running DSK:(MAIL)MAILER.SAV
+08:56:32 S -R- run #1 job 6 Done-End <0>
+08:56:35 S -S- run #1 job 6 Req #6789  Running DSK:(MAIL)MAILER.SAV
+08:56:39 S -R- run #1 job 6 Done-End <0>
+08:56:44 S -S- run #1 job 6 Req #6790  Running DSK:(MAIL)MAILER.SAV
+08:56:47 S -R- run #1 job 6 Done-End <0>
+08:56:51 S -S- run #1 job 6 Req #6791  Running DSK:(MAIL)MAILER.SAV
+08:56:54 S -R- run #1 job 6 Done-End <0>
+08:56:58 S -S- run #1 job 6 Req #6792  Running DSK:(MAIL)MAILER.SAV
+08:57:02 S -R- run #1 job 6 Done-End <0>
+08:57:08 S -S- run #1 job 6 Req #6793  Running DSK:(MAIL)MAILER.SAV
+08:57:11 S -R- run #1 job 6 Done-End <0>
+08:57:15 S -S- run #1 job 6 Req #6794  Running DSK:(MAIL)MAILER.SAV
+08:57:19 S -R- run #1 job 6 Done-End <0>
+08:57:23 S -S- run #1 job 6 Req #6795  Running DSK:(MAIL)MAILER.SAV
+08:57:27 S -R- run #1 job 6 Done-End <0>
+08:57:32 S -S- run #1 job 6 Req #6796  Running DSK:(MAIL)MAILER.SAV
+08:57:36 S -R- run #1 job 6 Done-End <0>
+08:57:42 S -S- run #1 job 6 Req #6797  Running DSK:(MAIL)MAILER.SAV
+08:57:45 S -R- run #1 job 6 Done-End <0>
+08:57:49 S -S- run #1 job 6 Req #6798  Running DSK:(MAIL)MAILER.SAV
+08:57:53 S -R- run #1 job 6 Done-End <0>
+08:57:57 S -S- run #1 job 6 Req #6799  Running DSK:(MAIL)MAILER.SAV
+08:58:00 S -R- run #1 job 6 Done-End <0>
+08:58:04 S -S- run #1 job 6 Req #6800  Running DSK:(MAIL)MAILER.SAV
+08:58:08 S -R- run #1 job 6 Done-End <0>
+08:58:12 S -S- run #1 job 6 Req #6801  Running DSK:(MAIL)MAILER.SAV
+08:58:17 S -R- run #1 job 6 Done-End <0>
+08:58:20 S -S- run #1 job 6 Req #6802  Running DSK:(MAIL)MAILER.SAV
+08:58:24 S -R- run #1 job 6 Done-End <0>
+08:58:28 S -S- run #1 job 6 Req #6803  Running DSK:(MAIL)MAILER.SAV
+08:58:31 S -R- run #1 job 6 Done-End <0>
+08:58:35 S -S- run #1 job 6 Req #6804  Running DSK:(MAIL)MAILER.SAV
+08:58:40 S -R- run #1 job 6 Done-End <0>
+08:58:44 S -S- run #1 job 6 Req #6805  Running DSK:(MAIL)MAILER.SAV
+08:58:48 S -R- run #1 job 6 Done-End <0>
+08:58:50 S -S- run #1 job 6 Req #6806  Running DSK:(MAIL)MAILER.SAV
+08:58:56 S -R- run #1 job 6 Done-End <0>
+08:59:17 S -S- run #1 job 6 Req #6809  Running DSK:(MAIL)MAILER.SAV
+b 6 Req #6808  Running DSK:(MAIL)MAILER.SAV
+08:59:22 S -R- run #1 job 6 Done-End <0>
+08:59:26 S -S- run #1 job 6 Req #6810  Running DSK:(MAIL)MAILER.SAV
+08:59:33 S -R- run #1 job 6 Done-End <0>
+08:59:37 S -S- run #1 job 6 Req #6811  Running DSK:(MAIL)MAILER.SAV
+08:59:40 S -R- run #1 job 6 Done-End <0>
+08:59:44 S -S- run #1 job 6 Req #6812  Running DSK:(MAIL)MAILER.SAV
+08:59:52 S -R- run #1 job 6 Done-End <0>
+08:59:57 S -S- run #1 job 6 Req #6813  Running DSK:(MAIL)MAILER.SAV
+09:00:01 S -R- run #1 job 6 Done-End <0>
+09:00:46 S 05-Apr-87
+09:08:10 P Signing off.
+09:15:01 S -S- run #1 job 3 Req #6814  Running DSK:(MAIL)MAILER.SAV
+09:15:10 S -R- run #1 job 3 Done-End <0>
+09:40:02 S -S- run #1 job 3 Req #6691  Running DSK:(MAIL)ONTMTP.SAV
+09:41:23 S -R- run #1 job 3 Done-End <0>
+10:15:01 S -S- run #1 job 5 Req #6815  Running DSK:(MAIL)MAILER.SAV
+10:15:07 S -R- run #1 job 5 Done-End <0>
+11:15:01 S -S- run #1 job 3 Req #6817  Running DSK:(MAIL)MAILER.SAV
+11:15:05 S -R- run #1 job 3 Done-End <0>
+11:40:04 S -S- run #1 job 5 Req #6816  Running DSK:(MAIL)ONTMTP.SAV
+11:41:29 S -R- run #1 job 5 Done-End <0>
+12:00:55 S 05-Apr-87
+12:15:04 S -S- run #1 job 3 Req #6818  Running DSK:(MAIL)MAILER.SAV
+12:15:09 S -R- run #1 job 3 Done-End <0>
+13:15:02 S -S- run #1 job 3 Req #6820  Running DSK:(MAIL)MAILER.SAV
+13:15:07 S -R- run #1 job 3 Done-End <0>
+13:40:04 S -S- run #1 job 5 Req #6819  Running DSK:(MAIL)ONTMTP.SAV
+13:41:30 S -R- run #1 job 5 Done-End <0>
+14:15:00 S -S- run #1 job 3 Req #6821  Running DSK:(MAIL)MAILER.SAV
+14:15:05 S -R- run #1 job 3 Done-End <0>
+15:00:03 S 05-Apr-87
+15:15:02 S -S- run #1 job 3 Req #6823  Running DSK:(MAIL)MAILER.SAV
+15:15:07 S -R- run #1 job 3 Done-End <0>
+15:30:03 S -S- stream #1 Req #6449 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+15:30:10 S Processor status JSU EXECX Setup in frame 5
+15:30:12 P Waiting for interlock
+15:30:14 P Got interlock
+15:30:14 P EXECX Job Processor %1(222) starting in frame 5
+15:30:15 S Starting job processor in frame 5
+15:30:16 P Stream #1 Req #6449 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+15:32:44 P Stream #1 Req #6449 * completed *
+15:32:47 S -R- stream #1 Done-End <0>
+15:40:04 S -S- run #1 job 6 Req #6822  Running DSK:(MAIL)ONTMTP.SAV
+15:41:29 S -R- run #1 job 6 Done-End <0>
+15:48:15 P Signing off.
+16:15:01 S -S- run #1 job 3 Req #6824  Running DSK:(MAIL)MAILER.SAV
+16:15:06 S -R- run #1 job 3 Done-End <0>
+17:15:04 S -S- run #1 job 3 Req #6827  Running DSK:(MAIL)MAILER.SAV
+18:15:02 S -S- run #1 job 3 Req #6828  Running DSK:(MAIL)MAILER.SAV
+ Req #6826  Running DSK:(MAIL)ONTMTP.SAV
+18:15:07 S -R- run #1 job 3 Done-End <0>
+19:15:05 S -S- run #1 job 3 Req #6830  Running DSK:(MAIL)MAILER.SAV
+19:15:09 S -R- run #1 job 3 Done-End <0>
+19:40:05 S -S- run #1 job 5 Req #6829  Running DSK:(MAIL)ONTMTP.SAV
+19:41:30 S -R- run #1 job 5 Done-End <0>
+20:15:04 S -S- run #1 job 3 Req #6831  Running DSK:(MAIL)MAILER.SAV
+20:15:09 S -R- run #1 job 3 Done-End <0>
+21:00:30 S 05-Apr-87
+21:15:05 S -S- run #1 job 3 Req #6833  Running DSK:(MAIL)MAILER.SAV
+21:15:10 S -R- run #1 job 3 Done-End <0>
+21:40:06 S -S- run #1 job 5 Req #6832  Running DSK:(MAIL)ONTMTP.SAV
+21:41:30 S -R- run #1 job 5 Done-End <0>
+22:15:05 S -S- run #1 job 3 Req #6834  Running DSK:(MAIL)MAILER.SAV
+22:15:09 S -R- run #1 job 3 Done-End <0>
+23:15:02 S -S- run #1 job 3 Req #6836  Running DSK:(MAIL)MAILER.SAV
+23:15:06 S -R- run #1 job 3 Done-End <0>
+23:40:01 S -S- run #1 job 5 Req #6835  Running DSK:(MAIL)ONTMTP.SAV
+23:41:25 S -R- run #1 job 5 Done-End <0>
+00:00:41 S 06-Apr-87
+l3qû
