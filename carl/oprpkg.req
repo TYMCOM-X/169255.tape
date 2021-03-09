@@ -1,0 +1,13 @@
+
+require "  OPRPKG - Oper name translation routines  " message;
+
+external simple integer procedure RadX45( integer C );
+external simple string  procedure OprGet;
+external simple         procedure OprHSH( reference integer L;
+					  reference string Name );
+external simple string  procedure OprNam( reference integer L );
+external simple integer procedure PasHSH( string Password );
+external simple string  procedure PasGet;
+
+
+require "(CARL)OPRPKG" library;
