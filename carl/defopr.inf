@@ -1,0 +1,90 @@
+
+define SETOP!MAJOR   = '0;
+define SETOP!EDIT    = '17;
+
+require "  SETOP %" & cvos( SETOP!MAJOR )
+	ifcr SETOP!EDIT
+	 thenc & "(" & cvos( SETOP!EDIT ) & ")"
+	endc
+    & " Revision History  " message;
+
+require (SETOP!MAJOR lsh 24) lor SETOP!EDIT version;
+
+comment
+!
+!			*** SETOP Revision History ***
+!
+!  %0 (17)	07-Aug-87 /Carl
+!		Save %0(16) with grant hack to setup grant links for D34.
+!		Replace GRANT hack with "SHOW<cr>" to show grants.
+!
+!  %0 (16)	06-Aug-87 /Carl
+!		Revamp entire program to use new binary format and keep
+!		DRWSPR.SAB/.BIN as a converter program %0(15) to copy the
+!		text format into binary and text.
+!		Add placeholders for new commands.  Add GRANT hack.
+!
+!  %0 (15)	24-Jul-87 /Carl
+!		Introduce TChr and Tlxs routines to reduce concatenation
+!		in string space.  Add require-1024*64-string-space clause.
+!
+!  %0 (14)	23-Jul-87 /Carl
+!		Revamp manager hash algorithm.  Cleanup unknown managers.
+!		Remove more string concatenations to try to prevent string
+!		collections from happenning too often.
+!
+!  %0 (13)	23-Jul-87 /Carl
+!		Put managers in hash table if L!MG is set.
+!		Add routine to cull string info into constant area for
+!		all VMTEXT output to reduce output calls and string
+!		space garbage-collects (a possible slow down area).
+!
+!  %0 (12)	22-Jul-87 /Carl
+!		Change format of dates, in three passes to the octal
+!		representation of the date-time for easy read/write.
+!
+!  %0 (11)	16-Jul-87 /Carl
+!		Extensive rewrite of read record routines to handle sorting
+!		unsorted records into tree order.
+!
+;
+
+
+comment
+!
+!  %0 (10)	07-Jul-87 /Carl
+!		Limit the (get next record) routine used by LIST and other
+!		commands to only view those opernames managed by the user
+!		running the program.  Superprivileged users will issue a
+!		command (or check licenses -future) to see everything.
+!
+!  %0 (7)	07-Jul-87 /Carl
+!		Finish building manager tree and add routines for finding
+!		root and managers (so traversals will be easier via links).
+!
+!  %0 (6)	01-Jul-87 /Carl
+!		Make EXIT write out any changes to the master file.  Change
+!		WRITE function to a subroutine and make it more secure about
+!		specifying the file being written.  Check links for correct
+!		tree traversal order.
+!
+!  %0 (5)	01-Jul-87 /Carl
+!		Implement LIST (for LIST ALL and LIST INDIVIDUAL).
+!
+!  %0 (4)	01-Jul-87 /Carl
+!		Built manager, subordinate, next, link, back pointer tree
+!		without any major incidents.
+!
+!  %0 (3)	01-Jul-87 /Carl
+!		Added padding to the WRITE fuction to make a copy in the
+!		same format as the master file on SYS.
+!
+!  %0 (2)	30-Jun-87 /Carl
+!		Fixed CvDay routine to call CvDate correctly.
+!
+!  %0 (1)	30-Jun-87 /Carl
+!		Fixed bugs in C.READ which clipped district and manager
+!		names while reading the master data file.
+!
+;
+
