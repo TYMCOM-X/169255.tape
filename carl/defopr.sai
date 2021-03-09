@@ -1,0 +1,776 @@
+begin "SETOP SYSTEMS"
+
+require "(CARL)DEFOPR.INF"   source!file;
+
+require "(SAILIB)SAIL.DEF"   source!file;
+require "(SAILIB)UUOSYM.DEF" source!file;
+
+require "(CARL)DEFOPR.DEF"   source!file;
+require "(CARL)VMFILE.REQ"   source!file;
+require "(CARL)BRKINI.REQ"   source!file;
+require "(CARL)LICSUB.REQ"   source!file;
+require "(CARL)DAYTIM.REQ"   source!file;
+
+
+Define All.Commands = {
+
+!C!( Add, "      opername  Create a new opername entry." )
+!C!( Cancel, "   opername  Remove an opername entry." )
+!C!( Change, "   opername  Change information for an opername entry." )
+!C!( Evict, "    opername  Transfer any subordinates then cancel entry." )
+!C!( Flush, "    opername  Remove an entry and all subordinates." )
+!C!( Grant, "    opername  Grant license to another entry." )
+!C!( Imitate, "  opername  Assume another identity." )
+!C!( List, "     opername  List one or more opername entries." )
+!C!( Managed, "  opername  List all names managed by opername." )
+!C!( Open, "     <file>    Read system file or <file> into memory." )
+!C!( Petition, " opername  Petition an opername for license." )
+!C!( Promote, "  opername  Replace manager with opername." )
+!C!( Remove, "   opername  Remove license from an opername entry." )
+!C!( Show, "     opername  Show license grant links for an entry." )
+!C!( Trace, "    opername  Print trace information for an entry." )
+
+!C!( Brief, "              Disable VERBOSE mode." )
+!C!( Verbose, "            Enable verbose messages when available." )
+!C!( Help, " or ?          Reprint this message." )
+!C!( Exit, "               Exit program writing out any changes." )
+!C!( Quit, "               Exit program without writing out any changes." )
+
+    };
+
+Redefine Len.Commands = 0;
+Redefine !C!(Nam,Hlp,AltC) = {
+    Ifcr Len.Commands > 0 thenc , endc CvPS(Nam)
+    Redefine Len.Commands = Len.Commands + 1;};
+Preset!with All.Commands;
+Own safe string array CmdName[1:Len.Commands];
+
+
+Redefine Len.Commands = 0;
+Redefine !C!(Nam,Hlp,AltC) = {
+    Ifcr Len.Commands > 0 thenc , endc Cvps(Nam) & Hlp
+    Redefine Len.Commands = Len.Commands + 1;};
+Preset!with All.Commands;
+Own safe string array CmdText[1:Len.Commands];
+
+
+Redefine !C!(Nam,Hlp,AltC) = {
+    Ifcr Length(CvPS(AltC))
+     thenc AltC;
+     elsec C.}&{Nam}&{;
+    endc};
+
+define pagebreak = {};
+define spaces = 
+    {"                                                                "};
+define lpad(x,y) = {(spaces[1 for y]&(x))[inf-(y-1) to inf]};
+
+
+Integer vml,vmi,vmx;
+Integer MySelf, MyOper1, MyOper2, Level;
+Integer BinSlot, BinChan, TxtSlot, TxtChan, Eof, EndOfFile, Count, Index, I;
+
+Boolean Verbose, FileModified, SetMgr;
+
+String  Filename, Command, Line, Str, L;
+String  MyOper, MyName;
+
+
+simple procedure InitMemPointer;
+begin
+
+    begin!code
+	Setzm	vml;			! initialize length of buffer ;
+	Movei	'1,'777000;		! use page 777 ;
+	Movem	'1,vmi;			! for the index page ;
+	Movei	'1,'700000;		! start with page 700 ;
+	Movem	'1,vmx;			! for the data ;
+    end;
+
+end;
+require InitMemPointer initialization;
+
+
+simple boolean Procedure Slt( integer A, B );
+begin "compare sixbit"
+
+    begin!code
+	Label Loop, NoMore;
+	Define flg = '1, ct = '13, chA = '14, chB = '15;
+
+	Hrrzi	ct,'440600;		! sixbit pointer ;
+	Hrlm	ct,A;			! address of A ;
+	Hrlm	ct,B;			!  and of B ;
+	Hrrz	ct,12;			! 12 characters ;
+Loop:	Ildb	chA,A;			! get byte ;
+	Ildb	chB,B;			!  from each string ;
+	Camge	chA,chB;		! compare ;
+	  Jrst	NoMore;			! .LT.  All right! ;
+	Camg	chA,chB;		! compare ;
+	  Sojg	ct,Loop;		! .EQ.  Try for more ;
+	Tdza	flg,flg;		! .GT. or .EQ.  set to false ;
+NoMore:	Seto	flg,;			! set to true ;
+    end;
+
+end "compare sixbit";
+
+
+
+simple string procedure SxO( integer Mem );
+begin "sixbit string"
+
+    begin!code
+	define ptr = '1;
+
+	Exch	ptr,Mem;		! save ac used ;
+	Hrli	ptr,'440600;		! make into a pointer ;
+	Push	p,ptr;			! save ;
+	Movei	ptr,12;			! setup 0,,size ;
+	Push	sp,ptr;			! store on stack ;
+	Pop	p,ptr;			! restore pointer ;
+	Push	sp,ptr;			! store on stack ;
+	Exch	ptr,Mem;		! restore ac ;
+    end;
+
+end "sixbit string";
+
+
+
+simple string Procedure Sxt( integer Mem );
+begin "assemble text"
+    preset!with "LongUserName";
+    own safe string array StupidString[ 0:0 ];
+
+    begin!code
+	Define ch = '1, ct = '13, chp = '14, sxp = '15;
+	Label Loop;
+
+	Hrrzi	ct,12;			! 12 characters ;
+	Hrli	sxp,'440600;		! sixbit pointer to ;
+	Hrr	sxp,Mem;		! given address ;
+	Move	chp,StupidString[0];	! get pointer to string space ;
+Loop:	Ildb	ch,sxp;			! get byte ;
+	Movei	ch,'40(ch);		! convert to ASCII ;
+	Idpb	ch,chp;			! and store ;
+	Sojg	ct,Loop;		! check for more ;
+     end;				! end begin!code ;
+
+    return( StupidString[0] );		! return new constant string;
+
+end "assemble text";
+
+
+simple integer procedure Traverse( integer r );
+begin "traverse tree"
+    own integer t;
+
+    if ( t_ Sub( r ) )			! if a subordinate ;
+     then begin "down a level"
+	Level_ Level + 1;		! count levels downward ;
+	return( t );			!  that is who is next ;
+     end "down a level";
+
+    if ( t_ Sib( r ) )			! if a sibling ;
+     then return( t );			!  that is who is next ;
+
+    while ( r_ Man( r ) )		! go up one level at a time ;
+     do begin "up a level"
+	Level_ Level - 1;		! no more downward travel ;
+	if ( t_ Sib( r ) )		!  checking for siblings ;
+	 then return( t );		!  return if found, else loop ;
+     end "up a level";
+
+    return( 0 );			! nothing left at this level ;
+
+end "traverse tree";
+
+
+define TopManager = '2000;
+safe integer array Mgrs[ 0:TopManager-1 ];
+safe string  array Managers[ 0:TopManager-1 ];
+integer UsedMgrs;
+
+
+simple procedure Forget;
+begin "management purge"
+    own integer r, l;
+
+    arrClr( Mgrs );			! clear pointer array ;
+    arrClr( Managers );			! clear text array ;
+    UsedMgrs_ -1;			! reset manager count ;
+
+    calli( !xwd( '2000+vml,vmx lsh -9), calli!VCLEAR );
+
+    if ( BinSlot )
+     then VMFree( BinSlot );
+
+    InitMemPointer;
+
+end "management purge";
+require Forget initialization;
+
+
+simple string procedure Token (reference string S);
+! ----------------------------------------------------------------------;
+!									;
+!	Token		Scan the string S and return the first word	;
+!			or punctuation character to the caller.		;
+!									;
+! ----------------------------------------------------------------------;
+begin
+    own string L;
+
+    Scan( S, BrkWht, Brk );	! clear whitespace;
+    L _ scan(S, BrkBrk, Brk);	! get the next word;
+    If length(L) = 0		! null?;
+	then if length(S) = 0	!   null source also?;
+	    then return (null)	!    yes - return null;
+	    else L _ lop(S);	!    no  - get a character;
+    Scan( S, BrkWht, Brk );	! clear whitespace;
+    Return(L);			! return the token;
+end;
+
+
+
+string procedure Prompt( String P );
+! ----------------------------------------------------------------------;
+!									;
+!	Prompt		Print a line and read an answer.		;
+!									;
+! ----------------------------------------------------------------------;
+begin
+    Print( P );
+    Return( inchwl );
+end;
+
+
+integer procedure CvPrt( String P; Integer D );
+! ----------------------------------------------------------------------;
+!									;
+!	CvPrt		Convert the response from Prompt to decimal	;
+!			and return that value if geq 0, else return	;
+!			the specified default.				;
+!									;
+! ----------------------------------------------------------------------;
+Return( If Length( L_ Prompt(P) ) and 0 leq I_ cvd(L)
+	 then I
+	 else D  );
+
+
+Simple procedure NotImp;
+Print( "Not Implemented", Crlf );
+
+
+
+procedure Subordinate( integer r, m );
+begin "make subordinate"
+    integer t, v;
+
+    if ( t_ Sub( M ) )			! any subordinates ;
+     then begin "sort subordinates"
+
+	while ( t )			! yes, check order ;
+	 do if ( Slt( Opr(t),Opr(r) ) )	! of opernames provided ;
+	     then t_ Sib( (v_ t) )	! try next subordinate ;
+	     else done;			! we are in front ;
+
+	if ( t )			! found one ;
+	 then begin "insert new subordinate"
+	    GniSib( r )_ !xwd( Gni( t ), t );	! setup last,next sibling ;
+	    GniSib( t )_ !xwd( r, Sib( t ) );	! set next to point to me ;
+	    if ( v_ Gni( r ) )			! if any back pointer ;
+	     then GniSib( v )_ !xwd( Gni( v ), r );
+	    if ( t = Sub( M ) )			! if first subordinate ;
+	     then ManSub( M )_ !xwd( Man( M ), r );
+	 end "insert new subordinate"
+	 else begin "tack on the end"
+	    GniSib( v )_ !xwd( Gni(v ), r );	! I must be next for previous ;
+	    GniSib( r )_ !xwd( v, Sib( r ) );	! and previous is my previous ;
+	 end "tack on the end";
+
+     end "sort subordinates"
+     else ManSub( M )_ !xwd( Man( M ), r );	! set as only subordinate ;
+
+end "make subordinate";
+
+
+simple Procedure ValidateManager;
+begin "validations"
+    integer v;
+
+    MySelf_ 0;			! insure security, reset each time ;
+
+    while ( true )
+     do begin "validate name"
+
+	if ( length( Line ) )
+	 then MyOper_ Line
+	 else if ( "?" = MyOper_ Prompt( "Opername: " ) )
+	       then begin "help wanted"
+		  print( crlf &"Please enter your Opername"& crlf );
+		  continue;
+	       end "help w";
+
+	Line_ null;			! clear this for loop-back ;
+
+	if not( length( MyOper ) )	! allow a carriage return ;
+	 then MyOper_ RootHead;		! to setup as root ;
+
+	MyOper1_ cvSix( MyOper[ 1 for 6 ] );
+	MyOper2_ cvSix( MyOper[ 7 for 6 ] );
+
+	if ( v_ Sub( 0 ) )		! tree trunk ;
+	 then while ( v )		!  for each branch ;
+	  do if ( MyOper1 = OprNam( v ) ) and
+		( MyOper2 = OprNa1( v ) )
+	      then done			! I am the manager ;
+	      else v_ Traverse( v );	!  look through the tree ;
+
+	if ( v )			! did we fall out or find out ;
+	 then begin "setup self"
+
+	    MySelf_ v;			! found me ;
+	    done;			! and finish validation ;
+
+	 end "setup self";
+
+	print( "No opername found matching ", MyOper, crlf );
+
+     end "validate name";
+
+    print( (if v_ Man( MySelf )
+	     then "Manager: "& Sxt( Opr( v ) ) &" "
+	     else null),
+	   crlf );
+
+end "validations";
+
+
+Procedure C.Open;
+! ----------------------------------------------------------------------;
+!									;
+!	"OPEN"		Read a new copy of the master opername list.	;
+!									;
+! ----------------------------------------------------------------------;
+begin
+    own safe integer array arg[ 0:1 ];
+
+    print( "Reading system file."& Crlf );
+    if not( length( Filename_ Line ) )
+     then Filename_ System.File;
+
+    Forget;				! empty list ;
+    Count_0;
+
+    if ( 0 > BinSlot_ VMFile( Filename, VM$Multi ) )
+     then begin
+	print( Filename," not found.  Empty list created.",Crlf );
+	return
+     end;
+
+    if ( 0 > TxtSlot_ VMFile( Text.File, VM$Multi ) )
+     then begin
+	print( Text.File &" not found."& crlf );
+	return
+     end;
+
+    vmi_ VMGetC( BinSlot, VM$Base );	! remember base address for map ;
+    BinChan_ VMGetC( BinSlot,VM$Chan );	! remember channel to use ;
+    vml_ ( ( VMGetC( BinSlot, VM$Size ) + 4 ) div 5 ) lsh -9;
+    arg[ 0 ]_ !xwd( '6000+vml, vmx lsh -9 );
+    arg[ 1 ]_ 2;			! .prrw+vml,,vm page | file page 2 ;
+    chnior( BinChan, arg[0], !chMFP );	! map the pages ;
+
+    ValidateManager;			! figure out who we are ;
+
+end;
+
+
+Procedure WriteFile( Boolean Reality );
+! ----------------------------------------------------------------------;
+!									;
+!	"WRITE"		Write out a copy of the in-core system list	;
+!			on the current user's directory.		;
+!									;
+! ----------------------------------------------------------------------;
+begin
+
+    if not( FileModified )
+     then Print( "No changes made."& Crlf );
+    Print( "Writing..." );
+
+    calli( !xwd( '2000+vml,vmx lsh -9 ), calli!VCLEAR );
+    VMFree( BinSlot );
+
+    FileModified_ False;
+    Print( "Done."& Crlf );
+
+end;
+
+
+
+procedure printEntry( reference integer r );
+begin "print entry"
+    integer t, doe;
+
+    print(  Sxt( Opr( r ) ),
+	    (if Verbose
+	      then LicPrt( Licens( r ) )
+	      else lpad( cvos(!lh(Licens(r))),7 )
+		 & lpad( cvos(!rh(Licens(r))),7 ) ),
+	    crlf,
+	    (if ( t_ ISGDst( r ) lsh -12 )
+	      then lpad( cvs( t ),6 )
+	      else "      "),
+	    "      Manager: ",
+	    (if ( t_ Man( r ) )
+	      then Sxt(Opr( t ))
+	      else "-none-      "),
+	    (if ( t_ISGDst( r ) land '7777 )
+	      then crlf&"            District: "&cvs( t )
+	      else null),
+	    crlf );
+
+    VMSetC( TxtSlot, EmpMsc( r ) );	! setup for employee ;
+    VMLine( TxtSlot, Brk );		! blank ;
+    VMLine( TxtSlot, Brk );		! ISG & District ;
+    Line_ VMLine( TxtSlot, Brk );	! Entry info ;
+    print( "Entry date: ", TymDay( cvo( Line[1 for 12] ) ),
+	    " by ", Line[14 for 12], crlf );
+
+    while ( length( Line_ VMLine( TxtSlot, Brk ) ) )
+     do print( Line, crlf );
+
+    print( crlf );
+
+end "print entry";
+
+
+simple procedure printGrant( integer g, ch );
+begin "print grants"
+
+    if ( ch = "R" )
+     then print( (if Verbose then " from " else " f-"),
+		 Sxt( Opr( Gix( g ) ) ) )
+     else print( (if Verbose then " to   " else " t-"),
+		 Sxt( Opr( Rix( g ) ) ) );
+
+    print( (if verbose then " on " else null),
+	    cvSDat( Gdt( g ) ),
+	    (if Rdt( g )
+	      then (if Verbose then " until " else "-")
+		    & cvSDat( Rdt( g ) )
+	      else (if Verbose then crlf&"      " else "         ") ),
+	    (if Verbose
+	      then LicPrt( GlcRlc( g ) )
+	      else lpad( cvos(Glc(g)),7 ) & lpad( cvos(Rlc(g)),7 ) ),
+	    crlf );
+
+end "print grants";
+
+
+simple procedure ShowEntry( reference integer r );
+begin "show grants"
+    integer t;
+
+    print(  Sxt( Opr( r ) ),
+	    lpad( cvos( r ), 6 ),
+	    crlf );
+
+    if ( t_ Gft( r ) )
+     then begin "show gifts"
+	printGrant( t, "R" );
+	while ( t_ Rlk( t ) )
+	 do printGrant( t, "R" );
+     end "show gifts";
+
+    if ( t_ Grt( r ) )
+     then begin "show grants"
+	printGrant( t, "G" );
+	while ( t_ Glk( t ) )
+	 do printGrant( t, "G" );
+     end "show grants";
+
+end "show grants";
+
+
+procedure printTrace( reference integer r );
+begin "print trace"
+    integer t;
+
+	print(	Sxt( Opr( r ) ),
+		lpad( cvos( r ), 6 ),
+		" ^:",
+		( if ( t_ Man( r ) ) then Sxt(Opr( t )) else "-none-      " ),
+		" v:",
+		( if ( t_ Sub( r ) ) then Sxt(Opr( t )) else "-none-      " ),
+		" <:",
+		( if ( t_ Gni( r ) ) then Sxt(Opr( t )) else "-none-      " ),
+		" >:",
+		( if ( t_ Sib( r ) ) then Sxt(Opr( t )) else "-none-      " ),
+		Crlf );
+
+end "print trace";
+
+
+Simple Procedure ChangeList( Boolean Change );
+! ----------------------------------------------------------------------;
+!									;
+!	ChangeList	Perform common functions for the "CHANGE"	;
+!			and "LIST" commands.				;
+!									;
+! ----------------------------------------------------------------------;
+begin "Change-List"
+
+    FileModified_ true;
+
+end "Change-List";
+
+Simple Procedure C.Change;
+ChangeList( true );
+
+
+Simple integer procedure FindName( string s; integer r );
+begin "find a name"
+
+    MyOper1_ cvSix( S[1 for 6] );	! make string more suitable ;
+    MyOper2_ cvSix( S[7 for 6] );	!  for repeated comparisons ;
+
+    Level_ 0;				! initialize level indicator ;
+
+    while ( r )				! while anything to check ;
+     do begin "check one"
+
+	if ( ( MyOper1 = OprNam( r ) ) and
+	     ( MyOper2 = OprNa1( r ) )  )
+	 then return( r )		! a match... a winner ;
+	 else r_ traverse( r );		! try the next twig ;
+
+	if ( Level leq 0 )		! is this twig on the level? ;
+	 then done;			! guess not, a real loser ;
+
+     end "check one";
+
+    print( "?OPRNNF Opername ", s ," not found"& crlf&crlf );
+    return( 0 );
+
+end "find a name";
+
+
+Simple procedure Display( procedure Dispatch );
+begin "display entry"
+    own integer r;
+
+    if length( Line )
+     then begin "find name"
+
+	if ( r_ FindName( Line, MySelf ) )
+	 then Dispatch( r )		! found it... type it ;
+	 else return;			! not there, goodbye. ;
+
+     end "find name"
+     else begin "all names"
+
+	level_ 0;			! initialize level indicator ;
+	r_ MySelf;			! setup major trunk ;
+
+	while ( r )			! while any wood left ;
+	 do begin "list all"
+
+	    Dispatch( r );		! put it on the screen ;
+	    r_ traverse( r );		! any more wood? ;
+	    if ( Level leq 0 )		! is it on the level? ;
+	     then done;			! oops, to high, bye. ;
+
+	 end "list all";
+
+     end "all names";
+
+    print( Crlf );
+
+end "display entry";
+
+
+Simple procedure C.Managed;
+begin "display entry"
+    own integer r, t;
+
+    if length( Line )
+     then begin "find name"
+
+	if not( r_ FindName( Line, MySelf ) )
+	 then return;
+
+	if ( t_ Sub( r ) )		! to manage, one must have children ;
+	 then begin "ah children"
+
+	    printEntry( t );		! list the first child ;
+	    while ( t_ Sib( t ) )	! while any siblings are here ;
+	     do printEntry( t );	! list them also ;
+
+	 end "ah children"
+	 else print( "%OPRNTM No one to manage for ",Sxt( Opr( r ) ),crlf );
+
+     end "find name"
+     else begin "managed syntax error"
+
+	print( "?OPRSYN Syntax error: opername required in command."&
+		crlf&crlf );
+	return;
+
+     end "managed syntax error";
+
+    print( Crlf );
+
+end "display entry";
+
+
+Simple procedure C.Add;
+return;
+Simple procedure C.Cancel;
+return;
+Simple procedure C.Evict;
+return;
+Simple procedure C.Flush;
+return;
+Simple procedure C.Grant;
+return;
+Simple procedure C.Petition;
+return;
+Simple procedure C.Promote;
+return;
+Simple procedure C.Remove;
+return;
+
+
+simple Procedure C.Show;
+Display( ShowEntry );
+
+simple Procedure C.List;
+Display( printEntry );
+
+simple Procedure C.Trace;
+Display( printTrace );
+
+simple Procedure C.Write;
+WriteFile( true );
+
+simple Procedure C.Quit;
+calli( 0, calli!EXIT );
+
+simple procedure C.Brief;
+Verbose_ false;
+
+simple procedure C.Verbose;
+Verbose_ true;
+
+simple Procedure C.Imitate;
+ValidateManager;
+
+simple Procedure C.Help;
+begin
+    Print(  Crlf,  "License manager %",
+	    cvOS(!lh(memory['137])), ".",
+	    cvOS(!rh(memory['137])), Crlf,
+	    "Commands:", Crlf );
+    For Index_ 1 upto Len.Commands
+     do Print( "  ", CmdText[ Index ], Crlf );
+    Print( Crlf );
+end;
+
+
+Simple Procedure C.Exit;
+begin
+    Line_ System.File;
+
+    if ( FileModified )
+     then WriteFile( false );
+
+    C.Quit;
+end;
+
+
+ifcr false
+ thenc
+
+Simple procedure C.LinkG;		! keep around for debugging
+begin
+    integer r, g, l, n;
+
+    r_ 0;				! head of list ;
+    while ( r_ traverse( r ) )		! for each node... ;
+     do begin "link grants"
+	if ( n_ Sub( r ) )		! if any subordinates ;
+	 then begin "grants to link"
+	    printTrace( n );
+	    Grants( r )_ !xwd( g_ Gft( n ), Gft( r ) );
+	    while ( n_ Sib( n ) )	! if any siblings ;
+	     do begin "link siblings"
+		printTrace( n );
+		GlkRlk( g )_ !xwd( l_ Gft( n ), Rlk( g ) );
+		g_ l;
+	     end "link siblings";
+	 end "grants to link";
+     end "link grants";
+
+end;
+
+endc
+Simple string procedure Perform!Command;
+! ----------------------------------------------------------------------;
+!									;
+!    Perform!Command	This is the CRUX of the main program.  This	;
+!			routine reads the user's command line and then	;
+!			dispatches to the proper routine to perform	;
+!			the specified command.  Initial data requests	;
+!			for each command are also read and verified	;
+!			by this routine before further processing is	;
+!			allowed.					;
+!									;
+! ----------------------------------------------------------------------;
+begin "perform command"
+    Integer Cmd, Cdx, C, P;
+
+    Line_ inchwl;				! Get a command;
+    If Length( Line ) = 0			! Ignore blank lines;
+     then Return( Null );
+    Command_ Token( Line );			! Get the first word;
+    If kequ(Command, "?") then Command_ "HELP";	! "?" means "HELP";
+    Cdx _ 0;
+    For Cmd _ 1 step 1 until Len.Commands
+     do If kequ( Command, CmdName[ Cmd ][1 for length(Command)] )
+	 then If Cdx neq 0
+		then Return( "Ambigious command." )
+		else Cdx _ Cmd;
+    If 0 < Cdx leq Len.Commands
+     then begin "setup command defaults"
+	Scan( Line, BrkWht, Brk );		! remove any whitespace;
+	If Line = "?"				! if first character is "?";
+	 then Return( CmdText[ Cdx ] );		! give an help message;
+	Command_ CmdName[ Cdx ];		! copy name for later;
+	Case Cdx-1 of begin All.Commands end;
+     end "setup command defaults"
+     else Return( "?OPRINV Invalid command" );
+    Return( Null );
+end;
+
+
+TTYUP( True );
+Print(  Crlf, "License manager %", Cvos(!lh(Memory['137])),
+	".",Cvos(!rh(Memory['137])), Crlf );
+
+VMValF_ false;				! try to speed up i/o ;
+C.Verbose;				! use longer messages ;
+
+C.Open;					! read in the data ;
+
+While TRUE
+ do begin
+    String More;
+    print( "SETOP> " );
+    print( More_ Perform!Command );
+    if length( More ) then print( Crlf );
+ end;
+
+end "SETOP SYSTEMS";
+   jud
