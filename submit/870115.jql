@@ -1,0 +1,82 @@
+00:00:18 S 15-Jan-87
+00:15:01 S -S- run #2 job 7 Req #3253  Running DSK:(MAIL)MAILER.SAV
+00:15:08 S -R- run #2 job 7 Done-End <0>
+01:15:01 S -S- run #2 job 7 Req #3255  Running DSK:(MAIL)MAILER.SAV
+01:15:08 S -R- run #2 job 7 Done-End <0>
+01:40:02 S -S- run #2 job 3 Req #3254  Running DSK:(MAIL)ONTMTP.SAV
+01:41:26 S -R- run #2 job 3 Done-End <0>
+02:14:01 S 15-Jan-87 Signing off.
+02:31:31 S ** 15-Jan-87 XEXEC %1(211) in frame 4 ** user OPER **
+02:31:32 S run #1 job 1 is lost.
+02:31:33 S -S- run #1 job 1 Req #2027  Running DSK:(PJ)PAM.HGH
+02:31:34 S -S- run #2 job 5 Req #3256  Running DSK:(MAIL)MAILER.SAV
+02:31:41 S -R- run #2 job 5 Done-End <0>
+02:32:34 S 15-Jan-87
+03:00:34 S 15-Jan-87
+03:15:04 S -S- run #2 job 3 Req #3258  Running DSK:(MAIL)MAILER.SAV
+03:15:09 S -R- run #2 job 3 Done-End <0>
+03:40:00 S -S- run #2 job 3 Req #3257  Running DSK:(MAIL)ONTMTP.SAV
+03:41:17 S -R- run #2 job 3 Done-End <0>
+04:15:02 S -S- run #2 job 3 Req #3259  Running DSK:(MAIL)MAILER.SAV
+04:15:07 S -R- run #2 job 3 Done-End <0>
+05:15:03 S -S- run #2 job 3 Req #3261  Running DSK:(MAIL)MAILER.SAV
+05:15:08 S -R- run #2 job 3 Done-End <0>
+05:40:04 S -S- run #2 job 3 Req #3260  Running DSK:(MAIL)ONTMTP.SAV
+05:41:18 S -R- run #2 job 3 Done-End <0>
+06:00:41 S 15-Jan-87
+06:15:01 S -S- run #2 job 3 Req #3262  Running DSK:(MAIL)MAILER.SAV
+06:15:06 S -R- run #2 job 3 Done-End <0>
+07:15:02 S -S- run #2 job 3 Req #3264  Running DSK:(MAIL)MAILER.SAV
+07:15:07 S -R- run #2 job 3 Done-End <0>
+07:40:04 S -S- run #2 job 5 Req #3263  Running DSK:(MAIL)ONTMTP.SAV
+16:32:35 S ** 15-Jan-87 XEXEC %1(211) in frame 4 ** user OPER **
+16:32:35 S run #1 job 1 is lost.
+16:32:36 S -S- run #1 job 1 Req #2027  Running DSK:(PJ)PAM.HGH
+16:32:38 S -S- run #2 job 5 Req #3265  Running DSK:(MAIL)MAILER.SAV
+16:32:46 S -S- run #3 job 6 Req #3263  Running DSK:(MAIL)ONTMTP.SAV
+16:32:55 S -R- run #2 job 5 Done-End <0>
+16:32:56 S -S- stream #1 Req #3246 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+16:33:14 S Processor status JSU EXECX Setup in frame 5
+16:33:16 P Waiting for interlock
+16:33:17 P Got interlock
+16:33:18 P EXECX Job Processor %1(220) starting in frame 5
+16:33:18 S Starting job processor in frame 5
+16:33:20 S -S- stream #2 Req #3245 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+16:33:20 P Stream #1 Req #3246 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+16:33:22 P Stream #2 Req #3245 DSK:(CARL)XFER.LOG=DSK:(CARL)XFER.CTL
+16:33:27 S -S- stream #3 Req #3244 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+16:34:22 S -R- run #3 job 6 Done-End <0>
+16:34:28 S 15-Jan-87
+AD.CTL
+16:37:51 P Stream #3 Req #3244 * completed *
+16:37:58 S -R- stream #3 Done-End <0>
+16:38:36 P Stream #1 Req #3246 * completed *
+16:38:37 S -R- stream #1 Done-End <0>
+16:38:37 P Stream #2 Req #3245 * completed *
+16:38:43 S -R- stream #2 Done-End <0>
+16:54:36 P Signing off.
+17:15:02 S -S- run #2 job 5 Req #3259  Running DSK:(MAIL)MAILER.SAV
+17:15:08 S -R- run #2 job 5 Done-End <0>
+17:40:02 S -S- run #2 job 5 Req #3260  Running DSK:(MAIL)ONTMTP.SAV
+17:41:27 S -R- run #2 job 5 Done-End <0>
+18:00:31 S 15-Jan-87
+18:15:02 S -S- run #2 job 5 Req #3264  Running DSK:(MAIL)MAILER.SAV
+18:15:07 S -R- run #2 job 5 Done-End <0>
+19:15:02 S -S- run #2 job 5 Req #3266  Running DSK:(MAIL)MAILER.SAV
+19:15:08 S -R- run #2 job 5 Done-End <0>
+19:40:04 S -S- run #2 job 5 Req #3265  Running DSK:(MAIL)ONTMTP.SAV
+19:41:23 S -R- run #2 job 5 Done-End <0>
+20:15:03 S -S- run #2 job 5 Req #3267  Running DSK:(MAIL)MAILER.SAV
+20:15:09 S -R- run #2 job 5 Done-End <0>
+21:00:50 S 15-Jan-87
+21:15:01 S -S- run #2 job 7 Req #3270  Running DSK:(MAIL)MAILER.SAV
+21:15:10 S -R- run #2 job 7 Done-End <0>
+21:40:01 S -S- run #2 job 6 Req #3268  Running DSK:(MAIL)ONTMTP.SAV
+21:41:18 S -R- run #2 job 6 Done-End <0>
+22:15:01 S -S- run #2 job 6 Req #3271  Running DSK:(MAIL)MAILER.SAV
+22:15:05 S -R- run #2 job 6 Done-End <0>
+23:15:00 S -S- run #2 job 6 Req #3273  Running DSK:(MAIL)MAILER.SAV
+23:15:06 S -R- run #2 job 6 Done-End <0>
+23:40:01 S -S- run #2 job 5 Req #3272  Running DSK:(MAIL)ONTMTP.SAV
+23:41:40 S -R- run #2 job 5 Done-End <0>
+00:00:18 S 16-Jan-87
