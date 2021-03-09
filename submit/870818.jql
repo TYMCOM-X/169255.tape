@@ -1,0 +1,121 @@
+00:00:02 S 18-Aug-87
+00:15:07 S -S- run #2 job 11 Req #11323  Running DSK:(MAIL)MAILER.SAV
+00:15:23 S -R- run #2 job 11 Done-End <0>
+01:15:04 S -S- run #2 job 8 Req #11324  Running DSK:(MAIL)MAILER.SAV
+01:15:10 S -R- run #2 job 8 Done-End <0>
+02:08:25 P Stream #1 Req #11318 * completed *
+02:08:31 S -R- stream #1 Done-End <0>
+02:15:03 S -S- run #2 job 7 Req #11325  Running DSK:(MAIL)MAILER.SAV
+02:15:08 S -R- run #2 job 7 Done-End <0>
+02:23:51 P Signing off.
+02:30:43 S -S- stream #1 Req #10187 DSK:(OPER)FRELOG=DSK:(OPER)FREE.CTL
+02:30:55 S Processor status JSU EXECX Setup in frame 7
+02:30:56 P Waiting for interlock
+02:30:58 P Got interlock
+02:30:58 P EXECX Job Processor %1(225) starting in frame 7
+02:30:58 S Starting job processor in frame 7
+02:30:59 P Stream #1 Req #10187 DSK:(OPER)FRELOG=DSK:(OPER)FREE.CTL
+02:30:59 S -S- stream #2 Req #11326 DSK:(JMS)CHECK3.LOG=DSK:(JMS)CHECK3.CTL
+02:31:02 P Stream #2 Req #11326 DSK:(JMS)CHECK3.LOG=DSK:(JMS)CHECK3.CTL
+03:00:37 S 18-Aug-87
+03:15:07 S -S- run #2 job 3 Req #11327  Running DSK:(MAIL)MAILER.SAV
+03:15:18 S -R- run #2 job 3 Done-End <0>
+04:15:05 S -S- run #2 job 6 Req #11328  Running DSK:(MAIL)MAILER.SAV
+04:15:13 S -R- run #2 job 6 Done-End <0>
+05:15:08 S -S- run #2 job 10 Req #11329  Running DSK:(MAIL)MAILER.SAV
+05:15:14 S -R- run #2 job 10 Done-End <0>
+06:00:50 S 18-Aug-87
+06:15:03 S -S- run #2 job 6 Req #11330  Running DSK:(MAIL)MAILER.SAV
+06:15:12 S -R- run #2 job 6 Done-End <0>
+06:59:09 P Stream #2 Req #11326 * completed *
+06:59:14 S -R- stream #2 Done-End <0>
+07:13:02 S -S- stream #2 Req #11299 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+07:13:04 P Stream #2 Req #11299 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+07:15:01 S -S- run #2 job 6 Req #11331  Running DSK:(MAIL)MAILER.SAV
+07:15:10 S -R- run #2 job 6 Done-End <0>
+07:16:41 P Stream #2 Req #11299 * completed *
+07:16:43 S -R- stream #2 Done-End <0>
+07:45:03 S -S- stream #2 Req #11300 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+07:45:04 P Stream #2 Req #11300 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+07:50:17 P Stream #2 Req #11300 * completed *
+07:50:18 S -R- stream #2 Done-End <0>
+08:00:03 S -S- stream #2 Req #11332 DSK:(JMS)CHECK3.LOG=DSK:(JMS)CHECK3.CTL
+08:00:05 P Stream #2 Req #11332 DSK:(JMS)CHECK3.LOG=DSK:(JMS)CHECK3.CTL
+08:15:04 S -S- run #2 job 9 Req #11333  Running DSK:(MAIL)MAILER.SAV
+08:15:11 S -R- run #2 job 9 Done-End <0>
+09:00:34 S 18-Aug-87
+09:15:05 S -S- run #2 job 9 Req #11336  Running DSK:(MAIL)MAILER.SAV
+10:45:04 S -S- stream #3 Req #11306 DSK:(M33)XFER.LOG=DSK:(M33)XFER.CTL
+ #11337  Running DSK:(MAIL)MAILER.SAV
+10:45:10 P Stream #3 Req #11306 DSK:(M33)XFER.LOG=DSK:(M33)XFER.CTL
+11:15:02 S -S- run #2 job 10 Req #11338  Running DSK:(MAIL)MAILER.SAV
+11:15:11 S -R- run #2 job 10 Done-End <0>
+12:00:19 S 18-Aug-87
+12:12:57 P Stream #2 Req #11332 * completed *
+12:13:01 S -R- stream #2 Done-End <0>
+12:15:07 S -S- run #2 job 3 Req #11339  Running DSK:(MAIL)MAILER.SAV
+12:15:19 S -R- run #2 job 3 Done-End <0>
+12:16:33 P Stream #3 Req #11306 * completed *
+12:16:33 S -R- stream #3 Done-End <0>
+13:15:00 S -S- run #2 job 3 Req #11341  Running DSK:(MAIL)MAILER.SAV
+13:15:05 S -R- run #2 job 3 Done-End <0>
+14:15:01 S -S- run #2 job 3 Req #11343  Running DSK:(MAIL)MAILER.SAV
+14:15:06 S -R- run #2 job 3 Done-End <0>
+14:30:02 S -S- stream #2 Req #11311 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+14:30:06 P Stream #2 Req #11311 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+14:32:25 P Stream #2 Req #11311 * completed *
+14:32:25 S -R- stream #2 Done-End <0>
+15:00:02 S -S- stream #2 Req #11133 DSK:(SPPOPER)WARNG2.CTL
+15:00:06 P Stream #2 Req #11133 DSK:(SPPOPER)WARNG2.CTL
+15:00:33 S 18-Aug-87
+15:01:08 P Stream #2 Req #11133 * completed *
+15:01:08 S -R- stream #2 Done-End <0>
+15:15:03 S -S- run #2 job 3 Req #11344  Running DSK:(MAIL)MAILER.SAV
+15:15:08 S -R- run #2 job 3 Done-End <0>
+16:00:02 S -S- stream #2 Req #11314 DSK:(JMS)FNDALL.LOG=DSK:(JMS)FNDALL.CTL
+16:00:07 P Stream #2 Req #11314 DSK:(JMS)FNDALL.LOG=DSK:(JMS)FNDALL.CTL
+16:05:09 P Stream #2 Req #11314 * completed *
+16:05:12 S -R- stream #2 Done-End <0>
+16:15:02 S -S- run #2 job 6 Req #11347  Running DSK:(MAIL)MAILER.SAV
+16:15:08 S -R- run #2 job 6 Done-End <0>
+17:15:04 S -S- run #2 job 9 Req #11349  Running DSK:(MAIL)MAILER.SAV
+17:15:08 S -R- run #2 job 9 Done-End <0>
+17:44:30 S -S- stream #2 Req #11340 DSK:(JMS)CHECK3.LOG=DSK:(JMS)CHECK3.CTL
+17:44:34 P Stream #2 Req #11340 DSK:(JMS)CHECK3.LOG=DSK:(JMS)CHECK3.CTL
+18:00:18 S 18-Aug-87
+18:15:05 S -S- run #2 job 10 Req #11350  Running DSK:(MAIL)MAILER.SAV
+18:15:11 S -R- run #2 job 10 Done-End <0>
+19:15:05 S -S- run #2 job 13 Req #11351  Running DSK:(MAIL)MAILER.SAV
+19:15:22 S -R- run #2 job 13 Done-End <0>
+20:15:04 S -S- run #2 job 18 Req #11352  Running DSK:(MAIL)MAILER.SAV
+20:15:25 S -R- run #2 job 18 Done-End <0>
+20:36:39 P Stream #2 Req #11340 * completed *
+20:36:45 S -R- stream #2 Done-End <0>
+21:00:54 S 18-Aug-87
+21:15:03 S -S- run #2 job 3 Req #11353  Running DSK:(MAIL)MAILER.SAV
+22:41:18 S -S- stream #2 Req #11357 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+ Running DSK:(MAIL)MAILER.SAV
+22:41:22 P Stream #2 Req #11357 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+22:44:14 P Stream #2 Req #11357 * completed *
+22:44:21 S -R- stream #2 Done-End <0>
+23:00:18 S -S- stream #2 Req #11358 DSK:(DENCOFF)RPGINI.LOG=DSK:(DENCOFF)RPGINI.CTL
+23:00:25 P Stream #2 Req #11358 DSK:(DENCOFF)RPGINI.LOG=DSK:(DENCOFF)RPGINI.CTL
+23:00:39 P Stream #2 Req #11358 * completed - :STOP at line 10 *
+23:00:43 S -R- stream #2 Done-Stop <0>
+23:02:32 S -S- stream #2 Req #11359 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+23:02:39 P Stream #2 Req #11359 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+23:06:30 P Stream #2 Req #11359 * completed *
+23:06:37 S -R- stream #2 Done-End <0>
+23:15:06 S -S- run #2 job 3 Req #11356  Running DSK:(MAIL)MAILER.SAV
+23:15:24 S -R- run #2 job 3 Done-End <0>
+23:16:00 S -S- stream #2 Req #11361 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+23:16:03 P Stream #2 Req #11361 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+23:19:39 P Stream #2 Req #11361 * completed *
+23:19:43 S -R- stream #2 Done-End <0>
+23:35:08 S -S- stream #2 Req #11363 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+23:35:12 P Stream #2 Req #11363 DSK:(DENCOFF)TEST.LOG=DSK:(DENCOFF)TEST.CTL
+23:38:57 P Stream #2 Req #11363 * completed *
+23:39:04 S -R- stream #2 Done-End <0>
+23:56:39 S -S- stream #2 Req #11364 DSK:(CARL)PCOMAI.CTL
+23:56:42 P Stream #2 Req #11364 DSK:(CARL)PCOMAI.CTL
+00:00:39 S 19-Aug-87
