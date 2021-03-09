@@ -1,0 +1,343 @@
+
+  Parity:Odd  9-Track  Write enabled
+
+  BACKUP reel number 1; start save set: CUSTOMER SUP CUSPS
+    by version 4A(521) at  9:55:43 on  7-Mar-86
+    written on MTA263: on S/N 1026 at 1600 9-track
+    under TOPS-10 system 703(31030): RN256A DEC10 Development
+
+CUSSUP	DIR    24  <***>    7-Mar-86
+AID	EXE    80  <***>   16-Jul-80	20A(32)
+AID20A	DOC     3  <***>   12-Mar-79
+ARITH	MAC    72  <***>    9-Apr-79
+INTERP	MAC   276  <***>    9-Apr-79
+KMON	MAC    37  <***>   12-Mar-79
+BOOTDX	MAC    98  <***>    5-Sep-84
+A8DDT	TEC     8  <***>   28-Mar-79
+BOOTDX	HLP     4  <***>   15-Apr-80
+BOOTDX	EXE    28  <***>    5-Sep-84	3A(24)
+BOOTDX	DOC     3  <***>    5-Sep-84
+BOOTDX	MEM    13  <***>    9-Jul-80
+A8DDT	MEM    10  <***>    9-Jul-80
+BOOT11	DOC    10  <***>   27-Jul-79	4A(46)
+BOOT11	EXE    28  <***>   26-Jul-82	4A(46)
+BOOT11	HLP     2  <***>    5-Jan-75
+BOOT11	MAC   108  <***>   27-Jul-79
+BOOT11	MEM    29  <***>   27-Jul-79
+BOOTS	DOC    35  <***>   17-Jul-79
+BOOTS	EXB    10  <***>   26-Jul-82
+BOOTS	MAC    92  <***>   31-Jul-79
+BT128K	EXB    10  <***>   26-Jul-82
+BT256K	EXB    10  <***>   26-Jul-82
+WIBOOT	EXE    32  <***>   30-Nov-79	7(12)
+WLBOOT	EXE    32  <***>   30-Nov-79	7(12)
+WSBOOT	EXE    24  <***>   30-Nov-79	7(12)
+WTBOOT	DOC    18  <***>   28-Jun-79
+WTBOOT	MAC    29  <***>   20-Jul-79
+DML6A	DOC     3  <***>    7-Mar-79
+DMPFIL	EXE    16  <***>   16-Jul-80	6A(7)
+DMPFIL	MAC    34  <***>    7-Mar-79
+DMPFIL	MEM     5  <***>    8-Mar-79
+COPY	EXE     8  <***>   17-Jul-80	7(101)
+CPY007	DOC     4  <***>    8-Mar-79
+DTC007	DOC     3  <***>    8-Mar-79
+DTCOPY	EXE    20  <***>   17-Jul-80	7(101)
+DTCOPY	MAC    43  <***>    7-Mar-79
+DMP4	DOC    74  <***>    8-Mar-79
+DUMP	EXE    68  <***>   18-Jul-80	4(232)
+DUMP	MAC   265  <***>    8-Mar-79
+QUIKDM	CCL     6  <***>   13-Aug-72
+FACTOR	MAC    21  <***>   29-Sep-83
+FACTOR	DOC    10  <***>   29-Sep-83
+FACT	MEM    22  <***>   12-Mar-79
+FACTPR	EXE    16  <***>   16-Jul-80	2A(43)
+FACTPR	MAC    56  <***>   12-Mar-79
+FPR2A	DOC    12  <***>   15-Mar-79
+FAILSA	DOC    19  <***>    8-Mar-79
+FAILSA	EXE    32  <***>   16-Jul-80	101(47)
+FAILSA	HLP     6  <***>    7-Jun-72
+FAILSA	MAC   242  <***>   17-Oct-74
+FAILSA	OPR     4  <***>    7-Jun-72
+FILEX	EXE    56  <***>    2-Jan-86	20(62)
+FILEX	HLP     5  <***>   11-Jul-75
+FILEX	MAC   284  <***>    2-Jan-86
+FILEX	DOC     3  <***>    2-Jan-86
+GRIPE	EXE     8  <***>   16-Jul-80	4(43)
+GRIPE	HLP     1  <***>   16-Apr-74
+GRIPE	MAC    13  <***>    8-Mar-79
+GRIPE	MEM     5  <***>    8-Mar-79
+GRP4	DOC     5  <***>    8-Mar-79
+LINED	EXE    16  <***>   16-Jul-80	13B(22)
+LINED	MAC    56  <***>    9-Mar-79
+LND13B	DOC     3  <***>    9-Mar-79
+EXIST	MAC     4  <***>   22-Jul-77
+GRAPH1	EXE    20  <***>    2-Feb-78
+GRAPH1	FOR     8  <***>    6-Jan-78
+LINES	EXE    16  <***>    2-Feb-78	5(24)
+LINES	MAC    29  <***>   14-Dec-77
+LNSRPT	EXE    40  <***>    2-Feb-78
+LNSRPT	FOR    27  <***>   24-Jan-78
+LODTST	MEM    71  <***>   14-Feb-78
+LODAVE	EXE    12  <***>    2-Feb-78
+LODAVE	MAC     2  <***>   28-Jul-77
+LODCOR	EXE    12  <***>    2-Feb-78
+LODCOR	MAC     1  <***>   12-Jul-77
+LODCPU	EXE    12  <***>    2-Feb-78
+LODCPU	MAC     1  <***>   15-Nov-77
+LODIO	EXE    12  <***>    2-Feb-78
+LODIO	MAC     1  <***>   15-Nov-77
+LODOPN	EXE    12  <***>    2-Feb-78
+LODOPN	MAC     2  <***>   12-Jul-77
+LODPQ1	EXE    12  <***>    2-Feb-78
+LODPQ1	MAC     2  <***>   15-Nov-77
+LODSLP	EXE    12  <***>    2-Feb-78
+LODSLP	MAC     1  <***>   15-Nov-77
+LODTST	CTL     5  <***>    2-Feb-78
+LODTST	EXE    16  <***>   20-Feb-78
+LODTST	MAC    43  <***>   20-Feb-78
+LODUNV	MAC    36  <***>   14-Dec-77
+PERFOR	CTL     4  <***>    2-Feb-78
+PERFOR	MEM    47  <***>   14-Feb-78
+MIC	EXE    68  <***>   26-Sep-85	11C(1233)
+MICDDT	MAC     1  <***>   19-Jun-81
+MIC	RNH     4  <***>    1-Jun-82
+C	MIC     1  <***>    3-Nov-82
+MICUG	RNO    39  <***>   26-Jan-83
+LNKDDT	MIC     1  <***>   14-Feb-83
+MICIMG	RND    13  <***>   25-Apr-83
+MICOPS	RNP    20  <***>   25-Apr-83
+MICREF	RNO   121  <***>   16-May-83
+COJOB	RND    22  <***>   25-Apr-83
+MIC	MAC   476  <***>   26-Sep-85
+MIC	HLP     4  <***>    8-Jun-83
+MICUG	MEM    44  <***>    8-Jun-83
+MICIMG	DOC    15  <***>    8-Jun-83
+MICOPS	OPR    21  <***>    8-Jun-83
+MICREF	MEM   153  <***>    8-Jun-83
+COJOB	DOC    25  <***>    8-Jun-83
+MNY17B	DOC     5  <***>    9-Mar-79
+MONEY	EXE    16  <***>   16-Jul-80	17B(23)
+MONEY	MAC    43  <***>    9-Mar-79
+CBLCOM	CTL     5  <***>    4-Aug-77
+II	CTL    20  <***>   10-Jul-75
+STATUS	CTL     3  <***>    9-Nov-78
+CPYSYS	CTL     2  <***>    4-Aug-77
+PARIO	CTL     2  <***>    4-Aug-77
+LOGLOG	CTL     2  <***>    4-Aug-77
+TECMAC	CTL     4  <***>    4-Aug-77
+SHRH1	CTL     4  <***>    4-Aug-77
+SHRH2	CTL     4  <***>    4-Aug-77
+TTUSR1	CTL     3  <***>    4-Aug-77
+TTUSR2	CTL     2  <***>    4-Aug-77
+PAGUUO	CTL     2  <***>    4-Aug-77
+BUFIO	CTL     2  <***>    4-Aug-77
+SIMUPD	CTL     6  <***>   24-May-79
+ENQDEQ	CTL     2  <***>    4-Aug-77
+BASTST	CTL     8  <***>    4-Aug-77
+LINFOR	CTL     6  <***>    4-Aug-77
+SOSFOR	CTL     6  <***>    4-Aug-77
+MONTST	CTL     5  <***>   25-Mar-80
+UPDATE	CTL     2  <***>   25-Mar-80
+HISEG	HGH    36  <***>   10-Jul-75	(4)
+PAGUUO	EXE    64  <***>   17-Apr-77	2(12)
+BUFIO	EXE    52  <***>   23-Jul-75	1
+UPDATE	EXE     8  <***>   28-Apr-76
+WRTUPD	EXE    12  <***>    7-Jul-78	1(5)
+REDUPD	EXE    48  <***>   23-Jul-75	1
+ENQDEQ	EXE    20  <***>    7-Dec-78	1(11)
+MTCOPY	EXE    60  <***>   16-Feb-83	3(63)
+MTCOPY	HLP     2  <***>    9-Jan-72
+MTCOPY	MAC    32  <***>    9-Mar-79
+MTY3	DOC     5  <***>    9-Mar-79
+OMOUNT	EXE    60  <***>   26-Jul-82	27(205)
+OMOUNT	DOC    66  <***>   15-Jul-80
+OMOUNT	MAC   427  <***>    4-Jun-80
+OMOUNT	HLP    32  <***>   26-Dec-74
+NOPAG0	EXE     8  <***>   18-Apr-84	1(1)
+NOPAG0	MAC     6  <***>   18-Apr-84
+NPG1	DOC     3  <***>    3-Oct-78
+NRT	MAC   519  <***>   14-May-85
+NETDAT	FOR    14  <***>    2-May-82
+NRT	MAN    76  <***>   14-Feb-84
+NRT	PLM   129  <***>   10-Jun-83
+NRT	EXE    84  <***>   21-Nov-83	4(212)
+PAL10	CTL     3  <***>   21-Feb-79
+PAL10	EXE    28  <***>   26-Jul-82	144(144)
+PAL10	MAC   149  <***>   19-Feb-79
+PATH	DOC     3  <***>   31-Aug-84
+PATH	EXE   108  <***>    6-Sep-84	3(25)
+PATH	HLP    14  <***>   30-Aug-84
+PATH	MAC   174  <***>    6-Sep-84
+QMANGR	CTL     3  <***>   29-Mar-85
+QMANGR	MAC   112  <***>   16-Sep-85
+QMANGR	EXE    28  <***>   29-Jan-86	105(2263)
+QUENCH	MAC   165  <***>   13-Sep-85
+REATTA	EXE     8  <***>   16-Jul-80	3(3)
+REATTA	MAC    16  <***>    9-Mar-79
+RTA3	DOC     3  <***>    9-Mar-79
+REDALL	CCO     5  <***>   10-Feb-71
+REDALL	EXE    12  <***>   16-Jul-80	6(1)
+REDALL	MAC    21  <***>   15-Mar-79
+WPS	EXE    20  <***>   11-Nov-85
+DOS210	EXE    12  <***>   11-Nov-85
+ASC210	EXE    20  <***>   11-Nov-85	1(1)
+ASC211	EXE    20  <***>   11-Nov-85	1(1)
+RTFLX	EXE    28  <***>   11-Nov-85	2(106)
+RX20	INS     5  <***>   11-Nov-85
+RX20	DOC    32  <***>   17-Sep-84
+RTFLX	HLP     8  <***>   11-Nov-85
+SCRIPT	EXE    44  <***>   17-Jul-80	16(102)
+SCRIPT	MAC   139  <***>    9-Mar-79
+SCRIPT	MEM    38  <***>    9-Mar-79
+SCT014	DOC    19  <***>    9-Mar-79
+SDLCNV	DOC     3  <***>   14-Dec-79
+SDLCNV	EXE    12  <***>   18-Jul-80	1
+SDLCNV	HLP     2  <***>   14-Dec-79
+SDLCNV	MAC    18  <***>    6-Dec-79
+SOSLOD	CCL     1  <***>   25-Nov-85
+SOSGLB	MIC     1  <***>    4-Dec-85
+SOSMCR	RND    13  <***>    3-Dec-85
+SOS	RND    18  <***>    5-Dec-85
+SOS	RNM   161  <***>   16-Dec-85
+SOSOLD	EDT    59  <***>   10-Nov-85
+SOS23	MAN   343  <***>   16-Dec-85
+SOSREF	MEM    28  <***>    4-Dec-85
+SOSALT	MAC    78  <***>   10-Nov-85
+SOSBUF	MAC    84  <***>   10-Nov-85
+SOSCMD	MAC    56  <***>   10-Nov-85
+SOSCPY	MAC    31  <***>   10-Nov-85
+SOSDAT	MAC    36  <***>   10-Nov-85
+SOSEND	MAC    88  <***>   10-Nov-85
+SOSERR	MAC    29  <***>   10-Nov-85
+SOSFAS	MAC    67  <***>   10-Nov-85
+SOSINI	MAC    84  <***>   10-Nov-85
+SOSJUS	MAC    24  <***>   10-Nov-85
+SOSLIN	MAC    32  <***>   10-Nov-85
+SOSLST	MAC    49  <***>   10-Nov-85
+SOSMAC	MAC    23  <***>   10-Nov-85
+SOSSCN	MAC    31  <***>   10-Nov-85
+SOSSET	MAC    58  <***>   10-Nov-85
+SOSSYM	MAC    38  <***>   10-Nov-85
+SOSVER	MAC     1  <***>   10-Nov-85
+SOSTCS	MAC    18  <***>   25-Nov-85
+SOSXLT	MAC    91  <***>   25-Nov-85
+SOS	CTL     3  <***>   17-Dec-85
+SOS	EXE   128  <***>   17-Dec-85	23E(77)
+SOSMCR	DOC    14  <***>   17-Dec-85
+SOS	DOC    20  <***>   17-Dec-85
+SOS	MAN   197  <***>   17-Dec-85
+SOS	HLP     3  <***>   17-Dec-85
+SPACE	EXE    20  <***>   17-Jul-80	3(70)
+SPACE	HLP     1  <***>    1-Mar-72
+SPACE	MAC    45  <***>   12-Mar-79
+SPC3	DOC     6  <***>   15-Mar-79
+SPROUT	MAC   259  <***>   13-Nov-85
+SPROUT	EXE    44  <***>   13-Nov-85	4(2543)
+SPROUT	CTL     3  <***>   31-Oct-84
+STR1	DOC     3  <***>   12-Mar-79
+STRCNV	MAC    10  <***>   12-Mar-79
+STRDCL	MAC     9  <***>   12-Mar-79
+STRERR	MAC     6  <***>   12-Mar-79
+STRING	FOR     1  <***>    4-Sep-74
+STRLIB	MEM   157  <***>   12-Mar-79
+STRLIB	REL    39  <***>   11-Sep-74
+STRLOC	MAC     7  <***>   12-Mar-79
+STRUSR	MAC    50  <***>   12-Mar-79
+SYSINF	CTL     2  <***>   20-Sep-84
+INFLIB	MAC    35  <***>   14-Sep-80
+INFSYM	MAC9  <***>   29-Apr-85
+SYSINF	DOC     5  <***>   29-Aug-84
+SYSINF	EXE    40  <***>   29-Aug-84	3B(322)
+SYSINF	MAC   124  <***>   29-Aug-84
+SYSINF	LNK     1  <***>   29-Aug-84
+UMOUNT	EXE    44  <***>   26-Jul-82	26A(103)
+UMOUNT	MAC   240  <***>   17-Jun-75
+UMT26A	DOC    62  <***>   31-Jan-79
+UMOUNT	HLP     4  <***>   10-Jan-75
+UDISMO	HLP     3  <***>   10-Jan-75
+BLDCST	CTL    35  <***>   18-Jul-80
+  Total of 10427 blocks in 250 files
+
+  BACKUP reel number 1; end save set: CUSTOMER SUP CUSPS
+    by version 4A(521) at  9:57:24 on  7-Mar-86
+    written on MTA263: on S/N 1026 at 1600 9-track
+    under TOPS-10 system 703(31030): RN256A DEC10 Development
+
+
+  BACKUP reel number 1; start save set: CUSTOMER SUP MONITOR
+    by version 4A(521) at  9:57:25 on  7-Mar-86
+    written on MTA263: on S/N 1026 at 1600 9-track
+    under TOPS-10 system 703(31030): RN256A DEC10 Development
+
+72BLDA	CTL     4  <***>   31-Oct-78
+8CARDS	MAC    13  <***>    1-Nov-78
+BOOT	PAL    41  <***>   31-Oct-78
+BT71	PAL    40  <***>   14-Jan-77
+CCIINT	MAC    10  <***>   11-Sep-85
+CD2SER	MAC    24  <***>   11-Sep-85
+CDPSER	MAC    23  <***>   11-Sep-85
+CDRSER	MAC    25  <***>   11-Sep-85
+CLDR	PAL     5  <***>   14-Jan-75
+DC72CK	MEM    86  <***>    7-Dec-78
+DC72NP	DOC     4  <***>    7-Dec-78
+DC72NP	PAL   328  <***>   24-Oct-78
+DCRSER	MAC    18  <***>   11-Sep-85
+DUMP	PAL     7  <***>   31-Oct-78
+DC7515	CTL     1  <***>   27-May-80
+DNCDDP	P11     8  <***>   16-Jan-80
+DNCDDS	P11    13  <***>   16-Jan-80
+DC76	CTL     2  <***>    7-Jan-75
+DC76	P11   113  <***>   14-Jan-77
+DC7621	DOC    11  <***>    8-Dec-78
+DN92	CTL     1  <***>   26-Sep-78
+DN92	DOC    39  <***>   28-Apr-78
+DN92	PAL   353  <***>   24-Mar-81
+DN9210	DOC     8  <***>   28-Apr-78
+D6DINT	MAC    20  <***>   11-Sep-85
+D76INT	MAC    21  <***>   11-Sep-85
+D78INT	MAC    95  <***>   11-Sep-85
+D8EINT	MAC    53  <***>   27-Nov-85
+D85INT	MAC    27  <***>   11-Sep-85
+D8RINT	MAC   164  <***>   25-Sep-85
+KSDMR	DOC    51  <***>   26-Jul-83
+DATDMP	MAC    36  <***>   28-Sep-83
+DISSER	MAC    20  <***>   11-Sep-85
+DLSINT	MAC    12  <***>   11-Sep-85
+DPXKON	MAC    26  <***>   11-Sep-85
+DTASER	MAC    86  <***>   11-Sep-85
+FHXKON	MAC    18  <***>   11-Sep-85
+FSXKON	MAC    13  <***>   11-Sep-85
+FTDLS1	MAC     1  <***>   11-Sep-85
+KASER	MAC    17  <***>   11-Sep-85
+KISER	MAC    45  <***>   11-Sep-85
+KONFIG	MAC     2  <***>   26-Sep-83
+METCON	MAC    44  <***>   11-Sep-85
+PLTSER	MAC     6  <***>   11-Sep-85
+PPSSER	MAC    13  <***>   11-Sep-85
+PRSSER	MAC    10  <***>   11-Sep-85
+PTRSER	MAC     7  <***>   11-Sep-85
+PTPSER	MAC    11  <***>   11-Sep-85
+RX2SER	MAC    52  <***>   13-Nov-85
+SYSCHK	MAC   103  <***>   11-Sep-85
+TX1KON	MAC    86  <***>   10-Oct-85
+L680	PAL     6  <***>   11-Feb-71
+L680	RIM     6  <***>   11-Feb-71
+M680	MAC    27  <***>   21-Aug-75
+P680	PAL    74  <***>   21-Apr-71
+X680	BIN    27  <***>   21-Aug-75
+X680	OPR     1  <***>   13-Apr-71
+X6801A	DOC     5  <***>    3-Oct-78
+TCXKON	MAC    32  <***>   11-Sep-85
+TMXKON	MAC    34  <***>   11-Sep-85
+TYPSER	MAC    39  <***>   11-Sep-85
+UNSUP	FIL     3  <***>    6-Mar-86
+VBCSER	MAC    21  <***>   11-Sep-85
+XTCSER	MAC   390  <***>   11-Sep-85
+  Total of 2881 blocks in 64 files
+
+  BACKUP reel number 1; end save set: CUSTOMER SUP MONITOR
+    by version 4A(521) at  9:57:55 on  7-Mar-86
+    written on MTA263: on S/N 1026 at 1600 9-track
+    under TOPS-10 system 703(31030): RN256A DEC10 Development
+
+     #§
