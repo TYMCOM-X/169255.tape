@@ -1,0 +1,340 @@
+!DELETE XEXECX.fdm
+
+
+!R (NFDM)FDM
+
+[FDM File Utility %0.7]
+
+FDM> OPEN XEXECX.fdm
+[New file: XEXECX.FDM]
+0 files, 0 words in master file.
+
+FDM> READ XFER.CTL
+
+Reading files:
+XFER   CTL         162    YAVZEV [ok]
+
+FDM> READ XEXEC.CMD,XEXEC.INF,XEXEC.PAR,XEXEC.REQ,XEXEC.SAI
+
+Reading files:
+XEXEC  CMD           9    GAMHEW [ok]
+XEXEC  INF        1033    SIMXEG [ok]
+XEXEC  PAR          27    CEXKUX [ok]
+XEXEC  REQ          32    MIDJOJ [ok]
+XEXEC  SAI        6637    NUQCEY [ok]
+
+FDM> READ EXECX.CMD,EXECX.INF,EXECX.SAI
+
+Reading files:
+EXECX  CMD          13    LOTDUT [ok]
+EXECX  INF        1085    QIBGOW [ok]
+EXECX  SAI       12073    YOJYIZ [ok]
+
+FDM> READ JQUEUE.TXT,JQUEUE.DEF
+
+Reading files:
+JQUEUE TXT        1603    HANHAT [ok]
+JQUEUE DEF        2359    BENRIJ [ok]
+
+FDM> READ JQUE.REQ,JQUE.DEF,JQUE.SAI
+
+Reading files:
+JQUE   REQ         144    PEKBAK [ok]
+JQUE   DEF         256    KUQJIT [ok]
+JQUE   SAI        5234    COWWUP [ok]
+
+FDM> READ VMFILE.REQ,VMFILE.DEF,VMFILE.SAI
+
+Reading files:
+VMFILE REQ         191    KEXDEH [ok]
+VMFILE DEF         280    FIQBAK [ok]
+VMFILE SAI        7272    FEGVAR [ok]
+
+FDM> READ DAYTIM.REQ,DAYTIM.SAI
+
+Reading files:
+DAYTIM REQ         146    HAQHUX [ok]
+DAYTIM SAI        1656    BALLOG [ok]
+
+FDM> READ XEXSUB.REQ,XEXSUB.SAI
+
+Reading files:
+XEXSUB REQ         221    TEVPAJ [ok]
+XEXSUB SAI        2063    ZAQTUQ [ok]
+
+FDM> READ XEXINT.REQ,XEXINT.SAI
+
+Reading files:
+XEXINT REQ         147    VICKAX [ok]
+XEXINT SAI         643    VIJVUF [ok]
+
+FDM> READ ESCTRP.REQ,ESCTRP.SAI
+
+Reading files:
+ESCTRP REQ         174    FULVEX [ok]
+ESCTRP SAI         420    NIFKIM [ok]
+
+FDM> READ FRMTRP.REQ,FRMTRP.SAI
+
+Reading files:
+FRMTRP REQ         258    VULVAB [ok]
+
+FDM> READ VMFILE.004,VMFILE.DOC
+
+Reading files:
+VMFILE 004        6925    PUXMOZ [ok]
+VMFILE DOC         509    TOJPEP [ok]
+
+FDM> READ (HELGEM)NEXTIM.REQ
+
+Reading files:
+(HELGEM)NEXTIM REQ          40    CERGER [ok]
+
+FDM> READ (HELGEM)NEXTIM.SAI
+
+Reading files:
+(HELGEM)NEXTIM SAI        3878    SIFWEW [ok]
+
+FDM> READ (HELGEM)SUBMIT.DEF
+
+Reading files:
+(HELGEM)SUBMIT DEF         368    LESTEF [ok]
+
+FDM> READ (HELGEM)SUBMIT.SAI
+
+Reading files:
+(HELGEM)SUBMIT SAI       17142    TUQMIR [ok]
+
+FDM> READ (HELGEM)PARSER.SAI
+
+Reading files:
+(HELGEM)PARSER SAI        4378    YADBEM [ok]
+
+FDM> READ (HELGEM)SUBMSC.REQ
+
+Reading files:
+(HELGEM)SUBMSC REQ         426    YUWLAV [ok]
+
+FDM> READ (HELGEM)SUBMSC.SAI
+
+Reading files:
+(HELGEM)SUBMSC SAI        4400    PECPAJ [ok]
+
+FDM> DIRECTORY
+
+Filename           Words  Date      Time      Checksum  (Edit)
+XFER.CTL             162  05-Jun-86 01:48:05  YAVZEV
+XEXEC.CMD              9  28-Jan-86 00:37:16  GAMHEW
+XEXEC.INF           1033  10-Jun-86 18:05:12  SIMXEG
+XEXEC.PAR             27  30-May-86 00:41:24  CEXKUX
+XEXEC.REQ             32  22-May-86 02:45:59  MIDJOJ
+XEXEC.SAI           6637  10-Jun-86 18:25:05  NUQCEY
+EXECX.CMD             13  28-Jan-86 00:46:13  LOTDUT
+EXECX.INF           1085  10-Jun-86 18:05:25  QIBGOW
+EXECX.SAI          12073  10-Jun-86 18:28:14  YOJYIZ
+JQUEUE.TXT          1603  27-May-86 19:17:45  HANHAT
+JQUEUE.DEF          2359  09-Jun-86 19:52:37  BENRIJ
+JQUE.REQ             144  08-Jun-86 14:59:14  PEKBAK
+JQUE.DEF             256  08-Jun-86 15:00:24  KUQJIT
+JQUE.SAI            5234  08-Jun-86 15:08:34  COWWUP
+VMFILE.REQ           191  07-Jun-86 19:23:37  KEXDEH
+VMFILE.DEF           280  07-Jun-86 18:55:35  FIQBAK
+VMFILE.SAI          7272  07-Jun-86 20:51:32  FEGVAR
+DAYTIM.REQ           146  21-Apr-86 22:13:14  HAQHUX
+DAYTIM.SAI          1656  24-Apr-86 21:28:57  BALLOG
+XEXSUB.REQ           221  03-Jun-86 13:13:31  TEVPAJ
+XEXSUB.SAI          2063  10-Jun-86 15:10:20  ZAQTUQ
+XEXINT.REQ           147  22-May-86 03:01:04  VICKAX
+XEXINT.SAI           643  22-May-86 02:49:21  VIJVUF
+ESCTRP.REQ           174  22-May-86 02:39:05  FULVEX
+ESCTRP.SAI           420  22-May-86 02:27:47  NIFKIM
+FRMTRP.REQ           258  22-May-86 02:24:10  VULVAB
+VMFILE.004          6925  17-Jan-86 00:15:09  PUXMOZ
+VMFILE.DOC           509  04-Jun-86 23:41:30  TOJPEP
+NEXTIM.REQ            40  18-Apr-86 02:55:03  CERGER
+NEXTIM.SAI          3878  05-Jun-86 20:03:38  SIFWEW
+SUBMIT.DEF           368  06-Jun-86 15:44:26  LESTEF
+SUBMIT.SAI         17142  11-Jun-86 17:15:20  TUQMIR
+PARSER.SAI          4378  10-Jun-86 13:34:19  YADBEM
+SUBMSC.REQ           426  06-Jun-86 13:15:07  YUWLAV
+SUBMSC.SAI          4400  06-Jun-86 13:18:01  PECPAJ
+
+FDM> EXIT
+
+[Master file XEXECX.FDM closed.]
+35 files, 82554 words in master file.
+
+End of FDM execution.
+
+!DO COPY
+
+Copy - A Telecopy Slave Driver
+[Version 14.1 (50) 4-May-1983]
+X62 12-Jun-86 00:02
+
+File(s): XEXECX.fdm
+Copy to user name [CARL]: CARL
+Copy to system(s) [all]: 930,54,35
+Supersede existing files? [N]Y
+[Superseding existing files]
+[Telecopy started in frame 5]
+!;[End of XFER.CTL Transferring XEXECX.fdm to system(s) 930,54,35]
+!LOGOUT
+49.22 tru
+terminal time: 0:02:06
+!DAYTIME
+13-JUN-1986 00:13:19 PDT
+
+!DELETE XEXECX.fdm
+
+NO FILES SATISFYING REQUEST
+
+!R (NFDM)FDM
+
+[FDM File Utility %0.7]
+
+FDM> OPEN XEXECX.fdm
+[New file: XEXECX.FDM]
+0 files, 0 words in master file.
+
+FDM> READ XFER.CTL
+
+Reading files:
+XFER   CTL         164    TIPLOT [ok]
+
+FDM> READ XEXEC.CMD,XEXEC.INF,XEXEC.PAR,XEXEC.REQ,XEXEC.SAI
+
+Reading files:
+XEXEC  CMD           9    GAMHEW [ok]
+XEXEC  INF        1033    SIMXEG [ok]
+XEXEC  PAR          27    CEXKUX [ok]
+XEXEC  REQ          32    MIDJOJ [ok]
+XEXEC  SAI        6637    NUQCEY [ok]
+
+FDM> READ EXECX.CMD,EXECX.INF,EXECX.SAI
+
+Reading files:
+EXECX  CMD          13    LOTDUT [ok]
+EXECX  INF        1085    QIBGOW [ok]
+EXECX  SAI       12073    YOJYIZ [ok]
+
+FDM> READ JQUEUE.TXT,JQUEUE.DEF
+
+Reading files:
+JQUEUE TXT        1603    HANHAT [ok]
+JQUEUE DEF        2359    BENRIJ [ok]
+
+FDM> READ JQUE.REQ,JQUE.DEF,JQUE.SAI
+
+Reading files:
+JQUE   REQ         144    PEKBAK [ok]
+JQUE   DEF         256    KUQJIT [ok]
+JQUE   SAI        5234    COWWUP [ok]
+
+FDM> READ VMFILE.REQ,VMFILE.DEF,VMFILE.SAI
+
+Reading files:
+VMFILE REQ         191    KEXDEH [ok]
+VMFILE DEF         280    FIQBAK [ok]
+VMFILE SAI        7272    FEGVAR [ok]
+
+FDM> READ DAYTIM.REQ,DAYTIM.SAI
+
+Reading files:
+DAYTIM REQ         146    HAQHUX [ok]
+DAYTIM SAI        1656    BALLOG [ok]
+
+FDM> READ XEXSUB.REQ,XEXSUB.SAI
+
+Reading files:
+XEXSUB REQ         221    TEVPAJ [ok]
+XEXSUB SAI        2063    ZAQTUQ [ok]
+
+FDM> READ XEXINT.REQ,XEXINT.SAI
+
+Reading files:
+XEXINT REQ         147    VICKAX [ok]
+XEXINT SAI         643    VIJVUF [ok]
+
+FDM> READ ESCTRP.REQ,ESCTRP.SAI
+
+Reading files:
+ESCTRP REQ         174    FULVEX [ok]
+ESCTRP SAI         420    NIFKIM [ok]
+
+FDM> READ FRMTRP.REQ,FRMTRP.SAI
+
+Reading files:
+FRMTRP REQ         258    VULVAB [ok]
+
+FDM> READ VMFILE.004,VMFILE.DOC
+
+Reading files:
+VMFILE 004        6925    PUXMOZ [ok]
+VMFILE DOC         509    TOJPEP [ok]
+
+FDM> READ (HELGEM)NEXTIM.REQ
+
+Reading files:
+(HELGEM)NEXTIM REQ          40    CERGER [ok]
+
+FDM> READ (HELGEM)NEXTIM.SAI
+
+Reading files:
+(HELGEM)NEXTIM SAI        3878    SIFWEW [ok]
+
+FDM> READ (HELGEM)SUBMIT.DEF
+
+Reading files:
+(HELGEM)SUBMIT DEF         368    LESTEF [ok]
+
+FDM> READ (HELGEM)SUBMIT.SAI
+
+Reading files:
+(HELGEM)SUBMIT SAI       17130    ZEZDAV [ok]
+
+FDM> READ (HELGEM)PARSER.SAI
+
+Reading files:
+(HELGEM)PARSER SAI        4378    YADBEM [ok]
+
+FDM> READ (HELGEM)SUBMSC.REQ
+
+Reading files:
+(HELGEM)SUBMSC REQ         426    YUWLAV [ok]
+
+FDM> READ (HELGEM)SUBMSC.SAI
+
+Reading files:
+(HELGEM)SUBMSC SAI        4400    PECPAJ [ok]
+
+FDM> DIRECTORY
+
+Filename           Words  Date      Time      Checksum  (Edit)
+XFER.CTL             164  12-Jun-86 21:42:32  TIPLOT
+XEXEC.CMD              9  28-Jan-86 00:37:16  GAMHEW
+XEXEC.INF           1033  10-Jun-86 18:05:12  SIMXEG
+XEXEC.PAR             27  30-May-86 00:41:24  CEXKUX
+XEXEC.REQ             32  22-May-86 02:45:59  MIDJOJ
+XEXEC.SAI           6637  10-Jun-86 18:25:05  NUQCEY
+EXECX.CMD             13  28-Jan-86 00:46:13  LOTDUT
+EXECX.INF           1085  10-Jun-86 18:05:25  QIBGOW
+EXECX.SAI          12073  10-Jun-86 18:28:14  YOJYIZ
+JQUEUE.TXT          1603  27-May-86 19:17:45  HANHAT
+JQUEUE.DEF          2359  09-Jun-86 19:52:37  BENRIJ
+JQUE.REQ             144  08-Jun-86 14:59:14  PEKBAK
+JQUE.DEF             256  08-Jun-86 15:00:24  KUQJIT
+JQUE.SAI            5234  08-Jun-86 15:08:34  COWWUP
+VMFILE.REQ           191  07-Jun-86 19:23:37  KEXDEH
+VMFILE.DEF           280  07-Jun-86 18:55:35  FIQBAK
+VMFILE.SAI          7272  07-Jun-86 20:51:32  FEGVAR
+DAYTIM.REQ           146  21-Apr-86 22:13:14  HAQHUX
+DAYTIM.SAI          1656  24-Apr-86 21:28:57  BALLOG
+XEXSUB.REQ           221  03-Jun-86 13:13:31  TEVPAJ
+XEXSUB.SAI          2063  10-Jun-86 15:10:20  ZAQTUQ
+XEXINT.REQ           147  22-May-86 03:01:04  VICKAX
+XEXINT.SAI           643  22-May-86 02:49:21  VIJVUF
+ESCTRP.REQ           174  22-May-86 02:39:05  FULVEX
+ESCTRP.SAI           420  22-May-86 02:27:47  NIFKIM
+FRMTRP.REQ           258  22-May-86 02:24:10  VULVAB
+VMFILE.004          6925  1
