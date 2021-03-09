@@ -1,0 +1,44 @@
+00:00:56 S 21-Aug-87
+00:15:01 S -S- run #2 job 7 Req #11436  Running DSK:(MAIL)MAILER.SAV
+00:15:08 S -R- run #2 job 7 Done-End <0>
+01:15:04 S -S- run #2 job 5 Req #11437  Running DSK:(MAIL)MAILER.SAV
+01:15:09 S -R- run #2 job 5 Done-End <0>
+02:15:01 S -S- run #2 job 6 Req #11438  Running DSK:(MAIL)MAILER.SAV
+02:15:08 S -R- run #2 job 6 Done-End <0>
+07:38:27 S ** 21-Aug-87 XEXEC %1(214) in frame 4 ** user PERPOPER **
+07:38:27 S run #1 job 1 is lost.
+07:38:28 S -S- run #1 job 3 Req #9209  Running DSK:(PJ)PAM.HGH
+07:38:29 S -S- run #2 job 5 Req #11439  Running DSK:(MAIL)MAILER.SAV
+07:38:36 S -R- run #2 job 5 Done-End <0>
+07:38:37 S -S- stream #1 Req #11416 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+07:38:49 S Processor status JSU EXECX Setup in frame 5
+07:38:50 P Waiting for interlock
+07:38:51 P Got interlock
+07:38:51 P EXECX Job Processor %1(225) starting in frame 5
+07:38:52 S Starting job processor in frame 5
+07:38:52 P Stream #1 Req #11416 DSK:(JMS)MIDNIT.LOG=DSK:(JMS)MIDNIT.CTL
+07:39:51 S 21-Aug-87
+07:42:44 P Stream #1 Req #11416 * completed *
+07:42:45 S -R- stream #1 Done-End <0>
+07:45:02 S -S- stream #1 Req #11417 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+07:45:08 P Stream #1 Req #11417 DSK:(JMS)SZRPT.LOG=DSK:(JMS)SZRPT.CTL
+07:51:14 P Stream #1 Req #11417 * completed *
+07:51:17 S -R- stream #1 Done-End <0>
+08:07:02 P Signing off.
+08:15:02 S -S- run #2 job 1 Req #11438  Running DSK:(MAIL)MAILER.SAV
+08:15:08 S -R- run #2 job 1 Done-End <0>
+09:33:10 S ** 21-Aug-87 XEXEC %1(214) in frame 4 ** user PERPOPER **
+09:33:10 S run #1 job 3 is lost.
+09:33:11 S -S- run #1 job 1 Req #9209  Running DSK:(PJ)PAM.HGH
+09:33:12 S -S- run #2 job 5 Req #11441  Running DSK:(MAIL)MAILER.SAV
+09:33:18 S -R- run #2 job 5 Done-End <0>
+09:34:11 S 21-Aug-87
+10:15:02 S -S- run #2 job 6 Req #11441  Running DSK:(MAIL)MAILER.SAV
+10:15:07 S -R- run #2 job 6 Done-End <0>
+10:45:02 S -S- stream #1 Req #11422 DSK:(M33)XFER.LOG=DSK:(M33)XFER.CTL
+10:45:14 S Processor status JSU EXECX Setup in frame 3
+10:45:15 P Waiting for interlock
+10:45:16 P Got interlock
+10:45:16 P EXECX Job Processor %1(225) starting in frame 3
+10:45:17 S Starting job processor in frame 3
+10:45:17 P Stream #1 Req #11422 DSK:(M33)XFER.LOG=DSK:(M33)XFER.CTL
