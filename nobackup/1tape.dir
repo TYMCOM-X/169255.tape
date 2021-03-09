@@ -1,0 +1,920 @@
+
+Tape #1 from TITO version 16
+Written 27-May-87 21:43 GMT
+
+
+Saveset #1 from TITO version 16
+Written 27-May-87 21:43 GMT
+
+    1 ",_/JI.UFD   UFD           18-Jun-69 18:04  27-May-87 21:43     2 VAVVAV
+    2   !$3+.UFD   UFD           30-Aug-69 17:38  27-May-87 21:43     2 VAVVAV
+    3   #-SF.UFD   UFD           24-Jul-74 22:40  27-May-87 21:43     8 VAVVAV
+    4   & "X.UFD   UFD           18-Jun-69 21:33  27-May-87 21:43     6 VAVVAV
+    5   !___.UFD   UFD           27-May-87 21:42  27-May-87 21:43     1 VAVVAV
+    6   !  !.UFD   UFD           27-May-87 19:52  27-May-87 21:43     8 VAVVAV
+    7   #__^.UFD   UFD           27-May-86 00:12  27-May-87 21:43     2 VAVVAV
+   10   #  &.UFD   UFD           05-Jun-86 18:53  27-May-87 21:43     1 VAVVAV
+   11   !  >.UFD   UFD           18-Jun-69 17:47  27-May-87 21:43     1 VAVVAV
+   12   #=4_.UFD   UFD           24-Jul-74 22:40  27-May-87 21:43     8 VAVVAV
+   13   #:E5.UFD   UFD           25-Apr-73 11:23  27-May-87 21:43     8 VAVVAV
+   14   #;&).UFD   UFD           12-Mar-75 19:57  27-May-87 21:43     2 VAVVAV
+   15   #AQL.UFD   UFD           03-Jun-64 00:02  27-May-87 21:43     6 VAVVAV
+   16   !  ".UFD   UFD           21-Jan-87 02:25  27-May-87 21:43     1 VAVVAV
+   17   !1B..UFD   UFD           27-May-87 21:40  27-May-87 21:43     1 VAVVAV
+   20   #$7L.UFD   UFD           19-Aug-69 19:55  27-May-87 21:43     6 VAVVAV
+   21   !  1.UFD   UFD           22-Aug-69 23:33  27-May-87 21:43     2 VAVVAV
+   22 !,G)<-.UFD   UFD           21-Dec-64 21:27  27-May-87 21:43     1 VAVVAV
+   23   !  $.UFD   UFD           27-May-87 19:52  27-May-87 21:43     8 VAVVAV
+   24   #3&3.UFD   UFD           18-Jun-69 20:00  27-May-87 21:43     7 VAVVAV
+   25   #C)..UFD   UFD           24-Jul-74 22:34  27-May-87 21:43     8 VAVVAV
+   26   #A'U.UFD   UFD           12-May-64 21:37  27-May-87 21:43     7 VAVVAV
+   27   #1:).UFD   UFD           25-Feb-69 22:51  27-May-87 21:43     8 VAVVAV
+   30   #7JD.UFD   UFD           09-Jun-73 20:05  27-May-87 21:43     8 VAVVAV
+   31   '  &.UFD   UFD           29-May-86 19:48  27-May-87 21:43     1 VAVVAV
+   32   #  #.UFD   UFD           31-Mar-87 01:46  27-May-87 21:43     1 VAVVAV
+   33 SETOP .SAV   SYS           14-Aug-86 23:29  27-May-87 21:43     5 MOCXIQ
+   34 ACCESS.SAV   SYS           20-Jan-80 16:46  27-May-87 21:43    12 YEYBEF
+   35 PERFOR.SHR   SYS           14-Oct-75 20:49  27-May-87 21:43    14 QIXXUM
+   36 EDITOR.SHR   SYS           29-Jun-83 23:15  27-May-87 21:43    18 VAFCUV
+   37 LOGINN.SHR   SYS           18-Aug-86 03:57  27-May-87 21:43     5 FUDLIX
+   40 PIP   .SHR   SYS           25-Jan-77 22:22  27-May-87 21:43     8 GUNWOY
+   41 PIP   .LOW   SYS           25-Jan-77 22:23  27-May-87 21:43     2 KUHVUP
+   42 RPG   .SHR   SYS           15-Jan-87 20:48  27-May-87 21:43    14 RAKYIJ
+   43 MCODE .      SYS           11-Jan-80 00:44  27-May-87 21:43    13 WEXLIW
+   44 NODLOD.SAV   SYS           27-Jun-82 23:37  27-May-87 21:43    26 KAKPAH
+   45 2OPS2 .OPS   SYS           08-Aug-80 17:39  27-May-87 21:43     2 TEKCOB
+   46 LIBSA9.REL   SYS           01-Aug-80 18:03  27-May-87 21:43    55 GUNCIP
+   47 SORT  .SHR   SYS           19-Jul-77 22:59  27-May-87 21:43    16 JULPOB
+   50 SORT  .LOW   SYS           19-Jul-77 22:50  27-May-87 21:43     4 RONQAN
+   51 DSKMAP.SAV   SYS           18-May-80 16:47  27-May-87 21:43    11 CUKMAS
+   52 BKTBL .BKT   SYS           08-Aug-80 17:39  27-May-87 21:43     2 MAWBUN
+   53 ICPSYM.      SYS           05-Apr-85 05:31  27-May-87 21:43     2 TUKQAJ
+   54 SCAN  .SAV   SYS           23-Sep-80 19:42  27-May-87 21:43    22 REFHAC
+   55 DSKMAP.DAT   SYS           27-Dec-83 16:56  27-May-87 21:43     2 XUVQIG
+   56 RDMAIL.SAV   SYS           02-Jul-86 04:34  27-May-87 21:43     2 ZIJJAY
+   57 COPYPC.SAV   SYS           18-Feb-85 21:08  27-May-87 21:43    27 VUJXOV
+   60 XEXEC .CTL   SYS           18-Dec-86 19:38  27-May-87 21:43     2 KANWUB
+   61 XEXEC .SAV   SYS           07-Feb-87 10:06  27-May-87 21:43    51 QULRAB
+   62 PEECOM.SAV   SYS           10-Nov-86 01:06  27-May-87 21:43    16 ZUHLIZ
+   63 LOADFL.SAV   SYS           01-Jan-64 00:01  27-May-87 21:43     4 LAGGOS
+   64 LICRPT.SAV   SYS           17-Jan-78 17:55  27-May-87 21:43     3 SIWVUS
+   65 LNKERR.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    27 FABSEM
+   66 PIP   .HLP   SYS           20-Nov-80 13:46  27-May-87 21:43     2 DITHIB
+   67 UPDLUD.172   SYS           05-Jun-86 23:38  27-May-87 21:43    28 FEDCAP
+   70 DUSAGE.SAV   SYS           07-Jun-86 20:54  27-May-87 21:43    30 HOQRAS
+   71 UPDLUD.175   SYS           05-Jun-86 23:59  27-May-87 21:43    17 SAYBEY
+   72 UPDLUD.SAV   SYS           07-Jun-86 21:06  27-May-87 21:43    19 MEWTOF
+   73 EXECX .SAV   SYS           07-Feb-87 10:06  27-May-87 21:43    62 XOGZOP
+   74 XEXEC .WRS   SYS           14-Nov-85 22:59  27-May-87 21:43    31 GIKCIN
+   75 VUE   .LOW   SYS           21-Jan-87 01:50  27-May-87 21:43     2 GEMWAQ
+   76 VUE   .SHR   SYS           21-Jan-87 01:50  27-May-87 21:43    37 XOTNUD
+   77 UPDLUD.OLD   SYS           02-Nov-81 01:01  27-May-87 21:43    17 XUWGAD
+  100 DT    .SAV   SYS           07-Jun-76 15:09  27-May-87 21:43     2 ZOFLIF
+  101 TD    .SAV   SYS           21-Nov-76 19:34  27-May-87 21:43     2 FAYDEM
+  102 COBOLC.SHR   SYS           19-Jul-77 23:03  27-May-87 21:43    21 XERRAL
+  103 COBOL .SHR   SYS           19-Jul-77 23:03  27-May-87 21:43    15 BAYGAN
+  104 FORTB .SHR   SYS           08-Jun-82 23:37  27-May-87 21:43    55 QAVQOY
+  105 FORTB .LOW   SYS           24-Nov-81 21:37  27-May-87 21:43     2 PANDUC
+  106 FORTRA.SHR   SYS           24-Nov-81 21:37  27-May-87 21:43    18 VOTXEY
+  107 FORTRA.LOW   SYS           24-Nov-81 21:37  27-May-87 21:43     2 CUDWAK
+  110 FORTRA.HLP   SYS           24-Nov-81 21:37  27-May-87 21:43     2 WUBLIJ
+  111 TBALDR.LOW   SYS           10-Aug-81 00:10  27-May-87 21:43    19 QIXZUL
+  112 TBALDR.SHR   SYS           10-Aug-81 00:10  27-May-87 21:43    13 KILVIL
+  113 TBAREK.LOW   SYS           10-Aug-81 00:10  27-May-87 21:43     2 BASROX
+  114 TBAREK.SHR   SYS           10-Aug-81 00:10  27-May-87 21:43     6 DELDUV
+  115 COBOL .LOW   SYS           05-Aug-80 15:59  27-May-87 21:43     2 TOYYID
+  116 BAIIO2.SM1   SYS           08-Aug-80 17:39  27-May-87 21:43     2 CICSOV
+  117 BAIIO2.REL   SYS           08-Aug-80 17:39  27-May-87 21:43     4 JECJAZ
+  120 FTFORT.SAV   SYS           27-Aug-80 20:44  27-May-87 21:43     2 GUPGED
+  121 ACCESS.118   SYS           06-May-81 02:17  27-May-87 21:43     2 VEKDEY
+  122 LNEDIT.SHR   SYS           04-Oct-76 15:37  27-May-87 21:43    19 JUMTOS
+  123 L1600D.SAV   SYS           28-Jul-77 15:45  27-May-87 21:43    17 DURFEV
+  124 FORINI.REL   SYS           15-May-85 19:17  27-May-87 21:43     2 RUDNUD
+  125 DDT27 .SAV   SYS           19-Aug-80 23:34  27-May-87 21:43     9 YUMNIC
+  126 DDT27 .REL   SYS           01-Mar-79 19:17  27-May-87 21:43    13 BATHOH
+  127 UPDLUD.15    SYS           19-Nov-80 23:26  27-May-87 21:43    17 YUYYEN
+  130 RPG   .114   SYS           27-Aug-80 20:35  27-May-87 21:43    14 LUGVEK
+  131 EDITOR.35    SYS           01-Jul-79 00:04  27-May-87 21:43    17 WABZEZ
+  132 1022R .SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    33 BOMJAW
+  133 X22F  .SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    36 GOKPOC
+  134 X22T  .SHR   SYS           25-Sep-86 22:20  27-May-87 21:43    54 MIZQAM
+  135 1022R .FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 CEXWUL
+  136 X22F  .FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 TARCAQ
+  137 X22T  .FXL   SYS           25-Sep-86 22:20  27-May-87 21:43     2 QINXUQ
+  140 ACCESS.LIS   SYS           25-Nov-86 00:15  27-May-87 21:43     2 TEYYAC
+  141 20PASS.SAV   SYS           16-Jan-80 20:07  27-May-87 21:43    16 RAGKAX
+  142 SV642 .BK2   SYS           24-Feb-81 03:09  27-May-87 21:43    23 VOMVES
+  143 SV642 .BK1   SYS           23-Feb-81 19:58  27-May-87 21:43    23 QOTMIW
+  144 SV642 .BK3   SYS           24-Mar-82 04:07  27-May-87 21:43    23 RUKLUR
+  145 NODLOD.OLD   SYS           02-Nov-80 22:03  27-May-87 21:43    90 NEXHEP
+  146 SV6657.IMG   SYS           24-Jul-86 21:34  27-May-87 21:43    27 LUKZEW
+  147 LOADII.SAV   SYS           05-Dec-86 20:53  27-May-87 21:43    29 HIFGUM
+  150 SV1011.IMG   SYS           06-Aug-86 00:50  27-May-87 21:43    26 MERPUF
+  151 ACCESS.MSG   SYS           14-May-87 00:37  27-May-87 21:43     2 VATDAG
+  152 052887.DAT   SYS           27-May-87 21:40  27-May-87 21:43    11 ZETXAD
+  153 OPPS  .SAV   SYS           01-Jan-64 00:01  27-May-87 21:43     2 BUJNUT
+  154 FILCOM.SHR   SYS           27-Jun-82 23:36  27-May-87 21:43     5 RUSWUX
+  155 CHKPNT.SAV   SYS           10-Feb-87 01:34  27-May-87 21:43     5 BIGSIS
+  156 DDT   .REL   SYS           09-Aug-83 10:38  27-May-87 21:43    14 PAWTUS
+  157 DDT   .SAV   SYS           13-Sep-85 01:19  27-May-87 21:43    13 GEDSES
+  160 FNDFIL.SAV   SYS           12-Jan-77 21:39  27-May-87 21:43     2 GOTYOD
+  161 SAILOW.REL   SYS           02-Feb-83 01:23  27-May-87 21:43     7 PIMYEC
+  162 KMCLOD.SAV   SYS           24-Jul-80 21:46  27-May-87 21:43     2 KEVLEZ
+ ICP   .SAV   SYS           19-Aug-80 02:40  27-May-87 21:43    30 JUTREK
+  164 FRMDDT.SAV   SYS           09-Aug-83 10:43  27-May-87 21:43    10 GUYLUT
+  165 LNKDDT.REL   SYS           21-Aug-80 03:45  27-May-87 21:43     2 SOMKOH
+  166 FOROTS.SHR   SYS           15-May-85 20:32  27-May-87 21:43    16 MOJJEH
+  167 UUOSYM.UNV   SYS           02-Oct-85 05:22  27-May-87 21:43    17 RODHOC
+  170 TYPE  .SHR   SYS           26-Dec-85 08:48  27-May-87 21:43    18 VIMTEN
+  171 LEDLNK.      SYS           04-Jan-76 19:14  27-May-87 21:43     4 ZIMCEJ
+  172 LNKDDT.CMD   SYS           12-May-80 23:57  27-May-87 21:43     2 HIQYOR
+  173 LNK999.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43     9 LOWJIX
+  174 PASSWO.SAV   SYS           08-Oct-85 23:29  27-May-87 21:43    23 JIYGAB
+  175 LIBSAA.REL   SYS           02-Feb-83 01:36  27-May-87 21:43    60 JOTSIT
+  176 DUPLIC.SAV   SYS           22-May-68 01:00  27-May-87 21:43    19 DAMQAC
+  177 TUMS  .SAV   SYS           02-Jul-86 04:34  27-May-87 21:43     2 ZIJJAY
+  200 JQUEUE.SYS   SYS           27-May-87 21:40  27-May-87 21:43     7 KIFBOX
+  201 RERUN .HGH   SYS           19-Jul-77 23:01  27-May-87 21:43     3 JEDCOZ
+  202 COBOLD.SHR   SYS           19-Jul-77 23:03  27-May-87 21:43    23 XUPNEL
+  203 COBOLK.SHR   SYS           24-May-79 20:58  27-May-87 21:43    13 LIHNAZ
+  204 BATCH .SAV   SYS           20-Jan-80 17:46  27-May-87 21:43     6 DOMFAT
+  205 FORTC .SHR   SYS           24-Nov-81 21:37  27-May-87 21:43    40 TEBVAY
+  206 FORTC .LOW   SYS           24-Nov-81 21:37  27-May-87 21:43     2 DUXJEF
+  207 BAIL  .REL   SYS           08-Aug-80 17:39  27-May-87 21:43    37 KOTLUT
+  210 BAICLC.SM1   SYS           08-Aug-80 17:39  27-May-87 21:43     2 NOMSEN
+  211 BAICLC.REL   SYS           08-Aug-80 17:39  27-May-87 21:43     2 PAKSAS
+  212 COMPAC.SAV   SYS           25-Aug-80 22:20  27-May-87 21:43    32 RUYYUN
+  213 COMPAC.OVL   SYS           25-Aug-80 22:37  27-May-87 21:43    78 QIRCIX
+  214 COMPAC.INF   SYS           25-Aug-80 22:37  27-May-87 21:43    18 WEWHES
+  215 COMPAC.MES   SYS           25-Aug-80 22:50  27-May-87 21:43     7 GAXWOK
+  216 PUNCH .SAV   SYS           08-Aug-79 18:12  27-May-87 21:43    13 WOTZAB
+  217 TELAID.SHR   SYS           18-Nov-81 17:53  27-May-87 21:43    21 BAYWET
+  220 TELAID.LOW   SYS           18-Nov-81 17:53  27-May-87 21:43     4 HOMVIQ
+  221 XOBNPO.      SYS           29-Jun-83 06:53  27-May-87 21:43     1 VAVVAV
+  222 CISABX.DAT   SYS           17-Apr-85 19:00  27-May-87 21:43     2 QINXIM
+  223 AUXSPL.LOG   SYS           27-Mar-85 02:40  27-May-87 21:43     1 VAVVAV
+  224 LUDNAM.CCL   SYS           01-Jan-64 00:01  27-May-87 21:43     2 VOXGEF
+  225 PROFHI.SHR   SYS           06-Dec-77 16:01  27-May-87 21:43    14 MAGJIZ
+  226 PEU   .DAT   SYS           14-Jan-80 18:17  27-May-87 21:43     7 TUSKAS
+  227 CHKPNT.27    SYS           10-Feb-80 23:14  27-May-87 21:43     5 YIFPUZ
+  230 FILCOM.2     SYS           05-May-77 16:32  27-May-87 21:43     5 RAYYAB
+  231 CHKPNT.OLD   SYS           18-Apr-85 20:08  27-May-87 21:43     5 TUDPUP
+  232 1022C0.SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    57 KORKUV
+  233 NS1022.SHR   SYS           25-Sep-86 22:19  27-May-87 21:43   178 XATDUP
+  234 1022C0.FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 QUGVIX
+  235 NS1022.FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 GUYQUK
+  236 TBAULB.REL   SYS           10-Aug-81 00:11  27-May-87 21:43    30 YAVJUS
+  237 LP20FS.SAV   SYS           16-Nov-80 20:19  27-May-87 21:43     5 VIYFIW
+  240 PASSWO.SHR   SYS           23-Sep-80 19:29  27-May-87 21:43    16 JESRET
+  241 PASSWO.LOW   SYS           23-Sep-80 19:28  27-May-87 21:43     2 JAYPAH
+  242 NULL  .DAT   SYS           08-Jun-80 23:18  27-May-87 21:43     2 SUGBOX
+  243 COPYCR.SAV   SYS           04-Jun-81 00:29  27-May-87 21:43     2 QOHPUF
+  244 CREF  .SHR   SYS           18-Dec-75 00:23  27-May-87 21:43     4 JOSMIF
+  245 JOBDAT.REL   SYS           20-Sep-78 17:31  27-May-87 21:43     2 JOQMOK
+  246 TAKEIT.SAV   SYS           27-Jun-82 23:37  27-May-87 21:43    44 DAFSUV
+  247 KSFEFS.SAV   SYS           27-May-87 21:00  27-May-87 21:43     3 FOTROP
+  250 PAS   .SYS   SYS           12-Apr-87 20:56  27-May-87 21:43   223 BUXVEJ
+  251 ASP   .SAV   SYS           19-Jun-85 18:51  27-May-87 21:43     6 PUXDUG
+  252 GOGTAB.DEF   SYS           08-Aug-80 17:39  27-May-87 21:43     2 GUQBEY
+  253 OLDMON.SAV   SYS           06-Jan-86 02:39  27-May-87 21:43   162 MEQCEF
+  254 LAP   .      SYS           19-Jan-82 23:09  27-May-87 21:43     6 XUHLAX
+  255 LINK  .HLP   SYS           24-Nov-81 17:52  27-May-87 21:43     9 ZEHQUL
+  256 LINK  .SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    11 GESGOV
+  257 LNKSCN.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    18 SUKZAZ
+  260 LNKOV1.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    28 ZOJPUP
+  261 FILEX .HLP   SYS           29-May-86 20:48  27-May-87 21:43     3 WAKRUW
+  262 FILEX .SHR   SYS           29-May-86 20:47  27-May-87 21:43    13 VEGVID
+  263 TSTSUP.SAV   SYS           08-Dec-86 04:52  27-May-87 21:43    14 SOQGIC
+  264 LOGON .SHR   SYS           04-Dec-86 05:57  27-May-87 21:43    13 GEMZIY
+  265 TAKEIT.LOG   SYS           27-May-87 21:35  27-May-87 21:43     5 XAKDEL
+  266 LETTER.SAV   SYS           01-Jan-64 00:01  27-May-87 21:43     2 DUGFED
+  267 BIONIC.SAV   SYS           21-Nov-76 19:06  27-May-87 21:43     2 RAJSUG
+  270 SETTER.LOW   SYS           01-Jan-64 00:01  27-May-87 21:43     2 TAZZUP
+  271 SETTER.SHR   SYS           01-Jan-64 00:01  27-May-87 21:43    11 NULPUC
+  272 TAKEIT.OLD   SYS           17-Jul-80 23:21  27-May-87 21:43    44 DUVZAZ
+  273 COBOLE.SHR   SYS           19-Jul-77 23:03  27-May-87 21:43    32 WIGYUW
+  274 FORTD .SHR   SYS           24-Nov-81 21:37  27-May-87 21:43    69 RAZDOM
+  275 FORTD .LOW   SYS           24-Nov-81 21:37  27-May-87 21:43     2 YOHXEP
+  276 COPYCR.NEW   SYS           01-Oct-80 23:06  27-May-87 21:43     2 MAGQIL
+  277 FTXLIB.REL   SYS           05-Jan-81 22:08  27-May-87 21:43    94 FOWMOS
+  300 TRUCTL.SHR   SYS           10-Jul-83 17:14  27-May-87 21:43    21 KABBOR
+  301 TRUCTL.LOW   SYS           10-Jul-83 17:16  27-May-87 21:43     3 ZUJRUV
+  302 SPOOL .SAV   SYS           07-Jul-83 18:43  27-May-87 21:43    24 CAFPEK
+  303 LUDGAN.CCL   SYS           01-Jan-64 00:01  27-May-87 21:43     2 WUWVAT
+  304 PUB2  .SAV   SYS           25-Apr-76 21:34  27-May-87 21:43    20 ZUDPAV
+  305 L1600M.SAV   SYS           28-Jul-77 15:45  27-May-87 21:43    17 DELFAB
+  306 PRFGEN.REL   SYS           06-Dec-77 00:54  27-May-87 21:43     3 MEKTOL
+  307 FORFUN.REL   SYS           15-Oct-79 20:41  27-May-87 21:43     3 ZIXJEJ
+  310 PAS   .DAT   SYS           14-Jan-80 18:17  27-May-87 21:43    16 JOCVAD
+  311 COPYCR.3     SYS           01-Jan-64 18:54  27-May-87 21:43     2 NIVHAF
+  312 1022M .SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    35 KUGHAH
+  313 1022C1.SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    89 MIXXUM
+  314 HL1022.REL   SYS           25-Sep-86 22:18  27-May-87 21:43    67 QIHPUV
+  315 1022T .SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    50 COLNOL
+  316 1022F .SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    45 RUGMEK
+  317 1022F .FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 NEDQET
+  320 HL1022.FXL   SYS           25-Sep-86 22:18  27-May-87 21:43     2 WICCAG
+  321 1022C1.FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 BUVMOF
+  322 1022M .FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 MEYXOP
+  323 1022T .FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 QISPUX
+  324 CANCEL.SAV   SYS           19-Nov-86 23:19  27-May-87 21:43    24 SONCUN
+  325 UNDEL .LOW   SYS           29-Oct-81 01:07  27-May-87 21:43     5 WICDUQ
+  326 UNDEL .SHR   SYS           29-Oct-81 01:07  27-May-87 21:43    19 HEKTIW
+  327 UNDEL .DOC   SYS           29-Oct-81 01:08  27-May-87 21:43     2 JEJZEX
+  330 SV115 .IMG   SYS           14-Apr-86 23:09  27-May-87 21:43    28 KOCSOV
+  331 PAS   .118   SYS           10-Oct-85 23:28  27-May-87 21:43   221 XAVGON
+  332 SV6760.IMG   SYS           06-Aug-86 00:49  27-May-87 21:43    28 RAZSAM
+  333 SYSTEM.SAV   SYS           27-May-87 21:34  27-May-87 21:43   166 FEGHOX
+  334 LUD   .SYS   SYS           15-Apr-87 22:29  27-May-87 21:43   226 TONLUQ
+  335 DUL   .SYS   SYS           24-Feb-87 23:57  27-May-87 21:43    27 CIFVUK
+  336 OPER  .SAV   SYS           14-Aug-86 22:49  27-May-87 21:43     2 JAPGUJ
+  337 MACRO .HLP   SYS           21-Mar-77 18:29  27-May-87 21:43     2 PAYPEK
+  340 MACRO .SHR   SYS           28-Oct-79 22:01  27-May-87 21:43    15 GIVPOS
+  341 TIO   .SHR   SYS           29-Nov-76 01:05  27-May-87 21:43    22 XIZBEH
+  342 TIO   .LOW   SYS           29-Nov-76 01:09  27-May-87 21:43     2 DAHMAG
+  343 TIO   .HLP   SYS           29-Nov-76 01:09  27-May-87 21:43    11 FUJTUF
+  344 PROJEC.SAV   SYS           05-Apr-77 18:19  27-May-87 21:43     4 RIQMED
+  345 SZRPT .SAV   SYS           30-Sep-86 01:30  27-May-87 21:43     4 XIRWUZ
+  346 KSTLOD.DMP   SYS           16-Jan-80 19:49  27-May-87 21:43     2 GUZPEC
+  347 BOOTS .DMP   SYS           27-Oct-80 00:03  27-May-87 21:43     3 SEMNUF
+  350 LVALID.SAV   SYS           13-May-85 18:33  27-May-87 21:43    36 WAMVOF
+  351 TELECO.SAV   SYS           29-Mar-86 19:42  27-May-87 21:43    38 CACSEX
+  352 LUD   .MIN   SYS           28-Apr-80 23:25  27-May-87 21:43   223 TAYBOZ
+  353 LIBOL .REL   SYS           06-Jun-79 16:02  27-May-87 21:43    66 DIMHEM
+  354 LIBOL .SHR   SYS           01-Nov-77 21:29  27-May-87 21:43    17 VODQOM
+  355 LIBOL5.SHR   SYS           01-Jan-64 00:01  27-May-87 21:43    18 HIPSES
+  356 DUL   .MIN   SYS           28-Apr-80 23:26  27-May-87 21:43    27 NUZMOD
+  357 PEAK  .HLP   SYS           08-Aug-85 23:03  27-May-87 21:43     5 DIKZUD
+  360 PEAK  .SAV   SYS           14-Aug-85 00:03  27-May-87 21:43    67 JUPNEJ
+  361 PCOM  .SHR   SYS           26-Nov-86 02:16  27-May-87 21:43    51 HUHSIP
+  362 PCOM  .LOW   SYS           01-Jul-83 02:45  27-May-87 21:43     5 VAFSEF
+  363 PBTAPE.SAV   SYS           01-Jan-64 00:01  27-May-87 21:43     2 YEKLOG
+  364 LNKMAP.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    13 JOKJUT
+  365 LNKOV2.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    25 CEJXOZ
+  366 TTR   .SAV   SYS           02-Sep-83 01:27  27-May-87 21:43    32 YOBTUP
+  367 XLOGIN.SAV   SYS           18-Aug-86 02:48  27-May-87 21:43     2 TIYZAX
+  370 BOOTS .KL    SYS           07-Jul-85 23:04  27-May-87 21:43     3 YAWCAW
+  371 BOOTS .KI    SYS           07-Jul-85 23:24  27-May-87 21:43     3 RIRFUB
+  372 BOOTS .SAV   SYS           11-May-87 02:19  27-May-87 21:43     2 ZIZLAH
+  373 XOBLAM.      SYS           12-Apr-87 20:35  27-May-87 21:43    36 SEMSAN
+  374 READST.SAV   SYS           01-Aug-78 15:44  27-May-87 21:43    33 VIBBOG
+  375 MAGCON.DAT   SYS           24-Sep-75 16:31  27-May-87 21:43     4 NAGZUR
+  376 LIBARY.SHR   SYS           01-Nov-77 21:29  27-May-87 21:43     6 PELFUJ
+  377 COBOLF.SHR   SYS           19-Jul-77 23:02  27-May-87 21:43    22 ZATLOR
+  400 BCHARG.SHR   SYS           30-Aug-78 23:20  27-May-87 21:43    23 ZUYPAK
+  401 BCHARG.LOW   SYS           30-Aug-78 23:23  27-May-87 21:43     2 POTPAB
+  402 FORTE .SHR   SYS           24-Nov-81 21:37  27-May-87 21:43    61 TUXMUX
+  403 FORTE .LOW   SYS           24-Nov-81 21:37  27-May-87 21:43     2 KIKRAZ
+  404 TBALIB.REL   SYS           10-Aug-81 00:10  27-May-87 21:43    79 LATPUM
+  405 TBAUBG.REL   SYS           10-Aug-81 00:10  27-May-87 21:43     2 MESLEB
+  406 TBA   .SHR   SYS           10-Aug-81 00:10  27-May-87 21:43    44 RUZCEN
+  407 TBA   .LOW   SYS           10-Aug-81 00:10  27-May-87 21:43     2 RIDLIM
+  410 TBAEND.REL   SYS           10-Aug-81 00:10  27-May-87 21:43     4 REPMIR
+  411 BAIPD9.REL   SYS           08-Aug-80 17:39  27-May-87 21:43     2 FASHIR
+  412 TELECO.16    SYS           26-Mar-86 20:55  27-May-87 21:43    21 PERDOP
+  413 LUDTYM.CCL   SYS           01-Jan-64 00:01  27-May-87 21:43     2 CIDKEW
+  414 PRESUP.SAV   SYS           10-Oct-77 14:40  27-May-87 21:43    29 FAWQAR
+  415 FORDDT.HLP   SYS           25-Jan-78 17:39  27-May-87 21:43     2 BUKGOW
+  416 PASSDA.SHR   SYS           27-Apr-78 23:38  27-May-87 21:43    15 HIHXAX
+  417 PASSDA.LOW   SYS           27-Apr-78 23:38  27-May-87 21:43     2 GOHDAN
+  420 PATV2A.SHR   SYS           30-May-79 23:47  27-May-87 21:43    25 VORYAQ
+  421 FORDDT.REL   SYS           13-May-81 00:18  27-May-87 21:43    15 XIPWEK
+  422 PAF   .DAT   SYS           14-Jan-80 18:17  27-May-87 21:43    50 REYWER
+  423 OPER  .7     SYS           30-Dec-79 22:14  27-May-87 21:43     2 KUVXAK
+  424 SZRPT .2     SYS           19-Jul-77 18:14  27-May-87 21:43     4 FEMYIS
+  425 SZRPT .OLD   SYS           11-Oct-85 00:59  27-May-87 21:43     4 MEPGOP
+  426 TELECO.21    SYS           14-Apr-81 02:19  27-May-87 21:43    39 JUFVAN
+  427 1022C2.V10   SYS           25-Sep-86 22:19  27-May-87 21:43    78 JUPKIH
+  430 1022C2.V20   SYS           25-Sep-86 22:19  27-May-87 21:43    41 HELLUX
+  431 1022C2.FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 HIRWIJ
+  432 KMCC0D.BIN   SYS           09-May-80 09:21  27-May-87 21:43     3 MIVVOP
+  433 LUD   .118   SYS           10-Oct-85 23:28  27-May-87 21:43   223 KIVFAR
+  434 DUL   .118   SYS           10-Oct-85 23:28  27-May-87 21:43    27 VOLCAG
+  435 XOBLAM.118   SYS           09-Mar-83 19:28  27-May-87 21:43    36 XUGJEL
+  436 GFD   .SAV   SYS           20-Nov-86 10:21  27-May-87 21:43     3 HADBOR
+  437 FET   .SAV   SYS           01-Jan-64 00:01  27-May-87 21:43     9 XAMTUQ
+  440 MAGWRT.SAV   SYS           16-Jan-80 20:09  27-May-87 21:43     3 BARQOM
+  441 SAIL  .LOW   SYS           02-Feb-83 01:22  27-May-87 21:43     9 FAYGOL
+  442 SAIL  .SHR   SYS           02-Feb-83 01:27  27-May-87 21:43    64 HIMJEB
+  443 BACKUP.SAV   SYS           08-May-86 22:49  27-May-87 21:43   162 SIRQUN
+  444 BACKUP.LOW   SYS           19-Jun-85 18:52  27-May-87 21:43     8 TOZXUV
+  445 BACKUP.SHR   SYS           19-Jun-85 18:51  27-May-87 21:43    11 WUSLAJ
+  446 CRSHID.SAV   SYS           30-Aug-85 03:32  27-May-87 21:43    40 PEWJEC
+  447 CRSHID.930   SYS           11-Nov-80 06:52  27-May-87 21:43     2 ZALPIM
+  450 MAGRIM.SAV   SYS           15-Jul-80 19:34  27-May-87 21:43     2 WOPTAS
+  451 LIB40 .REL   SYS           04-Dec-79 03:00  27-May-87 21:43   104 BECCIC
+  452 LIBFTS.REL   SYS           13-May-79 23:08  27-May-87 21:43    55 MAKQOY
+  453 LIBOL6.SHR   SYS           01-Jan-64 00:01  27-May-87 21:43    18 YAVTEF
+  454 COMPIL.SAV   SYS           19-May-85 22:24  27-May-87 21:43     2 BOGMIP
+  455 UNDELE.SAV   SYS           13-Sep-85 02:52  27-May-87 21:43    28 QUWWAH
+  456 SAISG8.SHR   SYS           03-Aug-78 17:24  27-May-87 21:43    42 XAWPEB
+  457 SAISGT.SHR   SYS           13-May-79 23:22  27-May-87 21:43    43 QUNNAY
+  460 SAIL  .CMD   SYS           03-Feb-83 16:02  27-May-87 21:43     2 XURZAT
+  461 LNKLOD.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    26 CESTUY
+  462 MUNG  .SAV   SYS           10-Jul-85 23:09  27-May-87 21:43     2 MUXMOY
+  463 SV0115.IMG   SYS           06-Aug-86 00:50  27-May-87 21:43    26 MERPUF
+  464 SETLIC.SAV   SYS           30-May-86 01:01  27-May-87 21:43     2 FUMWOV
+  465 DECDDT.SAV   SYS           21-Jan-87 18:20  27-May-87 21:43    11 LOCHUN
+  466 FTYPE .SAV   SYS           03-May-77 18:53  27-May-87 21:43     3 JOBPUN
+  467 SETLIC.006   SYS           05-Nov-78 20:49  27-May-87 21:43     2 CIVWON
+  470 FTMAGN.SHR   SYS           30-May-83 20:15  27-May-87 21:43     2 KASQUL
+  471 BATACT.SAV   SYS           21-Jan-75 18:38  27-May-87 21:43     8 JAMKIK
+  472 FORTF .SHR   SYS           24-Nov-81 21:37  27-May-87 21:43    53 JIQRIM
+  473 FORTF .LOW   SYS           24-Nov-81 21:37  27-May-87 21:43     2 SEHNAQ
+  474 BAIMSC.SM1   SYS           08-Aug-80 17:39  27-May-87 21:43     2 XEVKUB
+  475 BAIMSC.REL   SYS           08-Aug-80 17:39  27-May-87 21:43     5 DIHQOG
+  476 PERP  .SAV   SYS           20-Feb-83 01:05  27-May-87 21:43     9 WODWOS
+  477 F4STAT.DAT   SYS           23-Apr-85 00:39  27-May-87 21:43     2 KONNUR
+  500 PASSWD.SAV   SYS           01-Jan-64 00:01  27-May-87 21:43     9 PUBJUY
+  501 PREFIN.SAV   SYS           10-Oct-77 14:52  27-May-87 21:43    30 TAMCOK
+  502 PUBSTD.DFS   SYS           01-Mar-79 23:47  27-May-87 21:43     2 YUMWEY
+  503 PATV3A.SHR   SYS           30-May-79 23:47  27-May-87 21:43    26 XUPCEC
+  504 PAN   .DAT   SYS           14-Jan-80 18:17  27-May-87 21:43    11 KOJNUP
+  505 PAU   .DAT   SYS           14-Jan-80 18:17  27-May-87 21:43     2 HUVKEP
+  506 GFD   .1     SYS           13-Nov-78 22:55  27-May-87 21:43     3 QETCAP
+  507 1022AC.SHR   SYS           25-Sep-86 22:19  27-May-87 21:43     4 BOTCUK
+  510 1022AC.FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 RUHBAB
+  511 LPQ   .SAV   SYS           13-Nov-86 20:17  27-May-87 21:43     2 GOJWOH
+  512 PERP  .OLD   SYS           25-Jun-83 23:57  27-May-87 21:43     9 CEYFOH
+  513 CRSHID.DAT   SYS           21-Apr-87 22:34  27-May-87 21:43     2 ZALPIM
+  514 CRSHID.62    SYS           21-Apr-87 22:34  27-May-87 21:43     2 ROYCOY
+  515 NONAME.OPR   SYS           23-Mar-77 20:59  27-May-87 21:43     2 QIWBOL
+  516 LISTER.SHR   SYS           09-Apr-85 01:01  27-May-87 21:43     8 SALFUH
+  517 NONAME.INF   SYS           25-May-83 17:16  27-May-87 21:43     3 ZEKTAB
+  520 LOGOUT.SHR   SYS           23-Jul-86 03:21  27-May-87 21:43     4 NIWSEG
+  521 NONAME.SHR   SYS           23-Jul-80 16:57  27-May-87 21:43    21 SADKEQ
+  522 NONAME.LOW   SYS           23-Jul-80 17:03  27-May-87 21:43     2 DAPQUZ
+  523 FILDDT.SAV   SYS           09-Dec-86 01:39  27-May-87 21:43     9 JODSEC
+  524 LOADER.SAV   SYS           09-Apr-85 01:02  27-May-87 21:43    13 YENVUN
+  525 SYSTAT.SHR   SYS           14-Dec-85 08:56  27-May-87 21:43    18 SUWGEX
+  526 SYSTAT.LOW   SYS           14-Dec-85 08:56  27-May-87 21:43     2 KEQMAY
+  527 SETE  .SAV   SYS           20-Jan-80 18:57  27-May-87 21:43     2 KUDXAT
+  530 LPASSW.SAV   SYS           23-Feb-81 22:49  27-May-87 21:43    16 VOTFIH
+  531 RELOAD.SAV   SYS           29-Oct-81 01:03  27-May-87 21:43     2 ZUPVIQ
+  532 SAISG9.SHR   SYS           01-Aug-80 18:02  27-May-87 21:43    41 XEDPEV
+  533 COBDDT.REL   SYS           19-Jul-77 23:24  27-May-87 21:43    13 GELHAL
+  534 SELOTS.SHR   SYS           08-Aug-77 18:37  27-May-87 21:43     2 WUPCIH
+  535 NODCOD.BIN   SYS           13-May-80 21:57  27-May-87 21:43    21 HAVNIY
+  536 FAIL  .SAV   SYS           01-Jun-80 16:48  27-May-87 21:43    25 WIYDAH
+  537 PSCHED.SAV   SYS           29-Jun-77 23:42  27-May-87 21:43     3 QUKFEZ
+  540 LIBOL7.SHR   SYS           02-Nov-75 16:00  27-May-87 21:43    21 ZIFLIR
+  541 DRYDOC.SAV   SYS           08-Aug-80 17:39  27-May-87 21:43    26 TONFEY
+  542 PROCES.DEF   SYS           01-Aug-80 17:46  27-May-87 21:43     3 JOPBON
+  543 QUOLST.SHR   SYS           15-May-85 23:42  27-May-87 21:43     2 QEDVAM
+  544 NEWRPG.SHR   SYS           07-Jan-86 21:07  27-May-87 21:43    14 CAPHAS
+  545 LISP  .LSP   SYS           04-Jan-76 19:11  27-May-87 21:43     4 VASHIY
+  546 LISP  .SAV   SYS           04-Jan-76 19:11  27-May-87 21:43    14 KEKRAV
+  547 LISP  .LOD   SYS           16-Feb-82 00:12  27-May-87 21:43     9 KAZNAC
+  550 PAKCOP.SAV   SYS           02-Jul-79 17:35  27-May-87 21:43    11 MATHIQ
+  551 LNKXIT.SHR   SYS           24-Nov-81 17:52  27-May-87 21:43    14 LILYOV
+  552 LISP  .SYN   SYS           19-Jan-82 20:06  27-May-87 21:43    11 BOKJEH
+  553 LISP  .SYM   SYS           16-Feb-82 00:12  27-May-87 21:43     2 SEJKIY
+  554 LINKER.SAV   SYS           30-Nov-81 03:27  27-May-87 21:43     5 LAXRER
+  555 SV2346.IMG   SYS           06-Aug-86 00:47  27-May-87 21:43    19 VOMHEM
+  556 MAIL  .SAV   SYS           04-Jun-81 00:28  27-May-87 21:43    20 BOQDIJ
+  557 TAPE  .HLP   SYS           25-Sep-77 18:44  27-May-87 21:43     5 XOQGUQ
+  560 TAPE  .SHR   SYS           07-Dec-77 16:50  27-May-87 21:43    29 LAMZOP
+  561 TAPE  .LOW   SYS           07-Dec-77 16:52  27-May-87 21:43     2 SUDKIK
+  562 SYB   .DAT   SYS           08-Jun-80 23:08  27-May-87 21:43    99 XETKOY
+  563 MAGNUM.SHR   SYS           30-May-83 20:14  27-May-87 21:43     2 SUZJER
+  564 COBAID.SHR   SYS           04-Nov-75 00:27  27-May-87 21:43    20 CESSEY
+  565 RCHARG.LOW   SYS           26-Mar-79 23:38  27-May-87 21:43     2 LATFOR
+  566 RCHARG.SHR   SYS           26-Mar-79 23:39  27-May-87 21:43    20 PIXFUS
+  567 RECPPR.SAV   SYS           20-Jan-80 18:45  27-May-87 21:43     3 MIFWAH
+  570 FORTG .SHR   SYS           24-Nov-81 21:37  27-May-87 21:43    47 TOZXIJ
+  571 FORTG .LOW   SYS           24-Nov-81 21:37  27-May-87 21:43     2 CELPUY
+  572 TBAUND.REL   SYS           10-Aug-81 00:10  27-May-87 21:43     2 QAVSAH
+  573 TBAMSG.SHR   SYS           10-Aug-81 00:10  27-May-87 21:43     4 SIVLUH
+  574 TBACMP.SHR   SYS           10-Aug-81 00:10  27-May-87 21:43    42 QETFAZ
+  575 COBRG .OVR   SYS           05-Aug-80 15:58  27-May-87 21:43    13 VUYVUP
+  576 COBRG .SAV   SYS           05-Aug-80 15:58  27-May-87 21:43     4 SAPJIS
+  577 ISAM  .SHR   SYS           19-Aug-80 20:59  27-May-87 21:43     8 VAYHAB
+  600 CRAM  .SAV   SYS           26-Aug-80 16:36  27-May-87 21:43    62 YASXUV
+  601 FORLIB.REL   SYS           01-Oct-81 00:05  27-May-87 21:43   107 NUMJEB
+  602 CHKCLK.SAV   SYS           23-Dec-80 19:08  27-May-87 21:43     2 KEMNEP
+  603 DEFER .SAV   SYS           06-Jan-81 22:14  27-May-87 21:43     3 QEQMED
+  604 LUDDIS.CCL   SYS           01-Jan-64 00:01  27-May-87 21:43     2 MOCQAH
+  605 PROFIL.SHR   SYS           06-Dec-77 00:51  27-May-87 21:43    14 MINKAY
+  606 PUB   .SAV   SYS           01-May-80 16:46  27-May-87 21:43    86 QERBIS
+  607 FILDDT.OLD   SYS           09-Aug-83 10:43  27-May-87 21:43     9 NEVQIC
+  610 FILDDT.30    SYS           17-Nov-80 23:49  27-May-87 21:43     9 KIKMIW
+  611 MAIL  .OLD   SYS           24-Apr-79 00:44  27-May-87 21:43    20 MUPFIS
+  612 BOOT70.KI    SYS           05-Oct-80 23:59  27-May-87 21:43     3 RIRFUB
+  613 BOOT70.KL    SYS           05-Jun-80 03:14  27-May-87 21:43     3 JEMHED
+  614 LISTER.LOW   SYS           15-Sep-77 19:53  27-May-87 21:43     2 QODDUD
+  615 RUNPAM.SAV   SYS           22-Aug-80 18:49  27-May-87 21:43     2 QAHYOG
+  616 LUD118.SYS   SYS           10-Oct-85 22:40  27-May-87 21:43   223 YASFEY
+  617 DUL118.SYS   SYS           10-Oct-85 22:40  27-May-87 21:43    27 JILQOR
+  620 RELOAD.OLD   SYS           16-Nov-80 20:13  27-May-87 21:43     2 VUTXAL
+  621 LISTER.13    SYS           22-Sep-77 23:50  27-May-87 21:43     8 GEYMAK
+  622 INITIA.SAV   SYS           27-May-87 19:34  27-May-87 21:43     4 RIGYIY
+  623 INITIA.22    SYS           13-Sep-85 02:46  27-May-87 21:43     3 RITWOX
+  624 TITO  .SAV   SYS           03-Oct-86 23:11  27-May-87 21:43    18 PEYVUS
+  625 DSKCLN.SAV   SYS           24-Feb-87 20:23  27-May-87 21:43     8 MEXBUV
+  626 CKSUM .SHR   SYS           09-Nov-76 21:12  27-May-87 21:43     3 RILJEC
+  627 CKSUM .LOW   SYS           09-Nov-76 21:12  27-May-87 21:43     2 YASVEG
+  630 EDIT10.SHR   SYS           13-Nov-77 18:12  27-May-87 21:43    13 DIGNIY
+  631 DIRIT .SHR   SYS           24-Apr-86 00:00  27-May-87 21:43     5 TITKAJ
+  632 CROSS .SHR   SYS           29-Oct-81 01:10  27-May-87 21:43     4 WAPYUN
+  633 ERRCHK.SAV   SYS           19-Aug-80 22:57  27-May-87 21:43     9 CUWMOB
+  634 TC    .SHR   SYS           05-Nov-78 21:43  27-May-87 21:43     3 QAZBIN
+  635 DRWSPR.EPO   SYS           25-Nov-86 00:08  27-May-87 21:43    10 ZOTPUJ
+  636 KSBLOD.DMP   SYS           15-Dec-86 02:39  27-May-87 21:43     2 KICCUP
+  637 AUXMOX.SAV   SYS           02-Jun-83 21:49  27-May-87 21:43    10 MAHXEF
+  640 HLBSA9.REL   SYS           08-Aug-80 17:39  27-May-87 21:43    55 RATLUG
+  641 KMCCOD.BIN   SYS           27-Jun-82 23:37  27-May-87 21:43     3 FUFZUR
+  642 LIBO10.SHR   SYS           16-May-79 23:21  27-May-87 21:43    27 DEFHAM
+  643 LIBSA8.REL   SYS           03-Aug-78 17:25  27-May-87 21:43    55 YUCFUY
+  644 RECORD.DEF   SYS           08-Aug-80 17:39  27-May-87 21:43     2 ZIKYID
+  645 SAISGA.SHR   SYS           02-Apr-85 02:15  27-May-87 21:43    43 QEPLAY
+  646 SY    .SAV   SYS           10-Jan-86 07:46  27-May-87 21:43    25 KEFLIW
+  647 SENDMA.SAV   SYS           02-Jul-86 04:34  27-May-87 21:43     2 ZIJJAY
+  650 TECO  .INI   SYS           21-May-85 11:48  27-May-87 21:43     2 YAGZUM
+  651 TECO  .SHR   SYS           20-May-85 02:32  27-May-87 21:43    15 ROMPED
+  652 TECO  .ERR   SYS           01-May-85 12:10  27-May-87 21:43    15 BACMEX
+  653 MACTEN.UNV   SYS           02-Oct-85 05:25  27-May-87 21:43     8 FUMHAW
+  654 SAILWT.REL   SYS           13-May-79 23:17  27-May-87 21:43    20 JURZEF
+  655 PASPRN.SAV   SYS           12-Jan-78 18:28  27-May-87 21:43     2 WIQDIZ
+  656 FOR22 .SHR   SYS           10-Sep-81 21:06  27-May-87 21:43   193 YONJIC
+  657 POP   .SAV   SYS           22-Apr-82 02:38  27-May-87 21:43     2 YAPTAL
+  660 SV2770.IMG   SYS           11-Jan-87 06:08  27-May-87 21:43    27 LUQKAK
+  661 SUBMIT.SAV   SYS           07-Feb-87 10:06  27-May-87 21:43    64 CURYEZ
+  662 ACTSUM.SAV   SYS           06-Dec-78 19:40  27-May-87 21:43    38 XOSYOG
+  663 DISK  .SAV   SYS           16-Jan-80 19:53  27-May-87 21:43     8 VIBGIM
+  664 DISK  .DOC   SYS           16-Jan-80 21:02  27-May-87 21:43     3 JOZBUB
+  665 TELAGR.HGH   SYS           21-Jul-80 21:37  27-May-87 21:43   121 DOYNUJ
+  666 TELAGR.LOW   SYS           21-Jul-80 21:30  27-May-87 21:43    61 FIHDIW
+  667 TDB   .SAV   SYS           28-Sep-76 22:34  27-May-87 21:43     2 HOPVOL
+  670 DTB   .SAV   SYS           28-Sep-76 22:34  27-May-87 21:43     2 ZUNGUN
+  671 1CLEAR.SAV   SYS           20-Jan-80 18:04  27-May-87 21:43     3 ZOHVON
+  672 COST  .SAV   SYS           10-Jul-80 18:43  27-May-87 21:43    11 QAXHAL
+  673 BAIIO1.SM1   SYS           08-Aug-80 17:39  27-May-87 21:43     2 JABFIQ
+  674 BAIIO1.REL   SYS           08-Aug-80 17:39  27-May-87 21:43     4 YECBIM
+  675 BAIPRC.SM1   SYS           08-Aug-80 17:39  27-May-87 21:43     2 MEXBET
+  676 BAIPRC.REL   SYS           08-Aug-80 17:39  27-May-87 21:43     3 PARMIB
+  677 ECHOFL.SAV   SYS           24-Aug-80 22:23  27-May-87 21:43    11 CEDLUH
+  700 ACTSUM.DOC   SYS           05-Nov-80 18:29  27-May-87 21:43     3 ZOCWOG
+  701 LBL   .DAT   SYS           14-Jan-80 18:17  27-May-87 21:43    32 FIYTAY
+  702 PAI   .DAT   SYS           14-Jan-80 18:17  27-May-87 21:43    29 HAZCOR
+  703 SAIL23.SHR   SYS           16-Oct-80 08:11  27-May-87 21:43    61 ZOJZOL
+  704 SAIL23.LOW   SYS           16-Oct-80 08:10  27-May-87 21:43     9 BUNFIJ
+  705 SAIL23.REL   SYS           01-Nov-80 23:16  27-May-87 21:43     7 SULKOZ
+  706 DIRIT .32    SYS           05-Nov-78 21:47  27-May-87 21:43     5 XEBMEG
+  707 CROSS .4     SYS           03-May-79 23:39  27-May-87 21:43     4 ZUBBAZ
+  710 TITO  .15    SYS           27-Mar-79 23:02  27-May-87 21:43    18 ZUTXEZ
+  711 TITO  .163   SYS           19-Jun-85 18:49  27-May-87 21:43    18 GEQQEG
+  712 X22C0 .SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    65 HUNGIF
+  713 QN1400.SHR   SYS           25-Sep-86 22:19  27-May-87 21:43    84 KAJHAS
+  714 1022  .SHR   SYS           25-Sep-86 22:19  27-May-87 21:43     7 HOXRUL
+  715 X22C0 .FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 CISSUT
+  716 QN1400.FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 TAXXEH
+  717 1022  .FXL   SYS           25-Sep-86 22:19  27-May-87 21:43     2 TAXXEH
+  720 LNN   .SAV   SYS           19-Jan-80 15:48  27-May-87 21:43     2 GUPQIV
+  721 DRWSPR.118   SYS           04-Sep-80 19:32  27-May-87 21:43     2 POJGAR
+  722 DSKCLN.S36   SYS           02-Feb-82 23:27  27-May-87 21:43     7 FOGTIB
+  723 HOSTS .BAK   SYS           19-Mar-87 02:00  27-May-87 21:43     2 WAQSUM
+  724 HOSTS .SYS   SYS           25-Mar-87 02:26  27-May-87 21:43     2 VEQTAX
+  725 NAD   .SAV   SYS           04-Dec-86 23:31  27-May-87 21:43    18 LUZMUN
+  726 NEWMON.SAV   SYS           27-May-87 21:02  27-May-87 21:43   166 FEGHOX
+  727 SV2770.86    SYS           24-Jul-86 21:33  27-May-87 21:43    27 NOLDOW
+  730 SV2770.85    SYS           25-Jun-85 20:46  27-May-87 21:43    27 GAVWUY
+  731 RPG   .INI   CARL          05-Nov-86 20:27  27-May-87 21:43     2 CABPAQ
+  732 VUE   .INI   CARL          05-Mar-87 01:37  27-May-87 21:43     2 MIBNEQ
+  733 SETOP .SAV   CARL          14-Aug-83 22:40  27-May-87 21:43     5 FEDFOQ
+  734 RPG   .SHR   CARL          18-Oct-82 15:03  27-May-87 21:43    14 SOYNAD
+  735 CATREC.SAV   CARL          30-May-86 03:32  27-May-87 21:43    23 ZUCXOF
+  736 ARGTST.SAV   CARL          09-Mar-87 00:10  27-May-87 21:43    31 FOMFIX
+  737 TUMS  .INI   CARL          21-Apr-87 23:37  27-May-87 21:43     2 XANSIK
+  740 MTADIR.SHR   CARL          10-Apr-68 21:17  27-May-87 21:43    21 KEDROY
+  741 INIT  .SAV   CARL          16-Jan-81 01:56  27-May-87 21:43    27 TOMHUP
+  742 FSLAVE.SAV   CARL          12-Jan-83 21:31  27-May-87 21:43    17 KOGKEZ
+  743 ENTER .SAV   CARL          03-Oct-84 20:51  27-May-87 21:43    16 LARBOG
+  744 BOF3  .SAV   CARL          07-Mar-86 00:25  27-May-87 21:43     3 NECBOK
+  745 CATTOT.SAV   CARL          09-Apr-86 10:32  27-May-87 21:43    30 DUTYEL
+  746 DIRECT.SHR   CARL          21-May-87 23:50  27-May-87 21:43    22 BOQRUY
+  747 DIRECT.LOW   CARL          21-May-87 23:52  27-May-87 21:43     2 GIFHOL
+  750 MT    .SAV   CARL          27-Jan-82 12:25  27-May-87 21:43    10 QETJEC
+  751 LOGON .SHR   CARL          22-May-85 10:42  27-May-87 21:43    13 COLSAY
+  752 1000  .SAV   CARL          13-May-84 22:28  27-May-87 21:43     4 QESRUN
+  753 DMS   .LOW   CARL          02-Aug-85 05:43  27-May-87 21:43     2 RIWPUJ
+  754 DMS   .SHR   CARL          02-Aug-85 05:43  27-May-87 21:43    15 YUBXIV
+  755 UNIQUE.SAV   CARL          06-Aug-85 08:25  27-May-87 21:43    20 NOGBEN
+  756 CHKLST.SAV   CARL          04-Apr-86 13:32  27-May-87 21:43    23 QOSLOG
+  757 CHKADD.SAV   CARL          04-Apr-86 17:16  27-May-87 21:43    22 XOHROK
+  760 HSB   .SAV   CARL          09-Dec-86 09:04  27-May-87 21:43    31 RICSAN
+  761 RP    .INI   CARL          07-Dec-81 23:20  27-May-87 21:43     2 NASHEP
+  762 PEAK  .INI   CARL          17-Oct-84 20:29  27-May-87 21:43     2 GEZHID
+  763 UFLIP .SHR   CARL          22-Apr-75 08:28  27-May-87 21:43     3 FUJYEQ
+  764 BK    .SAV   CARL          07-Feb-81 03:23  27-May-87 21:43    16 QUTFAB
+  765 DUMP  .SAV   CARL          04-Apr-81 12:15  27-May-87 21:43    18 CARKAG
+  766 CUSPS .SAV   CARL          23-May-82 22:33  27-May-87 21:43    22 GIRGUV
+  767 TTYTAB.SAV   CARL          08-Jun-84 23:18  27-May-87 21:43     3 CEYQOK
+  770 X     .HGH   CARL          14-Sep-84 11:36  27-May-87 21:43    16 ZIVRUJ
+  771 X     .LOW   CARL          14-Sep-84 11:36  27-May-87 21:43     2 BESHOQ
+  772 MEXEC .SAV   CARL          20-Aug-84 08:50  27-May-87 21:43     2 CELCAJ
+  773 FDM   .SAV   CARL          13-Jul-84 06:33  27-May-87 21:43    38 HIKHIM
+  774 ADVISE.SHR   CARL          05-May-85 09:27  27-May-87 21:43     3 YETLUS
+  775 SIZES .SAV   CARL          04-Dec-86 09:38  27-May-87 21:43    16 LUQZAD
+  776 SW    .INI   CARL          21-Sep-83 01:51  27-May-87 21:43     2 ROTROJ
+  777 SWITCH.INI   CARL          21-Apr-87 22:44  27-May-87 21:43     2 YESJUL
+ 1000 HUGE  .SAV   CARL          01-Mar-82 00:33  27-May-87 21:43     2 BEHDAJ
+ 1001 CK    .SAV   CARL          04-May-82 04:34  27-May-87 21:43    15 WUMSES
+ 1002 BACKUP.LOW   CARL          23-Apr-81 12:49  27-May-87 21:43    11 FEZWES
+ 1003 BACKUP.SHR   CARL          23-Apr-81 12:49  27-May-87 21:43    15 QUZYIM
+ 1004 DSAVE .SAV   CARL          09-Dec-82 07:21  27-May-87 21:43    15 LEXTOJ
+ 1005 SPACE .SAV   CARL          11-Nov-83 05:17  27-May-87 21:43     4 JUGCID
+ 1006 CHECK .SHR   CARL          04-Jun-84 23:54  27-May-87 21:43    22 WOFTUD
+ 1007 CHECK .LOW   CARL          04-Jun-84 23:55  27-May-87 21:43     2 GIFHOL
+ 1010 GFD   .SAV   CARL          13-Mar-85 23:04  27-May-87 21:43     3 VOFHIP
+ 1011 UNDELE.SAV   CARL          19-Aug-85 07:18  27-May-87 21:43    28 JUVPAS
+ 1012 FRMTST.SAV   CARL          21-Jun-86 14:32  27-May-87 21:43    15 GOBMAD
+ 1013 ETATSY.SAV   CARL          12-Jun-81 11:42  27-May-87 21:43     6 BASZIY
+ 1014 SYSTAT.SAV   CARL          29-Sep-82 07:28  27-May-87 21:43     2 NURWIB
+ 1015 SYSTAT.SHR   CARL          09-Apr-83 07:07  27-May-87 21:43     3 GUJREM
+ 1016 QUOLST.SAV   CARL          11-Nov-83 05:09  27-May-87 21:43     2 FIWNIG
+ 1017 NEWRPG.SHR   CARL          18-Oct-82 15:03  27-May-87 21:43    14 SOYNAD
+ 1020 INITIA.SHR   CARL          29-May-85 00:37  27-May-87 21:43     3 TUXKUK
+ 1021 NEWLOG.SHR   CARL          21-Mar-86 10:43  27-May-87 21:43    13 PAXHAP
+ 1022 LPQOLD.SAV   CARL          25-Jun-82 00:09  27-May-87 21:43    20 KEJMAQ
+ 1023 TECO  .INI   CARL          06-Mar-83 07:20  27-May-87 21:43     2 JAQMEX
+ 1024 WHEN  .INI   CARL          14-Sep-84 08:01  27-May-87 21:43     3 JATVUJ
+ 1025 DIRIT .INI   CARL          01-Apr-82 19:35  27-May-87 21:43     2 XAJPIS
+ 1026 PFD   .SAV   CARL          01-Mar-81 21:30  27-May-87 21:43     3 PIKVOL
+ 1027 DSLAVE.SAV   CARL          13-Jan-83 10:40  27-May-87 21:43    18 XUNGUW
+ 1030 GIMMIE.SAV   CARL          21-Jul-83 08:06  27-May-87 21:43     2 JAJHUP
+ 1031 SY    .SAV   CARL          06-Feb-87 10:54  27-May-87 21:43    26 SAZYUJ
+ 1032 SETUP .SHR   CARL          04-May-84 07:50  27-May-87 21:43     3 WOJBOK
+ 1033 DIRIT .SHR   CARL          28-May-81 23:29  27-May-87 21:43     5 KEGRAF
+ 1034 DIRIT .LOW   CARL          28-May-81 23:29  27-May-87 21:43     2 ROJZAZ
+ 1035 CLRUFD.MAC   CUD10         26-May-87 02:00  27-May-87 21:43     3 MEVGUH
+ 1036 CLRUFD.SAV   CUD10         26-May-87 02:00  27-May-87 21:43     2 XALKAT
+ 1037 RPG   .INI   DENCOFF       19-Feb-87 17:40  27-May-87 21:43     2 FOGMIK
+ 1040 CLS   .SAV   DENCOFF       30-Apr-86 23:59  27-May-87 21:43     2 REYKOP
+ 1041 SAICOD.INI   DENCOFF       01-May-86 00:00  27-May-87 21:43     2 HEFLOK
+ 1042 RMD   .SAV   DENCOFF       04-Feb-87 21:13  27-May-87 21:43     5 JOTVIK
+ 1043 TUMS  .INI   DENCOFF       21-Apr-87 22:55  27-May-87 21:43     2 KIPNOB
+ 1044 MAPCLN.SAV   DENCOFF       30-Apr-86 23:13  27-May-87 21:43    14 NOGZOS
+ 1045 PEAK  .INI   DENCOFF       30-Apr-86 23:59  27-May-87 21:43     2 TOJDIR
+ 1046 X     .SAV   DENCOFF       19-Aug-86 22:18  27-May-87 21:43    18 VOJGAG
+ 1047 TURNUP.SAV   DENCOFF       30-Apr-86 23:14  27-May-87 21:43    17 NOYHIY
+ 1050 SWITCH.INI   DENCOFF       06-May-87 15:41  27-May-87 21:43     2 QIXJEZ
+ 1051 DIRIT .INI   DENCOFF       18-Feb-87 17:48  27-May-87 21:43     2 VECJAD
+ 1052 RPG   .INI   JMS           13-Mar-87 02:53  27-May-87 21:43     2 ZAMREF
+ 1053 VUE   .INI   JMS           22-May-85 01:07  27-May-87 21:43     2 QOQROB
+ 1054 TUMS  .INI   JMS           09-Apr-87 21:03  27-May-87 21:43     3 PEMTIV
+ 1055 SED   .LOW   JMS           16-Sep-85 02:12  27-May-87 21:43    12 VUJJIV
+ 1056 SED   .SHR   JMS           16-Sep-85 02:12  27-May-87 21:43    19 GIJZUN
+ 1057 PEAK  .INI   JMS           22-May-85 01:07  27-May-87 21:43     2 MONJAM
+ 1060 SLEEP .SAV   JMS           21-Jun-86 13:56  27-May-87 21:43     2 CIDKAJ
+ 1061 SZRPT .CTL   JMS           26-May-87 01:57  27-May-87 21:43     2 WADKAH
+ 1062 SZRPT .LOG   JMS           27-May-87 21:25  27-May-87 21:43     2 DOJBEQ
+ 1063 SWITCH.INI   JMS           26-May-87 01:25  27-May-87 21:43     2 GOVZIV
+ 1064 TURNUP.SAV   JMS           04-Feb-87 22:50  27-May-87 21:43    17 NOYHIY
+ 1065 FILLUP.SAV   JMS           26-Jan-87 22:02  27-May-87 21:43     2 VIRWAL
+ 1066 TTYINI.SAV   JMS           17-Sep-86 20:09  27-May-87 21:43     2 JIGDEP
+ 1067 SED9  .SHR   JMS           12-May-86 04:18  27-May-87 21:43    19 PEGWIC
+ 1070 SED9  .LOW   JMS           12-May-86 04:18  27-May-87 21:43    12 SIBJER
+ 1071 DIRIT .INI   JMS           24-Nov-86 22:02  27-May-87 21:43     2 ZAKKIH
+ 1072 TECO  .INI   JMS           24-Nov-85 20:29  27-May-87 21:43     2 YAGZUM
+ 1073 TECO  .SHR   JMS           13-Aug-85 00:52  27-May-87 21:43    15 FARRIR
+ 1074 SETPDT.SAV   JMS           04-Feb-87 06:50  27-May-87 21:43     2 LOZZIS
+ 1075 ACCESS.MSG   KS2020        23-Feb-81 22:45  27-May-87 21:43     2 CUQXAJ
+ 1076 SMFILE.HLP   KS2020        30-Nov-78 16:16  27-May-87 21:43     2 JAQFEW
+ 1077 SMFILE.SAV   KS2020        30-Nov-78 14:29  27-May-87 21:43    38 JIKJEK
+ 1100 SMFILE.TXT   KS2020        30-Nov-78 14:17  27-May-87 21:43     5 DAPVIT
+ 1101 SMFILE.EXE   KS2020        30-Nov-78 14:29  27-May-87 21:43    43 BANHIL
+ 1102 PDP11 .M     KS2020        13-May-87 20:20  27-May-87 21:43     3 ZERLOS
+ 1103 PDP11 .M2    KS2020        13-May-87 20:21  27-May-87 21:43     3 ZEJKER
+ 1104 KSFEFS.SAV   KS2020        27-May-87 20:44  27-May-87 21:43     3 FOTROP
+ 1105 KSFEFS.MAC   KS2020        27-May-87 20:42  27-May-87 21:43    10 PIPWUS
+ 1106 20UCOD.MEM   KS2020        05-Nov-80 01:12  27-May-87 21:43     2 VOPFOK
+ 1107 KSFEFS.SCM   KS2020        14-Dec-86 21:01  27-May-87 21:43     2 YUYPUR
+ 1110 KSFEFS.INF   KS2020        12-Apr-87 05:31  27-May-87 21:43     2 TOCMED
+ 1111 KSFEFS.HLP   KS2020        21-Apr-87 03:35  27-May-87 21:43     2 CIDJUF
+ 1112 KSFEFS.JMS   KS2020        21-Apr-87 03:00  27-May-87 21:43     9 RIZXUD
+ 1113 KSFEFS.S01   KS2020        19-Dec-83 00:22  27-May-87 21:43     3 JUKYAR
+ 1114 KSFEFS.M01   KS2020        19-Dec-83 00:20  27-May-87 21:43     6 GOWRIW
+ 1115 KSFEFS.M02   KS2020        30-Jan-86 20:22  27-May-87 21:43     6 JOFZUJ
+ 1116 KSFEFS.LST   KS2020        27-May-87 20:44  27-May-87 21:43    23 KUWRUM
+ 1117 KSFEFS.L01   KS2020        19-Dec-83 00:24  27-May-87 21:43    12 SURLOW
+ 1120 KSFEFS.M03   KS2020        03-Feb-86 08:41  27-May-87 21:43     6 LEYJOZ
+ 1121 KSFEFS.S00   KS2020        06-Nov-80 05:20  27-May-87 21:43     3 GUDSAQ
+ 1122 KSFEFS.M00   KS2020        05-Apr-79 23:14  27-May-87 21:43     8 HIDLOD
+ 1123 KSFEFS.REL   KS2020        27-May-87 20:43  27-May-87 21:43     4 VINXUV
+ 1124 KSTLOD.SAV   KS2020        06-Nov-80 05:24  27-May-87 21:43     2 JOHQAQ
+ 1125 KSTLOD.MAC   KS2020        06-Nov-80 05:00  27-May-87 21:43    10 CIGMOL
+ 1126 KSTLOD.DMP   KS2020        06-Nov-80 05:25  27-May-87 21:43     2 GUZPEC
+ 1127 NODLOG.DOC   KS2020        31-Mar-82 19:04  27-May-87 21:43     5 FEXDEL
+ 1130 SMFIL3.HLP   KS2020        01-Apr-85 23:17  27-May-87 21:43     2 NEJNUZ
+ 1131 SMFIL3.TXT   KS2020        01-Apr-85 23:17  27-May-87 21:43     5 BIVMIS
+ 1132 KS2020.MUL   KS2020        12-Apr-87 06:23  27-May-87 21:43     2 DIRCAV
+ 1133 BOOTKS.MEM   KS2020        01-Oct-86 00:53  27-May-87 21:43     4 FOTNIH
+ 1134 00READ.ME    KS2020        30-Oct-86 02:46  27-May-87 21:43     3 PADKUW
+ 1135 KSBLOD.DMP   KS2020        15-Dec-86 02:39  27-May-87 21:43     2 KICCUP
+ 1136 KSBLOD.MAC   KS2020        15-Dec-86 01:16  27-May-87 21:43     4 KOFSIR
+ 1137 KSBLOD.SAV   KS2020        07-Nov-80 03:53  27-May-87 21:43     2 LEVZUH
+ 1140 KSBLOD.M00   KS2020        07-Nov-80 03:51  27-May-87 21:43     3 MOFHEQ
+ 1141 KSBLOD.SYS   KS2020        16-Jan-80 19:52  27-May-87 21:43     2 TUZTAM
+ 1142 KSBLOD.LST   KS2020        15-Dec-86 02:40  27-May-87 21:43    10 KISFOY
+ 1143 KSBLOD.DM0   KS2020        07-Nov-80 03:53  27-May-87 21:43     2 DIWFEQ
+ 1144 KSXB05.SAV   M33           27-May-87 18:29  27-May-87 21:43   166 FEGHOX
+ 1145 F02140.SAV   M33           27-May-87 19:21  27-May-87 21:43    61 BARFUW
+ 1146 F02139.SAV   M33           21-May-87 23:40  27-May-87 21:43    65 SAPYOV
+ 1147 F02141.SAV   M33           27-May-87 19:07  27-May-87 21:43    65 LISSUT
+ 1150 CRSHID.LOG   M33           27-May-87 21:33  27-May-87 21:43     2 SEZBIH
+ 1151 MDDT  .SAV   M33           09-Apr-86 23:46  27-May-87 21:43     4 DARGAL
+ 1152 F3XB05.SAV   M33           27-May-87 18:34  27-May-87 21:43   157 QEZCIX
+ 1153 ONTPRI.SAV   MPL           07-Dec-77 18:45  27-May-87 21:43     2 GECGOW
+ 1154 EXPGEN.SAV   MPL           09-Jul-75 17:13  27-May-87 21:43     2 JIXGOD
+ 1155 SEC   .SAV   MPL           01-Jan-64 00:01  27-May-87 21:43     4 CEGRAR
+ 1156 LOKMAL.SAV   MPL           01-Jan-64 15:50  27-May-87 21:43     2 FOJZOV
+ 1157 LICRPT.SAV   MPL           12-Jan-78 22:25  27-May-87 21:43     3 SIWVUS
+ 1160 RUB   .SAV   MPL           20-Sep-78 22:53  27-May-87 21:43    10 RURGAS
+ 1161 @     .SAV   MPL           22-Sep-78 01:07  27-May-87 21:43    19 VIDXUK
+ 1162 AUXSLV.SAV   MPL           12-Dec-78 23:53  27-May-87 21:43     3 QISPIH
+ 1163 DIRED .SAV   MPL           31-Jan-79 22:38  27-May-87 21:43    19 GOTTUM
+ 1164 X1200 .SAV   MPL           02-Oct-78 20:37  27-May-87 21:43    14 NAQBIS
+ 1165 SCAN  .SAV   MPL           10-May-81 12:52  27-May-87 21:43    22 CAPPEJ
+ 1166 LINK10.SHR   MPL           06-Apr-80 23:02  27-May-87 21:43    74 XEFNID
+ 1167 FTFORT.SAV   MPL           14-Aug-80 18:59  27-May-87 21:43     2 GUPGED
+ 1170 SCRIPT.SAV   MPL           24-Nov-80 01:15  27-May-87 21:43    12 VAYZEK
+ 1171 GRUMP .SAV   MPL           20-Aug-81 23:25  27-May-87 21:43     4 MUDPOD
+ 1172 MMHX  .SAV   MPL           08-Sep-81 07:45  27-May-87 21:43    18 DOLJIT
+ 1173 OLINK .SAV   MPL           25-Sep-81 09:13  27-May-87 21:43    14 VUKXIT
+ 1174 NOPER .SAV   MPL           18-May-82 00:25  27-May-87 21:43     2 MUVRES
+ 1175 SETOP .SAV   MPL           14-Aug-86 23:35  27-May-87 21:43     5 MOCXIQ
+ 1176 XINFO .SAV   MPL           20-Sep-83 23:50  27-May-87 21:43     2 MAPLEK
+ 1177 TY    .SHR   MPL           01-Apr-85 20:11  27-May-87 21:43    18 ZARFUZ
+ 1200 PIP   .LOW   MPL           25-Jan-77 22:23  27-May-87 21:43     2 KUHVUP
+ 1201 PIP   .SHR   MPL           25-Jan-77 22:22  27-May-87 21:43     8 GUNWOY
+ 1202 CACHE .SAV   MPL           14-Sep-78 03:10  27-May-87 21:43     2 HIVBEV
+ 1203 HPDIR .SAV   MPL           26-Sep-79 05:23  27-May-87 21:43    19 GEYCAL
+ 1204 FRMDDT.SAV   MPL           30-Jan-80 22:00  27-May-87 21:43    10 MAXVUD
+ 1205 ICP   .SAV   MPL           09-Jul-80 21:27  27-May-87 21:43    30 JUTREK
+ 1206 ALLMAL.LOW   MPL           17-Jan-80 21:20  27-May-87 21:43    13 HUQPAH
+ 1207 ALLMAL.SHR   MPL           17-Jan-80 21:20  27-May-87 21:43    13 YAYHAL
+ 1210 RUNCPU.SAV   MPL           19-Aug-80 18:47  27-May-87 21:43     2 WOBCIT
+ 1211 VERSE .SAV   MPL           28-Jul-80 18:55  27-May-87 21:43     5 ZIQZOJ
+ 1212 FNDFIL.SAV   MPL           23-Oct-81 02:42  27-May-87 21:43     2 DIBNUH
+ 1213 OPPS  .SAV   MPL           24-Mar-82 13:02  27-May-87 21:43     2 QUMQOD
+ 1214 OOPER .SAV   MPL           12-Apr-82 22:29  27-May-87 21:43     2 LEKZUY
+ 1215 CREDAT.SAV   MPL           12-Mar-85 07:20  27-May-87 21:43    13 JEKMUT
+ 1216 TYPE  .SHR   MPL           24-Sep-83 07:55  27-May-87 21:43    18 CUGQAP
+ 1217 ITSR  .SHR   MPL           26-Jun-80 23:49  27-May-87 21:43     2 NUCKUR
+ 1220 COPYCR.SAV   MPL           27-Jan-81 23:25  27-May-87 21:43     2 QOHPUF
+ 1221 FSHSPL.SAV   MPL           02-Apr-79 20:28  27-May-87 21:43    11 LUJJAK
+ 1222 CTYMSG.SAV   MPL           28-May-79 19:51  27-May-87 21:43    16 HEWVEH
+ 1223 TSTSUP.SAV   MPL           08-Dec-86 04:53  27-May-87 21:43    14 SOQGIC
+ 1224 CLEAN .SAV   MPL           14-Oct-79 20:16  27-May-87 21:43    16 PEDZOP
+ 1225 ZAP   .SAV   MPL           30-Jan-80 01:11  27-May-87 21:43     2 XORXOL
+ 1226 ICP13 .SAV   MPL           26-Jun-80 06:23  27-May-87 21:43    29 NONMUY
+ 1227 AUXIO .SAV   MPL           21-Apr-87 21:56  27-May-87 21:43     9 CUGCUR
+ 1230 MOVUSR.SAV   MPL           11-Dec-80 21:42  27-May-87 21:43    25 MUKBIX
+ 1231 DIRTLC.SHR   MPL           23-Jan-81 00:30  27-May-87 21:43     5 TEKCIS
+ 1232 DIRTLC.LOW   MPL           23-Jan-81 00:30  27-May-87 21:43    10 TAGYEZ
+ 1233 FNDBAD.SAV   MPL           27-Feb-87 03:36  27-May-87 21:43     2 DEXJEG
+ 1234 SPOOL .SAV   MPL           14-Sep-81 11:58  27-May-87 21:43    14 YAYVOL
+ 1235 RUNEXE.SAV   MPL           23-Jan-82 04:45  27-May-87 21:43     4 JARPUY
+ 1236 TYPER .SAV   MPL           26-Dec-85 08:53  27-May-87 21:43    19 SICGUT
+ 1237 SCREAM.SAV   MPL           12-Jun-86 05:48  27-May-87 21:43    31 NALDUJ
+ 1240 UNDEL .SHR   MPL           08-Feb-83 22:24  27-May-87 21:43    19 HEKTIW
+ 1241 UNDEL .LOW   MPL           08-Feb-83 22:23  27-May-87 21:43     5 WICDUQ
+ 1242 SYSDPY.SAV   MPL           09-Mar-83 21:20  27-May-87 21:43    23 FANSEX
+ 1243 LINK  .SAV   MPL           25-Sep-81 09:13  27-May-87 21:43    14 VUKXIT
+ 1244 CPUTYP.SAV   MPL           11-Apr-85 23:20  27-May-87 21:43     2 NUYZEB
+ 1245 INFSND.SAV   MPL           04-Dec-77 19:37  27-May-87 21:43     3 FUBKUN
+ 1246 ACTPRI.SAV   MPL           27-May-80 19:18  27-May-87 21:43     2 TENLOW
+ 1247 SMERGE.SAV   MPL           01-Jun-76 15:08  27-May-87 21:43     5 JINQIG
+ 1250 READST.SAV   MPL           26-Jul-78 20:03  27-May-87 21:43    33 VIBBOG
+ 1251 FUIT10.SHR   MPL           07-Aug-78 20:54  27-May-87 21:43    13 NUGYEX
+ 1252 HANGUP.SAV   MPL           08-May-79 22:52  27-May-87 21:43     3 HEPCAS
+ 1253 LKBDDT.SAV   MPL           03-Nov-79 20:57  27-May-87 21:43     9 DEMMIN
+ 1254 ASSHOL.SAV   MPL           13-Jul-78 00:26  27-May-87 21:43     9 XULREB
+ 1255 AUXDDT.SAV   MPL           07-May-78 16:55  27-May-87 21:43    11 RIRFAT
+ 1256 FTSAIL.SHR   MPL           15-Aug-79 03:34  27-May-87 21:43    67 JIMGIW
+ 1257 FTSAIL.LOW   MPL           15-Aug-79 03:34  27-May-87 21:43    43 QONNUR
+ 1260 DISREL.SAV   MPL           27-Jan-80 23:56  27-May-87 21:43     6 HUDVIY
+ 1261 MHXW  .SAV   MPL           11-Jan-82 10:50  27-May-87 21:43    18 HUBJAD
+ 1262 HACKUP.LOW   MPL           30-Jun-81 21:36  27-May-87 21:43     8 BUBWIN
+ 1263 HACKUP.SHR   MPL           30-Jun-81 21:36  27-May-87 21:43    11 XIPZIM
+ 1264 WXMOX .SAV   MPL           08-Sep-82 19:43  27-May-87 21:43    10 MAHXEF
+ 1265 MPLSPL.SAV   MPL           09-Oct-82 00:32  27-May-87 21:43     2 ZILFUY
+ 1266 PCOM  .SHR   MPL           24-May-85 01:34  27-May-87 21:43    51 QAZMUP
+ 1267 PCOM21.LOW   MPL           31-May-82 06:51  27-May-87 21:43     5 BOVSIL
+ 1270 PCOM21.SHR   MPL           31-May-82 06:51  27-May-87 21:43    34 VEXDOB
+ 1271 POKLDB.SAV   MPL           09-Nov-83 08:39  27-May-87 21:43    18 JUBBAQ
+ 1272 JOE   .SAV   MPL           01-Nov-83 01:33  27-May-87 21:43    10 HOFVAT
+ 1273 PCOM  .LOW   MPL           24-May-85 01:34  27-May-87 21:43     5 VUZJIC
+ 1274 OPER  .SAV   MPL           14-Aug-86 23:35  27-May-87 21:43     2 JAPGUJ
+ 1275 SWEET .SAV   MPL           04-Apr-77 22:17  27-May-87 21:43     4 LABYOD
+ 1276 MAGRIM.SAV   MPL           08-Feb-76 21:46  27-May-87 21:43     2 WOPTAS
+ 1277 COM   .SAV   MPL           10-Apr-78 20:12  27-May-87 21:43    10 SEMBED
+ 1300 AUXCHK.SAV   MPL           09-Apr-80 16:23  27-May-87 21:43     2 LEXXIL
+ 1301 SNARF .SAV   MPL           09-Dec-83 06:36  27-May-87 21:43     2 ZILFUY
+ 1302 PS    .SAV   MPL           26-Feb-79 21:19  27-May-87 21:43    11 VUXJOW
+ 1303 RUNCHK.SAV   MPL           27-Dec-79 23:50  27-May-87 21:43     2 MAVJIC
+ 1304 KAFIX .SAV   MPL           12-Dec-80 20:01  27-May-87 21:43    13 QEHTIH
+ 1305 TTYPE .SHR   MPL           04-May-81 12:27  27-May-87 21:43    17 REGREV
+ 1306 MHX   .SAV   MPL           24-Nov-86 21:49  27-May-87 21:43    18 HIQKIR
+ 1307 REFORM.LOW   MPL           28-Sep-81 04:45  27-May-87 21:43     2 BOKSEF
+ 1310 REFORM.SHR   MPL           28-Sep-81 04:45  27-May-87 21:43    17 MEYCAL
+ 1311 ZEN   .SHR   MPL           11-Jan-87 09:37  27-May-87 21:43    14 YUYZAY
+ 1312 PJCVFY.SAV   MPL           22-Oct-81 07:14  27-May-87 21:43    15 LIDYEH
+ 1313 LLINK .SAV   MPL           24-Jan-82 06:39  27-May-87 21:43    16 LIHVET
+ 1314 SYMAUX.SHR   MPL           23-Apr-81 06:28  27-May-87 21:43     3 TAKLAD
+ 1315 CTYLOG.SAV   MPL           23-Jan-87 02:40  27-May-87 21:43     2 BENYAG
+ 1316 LOADER.SHR   MPL           28-Mar-76 22:45  27-May-87 21:43    12 QOGQOL
+ 1317 MSTMRG.SAV   MPL           09-Jul-75 17:15  27-May-87 21:43     2 BODTEM
+ 1320 SNOOPY.SAV   MPL           16-Jul-80 19:28  27-May-87 21:43    32 ZACGOP
+ 1321 SETE  .SAV   MPL           22-Apr-82 01:15  27-May-87 21:43     2 QIWQIT
+ 1322 MASQUE.SAV   MPL           11-Dec-83 20:06  27-May-87 21:43     2 RECVIR
+ 1323 LUDDY .SAV   MPL           29-Dec-80 00:35  27-May-87 21:43     2 DAGGIF
+ 1324 TAPE  .SAV   MPL           15-Dec-78 07:56  27-May-87 21:43    18 BOPTIP
+ 1325 PAKSIM.SAV   MPL           28-Jun-79 21:14  27-May-87 21:43    31 YIWYUQ
+ 1326 GRAB  .SAV   MPL           19-Oct-82 22:33  27-May-87 21:43    13 GUFGOZ
+ 1327 RUNNER.SAV   MPL           19-Aug-80 18:55  27-May-87 21:43    13 QAPREY
+ 1330 RUNPAM.SAV   MPL           21-Aug-80 18:55  27-May-87 21:43     2 QAHYOG
+ 1331 ACSCAN.SAV   MPL           07-Apr-81 06:08  27-May-87 21:43    20 GOCSOG
+ 1332 DUMPIT.SAV   MPL           05-Jan-82 18:17  27-May-87 21:43     6 ROCRUN
+ 1333 BADRPG.SHR   MPL           19-Aug-82 00:36  27-May-87 21:43    14 BASJAH
+ 1334 XPAND .SAV   MPL           26-Apr-82 20:06  27-May-87 21:43    12 HANLOY
+ 1335 FILDDT.SAV   MPL           07-Aug-85 05:50  27-May-87 21:43    11 BAVWEM
+ 1336 WHOMAI.SAV   MPL           25-Jul-85 09:23  27-May-87 21:43    17 QOZDAN
+ 1337 FSHTAP.SAV   MPL           13-Nov-77 21:11  27-May-87 21:43     2 LAXHEK
+ 1340 PASPRN.SAV   MPL           08-Jan-78 21:08  27-May-87 21:43     2 WIQDIZ
+ 1341 REMIND.SAV   MPL           01-Jan-64 00:01  27-May-87 21:43     8 WINNOP
+ 1342 TRNAUX.SAV   MPL           02-Jan-78 16:08  27-May-87 21:43     2 ZEJNEN
+ 1343 AUXTRN.SAV   MPL           12-Dec-78 23:55  27-May-87 21:43     4 BUKNIY
+ 1344 TC    .SHR   MPL           16-Oct-78 21:31  27-May-87 21:43     3 NODCUV
+ 1345 ACTSUM.SAV   MPL           05-Dec-78 19:50  27-May-87 21:43    38 XOSYOG
+ 1346 AUXDIR.SAV   MPL           07-Jul-79 16:22  27-May-87 21:43    16 ZUVVIZ
+ 1347 PRUNE .SAV   MPL           18-Oct-79 02:35  27-May-87 21:43    22 BOMSOX
+ 1350 WHOIS .SAV   MPL           13-Dec-79 04:56  27-May-87 21:43    13 DOFYIJ
+ 1351 CTC   .SAV   MPL           15-Apr-80 06:31  27-May-87 21:43     2 BUYLIP
+ 1352 ATSIGN.SAV   MPL           04-Aug-80 21:12  27-May-87 21:43    19 VIDXUK
+ 1353 RUNMEM.SAV   MPL           06-Aug-81 03:36  27-May-87 21:43     2 MOYKUK
+ 1354 QUOTA .SAV   MPL           29-Sep-80 02:36  27-May-87 21:43    14 JOQPOZ
+ 1355 PFD   .SAV   MPL           01-Mar-81 21:30  27-May-87 21:43     3 PIKVOL
+ 1356 FTP10X.SAV   MPL           24-Sep-83 08:21  27-May-87 21:43    29 FODJUP
+ 1357 CLRALC.SAV   MPL           22-Mar-81 18:49  27-May-87 21:43     2 QOMCOB
+ 1360 DELBAD.SAV   MPL           31-Mar-81 20:30  27-May-87 21:43     2 GAKDIR
+ 1361 DIRIT .SHR   MPL           24-Apr-86 06:01  27-May-87 21:43     5 CUQLAT
+ 1362 TECO  .SHR   MPL           30-Jul-81 09:37  27-May-87 21:43    14 GAGLAG
+ 1363 PHOTO .SHR   MPL           21-Sep-81 01:51  27-May-87 21:43    19 TEQNUM
+ 1364 PHOTO .LOW   MPL           21-Sep-81 01:51  27-May-87 21:43     8 YAFCUS
+ 1365 OTYPE .SHR   MPL           24-Sep-83 04:00  27-May-87 21:43    18 YIJVOV
+ 1366 FILCHK.SAV   MPL           01-Nov-83 01:33  27-May-87 21:43    10 FINVAZ
+ 1367 LUDRPT.SAV   MPL           30-Nov-83 09:15  27-May-87 21:43    15 MIPMEL
+ 1370 TSTWRS.SAV   MPL           16-Jul-85 22:24  27-May-87 21:43    14 RIZWAW
+ 1371 PAKC17.SAV   MPL           28-Feb-84 18:29  27-May-87 21:43    11 WIRVUR
+ 1372 RECORD.SHR   MPL           31-Mar-82 12:00  27-May-87 21:43     3 YILQON
+ 1373 DIRIT .LOW   MPL           28-May-81 23:29  27-May-87 21:43     2 ROJZAZ
+ 1374 RECORD.LOW   MPL           31-Mar-82 12:00  27-May-87 21:43     9 KEDLUH
+ 1375 AUXMOX.SAV   MPL           08-Sep-82 20:45  27-May-87 21:43    28 KOVFUK
+ 1376 LICMAK.SAV   MPL           05-May-82 19:49  27-May-87 21:43     2 NEFSOY
+ 1377 EDIT10.SHR   MPL           17-Jan-80 04:03  27-May-87 21:43    13 MOMXUX
+ 1400 INHERI.SAV   MPL           09-May-85 22:32  27-May-87 21:43     2 TINVIJ
+ 1401 RECORD.SAV   MPL           16-Mar-86 19:55  27-May-87 21:43     2 ZILFUY
+ 1402 INFRED.SAV   MPL           17-Aug-80 23:02  27-May-87 21:43     5 GOXFEK
+ 1403 ACCESS.MSG   OPER          05-May-87 14:30  27-May-87 21:43     1 VAVVAV
+ 1404 RPG   .INI   OSMAN         13-Apr-86 23:09  27-May-87 21:43     2 GOHYIL
+ 1405 EXE   .INI   OSMAN         02-Sep-84 05:52  27-May-87 21:43     2 CAYFEK
+ 1406 RELCHK.SAV   OSMAN         17-Jun-84 20:55  27-May-87 21:43    12 SUDLEJ
+ 1407 TUMS  .INI   OSMAN         04-Jul-86 08:19  27-May-87 21:43     2 REYZUW
+ 1410 PPX   .SAV   OSMAN         16-Jun-86 14:46  27-May-87 21:43     6 PAMFUT
+ 1411 FRECOR.SAV   OSMAN         24-Sep-84 09:25  27-May-87 21:43    17 FUMVEV
+ 1412 PX    .SAV   OSMAN         21-May-87 18:48  27-May-87 21:43     6 VELSED
+ 1413 UTAPE .SAV   OSMAN         11-Mar-81 02:38  27-May-87 21:43     9 TEMCOJ
+ 1414 KAEP  .INI   OSMAN         18-Oct-84 02:11  27-May-87 21:43     2 LONHAG
+ 1415 PEAK  .INI   OSMAN         08-Sep-86 16:53  27-May-87 21:43     2 LONHAG
+ 1416 ZA    .SAV   OSMAN         18-Jul-84 17:54  27-May-87 21:43     2 REYKOP
+ 1417 TTYTAB.SAV   OSMAN         08-Jun-84 23:18  27-May-87 21:43     3 CEYQOK
+ 1420 PEAK  .SAV   OSMAN         07-Sep-86 20:50  27-May-87 21:43    63 VIMKIX
+ 1421 SWITCH.INI   OSMAN         21-Apr-87 01:01  27-May-87 21:43     2 WUHPAF
+ 1422 SLVPSP.SAV   OSMAN         17-Apr-85 21:21  27-May-87 21:43     3 RIGMIJ
+ 1423 XPAND .SAV   OSMAN         26-Apr-82 20:06  27-May-87 21:43    12 HANLOY
+ 1424 CHKCLK.SAV   OSMAN         17-Jun-84 21:03  27-May-87 21:43     2 KEMNEP
+ 1425 DIRIT .INI   OSMAN         01-Apr-86 18:33  27-May-87 21:43     2 XAJPIS
+ 1426 RULER .SHR   OSMAN         25-Mar-87 17:04  27-May-87 21:43     3 GUJREM
+ 1427 SPCMOD.SAV   OSMAN         18-Aug-84 19:44  27-May-87 21:43     2 JELSOV
+ 1430 DIRIT .LOW   OSMAN         07-Apr-82 09:16  27-May-87 21:43     2 VOLXED
+ 1431 INITIA.SAV   OSU           27-May-87 19:33  27-May-87 21:43     4 RIGYIY
+ 1432 ACCESS.SAV   SPL           30-Nov-81 03:05  27-May-87 21:43     5 FEVPIK
+ 1433 FTP20 .SAV   SPL           01-Nov-83 22:59  27-May-87 21:43    30 QEZXOJ
+ 1434 PIP   .SHR   SPL           25-Apr-85 04:44  27-May-87 21:43    11 QIPHAY
+ 1435 DECDIR.SHR   SPL           01-Apr-85 20:13  27-May-87 21:43    25 XUSHIM
+ 1436 DOCSPN.SHR   SPL           12-Aug-68 18:48  27-May-87 21:43    42 YUQCOK
+ 1437 TAUX  .SHR   SPL           04-Dec-86 06:27  27-May-87 21:43     3 LAVGAQ
+ 1440 COPY  .SAV   SPL           04-May-83 04:27  27-May-87 21:43    10 QELWAT
+ 1441 LNK68K.SHR   SPL           19-Jun-86 18:50  27-May-87 21:43    33 JOZJAY
+ 1442 LNK68K.LOW   SPL           19-Jun-86 18:57  27-May-87 21:43     4 MAVNER
+ 1443 FILCOM.SHR   SPL           11-Feb-87 02:37  27-May-87 21:43     6 TALXIJ
+ 1444 CENTER.SAV   SPL           18-Mar-87 22:10  27-May-87 21:43    15 NIYQOF
+ 1445 TELCHK.SAV   SPL           14-Jan-87 06:57  27-May-87 21:43    24 WIMCOG
+ 1446 FED   .LOW   SPL           17-Oct-71 00:00  27-May-87 21:43     2 SIRWOH
+ 1447 FED   .SHR   SPL           17-Oct-71 00:00  27-May-87 21:43     8 FOJYOY
+ 1450 MARKER.SAV   SPL           03-May-87 21:42  27-May-87 21:43    22 TEQXIC
+ 1451 DFAUX .SHR   SPL           04-Nov-83 11:22  27-May-87 21:43     3 VODMOR
+ 1452 CPUTYP.SAV   SPL           04-Oct-86 12:01  27-May-87 21:43     2 ZUMSEL
+ 1453 CREF  .SHR   SPL           19-Mar-85 23:14  27-May-87 21:43     6 YULBEL
+ 1454 TYPER .SAV   SPL           26-Dec-85 08:53  27-May-87 21:43    19 SICGUT
+ 1455 CP    .SAV   SPL           05-Jan-83 23:42  27-May-87 21:43    17 GEWRIZ
+ 1456 DELPAG.SAV   SPL           18-Nov-86 08:55  27-May-87 21:43     2 GUBQEJ
+ 1457 TELALP.SAV   SPL           17-Dec-86 02:44  27-May-87 21:43     2 VEMFEY
+ 1460 SYF   .SAV   SPL           11-Feb-87 02:38  27-May-87 21:43    21 SOVSEX
+ 1461 LUK   .SAV   SPL           30-Nov-81 03:03  27-May-87 21:43     7 JOBVEJ
+ 1462 FIND  .SAV   SPL           21-Mar-83 22:56  27-May-87 21:43    41 YELHOD
+ 1463 REDSCR.SAV   SPL           11-Jun-83 02:36  27-May-87 21:43    19 WIHJEB
+ 1464 MAP   .SAV   SPL           09-Sep-83 01:00  27-May-87 21:43    19 DAMQAC
+ 1465 SFTP  .SAV   SPL           21-May-84 04:54  27-May-87 21:43     4 SUBZIF
+ 1466 LNKCPY.SAV   SPL           20-Jan-82 09:13  27-May-87 21:43    14 LIKKEX
+ 1467 DI    .SHR   SPL           13-Aug-85 22:45  27-May-87 21:43    25 XUSHIM
+ 1470 FDM   .SAV   SPL           07-Mar-85 12:07  27-May-87 21:43    38 TEYDUY
+ 1471 DI    .LOW   SPL           09-Mar-85 09:30  27-May-87 21:43     2 GIFHOL
+ 1472 CPY   .SAV   SPL           09-Mar-87 00:16  27-May-87 21:43    44 MURQOR
+ 1473 TMERGE.SAV   SPL           30-Nov-81 03:01  27-May-87 21:43    11 HUMYEX
+ 1474 CAM   .LOW   SPL           16-Jan-77 14:49  27-May-87 21:43     2 FIGNOH
+ 1475 CAM   .SHR   SPL           16-Jan-77 14:49  27-May-87 21:43     9 LUQPIZ
+ 1476 SNARF .SAV   SPL           09-Dec-83 06:35  27-May-87 21:43     2 SAMZUV
+ 1477 CP0   .SAV   SPL           05-Jan-83 23:42  27-May-87 21:43    17 GEWRIZ
+ 1500 ASM68K.SHR   SPL           19-Jun-86 18:46  27-May-87 21:43    36 VUFSIZ
+ 1501 ASM68K.LOW   SPL           19-Jun-86 18:59  27-May-87 21:43     6 QIGSUB
+ 1502 BACKUP.SHR   SPL           19-Mar-85 23:05  27-May-87 21:43    16 CICKAY
+ 1503 BACKUP.LOW   SPL           18-Mar-85 20:00  27-May-87 21:43    12 REWQOC
+ 1504 DIR   .SHR   SPL           01-Apr-85 20:12  27-May-87 21:43    25 XUSHIM
+ 1505 TURNUP.SAV   SPL           10-Jan-84 01:41  27-May-87 21:43    17 LIJZEH
+ 1506 LINKER.SAV   SPL           30-Nov-81 03:27  27-May-87 21:43     5 FIRXAD
+ 1507 RCR   .SAV   SPL           14-May-81 18:15  27-May-87 21:43    14 VEVZEZ
+ 1510 DOCGEN.SHR   SPL           10-Aug-68 18:49  27-May-87 21:43    42 YAHNIJ
+ 1511 FICHE .SAV   SPL           10-Sep-84 00:15  27-May-87 21:43    25 BIHBAD
+ 1512 FINDIT.SAV   SPL           18-Feb-87 02:10  27-May-87 21:43    24 JILYOD
+ 1513 WHO   .SAV   SPL           19-Apr-83 00:51  27-May-87 21:43    17 COGLAC
+ 1514 MAKLIB.SHR   SPL           17-Apr-85 00:15  27-May-87 21:43    28 BAMKIH
+ 1515 PRUNE .SAV   SPL           30-Nov-81 03:26  27-May-87 21:43    11 ROTPOZ
+ 1516 TWOUP .SAV   SPL           08-Feb-82 22:12  27-May-87 21:43     5 ZEXRIM
+ 1517 PAGE  .SAV   SPL           13-Jan-83 10:23  27-May-87 21:43    18 WECJID
+ 1520 CKS   .SAV   SPL           03-Feb-83 21:32  27-May-87 21:43    17 KOSYEF
+ 1521 CRFSYM.SAV   SPL           09-Feb-87 08:48  27-May-87 21:43    35 MOQSIB
+ 1522 WHEN  .SAV   SPL           18-Mar-87 23:42  27-May-87 21:43    13 HABWAD
+ 1523 GLOB  .SHR   SPL           17-Apr-85 00:36  27-May-87 21:43     4 HULQAB
+ 1524 LNKTYP.SAV   SPL           27-Jul-84 07:43  27-May-87 21:43    18 SEFREG
+ 1525 SY    .SAV   SPL           10-Jan-86 07:46  27-May-87 21:43    25 KEFLIW
+ 1526 RECORD.SAV   SPL           18-Nov-86 09:05  27-May-87 21:43     3 WILMIS
+ 1527 ACCESS.MSG   SUBMIT        26-May-87 00:22  27-May-87 21:43     2 FUSLOS
+ 1530 870528.JQL   SUBMIT        27-May-87 21:35  27-May-87 21:43     2 PIMREX
+ 1531 NODES .MAP   TYMNET        05-May-87 08:13  27-May-87 21:43    97 YOXVOV
+ 1532 ACCESS.MSG   UN1           26-May-87 00:21  27-May-87 21:43     2 GUYRUY
+ 1533 052887.SAT   UN1           27-May-87 21:59  27-May-87 21:43    32 ZAGMEP
+ 1534 LS    .SAV   XEXEC         18-Nov-86 21:20  27-May-87 21:43     5 SOYHEX
+ 1535 SORT  .SAV   XEXEC         15-Nov-83 03:24  27-May-87 21:43     7 HADJAT
+ 1536 RDMAIL.SAV   XEXEC         02-Jul-86 04:34  27-May-87 21:43     2 ZIJJAY
+ 1537 MORE  .SAV   XEXEC         28-Jan-85 04:51  27-May-87 21:43     2 BOCJIZ
+ 1540 FCAT  .SAV   XEXEC         14-Apr-86 08:39  27-May-87 21:43    27 WUNXIP
+ 1541 RESP  .SAV   XEXEC         17-Apr-86 08:51  27-May-87 21:43    19 YEQKIF
+ 1542 @     .SAV   XEXEC         22-Sep-78 01:06  27-May-87 21:43    19 VIDXUK
+ 1543 COPYPC.SAV   XEXEC         05-Dec-86 00:33  27-May-87 21:43    24 NUFFEV
+ 1544 UNDER .SAV   XEXEC         02-Nov-83 03:04  27-May-87 21:43     7 HUVVUF
+ 1545 OMEXEC.SAV   XEXEC         17-Apr-84 23:54  27-May-87 21:43     2 BOBXUP
+ 1546 TUMS  .SAV   XEXEC         02-Jul-86 04:34  27-May-87 21:43     2 ZIJJAY
+ 1547 INIT  .SAV   XEXEC         12-Mar-86 00:50  27-May-87 21:43    10 FAMCEB
+ 1550 UNBND .SAV   XEXEC         14-May-86 10:20  27-May-87 21:43    18 MAVCUW
+ 1551 SIGNUP.SAV   XEXEC         20-Aug-86 10:52  27-May-87 21:43    31 WITVAL
+ 1552 TRIM  .SAV   XEXEC         16-Mar-86 22:29  27-May-87 21:43     6 MADXOR
+ 1553 ROLAID.SAV   XEXEC         19-Jun-86 13:24  27-May-87 21:43    11 YIVJAW
+ 1554 HSB   .SAV   XEXEC         25-Nov-86 23:06  27-May-87 21:43    31 YAPNUQ
+ 1555 WC    .SAV   XEXEC         25-Nov-86 23:32  27-May-87 21:43    14 FEJPAF
+ 1556 FIND  .SAV   XEXEC         12-Jul-85 00:37  27-May-87 21:43    46 SULRER
+ 1557 UNIQ  .SAV   XEXEC         10-Jan-84 09:34  27-May-87 21:43     6 WUGDOP
+ 1560 UPDATE.SAV   XEXEC         11-Jan-84 00:22  27-May-87 21:43     5 CAYDIJ
+ 1561 DUL   .SAV   XEXEC         02-May-84 22:33  27-May-87 21:43     3 TUZRUD
+ 1562 MEXEC .SHR   XEXEC         29-May-85 00:07  27-May-87 21:43     2 SEGYIY
+ 1563 SLEEP .SAV   XEXEC         17-Apr-86 08:36  27-May-87 21:43     5 GUXWOC
+ 1564 MEXEC .SAV   XEXEC         28-Nov-85 22:39  27-May-87 21:43     2 CELCAJ
+ 1565 TEL   .SAV   XEXEC         20-Oct-86 21:35  27-May-87 21:43    18 MOSTUX
+ 1566 CPY   .SAV   XEXEC         09-Mar-87 00:17  27-May-87 21:43    44 MURQOR
+ 1567 TOKEN .SAV   XEXEC         15-Nov-83 01:53  27-May-87 21:43     5 POCRIF
+ 1570 MINIT .SAV   XEXEC         15-Dec-83 00:41  27-May-87 21:43     2 CEVRAV
+ 1571 WHEREI.SAV   XEXEC         27-Apr-84 00:17  27-May-87 21:43     4 PAQQEC
+ 1572 BS    .SAV   XEXEC         24-Jun-85 06:01  27-May-87 21:43     8 RIVMIN
+ 1573 LPR   .SAV   XEXEC         27-Jul-86 23:55  27-May-87 21:43    25 TUPYEF
+ 1574 DCOM  .SAV   XEXEC         02-Mar-84 01:53  27-May-87 21:43     2 WIJNAG
+ 1575 COUNT .SAV   XEXEC         10-Jan-84 21:09  27-May-87 21:43     2 NAFTUZ
+ 1576 TAIL  .SAV   XEXEC         03-May-84 00:13  27-May-87 21:43     6 DOHYOT
+ 1577 BIN   .SAV   XEXEC         07-Sep-86 21:55  27-May-87 21:43    11 DONVAR
+ 1600 INITIA.SYS   XEXEC         26-May-87 01:07  27-May-87 21:43     2 KAQXAV
+ 1601 WHEN  .SAV   XEXEC         06-Mar-87 02:54  27-May-87 21:43    33 BEPCED
+ 1602 SENDMA.SAV   XEXEC         02-Jul-86 04:34  27-May-87 21:43     2 ZIJJAY
+ 1603 TIIXEC.SAV   XEXEC         14-Jun-84 18:59  27-May-87 21:43     2 MOCZIN
+ 1604 FIND15.SAV   XEXEC         26-Sep-85 01:09  27-May-87 21:43    41 MOMBIZ
+ 1605 DIRCMP.SAV   XEXEC         14-Jan-86 03:09  27-May-87 21:43     5 BOSKEV
+ 1606 DELREL.SAV   XEXEC         18-Dec-86 10:00  27-May-87 21:43     4 BUJZEH
+ 1607 ORG   .SHR   XEXEC         08-Jan-87 03:15  27-May-87 21:43    14 SOYNAD
+ 1610 ACCESS.MSG   ZZZ-LAST-DIR  05-May-87 07:14  27-May-87 21:43     2 CANDET
+
+Total of 904 files in saveset.
+
+End of Saveset #1 from TITO version 16
+Written 27-May-87 21:43 GMT
+
+Total of 904 files found.
+  LHG#…
